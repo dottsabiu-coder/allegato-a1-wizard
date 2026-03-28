@@ -825,6 +825,12 @@ header { padding: 0 16px; }
 ```
 <div id="outputArea"></div>
 
+<!-- Banner visibile solo su iOS/Safari -->
+<div id="iosBanner" style="display:none; background:#fef3cd; border:1px solid #f0ad4e; border-radius:8px; padding:12px 16px; margin-bottom:12px; font-size:13px; color:#7d4e00; line-height:1.5;">
+  📱 <strong>Su iPhone/iPad:</strong> tocca "Scarica PDF" → il PDF si apre nel browser → tocca
+  <strong>Condividi ↑ → Salva in File</strong> (o "Apri in…") per salvarlo.
+</div>
+
 <div class="action-btns">
   <button class="pdf-btn" id="btnPdf" >
     📄 Scarica PDF
@@ -898,7 +904,14 @@ function goTo(n) {
   document.getElementById('btnBack').style.visibility = currentStep === 1 ? 'hidden' : 'visible';
   document.getElementById('btnNext').textContent = currentStep === 6 ? '✔ Chiudi' : 'Avanti →';
   document.getElementById('btnNext').className = currentStep === 6 ? 'btn btn-secondary' : 'btn btn-gold';
-  if (currentStep === 6) generateOutput();
+  if (currentStep === 6) {
+    generateOutput();
+    // Mostra banner iOS solo su Safari/iPhone
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const banner = document.getElementById('iosBanner');
+    if (banner) banner.style.display = (isIOS || isSafari) ? 'block' : 'none';
+  }
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -1140,21 +1153,44 @@ function exportPDF() {
         bytes[i] = pdf.charCodeAt(i) & 0xff;
       }
 
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      // Converti bytes in base64 (funziona su tutti i dispositivi)
+      // btoa su chunk per evitare stack overflow su PDF grandi
+      let binary = '';
+      const CHUNK = 8192;
+      for (let i = 0; i < bytes.length; i += CHUNK) {
+        binary += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
+      }
+      const b64 = btoa(binary);
+      const dataUrl = 'data:application/pdf;base64,' + b64;
 
-      if (isIOS) {
-        // Safari iOS: converti in base64 e apri nel viewer nativo
-        let binary = '';
-        bytes.forEach(b => binary += String.fromCharCode(b));
-        const b64 = btoa(binary);
-        const dataUrl = 'data:application/pdf;base64,' + b64;
-        // Apri in nuova tab – Safari mostra anteprima con opzione "Salva in File"
-        window.open(dataUrl, '_blank');
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+      if (isIOS || isSafari) {
+        // Safari / iOS: apre il PDF nel viewer nativo.
+        // L'utente tocca "Condividi → Salva in File" o "Apri in..."
+        // È l'unico metodo affidabile su Safari — il download via blob non funziona.
+        const newTab = window.open('', '_blank');
+        if (newTab) {
+          newTab.document.write(
+            '<html><head><title>' + fileName + '</title></head>' +
+            '<body style="margin:0">' +
+            '<iframe src="' + dataUrl + '" style="width:100%;height:100vh;border:none"></iframe>' +
+            '</body></html>'
+          );
+          newTab.document.close();
+        } else {
+          // Popup bloccato: fallback link diretto
+          const a = document.createElement('a');
+          a.href = dataUrl;
+          a.target = '_blank';
+          a.click();
+        }
         btn.disabled = false;
-        btn.textContent = '✅ Aperto! Usa "Condividi → Salva in File"';
-        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 5000);
+        btn.textContent = '✅ Aperto – tocca Condividi → Salva in File';
+        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 6000);
       } else {
-        // Desktop / Android: download diretto
+        // Desktop (Chrome, Firefox, Edge) e Android: download diretto
         const blob = new Blob([bytes], { type: 'application/pdf' });
         const url  = URL.createObjectURL(blob);
         const a    = document.createElement('a');
@@ -1178,12 +1214,25 @@ function exportPDF() {
 }
 
 function buildPDF() {
-  // ── Costanti pagina A4 in punti ──
+  // ── A4 in punti (1pt = 1/72 inch) ──
   const PW = 595.28, PH = 841.89;
-  const ML = 45, MR = 45, MT = 50, MB = 45;
-  const CW = PW - ML - MR;
+  const ML = 42, MR = 42;
+  const CW = PW - ML - MR;   // ~511 pt larghezza contenuto
 
-  // ── 32 documenti ufficiali ALL. A1 ──
+  // Colonne tabella (misure dall'originale)
+  const COL_NUM  = ML;            // numero: 42
+  const COL_DOC  = ML + 18;       // testo documento: 60
+  const COL_SEP  = ML + CW - 95; // separatore verticale
+  const COL_COD  = COL_SEP + 5;  // codice requisito
+  const W_DOC    = COL_SEP - COL_DOC - 4;
+  const W_NUM    = 16;
+
+  // Font: Times-Roman / Times-Bold / Times-Italic
+  const F_NORM = 'F1';  // Times-Roman
+  const F_BOLD = 'F2';  // Times-Bold
+  const F_ITAL = 'F3';  // Times-Italic
+
+  // ── 32 documenti ufficiali ALL.A1 ──
   const DOCS = [
     ["Documento che definisce ed esplicita l'organizzazione e le politiche di gestione delle risorse (analisi dei principali processi per l'individuazione delle fasi nelle quali e possibile che si verifichino disservizi)", "1A.01.03.01"],
     ["Documentazione inerente il sistema informativo", "1A.01.04.01"],
@@ -1216,394 +1265,327 @@ function buildPDF() {
     ["Piano aziendale per la gestione del rischio", "1A.06.02.01"],
     ["Procedura per la pulizia e sanificazione degli ambienti", "1A.06.02.02"],
     ["Procedura per la protezione dagli incidenti per esposizione a materiale biologico o altre sostanze pericolose", "1A.06.02.03"],
-    ["Sistema (Piani di intervento/report) per l'identificazione e la segnalazione di near miss, eventi avversi ed eventi sentinella", "1A.06.02.04"],
+    ["Sistema (Piani di intervento/report) per l'identificazione e la segnalazione di \"near miss\", eventi avversi ed eventi sentinella", "1A.06.02.04"],
   ];
 
-  // Mapping wizard → indici DOCS (0-based)
-  const WIZARD_MAP = {
-    // Anagrafica → nessuna riga, solo intestazione
-    // Gestione
-    gdpr:           1,  // sistema informativo
-    reclami:        3,  // reclami
-    qualita:        2,  // qualità prestazioni
-    // Continuità
-    proc_ero:       4,  // erogazione assistenza
-    piano_emerg:    5,  // emergenze
-    isolamento:     6,  // isolamento pazienti
-    doc_san:        7,  // documentazione sanitaria
-    // Manutenzione
-    resp_man:       8,  // incarico responsabile manutenzione
-    inventario:     9,  // inventario attrezzature
-    piano_man:      10, // piano manutenzione
-    doc_tec:        11, // documentazione tecnica attrezzature
-    // Strutturali
-    n1:             12, // caratteristiche ambientali
-    n2:             13, // antincendio
-    n3:             14, // acustica
-    n4:             15, // elettrica
-    n5:             16, // antinfortunistica
-    n6:             17, // radiazioni
-    n7:             18, // barriere architettoniche
-    n8:             19, // rifiuti
-    n9:             20, // microclimatica
-    n10:            21, // gas
-    n11:            23, // antisismica
-    // Personale
-    assicurativi:   24, // obblighi assicurativi
-    // Comunicazione
-    carta:          25, // carta servizi
-    customer:       27, // report reclami/CS
-    // Rischio
-    dvr:            28, // piano gestione rischio
-    proc_bio:       30, // protezione biologico
-    proc_bio2:      29, // sanificazione
-    rischio_clinico:31, // near miss
-  };
+  // ── Stato presente/assente per riga ──
+  const rowState = new Array(32).fill(false);
+  rowState[0]  = checked('gdpr') || val('qualita').length > 2;
+  rowState[1]  = checked('gdpr') || checked('backup') || checked('tracciamento');
+  rowState[2]  = checked('gdpr') || val('qualita').length > 2;
+  rowState[3]  = checked('reclami');
+  rowState[4]  = checked('proc_ero');
+  rowState[5]  = checked('piano_emerg');
+  rowState[6]  = checked('isolamento');
+  rowState[7]  = checked('doc_san');
+  rowState[8]  = checked('resp_man');
+  rowState[9]  = checked('inventario');
+  rowState[10] = checked('piano_man');
+  rowState[11] = checked('doc_tec');
+  rowState[12] = checked('n1');
+  rowState[13] = checked('n2');
+  rowState[14] = checked('n3');
+  rowState[15] = checked('n4');
+  rowState[16] = checked('n5');
+  rowState[17] = checked('n6');
+  rowState[18] = checked('n7');
+  rowState[19] = checked('n8');
+  rowState[20] = checked('n9');
+  rowState[21] = checked('n10');
+  rowState[22] = false; // materiali esplodenti – N/A studio odontoiatrico
+  rowState[23] = checked('n11');
+  rowState[24] = checked('assicurativi');
+  rowState[25] = checked('carta');
+  rowState[26] = false;
+  rowState[27] = checked('customer') || checked('piani_miglio');
+  rowState[28] = checked('dvr');
+  rowState[29] = checked('proc_bio');
+  rowState[30] = checked('proc_bio');
+  rowState[31] = checked('rischio_clinico');
 
-  // Stato spunta per ogni riga (true=presente, false=assente, null=n/a)
-  const rowState = new Array(32).fill(null);
-
-  function setRow(idx, val) {
-    if (idx >= 0 && idx < 32) rowState[idx] = val;
-  }
-
-  // Popola stato dalle checkbox wizard
-  const C = {
-    gdpr: checked('gdpr'), backup: checked('backup'), tracciamento: checked('tracciamento'),
-    reclami: checked('reclami'), piani_miglio: checked('piani_miglio'), carta: checked('carta'),
-    proc_ero: checked('proc_ero'), urgenze_proc: checked('urgenze_proc'), continuita: checked('continuita'),
-    piano_emerg: checked('piano_emerg'), isolamento: checked('isolamento'), doc_san: checked('doc_san'),
-    dvr: checked('dvr'), proc_bio: checked('proc_bio'), rischio_clinico: checked('rischio_clinico'),
-    n1: checked('n1'), n2: checked('n2'), n3: checked('n3'), n4: checked('n4'), n5: checked('n5'),
-    n6: checked('n6'), n7: checked('n7'), n8: checked('n8'), n9: checked('n9'),
-    n10: checked('n10'), n11: checked('n11'),
-    inventario: checked('inventario'), piano_man: checked('piano_man'),
-    resp_man: checked('resp_man'), doc_tec: checked('doc_tec'),
-    fascicoli: checked('fascicoli'), assicurativi: checked('assicurativi'),
-    formazione: checked('formazione'), sito: checked('sito'), customer: checked('customer'),
-  };
-
-  // Doc 0: gestione risorse → presente se gdpr o qualita compilata
-  setRow(0, C.gdpr || val('qualita').length > 0);
-  setRow(1, C.gdpr);           // sistema informativo
-  setRow(2, C.gdpr || val('qualita').length > 0); // qualità
-  setRow(3, C.reclami);
-  setRow(4, C.proc_ero);
-  setRow(5, C.piano_emerg);
-  setRow(6, C.isolamento);
-  setRow(7, C.doc_san);
-  setRow(8, C.resp_man);
-  setRow(9, C.inventario);
-  setRow(10, C.piano_man);
-  setRow(11, C.doc_tec);
-  setRow(12, C.n1);
-  setRow(13, C.n2);
-  setRow(14, C.n3);
-  setRow(15, C.n4);
-  setRow(16, C.n5);
-  setRow(17, C.n6);
-  setRow(18, C.n7);
-  setRow(19, C.n8);
-  setRow(20, C.n9);
-  setRow(21, C.n10);
-  setRow(22, false); // materiali esplodenti – N/A per studio odontoiatrico
-  setRow(23, C.n11);
-  setRow(24, C.assicurativi);
-  setRow(25, C.carta);
-  setRow(26, false); // tirocinanti – non mappato
-  setRow(27, C.customer);
-  setRow(28, C.dvr);
-  setRow(29, C.proc_bio);
-  setRow(30, C.proc_bio);
-  setRow(31, C.rischio_clinico);
-
-  // ── PDF raw writer ──
-  const objs = [];
-  let objIdx = 0;
-  const pageStreams = [];
-
-  function addObj(content) {
-    objIdx++;
-    objs.push({ id: objIdx, content });
-    return objIdx;
-  }
-
+  // ── Encoder testo per PDF ──
   function esc(s) {
     return String(s||'')
-      .replace(/à/g,'a').replace(/á/g,'a').replace(/â/g,'a')
-      .replace(/è/g,'e').replace(/é/g,'e').replace(/ê/g,'e')
-      .replace(/ì/g,'i').replace(/í/g,'i').replace(/î/g,'i')
-      .replace(/ò/g,'o').replace(/ó/g,'o').replace(/ô/g,'o')
-      .replace(/ù/g,'u').replace(/ú/g,'u').replace(/û/g,'u')
-      .replace(/À/g,'A').replace(/È/g,'E').replace(/É/g,'E')
-      .replace(/Ì/g,'I').replace(/Ò/g,'O').replace(/Ù/g,'U')
-      .replace(/ç/g,'c').replace(/ñ/g,'n')
-      .replace(/°/g,' ').replace(/€/g,'EUR')
-      .replace(/[–—]/g,'-').replace(/[""]/g,'"').replace(/['']/g,"'")
-      .replace(/…/g,'...')
+      .replace(/à/g,'a').replace(/á/g,'a').replace(/â/g,'a').replace(/ã/g,'a')
+      .replace(/è/g,'e').replace(/é/g,'e').replace(/ê/g,'e').replace(/ë/g,'e')
+      .replace(/ì/g,'i').replace(/í/g,'i').replace(/î/g,'i').replace(/ï/g,'i')
+      .replace(/ò/g,'o').replace(/ó/g,'o').replace(/ô/g,'o').replace(/õ/g,'o')
+      .replace(/ù/g,'u').replace(/ú/g,'u').replace(/û/g,'u').replace(/ü/g,'u')
+      .replace(/À/g,'A').replace(/È/g,'E').replace(/É/g,'E').replace(/Ì/g,'I')
+      .replace(/Ò/g,'O').replace(/Ù/g,'U').replace(/ç/g,'c').replace(/ñ/g,'n')
+      .replace(/°/g,'').replace(/€/g,'EUR')
+      .replace(/[–—]/g,'-').replace(/[\u201C\u201D]/g,'"').replace(/[\u2018\u2019]/g,"'")
+      .replace(/\u2026/g,'...').replace(/\u00AB/g,'"').replace(/\u00BB/g,'"')
       .replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)')
       .replace(/[^\x20-\x7E]/g,'?');
   }
 
-  // Wrappa testo in linee da maxW caratteri
-  function wrapText(text, maxChars) {
-    const words = text.split(' ');
-    const lines = [];
-    let cur = '';
+  // wrap testo in linee
+  function wrap(text, maxCh) {
+    const words = esc(text).split(' ');
+    const lines = []; let cur = '';
     words.forEach(w => {
-      if ((cur ? cur + ' ' + w : w).length <= maxChars) {
-        cur = cur ? cur + ' ' + w : w;
-      } else {
-        if (cur) lines.push(cur);
-        cur = w;
-      }
+      const cand = cur ? cur + ' ' + w : w;
+      if (cand.length <= maxCh) { cur = cand; }
+      else { if (cur) lines.push(cur); cur = w; }
     });
     if (cur) lines.push(cur);
     return lines;
   }
 
-  // ── Page builder ──
+  // ── Page stream builder ──
   function makePage() {
     const cmds = [];
-    return {
-      out(s) { cmds.push(s); },
-      // Rettangolo filled
-      fillRect(x,y,w,h, r,g,b) {
-        this.out(`${r} ${g} ${b} rg`);
-        this.out(`${x} ${y} ${w} ${h} re f`);
+    const p = {
+      raw(s)             { cmds.push(s); },
+      setFill(r,g,b)     { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} rg`); },
+      setStroke(r,g,b)   { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} RG`); },
+      setLW(w)           { cmds.push(`${w} w`); },
+      fillRect(x,y,w,h)  { cmds.push(`${x} ${y} ${w} ${h} re f`); },
+      strokeRect(x,y,w,h){ cmds.push(`${x} ${y} ${w} ${h} re S`); },
+      line(x1,y1,x2,y2)  { cmds.push(`${x1} ${y1} m ${x2} ${y2} l S`); },
+      text(s,x,y,font,sz,r,g,b) {
+        const ri = (r||0).toFixed(3), gi = (g||0).toFixed(3), bi = (b||0).toFixed(3);
+        cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${esc(s)}) Tj ET`);
       },
-      // Rettangolo stroke
-      strokeRect(x,y,w,h, lw, r,g,b) {
-        this.out(`${r} ${g} ${b} RG`);
-        this.out(`${lw} w`);
-        this.out(`${x} ${y} ${w} ${h} re S`);
-      },
-      // Linea
-      line(x1,y1,x2,y2, lw, r,g,b) {
-        this.out(`${r} ${g} ${b} RG`);
-        this.out(`${lw} w`);
-        this.out(`${x1} ${y1} m ${x2} ${y2} l S`);
-      },
-      // Testo semplice
-      text(s, x, y, font, size, r,g,b) {
-        this.out(`BT /${font} ${size} Tf ${r} ${g} ${b} rg ${x} ${y} Td (${esc(s)}) Tj ET`);
-      },
-      // Testo con wrap
-      textWrap(s, x, y, maxChars, font, size, r,g,b, lineH) {
-        const lines = wrapText(esc(s), maxChars);
-        let cy = y;
-        lines.forEach(l => {
-          this.out(`BT /${font} ${size} Tf ${r} ${g} ${b} rg ${x} ${cy} Td (${l}) Tj ET`);
-          cy -= lineH;
-        });
-        return { lineCount: lines.length, endY: cy };
+      // testo già pre-escaped
+      textRaw(s,x,y,font,sz,r,g,b) {
+        const ri=(r||0).toFixed(3),gi=(g||0).toFixed(3),bi=(b||0).toFixed(3);
+        cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${s}) Tj ET`);
       },
       stream() { return cmds.join('\n'); }
     };
+    return p;
   }
 
-  // ── Costruzione documento ──
+  // ── Gestione multi-pagina ──
+  const pageStreams = [];
   let pg = makePage();
-  let curY = PH - MT;
+  let curY = PH - 50;
+
+  function footerPage() {
+    const pn = pageStreams.length + 1;
+    pg.setStroke(0,0,0); pg.setLW(0.5);
+    pg.line(ML, 35, PW-MR, 35);
+    pg.text(`${pn}`, PW-MR, 22, F_NORM, 9, 0,0,0);
+  }
 
   function newPage() {
-    // footer pagina corrente
-    const pageNum = pageStreams.length + 1;
-    pg.line(ML, MB + 15, PW - MR, MB + 15, 0.3, 0,0,0);
-    pg.text(`${pageNum}`, PW - MR, MB + 5, 'F1', 9, 0,0,0);
-    pg.text('ALL. A1 - Autorizzazione Sanitaria - Strutture Non Residenziali Semplici Monopresidio', ML, MB + 5, 'F1', 7, 0.4,0.4,0.4);
+    footerPage();
     pageStreams.push(pg.stream());
     pg = makePage();
-    curY = PH - MT + 10;
+    curY = PH - 40;
   }
 
-  function ensureY(needed) {
-    if (curY - needed < MB + 25) newPage();
+  function need(h) {
+    if (curY - h < 50) newPage();
   }
 
-  // ══ PAGINA 1: intestazione ufficiale ══
+  // ══════════════════════════════════════════
+  // PAGINA 1 – Intestazione ufficiale
+  // ══════════════════════════════════════════
 
-  // Box "ALL. A1" in alto a sinistra
-  pg.strokeRect(ML, PH - MT - 2, 48, 20, 1, 0,0,0);
-  pg.text('ALL. A1', ML + 4, PH - MT + 8, 'F2', 11, 0,0,0);
+  // Box "ALL. A1" – bordo nero, testo grassetto
+  pg.setStroke(0,0,0); pg.setLW(1);
+  pg.strokeRect(ML, PH-70, 52, 22);
+  pg.text('ALL. A1', ML+5, PH-62, F_BOLD, 11, 0,0,0);
 
   // Titolo centrato sottolineato
-  const titolo1 = 'Per struttura non residenziale semplici monopresidio';
-  pg.text(titolo1, ML + 50, PH - MT + 10, 'F2', 10, 0,0,0);
-  // sottolineatura manuale
-  pg.line(ML + 50, PH - MT + 8, PW - MR, PH - MT + 8, 0.5, 0,0,0);
+  const tx1 = 'Per struttura non residenziale semplici monopresidio';
+  const tx1x = ML + 60;
+  pg.text(tx1, tx1x, PH-58, F_BOLD, 10.5, 0,0,0);
+  // sottolineatura
+  const tx1w = tx1.length * 5.5; // approssimazione larghezza
+  pg.setStroke(0,0,0); pg.setLW(0.5);
+  pg.line(tx1x, PH-60, tx1x + tx1w, PH-60);
 
-  const titolo2 = '(vedi definizioni art. 2 e classificazione art. 3 del D.A. 9 gennaio 2024 n. 20).';
-  pg.text(titolo2, ML + 50, PH - MT - 3, 'F1', 8.5, 0,0,0);
+  const tx2 = '(vedi definizioni art. 2 e classificazione art. 3 del D.A. 9 gennaio 2024 n. 20).';
+  pg.text(tx2, tx1x, PH-70, F_NORM, 9, 0,0,0);
 
-  curY = PH - MT - 22;
+  curY = PH - 86;
 
-  // Istruzione in grassetto
-  const istr = "Per una puntuale applicazione di ciascun requisito fare riferimento ai subcodici riportati nell'allegato A1 del D.A. 9 gennaio 2024 n. 20.";
-  const istrLines = wrapText(istr, 95);
-  istrLines.forEach(l => {
-    pg.text(l, ML, curY, 'F2', 9, 0,0,0);
-    curY -= 12;
+  // Testo istruzione subcodici (grassetto, giustificato su 2 righe)
+  const istr1 = "Per una puntuale applicazione di ciascun requisito fare riferimento ai subcodici riportati nell'allegato";
+  const istr2 = "A1 del D.A. 9 gennaio 2024 n. 20.";
+  pg.text(istr1, ML, curY, F_BOLD, 9.5, 0,0,0);
+  pg.text(istr2, ML, curY-12, F_BOLD, 9.5, 0,0,0);
+  curY -= 28;
+
+  // Box GdV con bordo
+  const gdvText = "Il Responsabile della struttura mettera a disposizione del GdV prima della visita i seguenti documenti previsti dai requisiti generali per l'autorizzazione di cui all'allegato A1 al decreto assessoriale 09 gennaio 2024 n. 20 (G.U.R.S. 26 gennaio 2024, n. 5, S.O. n. 4)";
+  const gdvLines = wrap(gdvText, 88);
+  const gdvH = gdvLines.length * 11 + 12;
+  pg.setStroke(0,0,0); pg.setLW(0.8);
+  pg.strokeRect(ML, curY - gdvH, CW, gdvH);
+  let gy = curY - 9;
+  gdvLines.forEach(l => {
+    pg.textRaw(l, ML+5, gy, F_BOLD, 9, 0,0,0);
+    gy -= 11;
   });
-  curY -= 6;
+  curY -= gdvH + 6;
 
-  // Box istruzione visita GdV
-  const boxText = "Il Responsabile della struttura mettera a disposizione del GdV prima della visita i seguenti documenti previsti dai requisiti generali per l'autorizzazione di cui all'allegato A1 al decreto assessoriale 09 gennaio 2024 n. 20 (G.U.R.S. 26 gennaio 2024, n. 5, S.O. n. 4)";
-  const boxLines = wrapText(boxText, 90);
-  const boxH = boxLines.length * 11 + 14;
-  pg.strokeRect(ML, curY - boxH, CW, boxH, 0.8, 0,0,0);
-  let by = curY - 9;
-  boxLines.forEach(l => {
-    pg.text(l, ML + 5, by, 'F2', 9, 0,0,0);
-    by -= 11;
-  });
-  curY -= boxH + 8;
+  // ── Header tabella ──
+  // Riga header nera con testo bianco
+  const HDR_H = 17;
+  pg.setFill(0,0,0);
+  pg.fillRect(ML, curY - HDR_H, CW, HDR_H);
 
-  // ── Intestazione tabella ──
-  const COL_DOC  = ML;
-  const COL_COD  = PW - MR - 85;
-  const COL_PRES = PW - MR - 20;
-  const W_DOC    = COL_COD - COL_DOC - 4;
-  const W_COD    = 75;
+  // "DOCUMENTO" centrato nella colonna sinistra
+  const docColMid = ML + (COL_SEP - ML) / 2 - 30;
+  pg.text('DOCUMENTO', docColMid, curY - 12, F_BOLD, 10, 1,1,1);
 
-  // Header tabella
-  pg.fillRect(COL_DOC, curY - 16, CW, 16, 0,0,0);
-  pg.text('DOCUMENTO', COL_DOC + CW/2 - 35, curY - 11, 'F2', 9.5, 1,1,1);
-  pg.text('Cod. Requisito', COL_COD + 2, curY - 11, 'F2', 9.5, 1,1,1);
-  curY -= 16;
+  // "Cod. Requisito" nella colonna destra
+  pg.text('Cod. Requisito', COL_COD, curY - 12, F_BOLD, 10, 1,1,1);
+
+  curY -= HDR_H;
 
   // ── Righe documenti ──
-  const CHARS_DOC = 72;
-  const LINE_H    = 10.5;
+  const FONT_SZ  = 9;
+  const LINE_H   = 10.5;
+  const MAX_CHARS = 62; // caratteri per riga colonna documento
 
   DOCS.forEach((doc, i) => {
     const num    = i + 1;
     const testo  = doc[0];
     const codice = doc[1];
-    const stato  = rowState[i]; // true, false, null
+    const present = rowState[i];
 
-    const lines  = wrapText(testo, CHARS_DOC);
-    const rowH   = Math.max(14, lines.length * LINE_H + 5);
+    const lines = wrap(testo, MAX_CHARS);
+    const ROW_H = Math.max(15, lines.length * LINE_H + 6);
 
-    ensureY(rowH);
+    need(ROW_H);
 
-    // Sfondo alternato
+    // Sfondo alternato leggerissimo (come originale)
     if (i % 2 === 0) {
-      pg.fillRect(COL_DOC, curY - rowH, CW, rowH, 0.96, 0.96, 0.96);
+      pg.setFill(1,1,1);
+    } else {
+      pg.setFill(0.97,0.97,0.97);
     }
+    pg.fillRect(ML, curY - ROW_H, CW, ROW_H);
 
-    // Bordo riga
-    pg.strokeRect(COL_DOC, curY - rowH, CW, rowH, 0.3, 0.7,0.7,0.7);
-    // Separatore colonna codice
-    pg.line(COL_COD, curY, COL_COD, curY - rowH, 0.3, 0.6,0.6,0.6);
+    // Bordo riga (grigio sottile)
+    pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
+    pg.strokeRect(ML, curY - ROW_H, CW, ROW_H);
 
-    // Numero + testo documento
-    const textY = curY - LINE_H + 1;
-    pg.text(`${num}.`, COL_DOC + 2, textY, 'F1', 8.5, 0,0,0);
-    let ty = textY;
-    lines.forEach(l => {
-      pg.text(l, COL_DOC + 14, ty, 'F1', 8.5, 0,0,0);
+    // Separatore verticale colonna codice
+    pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
+    pg.line(COL_SEP, curY, COL_SEP, curY - ROW_H);
+
+    // Numero riga
+    const textTopY = curY - LINE_H + 2;
+    pg.text(`${num}.`, COL_NUM + 1, textTopY, F_NORM, FONT_SZ, 0,0,0);
+
+    // Testo documento (wrappato, rientro seconda riga come originale)
+    let ty = textTopY;
+    lines.forEach((l, li) => {
+      const lx = li === 0 ? COL_DOC : COL_DOC + 3;
+      pg.textRaw(l, lx, ty, F_NORM, FONT_SZ, 0,0,0);
       ty -= LINE_H;
     });
 
-    // Codice requisito in corsivo (simulato con F1, testo corsivo non disponibile in base-14)
-    // Centrato verticalmente nella riga
-    const codY = curY - rowH/2 - 3;
-    pg.text(codice, COL_COD + 4, codY, 'F1', 8.5, 0,0,0);
+    // Codice requisito in corsivo, centrato verticalmente nella riga
+    const codY = curY - ROW_H / 2 - 3;
+    pg.text(codice, COL_COD + 3, codY, F_ITAL, FONT_SZ, 0,0,0);
 
-    // Indicatore PRESENTE / ASSENTE
-    if (stato === true) {
-      pg.fillRect(COL_PRES - 12, curY - rowH/2 - 5, 14, 10, 0.2, 0.6, 0.2);
-      pg.text('SI', COL_PRES - 10, curY - rowH/2 - 1, 'F2', 6.5, 1,1,1);
-    } else if (stato === false) {
-      pg.fillRect(COL_PRES - 12, curY - rowH/2 - 5, 14, 10, 0.8, 0.2, 0.2);
-      pg.text('NO', COL_PRES - 10, curY - rowH/2 - 1, 'F2', 6.5, 1,1,1);
-    } else {
-      pg.text('N/A', COL_PRES - 12, curY - rowH/2 - 1, 'F1', 7, 0.5,0.5,0.5);
+    // Indicatore presente (checkbox stile originale) – colonna aggiuntiva destra
+    const chkX = PW - MR - 12;
+    const chkY = curY - ROW_H/2 - 4;
+    pg.setStroke(0,0,0); pg.setLW(0.5);
+    pg.strokeRect(chkX, chkY, 9, 9);
+    if (present) {
+      // Segno di spunta: due linee diagonali
+      pg.setStroke(0,0,0); pg.setLW(1);
+      pg.line(chkX+1, chkY+4, chkX+3.5, chkY+1.5);
+      pg.line(chkX+3.5, chkY+1.5, chkX+8, chkY+7.5);
     }
 
-    curY -= rowH;
+    curY -= ROW_H;
   });
 
-  curY -= 10;
+  // ── Fine tabella ──
+  // Bordo inferiore tabella
+  pg.setStroke(0,0,0); pg.setLW(0.8);
+  pg.line(ML, curY, ML+CW, curY);
 
-  // ── PAGINA 2: Dati studio + firma ──
-  ensureY(200);
+  curY -= 20;
+
+  // ══════════════════════════════════════════
+  // SEZIONE DATI STUDIO (come nel PDF Teresi)
+  // ══════════════════════════════════════════
+  need(120);
 
   // Intestazione studio
-  const studio = val('denominazione') || 'Studio Odontoiatrico';
-  const titolare = val('titolare') || '';
-  const indirizzo = val('indirizzo') || '';
-  const comune = val('comune') || '';
-  const prov = val('provincia') || '';
+  const studioName = val('denominazione') || '';
+  const titolare   = val('titolare') || '';
+  const indirizzo  = val('indirizzo') || '';
+  const comune     = val('comune') || '';
+  const prov       = val('provincia') || '';
+  const albo       = val('albo') || '';
+  const asp        = val('asp') || '';
 
-  pg.strokeRect(ML, curY - 80, CW, 80, 0.8, 0,0,0);
-  pg.text('DATI DELLA STRUTTURA', ML + 5, curY - 11, 'F2', 10, 0,0,0);
-  pg.line(ML, curY - 14, ML + CW, curY - 14, 0.4, 0,0,0);
+  if (studioName || titolare) {
+    pg.setStroke(0,0,0); pg.setLW(0.8);
+    pg.strokeRect(ML, curY - 75, 160, 75);
 
-  const campi = [
-    ['Denominazione:', studio],
-    ['Titolare / Direttore Tecnico:', titolare],
-    ['Indirizzo:', indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : '')],
-    ['ASP:', val('asp') || ''],
-    ['Albo Odontoiatri n.:', val('albo') || ''],
-  ];
-  let fy = curY - 26;
-  campi.forEach(([label, valore]) => {
-    pg.text(label, ML + 5, fy, 'F2', 8.5, 0,0,0);
-    pg.text(esc(valore), ML + 120, fy, 'F1', 8.5, 0,0,0);
-    fy -= 11;
-  });
-  curY -= 90;
+    pg.text(studioName.toUpperCase(), ML+5, curY-12, F_BOLD, 9, 0,0,0);
+    if (titolare) pg.text(titolare, ML+5, curY-24, F_BOLD, 9, 0,0,0);
+    if (indirizzo) {
+      const adr = (indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : ''));
+      const adrLines = wrap(adr, 26);
+      adrLines.forEach((l,i) => pg.textRaw(l, ML+5, curY-36-i*11, F_NORM, 8.5, 0,0,0));
+    }
+    if (asp)  pg.text('ASP: ' + asp,  ML+5, curY-58, F_NORM, 8.5, 0,0,0);
+    if (albo) pg.text('Albo n.: ' + albo, ML+5, curY-69, F_NORM, 8.5, 0,0,0);
+  }
 
-  // Data e firma
-  const oggi = new Date().toLocaleDateString('it-IT', {day:'2-digit', month:'2-digit', year:'numeric'});
-  pg.text(`Data: ${oggi}`, ML, curY - 10, 'F1', 9, 0,0,0);
-  pg.line(PW - MR - 120, curY - 30, PW - MR, curY - 30, 0.5, 0,0,0);
-  pg.text('Il Responsabile della struttura', PW - MR - 120, curY - 38, 'F1', 8.5, 0,0,0);
-  pg.text(esc(titolare), PW - MR - 120, curY - 50, 'F2', 8.5, 0,0,0);
-  curY -= 60;
+  // Data e firma a destra
+  const oggi = new Date().toLocaleDateString('it-IT',{day:'2-digit',month:'2-digit',year:'numeric'});
+  pg.text('Data compilazione: ' + oggi, ML + 170, curY - 20, F_NORM, 9, 0,0,0);
 
-  // Chiudi ultima pagina
-  const lastPageNum = pageStreams.length + 1;
-  pg.line(ML, MB + 15, PW - MR, MB + 15, 0.3, 0,0,0);
-  pg.text(`${lastPageNum}`, PW - MR, MB + 5, 'F1', 9, 0,0,0);
-  pg.text('ALL. A1 - Autorizzazione Sanitaria - Strutture Non Residenziali Semplici Monopresidio', ML, MB + 5, 'F1', 7, 0.4,0.4,0.4);
+  pg.setStroke(0,0,0); pg.setLW(0.5);
+  pg.line(ML+170, curY-55, PW-MR, curY-55);
+  pg.text('Il Responsabile della struttura', ML+170, curY-64, F_NORM, 8.5, 0,0,0);
+  if (titolare) pg.text(esc(titolare), ML+170, curY-75, F_ITAL, 8.5, 0,0,0);
+
+  // Footer ultima pagina
+  footerPage();
   pageStreams.push(pg.stream());
 
-  // ── Assemblaggio oggetti PDF ──
-  const fontNorm = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>');
-  const fontBold = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>');
+  // ══════════════════════════════════════════
+  // ASSEMBLAGGIO PDF
+  // ══════════════════════════════════════════
+  const objs = [];
+  let objIdx = 0;
+  function addObj(c) { objIdx++; objs.push({id:objIdx, content:c}); return objIdx; }
+
+  const fNorm = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman   /Encoding /WinAnsiEncoding >>');
+  const fBold = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold    /Encoding /WinAnsiEncoding >>');
+  const fItal = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic  /Encoding /WinAnsiEncoding >>');
 
   const pageIds = [];
   pageStreams.forEach(stream => {
     const sId = addObj(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`);
-    const pId = addObj(`<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${sId} 0 R /Resources << /Font << /F1 ${fontNorm} 0 R /F2 ${fontBold} 0 R >> >> >>`);
+    const pId = addObj(`<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${sId} 0 R /Resources << /Font << /F1 ${fNorm} 0 R /F2 ${fBold} 0 R /F3 ${fItal} 0 R >> >> >>`);
     pageIds.push(pId);
   });
 
   const pagesId = objIdx + 1;
-  addObj(`<< /Type /Pages /Kids [${pageIds.map(id => id + ' 0 R').join(' ')}] /Count ${pageIds.length} >>`);
+  addObj(`<< /Type /Pages /Kids [${pageIds.map(id=>id+' 0 R').join(' ')}] /Count ${pageIds.length} >>`);
   pageIds.forEach(id => {
     objs[id-1].content = objs[id-1].content.replace('999 0 R', `${pagesId} 0 R`);
   });
 
-  const catalogId = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
-  const infoId    = addObj(`<< /Title (Allegato A1 - ${esc(studio)}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu) >>`);
+  const studioEsc = esc(studioName || 'Studio Odontoiatrico');
+  const catId  = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
+  const infoId = addObj(`<< /Title (Allegato A1 - ${studioEsc}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu - AIO Palermo) >>`);
 
-  // ── Scrivi PDF ──
   let pdf = '%PDF-1.4\n';
-  const offsets = [];
-  objs.forEach(obj => {
-    offsets.push(pdf.length);
-    pdf += `${obj.id} 0 obj\n${obj.content}\nendobj\n`;
-  });
-  const xrefPos = pdf.length;
+  const offs = [];
+  objs.forEach(o => { offs.push(pdf.length); pdf += `${o.id} 0 obj\n${o.content}\nendobj\n`; });
+  const xp = pdf.length;
   pdf += `xref\n0 ${objs.length+1}\n0000000000 65535 f \n`;
-  offsets.forEach(off => {
-    pdf += `${String(off).padStart(10,'0')} 00000 n \n`;
-  });
-  pdf += `trailer\n<< /Size ${objs.length+1} /Root ${catalogId} 0 R /Info ${infoId} 0 R >>\nstartxref\n${xrefPos}\n%%EOF`;
+  offs.forEach(o => { pdf += `${String(o).padStart(10,'0')} 00000 n \n`; });
+  pdf += `trailer\n<< /Size ${objs.length+1} /Root ${catId} 0 R /Info ${infoId} 0 R >>\nstartxref\n${xp}\n%%EOF`;
   return pdf;
 }
 
