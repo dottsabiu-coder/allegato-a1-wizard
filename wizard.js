@@ -1,1 +1,1 @@
-// placeholder - tutto inline in index.html
+// tutto in index.html
