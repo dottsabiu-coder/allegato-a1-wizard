@@ -1,4 +1,3 @@
-
 const STEPS = [
   { label: "Anagrafica", num: 1 },
   { label: "Gestione", num: 2 },
@@ -5011,7 +5010,7 @@ function buildPDF() {
   // ══════════════════════════════════════════════════════
 
   // Dati studio per sostituzione placeholder
-  const studioName  = val('denominazione')  || 'Studio Odontoiatrico';
+  const studioName2 = val('denominazione')  || 'Studio Odontoiatrico';
   const titolareVal = val('titolare')        || '';
   const indirizzoVal= val('indirizzo')       || '';
   const comuneVal   = val('comune')          || '';
@@ -5021,7 +5020,7 @@ function buildPDF() {
   function fillTemplate(text) {
     return text
       .replace(/\[TITOLARE\]/g, esc(titolareVal) || 'Il Titolare')
-      .replace(/\[STUDIO\]/g,   esc(studioName))
+      .replace(/\[STUDIO\]/g,   esc(studioName2))
       .replace(/\[INDIRIZZO\]/g, esc(fullAddr) || 'sede dello studio');
   }
 
@@ -5049,7 +5048,7 @@ function buildPDF() {
     pg.fillRect(BX, BY + BH - 90, BW, 90);
 
     // Nome studio nel box blu
-    const studioLines = esc(studioName).toUpperCase();
+    const studioLines = esc(studioName2).toUpperCase();
     const sLines = wrap(studioLines, 28);
     let sy = BY + BH - 18;
     sLines.forEach(l => {
@@ -5106,7 +5105,7 @@ function buildPDF() {
     function drawContentHeader() {
       pg.setFill(0.133, 0.239, 0.412);
       pg.fillRect(ML, PH - 35, CW, 18);
-      const hdr = esc(studioName).toUpperCase() + '  |  Documento ' + docNum + ' – ' + esc(docTitle).slice(0,50);
+      const hdr = esc(studioName2).toUpperCase() + '  |  Documento ' + docNum + ' – ' + esc(docTitle).slice(0,50);
       pg.text(hdr.slice(0, 85), ML + 5, PH - 25, F_BOLD, 7.5, 1,1,1);
       pg.setLW(0.5); pg.setStroke(0.4,0.5,0.65);
       pg.line(ML, PH - 37, ML + CW, PH - 37);
@@ -5244,7 +5243,7 @@ function buildPDF() {
     objs[id-1].content = objs[id-1].content.replace('999 0 R', `${pagesId} 0 R`);
   });
 
-  const studioEsc = esc(studioName || 'Studio Odontoiatrico');
+  const studioEsc = esc(studioName2 || 'Studio Odontoiatrico');
   const catId  = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
   const infoId = addObj(`<< /Title (Allegato A1 - ${studioEsc}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu - AIO Palermo) >>`);
 
