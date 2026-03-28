@@ -4368,60 +4368,61 @@ function buildPDF() {
   function drawDocContent(docNum, docTitle, bodyText) {
     if (!bodyText) return;
 
-    // Intestazione pagina contenuto
-    function drawContentHeader() {
+    const stHdr = esc((val('denominazione') || 'Studio Odontoiatrico').toUpperCase());
+
+    function startPage() {
+      pg = makePage();
+      curY = PH - 20;
+      // Header blu
       pg.setFill(0.133, 0.239, 0.412);
-      pg.fillRect(ML, PH - 35, CW, 18);
-      const hdr = esc(studioName2).toUpperCase() + '  |  Documento ' + docNum + ' – ' + esc(docTitle).slice(0,50);
-      pg.text(hdr.slice(0, 85), ML + 5, PH - 25, F_BOLD, 7.5, 1,1,1);
-      pg.setLW(0.5); pg.setStroke(0.4,0.5,0.65);
-      pg.line(ML, PH - 37, ML + CW, PH - 37);
-      curY = PH - 48;
+      pg.fillRect(ML, PH - 38, CW, 22);
+      pg.text(stHdr.slice(0,70), ML+5, PH-23, F_BOLD, 7.5, 1,1,1);
+      pg.text('Documento ' + docNum + ' di 32  |  Cod. ' + esc(bodyText.split('\n')[1] || ''), ML+5, PH-33, F_NORM, 6.5, 0.8,0.85,0.9);
+      curY = PH - 50;
     }
 
-    drawContentHeader();
+    function savePage() {
+      // Footer
+      pg.setStroke(0,0,0); pg.setLW(0.4);
+      pg.line(ML, MB+15, PW-MR, MB+15);
+      pg.text('Documento ' + docNum + ' - ' + docTitle.slice(0,50), ML, MB+6, F_NORM, 6.5, 0.5,0.5,0.5);
+      footerPage();
+      pageStreams.push(pg.stream());
+    }
 
-    // Suddividi il testo in paragrafi e scrivi
-    const paragraphs = bodyText.split('\n\n');
-    const FONT_BODY = 8.5;
-    const FONT_HEAD = 9.5;
-    const LH_BODY = 11;
-    const LH_HEAD = 13;
-    const MAX_LINE = 90;
+    startPage();
 
-    paragraphs.forEach(para => {
-      if (!para.trim()) return;
-      const trimmed = para.trim();
+    const paras = bodyText.split('\n');
+    const LH = 11, LH_HEAD = 13;
 
-      // Riconosci se è un titolo (breve, tutto maiuscolo o termina con ':')
-      const isHeading = trimmed.length < 80 && (
-        trimmed === trimmed.toUpperCase() ||
-        trimmed.endsWith(':') ||
-        /^\d+\.\s+[A-Z]/.test(trimmed) ||
-        /^\d+\.\d+\s+/.test(trimmed)
-      );
+    paras.forEach(function(raw) {
+      var para = raw.trim();
+      if (!para) { curY -= 4; return; }
 
-      const fontSize = isHeading ? FONT_HEAD : FONT_BODY;
-      const fontName = isHeading ? F_BOLD : F_NORM;
-      const lineH    = isHeading ? LH_HEAD : LH_BODY;
-      const indent   = 0;
+      var isHead = /^[A-Z0-9\s\.,:]{10,}$/.test(para) ||
+                   /^\d+\.\s+[A-Z]/.test(para) ||
+                   para.endsWith(':');
+      var font  = isHead ? F_BOLD : F_NORM;
+      var size  = isHead ? 9 : 8.5;
+      var lh    = isHead ? LH_HEAD : LH;
+      var maxCh = Math.floor(CW / (size * 0.52));
+      var lines = wrap(para, maxCh);
+      var blockH = lines.length * lh + (isHead ? 6 : 2);
 
-      const lines = wrap(fillTemplate(trimmed), MAX_LINE);
-      const blockH = lines.length * lineH + (isHeading ? 4 : 2);
-
-      need(blockH + 4);
-      if (curY > PH - 80 && isHeading) {
-        // Ridisegna header se nuova pagina
+      if (curY - blockH < MB + 25) {
+        savePage();
+        startPage();
       }
 
-      if (isHeading) curY -= 3;
-      lines.forEach(l => {
-        pg.text(l, ML + indent, curY, fontName, fontSize, 0,0,0);
-        curY -= lineH;
+      if (isHead) curY -= 3;
+      lines.forEach(function(l) {
+        pg.text(l, ML, curY, font, size, 0,0,0);
+        curY -= lh;
       });
-      if (isHeading) curY -= 3;
-      else curY -= 2;
+      if (isHead) curY -= 3;
     });
+
+    savePage();
   }
 
   // ── Genera tutte le schede ──
@@ -4503,21 +4504,11 @@ function buildPDF() {
 
   DOC_META.forEach(([num, title, code]) => {
     const bodyText = TEMPLATE_MAP[num] || genericText(num, title, code);
-
-    // ── Copertina ──
     drawCoverPage(num, title, code);
-    // drawCoverPage termina con pageStreams.push della copertina
-    // e prepara una nuova pg per il contenuto
-
-    // ── Contenuto ──
     drawDocContent(num, title, bodyText);
-
-    // ── Salva la pagina contenuto (l'ultima del documento) ──
-    footerPage();
-    pageStreams.push(pg.stream());
-    pg = makePage();
-    curY = PH - 40;
   });
+
+  // ══
 
 
 
