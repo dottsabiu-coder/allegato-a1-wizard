@@ -4,16 +4,17 @@ const DOC_TEXTS_BASE = [
 `DOCUMENTO DI ORGANIZZAZIONE E GESTIONE DELLE RISORSE
 
 1. Scopo
-Il presente documento definisce l'organizzazione interna dello studio odontoiatrico, le politiche di gestione delle risorse umane, materiali e tecnologiche, e analizza i principali processi operativi per individuare le fasi critiche in cui possono verificarsi disservizi.
+   Il presente documento definisce l’organizzazione interna dello studio odontoiatrico, le politiche di gestione delle risorse umane, materiali e tecnologiche, e analizza i principali processi operativi per individuare le fasi critiche in cui possono verificarsi disservizi.
+1. Struttura Organizzativa
 
-2. Struttura Organizzativa
 - Responsabile Sanitario/Titolare: supervisione clinica e gestionale
 - Odontoiatri collaboratori: esecuzione trattamenti e presa in carico pazienti
 - Igienisti dentali: prevenzione e igiene orale
 - Assistenti alla poltrona (ASO): supporto clinico e logistico
 - Personale amministrativo: accoglienza, appuntamenti, fatturazione
 
-3. Analisi dei Processi e Fasi Critiche
+1. Analisi dei Processi e Fasi Critiche
+
 - Accoglienza paziente: rischio errori di agenda, attese prolungate
   Azione preventiva: software gestionale con reminder automatici
 - Trattamento clinico: rischio errori diagnostici o strumentali
@@ -23,184 +24,177 @@ Il presente documento definisce l'organizzazione interna dello studio odontoiatr
 - Gestione amministrativa: rischio errori documentali o perdita dati
   Azione preventiva: backup giornaliero, archiviazione digitale
 
-4. Politiche di Gestione
-Le risorse umane sono gestite con formazione continua (ECM), affiancamento e valutazioni periodiche. Le risorse materiali sono soggette a inventario annuale e piano di manutenzione programmata.
-
-5. Miglioramento Continuo
-Lo studio adotta un processo continuo di miglioramento attraverso audit interni semestrali, analisi dei reclami e aggiornamento periodico delle procedure operative.`,
+1. Politiche di Gestione
+   Le risorse umane sono gestite con formazione continua (ECM), affiancamento e valutazioni periodiche. Le risorse materiali sono soggette a inventario annuale e piano di manutenzione programmata.
+1. Miglioramento Continuo
+   Lo studio adotta un processo continuo di miglioramento attraverso audit interni semestrali, analisi dei reclami e aggiornamento periodico delle procedure operative.`,
 
 // 2 - 1A.01.04.01
 `DOCUMENTAZIONE DEL SISTEMA INFORMATIVO
 
 1. Scopo
-Il presente documento descrive il sistema informativo adottato dallo studio per la gestione dei dati clinici, amministrativi e organizzativi.
+   Il presente documento descrive il sistema informativo adottato dallo studio per la gestione dei dati clinici, amministrativi e organizzativi.
+1. Software Gestionale
+   Lo studio utilizza un software gestionale odontoiatrico certificato per la gestione di:
 
-2. Software Gestionale
-Lo studio utilizza un software gestionale odontoiatrico certificato per la gestione di:
 - Cartelle cliniche digitali dei pazienti
 - Agenda appuntamenti e promemoria automatici
 - Fatturazione elettronica e gestione dei pagamenti
 - Archiviazione di immagini radiografiche e fotografiche
 - Gestione del magazzino e delle scorte
 
-3. Sicurezza dei Dati
+1. Sicurezza dei Dati
+
 - Backup automatico giornaliero su server locale e cloud
 - Accesso protetto da credenziali personali per ogni operatore
 - Log delle operazioni effettuate
 - Aggiornamenti periodici del software e del sistema antivirus
 - Conformita al Regolamento GDPR 679/2016
 
-4. Gestione della Documentazione Sanitaria
-La documentazione sanitaria e conservata in formato digitale con firma elettronica del professionista. I referti sono archiviati e accessibili al paziente su richiesta. I dati sono conservati per il periodo previsto dalla normativa vigente.
-
-5. Interoperabilita
-Il sistema e interfacciabile con il Fascicolo Sanitario Elettronico regionale e con i sistemi di trasmissione dei dati alla ASP di riferimento.`,
+1. Gestione della Documentazione Sanitaria
+   La documentazione sanitaria e conservata in formato digitale con firma elettronica del professionista. I referti sono archiviati e accessibili al paziente su richiesta. I dati sono conservati per il periodo previsto dalla normativa vigente.
+1. Interoperabilita
+   Il sistema e interfacciabile con il Fascicolo Sanitario Elettronico regionale e con i sistemi di trasmissione dei dati alla ASP di riferimento.`,
 
 // 3 - 1A.01.05.01
 `PROGRAMMA PER LA VALUTAZIONE E IL MIGLIORAMENTO DELLA QUALITA
 
 1. Scopo e Obiettivi
-Il presente programma definisce le modalita con cui lo studio valuta e migliora la qualita dei servizi erogati, con l'obiettivo di garantire prestazioni sicure, efficaci e soddisfacenti per i pazienti.
+   Il presente programma definisce le modalita con cui lo studio valuta e migliora la qualita dei servizi erogati, con l’obiettivo di garantire prestazioni sicure, efficaci e soddisfacenti per i pazienti.
+1. Indicatori di Qualita Monitorati
 
-2. Indicatori di Qualita Monitorati
 - Tempi di attesa per appuntamento (obiettivo: max 10 giorni per visite ordinarie)
 - Tasso di soddisfazione dei pazienti (obiettivo: >= 85% soddisfatti)
 - Numero di reclami ricevuti e risolti (obiettivo: risoluzione entro 15 giorni)
-- Tasso di infezioni correlate all'assistenza (obiettivo: zero)
+- Tasso di infezioni correlate all’assistenza (obiettivo: zero)
 - Conformita ai protocolli di sterilizzazione (obiettivo: 100%)
 
-3. Metodi di Valutazione
+1. Metodi di Valutazione
+
 - Questionari di soddisfazione somministrati ai pazienti con cadenza semestrale
 - Audit clinici interni condotti dal Direttore Tecnico
 - Analisi periodica dei reclami e delle segnalazioni
 - Revisione degli indicatori con cadenza trimestrale
 
-4. Piani di Miglioramento
-A seguito di ogni valutazione vengono identificate le aree di criticita e definiti piani di intervento con obiettivi, azioni, responsabili e scadenze. I risultati sono documentati e comunicati al personale.
-
-5. Riesame della Direzione
-Il Responsabile della struttura effettua un riesame annuale del programma di qualita per verificare il raggiungimento degli obiettivi e definire le priorita per l'anno successivo.`,
+1. Piani di Miglioramento
+   A seguito di ogni valutazione vengono identificate le aree di criticita e definiti piani di intervento con obiettivi, azioni, responsabili e scadenze. I risultati sono documentati e comunicati al personale.
+1. Riesame della Direzione
+   Il Responsabile della struttura effettua un riesame annuale del programma di qualita per verificare il raggiungimento degli obiettivi e definire le priorita per l’anno successivo.`,
 
 // 4 - 1A.01.06.01
 `PROCEDURA PER LA GESTIONE DEI RECLAMI, OSSERVAZIONI E SUGGERIMENTI
 
 1. Scopo
-La presente procedura definisce le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti dei pazienti, al fine di garantire la tutela dei loro diritti e il miglioramento continuo del servizio.
+   La presente procedura definisce le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti dei pazienti, al fine di garantire la tutela dei loro diritti e il miglioramento continuo del servizio.
+1. Referente per i Rapporti con il Pubblico
+   E formalmente designato un referente responsabile di: raccogliere e registrare i reclami, fornire informazioni ai pazienti, elaborare i dati e proporre azioni correttive.
+1. Canali di Ricezione
 
-2. Referente per i Rapporti con il Pubblico
-E formalmente designato un referente responsabile di: raccogliere e registrare i reclami, fornire informazioni ai pazienti, elaborare i dati e proporre azioni correttive.
-
-3. Canali di Ricezione
-- Modulo cartaceo disponibile in sala d'attesa
+- Modulo cartaceo disponibile in sala d’attesa
 - Comunicazione verbale al personale di accoglienza
 - Email dedicata alla gestione dei reclami
 - Colloquio diretto con il Direttore Tecnico
 
-4. Procedura di Gestione
+1. Procedura di Gestione
+
 - Registrazione del reclamo entro 24 ore dalla ricezione
 - Analisi e istruttoria entro 7 giorni lavorativi
 - Risposta scritta al paziente entro 15 giorni lavorativi
-- Archiviazione del reclamo e dell'esito nel registro dedicato
+- Archiviazione del reclamo e dell’esito nel registro dedicato
 
-5. Analisi e Miglioramento
-I dati dei reclami sono analizzati con cadenza trimestrale per identificare tendenze ricorrenti e avviare azioni correttive o preventive. I risultati sono presentati al personale nelle riunioni periodiche di staff.`,
+1. Analisi e Miglioramento
+   I dati dei reclami sono analizzati con cadenza trimestrale per identificare tendenze ricorrenti e avviare azioni correttive o preventive. I risultati sono presentati al personale nelle riunioni periodiche di staff.`,
 
 // 5 - 1A.02.02.01
-`PROCEDURA PER LE MODALITA DI EROGAZIONE DELL'ASSISTENZA
+`PROCEDURA PER LE MODALITA DI EROGAZIONE DELL’ASSISTENZA
 
 1. Scopo
-La presente procedura descrive le modalita con cui lo studio eroga le prestazioni odontoiatriche, garantendo continuita assistenziale, accessibilita e sicurezza per i pazienti.
+   La presente procedura descrive le modalita con cui lo studio eroga le prestazioni odontoiatriche, garantendo continuita assistenziale, accessibilita e sicurezza per i pazienti.
+1. Prenotazione e Accesso
 
-2. Prenotazione e Accesso
 - Le prenotazioni avvengono telefonicamente, di persona o tramite portale online
 - Vengono definite le priorita di accesso in base alla urgenza clinica
 - I tempi di attesa sono comunicati al momento della prenotazione
 - Per le urgenze e garantita una visita entro 24 ore nei giorni di apertura
 
-3. Criteri di Eleggibilita
-Le prestazioni sono erogate a tutti i pazienti, senza discriminazioni. Per i pazienti con particolari fragilita (disabili, anziani, bambini) sono adottati percorsi dedicati.
-
-4. Modalita di Pagamento
-Sono accettati pagamenti in contanti, bancomat, carta di credito e bonifico bancario. Viene sempre rilasciata ricevuta fiscale o fattura.
-
-5. Continuita Assistenziale
-In caso di assenza del medico curante e garantita la continuita delle cure tramite altro professionista dello studio. In caso di urgenza al di fuori degli orari di apertura vengono fornite indicazioni per il Pronto Soccorso o i servizi di guardia odontostomatologica.
-
-6. Gestione delle Urgenze
-E definito un protocollo per la gestione delle emergenze cliniche (sincope, reazione allergica, crisi ipoglicemica) con kit di emergenza disponibile e personale addestrato al primo soccorso.`,
+1. Criteri di Eleggibilita
+   Le prestazioni sono erogate a tutti i pazienti, senza discriminazioni. Per i pazienti con particolari fragilita (disabili, anziani, bambini) sono adottati percorsi dedicati.
+1. Modalita di Pagamento
+   Sono accettati pagamenti in contanti, bancomat, carta di credito e bonifico bancario. Viene sempre rilasciata ricevuta fiscale o fattura.
+1. Continuita Assistenziale
+   In caso di assenza del medico curante e garantita la continuita delle cure tramite altro professionista dello studio. In caso di urgenza al di fuori degli orari di apertura vengono fornite indicazioni per il Pronto Soccorso o i servizi di guardia odontostomatologica.
+1. Gestione delle Urgenze
+   E definito un protocollo per la gestione delle emergenze cliniche (sincope, reazione allergica, crisi ipoglicemica) con kit di emergenza disponibile e personale addestrato al primo soccorso.`,
 
 // 6 - 1A.02.02.02
 `PIANO PER LA GESTIONE DELLE EMERGENZE
 
 1. Scopo
-Il presente piano definisce le procedure da adottare in caso di emergenza clinica o tecnica presso lo studio, per garantire la sicurezza di pazienti, operatori e visitatori.
+   Il presente piano definisce le procedure da adottare in caso di emergenza clinica o tecnica presso lo studio, per garantire la sicurezza di pazienti, operatori e visitatori.
+1. Tipologie di Emergenza Previste
 
-2. Tipologie di Emergenza Previste
 - Emergenze sanitarie: sincope, shock anafilattico, crisi epilettica, infarto, inalazione di corpo estraneo
 - Emergenze tecniche: interruzione energia elettrica, guasto apparecchiatura durante trattamento
 - Emergenze strutturali: incendio, allagamento
 
-3. Dotazioni di Emergenza
+1. Dotazioni di Emergenza
+
 - Kit di primo soccorso completo e revisione semestrale
 - Defibrillatore (DAE) con personale formato
 - Ossigeno terapeutico con maschere di varie misure
 - Farmaci di emergenza: adrenalina, antistaminici, cortisone, glucosio
 - Estintori certificati nei locali della struttura
 
-4. Procedure di Intervento
+1. Procedure di Intervento
+
 - In caso di emergenza sanitaria: chiamare il 118, iniziare i primi soccorsi, avvisare il responsabile
 - In caso di incendio: evacuare i locali, chiamare il 115, non usare gli ascensori
 - In caso di guasto apparecchiatura: sospendere il trattamento in sicurezza, informare il paziente, attivare il piano di manutenzione
 
-5. Formazione del Personale
-Tutto il personale e formato periodicamente (ogni 2 anni) sulle procedure di emergenza e sul primo soccorso. E disponibile un piano di evacuazione affisso in ogni locale.`,
+1. Formazione del Personale
+   Tutto il personale e formato periodicamente (ogni 2 anni) sulle procedure di emergenza e sul primo soccorso. E disponibile un piano di evacuazione affisso in ogni locale.`,
 
 // 7 - 1A.02.02.03
-`PROTOCOLLO PER L'ISOLAMENTO DI PAZIENTI CON PATOLOGIE CONTAGIOSE
+`PROTOCOLLO PER L’ISOLAMENTO DI PAZIENTI CON PATOLOGIE CONTAGIOSE
 
 1. Scopo
-Il presente protocollo definisce le misure di isolamento da adottare in presenza di pazienti con patologie infettive o potenzialmente contagiose, per prevenire la diffusione di infezioni nell'ambiente di lavoro.
+   Il presente protocollo definisce le misure di isolamento da adottare in presenza di pazienti con patologie infettive o potenzialmente contagiose, per prevenire la diffusione di infezioni nell’ambiente di lavoro.
+1. Identificazione del Rischio
+   Al momento della prenotazione e in accoglienza, il personale raccoglie informazioni sullo stato di salute del paziente. Sono considerati a rischio i pazienti con: infezioni respiratorie acute, malattie esantematiche, epatiti virali, HIV, tubercolosi attiva.
+1. Misure di Isolamento
 
-2. Identificazione del Rischio
-Al momento della prenotazione e in accoglienza, il personale raccoglie informazioni sullo stato di salute del paziente. Sono considerati a rischio i pazienti con: infezioni respiratorie acute, malattie esantematiche, epatiti virali, HIV, tubercolosi attiva.
-
-3. Misure di Isolamento
 - Collocazione del paziente in sala trattamento separata, se disponibile
 - Utilizzo di DPI rinforzati: doppi guanti, mascherina FFP2/FFP3, visiera, sovracamice
 - Limitazione del numero di operatori presenti durante il trattamento
 - Aerazione forzata del locale dopo il trattamento
 - Disinfezione e sterilizzazione straordinaria di tutti i presidi utilizzati
 
-4. Gestione dei Rifiuti
-I rifiuti prodotti durante il trattamento di pazienti infetti sono smaltiti come rifiuti sanitari a rischio infettivo, in appositi contenitori rigidi identificati.
-
-5. Documentazione
-Ogni episodio di isolamento e registrato nella cartella clinica del paziente e nel registro delle infezioni, con indicazione delle misure adottate.`,
+1. Gestione dei Rifiuti
+   I rifiuti prodotti durante il trattamento di pazienti infetti sono smaltiti come rifiuti sanitari a rischio infettivo, in appositi contenitori rigidi identificati.
+1. Documentazione
+   Ogni episodio di isolamento e registrato nella cartella clinica del paziente e nel registro delle infezioni, con indicazione delle misure adottate.`,
 
 // 8 - 1A.02.05.01
 `PROCEDURA PER LA GESTIONE DELLA DOCUMENTAZIONE SANITARIA
 
 1. Scopo
-La presente procedura definisce i requisiti per la redazione, conservazione, accesso e verifica della documentazione sanitaria, nel rispetto della normativa vigente.
+   La presente procedura definisce i requisiti per la redazione, conservazione, accesso e verifica della documentazione sanitaria, nel rispetto della normativa vigente.
+1. Tipologie di Documentazione
 
-2. Tipologie di Documentazione
 - Cartella clinica odontoiatrica (in formato digitale)
 - Referti radiografici e fotografici
 - Consensi informati firmati dal paziente
 - Piani di trattamento e preventivi
 - Schede di sterilizzazione e tracciabilita dei presidi
 
-3. Redazione e Aggiornamento
-La documentazione e redatta in modo chiaro, completo e leggibile. Ogni annotazione riporta data, ora e firma del professionista responsabile. E vietata la cancellazione o alterazione dei dati; le correzioni devono essere datate e firmate.
-
-4. Conservazione e Sicurezza
-La documentazione digitale e conservata su server protetto con backup giornaliero. L'accesso e consentito solo al personale autorizzato tramite credenziali personali. La conservazione avviene per un minimo di 10 anni dalla data dell'ultima prestazione.
-
-5. Accesso e Tutela della Privacy
-Il paziente ha diritto di accedere alla propria documentazione sanitaria. Le richieste sono evase entro 30 giorni. Il trattamento dei dati avviene nel rispetto del GDPR 679/2016 e del D.lgs 196/2003.
-
-6. Consegna dei Referti
-I referti sono consegnati al paziente in formato cartaceo o digitale, con firma del professionista. E garantita la tracciabilita della consegna.`,
+1. Redazione e Aggiornamento
+   La documentazione e redatta in modo chiaro, completo e leggibile. Ogni annotazione riporta data, ora e firma del professionista responsabile. E vietata la cancellazione o alterazione dei dati; le correzioni devono essere datate e firmate.
+1. Conservazione e Sicurezza
+   La documentazione digitale e conservata su server protetto con backup giornaliero. L’accesso e consentito solo al personale autorizzato tramite credenziali personali. La conservazione avviene per un minimo di 10 anni dalla data dell’ultima prestazione.
+1. Accesso e Tutela della Privacy
+   Il paziente ha diritto di accedere alla propria documentazione sanitaria. Le richieste sono evase entro 30 giorni. Il trattamento dei dati avviene nel rispetto del GDPR 679/2016 e del D.lgs 196/2003.
+1. Consegna dei Referti
+   I referti sono consegnati al paziente in formato cartaceo o digitale, con firma del professionista. E garantita la tracciabilita della consegna.`,
 
 // 9 - 1A.03.01.01
 `DOCUMENTO FORMALE DI INCARICO DEL RESPONSABILE DELLA MANUTENZIONE
@@ -211,12 +205,12 @@ NOMINA
 Il/La Dott./Dott.ssa ________________________, in qualita di Responsabile della Manutenzione, e incaricato/a di:
 
 1. Gestire e coordinare tutti gli interventi di manutenzione ordinaria e straordinaria della struttura, degli impianti e delle apparecchiature
-2. Aggiornare e verificare annualmente l'inventario delle attrezzature
-3. Programmare e supervisionare il piano di manutenzione periodica
-4. Garantire la disponibilita della documentazione tecnica per tutte le apparecchiature
-5. Coordinare i rapporti con i fornitori e le ditte di manutenzione esterne
-6. Registrare tutti gli interventi manutentivi nell'apposito registro
-7. Segnalare tempestivamente al Responsabile della struttura qualsiasi anomalia o guasto che possa compromettere la sicurezza o la continuita delle attivita
+1. Aggiornare e verificare annualmente l’inventario delle attrezzature
+1. Programmare e supervisionare il piano di manutenzione periodica
+1. Garantire la disponibilita della documentazione tecnica per tutte le apparecchiature
+1. Coordinare i rapporti con i fornitori e le ditte di manutenzione esterne
+1. Registrare tutti gli interventi manutentivi nell’apposito registro
+1. Segnalare tempestivamente al Responsabile della struttura qualsiasi anomalia o guasto che possa compromettere la sicurezza o la continuita delle attivita
 
 Il presente incarico ha decorrenza dalla data di firma e rimane valido fino a revoca formale.
 
@@ -230,18 +224,19 @@ Il Responsabile della Manutenzione (accettazione): _______________________`,
 `INVENTARIO DELLE ATTREZZATURE E PROCEDURA DI IDENTIFICAZIONE
 
 1. Scopo
-Il presente documento descrive la procedura per la gestione dell'inventario delle attrezzature e apparecchiature biomediche dello studio.
+   Il presente documento descrive la procedura per la gestione dell’inventario delle attrezzature e apparecchiature biomediche dello studio.
+1. Inventario delle Attrezzature
+   Ogni attrezzatura e identificata da:
 
-2. Inventario delle Attrezzature
-Ogni attrezzatura e identificata da:
 - Numero di inventario progressivo
 - Descrizione e marca/modello
 - Numero di serie
 - Data di acquisto e fornitore
 - Ubicazione nella struttura
-- Data dell'ultimo collaudo/manutenzione
+- Data dell’ultimo collaudo/manutenzione
 
-3. Elenco Principale delle Attrezzature
+1. Elenco Principale delle Attrezzature
+
 - Riuniti odontoiatrici (n. 2) con relativi accessori
 - Ortopantomografo (OPT)
 - Radiovisiografia (RVG) per radiologia endorale
@@ -252,19 +247,18 @@ Ogni attrezzatura e identificata da:
 - Defibrillatore (DAE)
 - Ossigeno terapeutico
 
-4. Aggiornamento dell'Inventario
-L'inventario e verificato e aggiornato annualmente dal Responsabile della Manutenzione. Ad ogni nuova acquisizione viene effettuato il collaudo tecnico di sicurezza prima della messa in uso, con relativa registrazione.
-
-5. Procedura di Identificazione
-Ogni attrezzatura riporta un'etichetta con il numero di inventario. La documentazione tecnica (manuale d'uso, scheda tecnica, certificato CE) e conservata sia a corredo della macchina sia presso il responsabile della manutenzione.`,
+1. Aggiornamento dell’Inventario
+   L’inventario e verificato e aggiornato annualmente dal Responsabile della Manutenzione. Ad ogni nuova acquisizione viene effettuato il collaudo tecnico di sicurezza prima della messa in uso, con relativa registrazione.
+1. Procedura di Identificazione
+   Ogni attrezzatura riporta un’etichetta con il numero di inventario. La documentazione tecnica (manuale d’uso, scheda tecnica, certificato CE) e conservata sia a corredo della macchina sia presso il responsabile della manutenzione.`,
 
 // 11 - 1A.03.02.02
 `PIANO DI MANUTENZIONE ORDINARIA E STRAORDINARIA
 
 1. Scopo
-Il presente piano definisce le modalita e la frequenza degli interventi di manutenzione ordinaria e straordinaria delle strutture, degli impianti e delle apparecchiature biomediche dello studio.
+   Il presente piano definisce le modalita e la frequenza degli interventi di manutenzione ordinaria e straordinaria delle strutture, degli impianti e delle apparecchiature biomediche dello studio.
+1. Manutenzione Ordinaria Programmata
 
-2. Manutenzione Ordinaria Programmata
 - Riuniti odontoiatrici: revisione semestrale da parte del tecnico autorizzato
 - Autoclave classe B: cicli di controllo settimanali (Helix test, test Bowie-Dick), manutenzione annuale certificata
 - Impianto radiologico: controllo qualita annuale con tecnico qualificato ARPAS
@@ -273,49 +267,47 @@ Il presente piano definisce le modalita e la frequenza degli interventi di manut
 - Condizionatori: pulizia e sanificazione filtri semestrale
 - DAE: verifica mensile dello stato di carica e integrità degli elettrodi
 
-3. Manutenzione Straordinaria
-Gli interventi straordinari sono effettuati su segnalazione del personale o a seguito di guasto. Ogni intervento e registrato nel registro delle manutenzioni con data, tipo di intervento, operatore e esito.
-
-4. Fornitori Autorizzati
-Lo studio si avvale di fornitori certificati per la manutenzione delle apparecchiature biomediche. I contratti di manutenzione sono archiviati e rinnovati annualmente.
-
-5. Registro delle Manutenzioni
-E tenuto un registro aggiornato di tutti gli interventi manutentivi, conservato presso il Responsabile della Manutenzione e disponibile per le ispezioni.`,
+1. Manutenzione Straordinaria
+   Gli interventi straordinari sono effettuati su segnalazione del personale o a seguito di guasto. Ogni intervento e registrato nel registro delle manutenzioni con data, tipo di intervento, operatore e esito.
+1. Fornitori Autorizzati
+   Lo studio si avvale di fornitori certificati per la manutenzione delle apparecchiature biomediche. I contratti di manutenzione sono archiviati e rinnovati annualmente.
+1. Registro delle Manutenzioni
+   E tenuto un registro aggiornato di tutti gli interventi manutentivi, conservato presso il Responsabile della Manutenzione e disponibile per le ispezioni.`,
 
 // 12 - 1A.03.02.03
 `DOCUMENTAZIONE TECNICA DELLE ATTREZZATURE
 
 1. Scopo
-Il presente documento attesta la disponibilita e l'organizzazione della documentazione tecnica relativa alle singole attrezzature e apparecchiature dello studio.
+   Il presente documento attesta la disponibilita e l’organizzazione della documentazione tecnica relativa alle singole attrezzature e apparecchiature dello studio.
+1. Documentazione Disponibile per Ogni Attrezzatura
+   Per ciascuna apparecchiatura biomedica sono disponibili e conservati:
 
-2. Documentazione Disponibile per Ogni Attrezzatura
-Per ciascuna apparecchiatura biomedica sono disponibili e conservati:
-- Manuale d'uso e manutenzione (in lingua italiana)
+- Manuale d’uso e manutenzione (in lingua italiana)
 - Dichiarazione di conformita CE
 - Scheda tecnica del produttore
 - Certificato di collaudo iniziale
 - Registrazione degli interventi di manutenzione periodica
 - Eventuali certificazioni specifiche (es. collaudo impianto radiologico)
 
-3. Accessibilita della Documentazione
-La documentazione tecnica e disponibile in due copie:
-- Una copia a corredo dell'apparecchiatura nel locale di utilizzo
+1. Accessibilita della Documentazione
+   La documentazione tecnica e disponibile in due copie:
+
+- Una copia a corredo dell’apparecchiatura nel locale di utilizzo
 - Una copia centralizzata presso il Responsabile della Manutenzione
 
-4. Aggiornamento
-La documentazione e aggiornata ad ogni intervento di manutenzione, collaudo o modifica dell'apparecchiatura. I documenti obsoleti sono archiviati separatamente con indicazione della data di sostituzione.
-
-5. Formazione degli Operatori
-Il personale che utilizza le apparecchiature e formato sull'uso corretto secondo le indicazioni del manuale. La formazione e documentata nel fascicolo personale di ciascun operatore.`,
+1. Aggiornamento
+   La documentazione e aggiornata ad ogni intervento di manutenzione, collaudo o modifica dell’apparecchiatura. I documenti obsoleti sono archiviati separatamente con indicazione della data di sostituzione.
+1. Formazione degli Operatori
+   Il personale che utilizza le apparecchiature e formato sull’uso corretto secondo le indicazioni del manuale. La formazione e documentata nel fascicolo personale di ciascun operatore.`,
 
 // 13-24: Documentazioni tecniche strutturali
 `DOCUMENTAZIONE TECNICA - CARATTERISTICHE AMBIENTALI E ACCESSIBILITA
 
-La struttura e conforme alle normative vigenti in materia di caratteristiche ambientali e accessibilita. Sono disponibili i seguenti documenti: certificato di agibilita, planimetria approvata con destinazioni d'uso, documentazione attestante l'eliminazione delle barriere architettoniche (rampe, servizi igienici per disabili, larghezza porte >= 90 cm). I locali rispettano i requisiti minimi di superficie, altezza e illuminazione previsti dalla normativa regionale per le strutture odontoiatriche.`,
+La struttura e conforme alle normative vigenti in materia di caratteristiche ambientali e accessibilita. Sono disponibili i seguenti documenti: certificato di agibilita, planimetria approvata con destinazioni d’uso, documentazione attestante l’eliminazione delle barriere architettoniche (rampe, servizi igienici per disabili, larghezza porte >= 90 cm). I locali rispettano i requisiti minimi di superficie, altezza e illuminazione previsti dalla normativa regionale per le strutture odontoiatriche.`,
 
 `DOCUMENTAZIONE TECNICA - PROTEZIONE ANTINCENDIO
 
-La struttura e dotata di certificato di prevenzione incendi (CPI) o di dichiarazione di esenzione dall'obbligo, in conformita al D.Lgs 81/2008 e al D.M. 10/03/1998. Sono presenti: estintori a polvere o CO2 verificati annualmente, cartellonistica di sicurezza, planimetria con indicazione delle vie di fuga, piano di evacuazione affisso nei locali. Il personale e formato sulle procedure antincendio con aggiornamento periodico.`,
+La struttura e dotata di certificato di prevenzione incendi (CPI) o di dichiarazione di esenzione dall’obbligo, in conformita al D.Lgs 81/2008 e al D.M. 10/03/1998. Sono presenti: estintori a polvere o CO2 verificati annualmente, cartellonistica di sicurezza, planimetria con indicazione delle vie di fuga, piano di evacuazione affisso nei locali. Il personale e formato sulle procedure antincendio con aggiornamento periodico.`,
 
 `DOCUMENTAZIONE TECNICA - PROTEZIONE ACUSTICA
 
@@ -323,7 +315,7 @@ I locali della struttura sono conformi ai requisiti di protezione acustica previ
 
 `DOCUMENTAZIONE TECNICA - SICUREZZA ELETTRICA E CONTINUITA ELETTRICA
 
-L'impianto elettrico della struttura e conforme alla normativa CEI 64-8 e CEI 64-4 per i locali ad uso medico. Sono disponibili: dichiarazione di conformita dell'impianto elettrico (modello CPI), certificato di collaudo dell'impianto di messa a terra, verifica periodica biennale dell'impianto. E garantita la continuita elettrica per le apparecchiature critiche tramite gruppo di continuita (UPS) per il sistema informatico e le apparecchiature salvavita.`,
+L’impianto elettrico della struttura e conforme alla normativa CEI 64-8 e CEI 64-4 per i locali ad uso medico. Sono disponibili: dichiarazione di conformita dell’impianto elettrico (modello CPI), certificato di collaudo dell’impianto di messa a terra, verifica periodica biennale dell’impianto. E garantita la continuita elettrica per le apparecchiature critiche tramite gruppo di continuita (UPS) per il sistema informatico e le apparecchiature salvavita.`,
 
 `DOCUMENTAZIONE TECNICA - SICUREZZA ANTINFORTUNISTICA
 
@@ -331,11 +323,11 @@ La struttura e conforme alla normativa antinfortunistica prevista dal D.Lgs 81/2
 
 `DOCUMENTAZIONE TECNICA - PROTEZIONE DA RADIAZIONI IONIZZANTI
 
-La struttura e in possesso del nulla osta al funzionamento dell'impianto radiologico rilasciato dall'ARPAS (Agenzia Regionale per la Protezione dell'Ambiente della Sicilia). Sono disponibili: autorizzazione all'esercizio dell'attivita radiologica, nomina dell'Esperto Qualificato per la sorveglianza fisica delle radiazioni, nomina del Medico Autorizzato per la sorveglianza medica, registri delle dosi ricevute dal personale esposto, documentazione relativa alla schermatura del locale radiologico.`,
+La struttura e in possesso del nulla osta al funzionamento dell’impianto radiologico rilasciato dall’ARPAS (Agenzia Regionale per la Protezione dell’Ambiente della Sicilia). Sono disponibili: autorizzazione all’esercizio dell’attivita radiologica, nomina dell’Esperto Qualificato per la sorveglianza fisica delle radiazioni, nomina del Medico Autorizzato per la sorveglianza medica, registri delle dosi ricevute dal personale esposto, documentazione relativa alla schermatura del locale radiologico.`,
 
 `DOCUMENTAZIONE TECNICA - ELIMINAZIONE BARRIERE ARCHITETTONICHE
 
-La struttura e conforme alla normativa sull'eliminazione delle barriere architettoniche (D.P.R. 503/1996, L. 13/1989). Sono presenti: rampa di accesso o ascensore per i piani superiori, servizi igienici accessibili ai disabili con dimensioni adeguate e maniglioni di sostegno, porte con larghezza minima di 90 cm, percorsi privi di ostacoli, parcheggio riservato ai disabili nelle vicinanze. E disponibile la documentazione tecnica attestante la conformita.`,
+La struttura e conforme alla normativa sull’eliminazione delle barriere architettoniche (D.P.R. 503/1996, L. 13/1989). Sono presenti: rampa di accesso o ascensore per i piani superiori, servizi igienici accessibili ai disabili con dimensioni adeguate e maniglioni di sostegno, porte con larghezza minima di 90 cm, percorsi privi di ostacoli, parcheggio riservato ai disabili nelle vicinanze. E disponibile la documentazione tecnica attestante la conformita.`,
 
 `DOCUMENTAZIONE TECNICA - SMALTIMENTO DEI RIFIUTI SANITARI
 
@@ -343,38 +335,37 @@ Lo studio gestisce i rifiuti sanitari in conformita al D.Lgs 152/2006 e al D.P.R
 
 `DOCUMENTAZIONE TECNICA - CONDIZIONI MICROCLIMATICHE
 
-I locali della struttura rispettano i requisiti microclimatici previsti dalla normativa vigente (D.Lgs 81/2008, norma UNI EN ISO 7730). E presente un impianto di climatizzazione/ventilazione che garantisce: temperatura interna compresa tra 20-26 gradi C, umidita relativa tra 40-60%, ricambio d'aria adeguato al volume dei locali. L'impianto di climatizzazione e sottoposto a manutenzione e sanificazione semestrale con relativa documentazione.`,
+I locali della struttura rispettano i requisiti microclimatici previsti dalla normativa vigente (D.Lgs 81/2008, norma UNI EN ISO 7730). E presente un impianto di climatizzazione/ventilazione che garantisce: temperatura interna compresa tra 20-26 gradi C, umidita relativa tra 40-60%, ricambio d’aria adeguato al volume dei locali. L’impianto di climatizzazione e sottoposto a manutenzione e sanificazione semestrale con relativa documentazione.`,
 
 `DOCUMENTAZIONE TECNICA - IMPIANTI DI DISTRIBUZIONE GAS
 
-Ove presente, l'impianto di distribuzione dei gas medicali (protossido di azoto, ossigeno) e conforme alla norma UNI EN ISO 7396-1. Sono disponibili: dichiarazione di conformita dell'impianto, collaudo iniziale e verifiche periodiche, schede di sicurezza dei gas utilizzati, formazione del personale sull'uso in sicurezza. I locali dove sono stoccate le bombole rispettano i requisiti di aerazione e sicurezza previsti dalla normativa vigente.`,
+Ove presente, l’impianto di distribuzione dei gas medicali (protossido di azoto, ossigeno) e conforme alla norma UNI EN ISO 7396-1. Sono disponibili: dichiarazione di conformita dell’impianto, collaudo iniziale e verifiche periodiche, schede di sicurezza dei gas utilizzati, formazione del personale sull’uso in sicurezza. I locali dove sono stoccate le bombole rispettano i requisiti di aerazione e sicurezza previsti dalla normativa vigente.`,
 
 `DOCUMENTAZIONE TECNICA - MATERIALI ESPLODENTI
 
-La struttura non utilizza materiali esplodenti nell'esercizio delle proprie attivita. Non e pertanto necessaria documentazione specifica relativa a questo requisito. In caso di futura introduzione di materiali o attrezzature che rientrano in questa categoria, si provvedera ad acquisire le necessarie autorizzazioni e documentazioni previste dalla normativa vigente.`,
+La struttura non utilizza materiali esplodenti nell’esercizio delle proprie attivita. Non e pertanto necessaria documentazione specifica relativa a questo requisito. In caso di futura introduzione di materiali o attrezzature che rientrano in questa categoria, si provvedera ad acquisire le necessarie autorizzazioni e documentazioni previste dalla normativa vigente.`,
 
 `DOCUMENTAZIONE TECNICA - PROTEZIONE ANTISISMICA
 
-La struttura e ubicata in zona sismica classificata. Sono disponibili: certificato di collaudo statico dell'edificio, documentazione relativa alla conformita antisismica ai sensi delle NTC 2018 (Norme Tecniche per le Costruzioni), relazione geologica del sito. In caso di edificio storico, e disponibile la documentazione relativa agli interventi di adeguamento o miglioramento sismico effettuati.`,
+La struttura e ubicata in zona sismica classificata. Sono disponibili: certificato di collaudo statico dell’edificio, documentazione relativa alla conformita antisismica ai sensi delle NTC 2018 (Norme Tecniche per le Costruzioni), relazione geologica del sito. In caso di edificio storico, e disponibile la documentazione relativa agli interventi di adeguamento o miglioramento sismico effettuati.`,
 
 // 25 - 1A.04.12.04
 `ADEMPIMENTI RELATIVI AGLI OBBLIGHI ASSICURATIVI
 
 1. Assicurazione per Responsabilita Civile Professionale
-In conformita alla Legge 8 marzo 2017, n. 24 (Legge Gelli-Bianco), artt. 10 e 11, la struttura e dotata di polizza assicurativa per la responsabilita civile verso terzi derivante dall'esercizio dell'attivita sanitaria.
+   In conformita alla Legge 8 marzo 2017, n. 24 (Legge Gelli-Bianco), artt. 10 e 11, la struttura e dotata di polizza assicurativa per la responsabilita civile verso terzi derivante dall’esercizio dell’attivita sanitaria.
+
 - Compagnia assicurativa: _______________________
 - Numero polizza: _______________________
 - Scadenza: _______________________
 - Massimale: _______________________
 
-2. Assicurazione INAIL
-La struttura e in regola con gli obblighi assicurativi INAIL per tutti i lavoratori dipendenti e para-subordinati. Il Documento Unico di Regolarita Contributiva (DURC) e in corso di validita.
-
-3. Obblighi Previdenziali
-La struttura e in regola con i versamenti contributivi all'INPS per tutti i lavoratori dipendenti. I professionisti collaboratori sono in regola con i versamenti alla Cassa di Previdenza di categoria (ENPAM o equivalente).
-
-4. Responsabilita del Direttore Tecnico
-Il Direttore Tecnico e dotato di polizza assicurativa personale per la responsabilita civile professionale, come previsto dalla normativa vigente per i professionisti sanitari.`,
+1. Assicurazione INAIL
+   La struttura e in regola con gli obblighi assicurativi INAIL per tutti i lavoratori dipendenti e para-subordinati. Il Documento Unico di Regolarita Contributiva (DURC) e in corso di validita.
+1. Obblighi Previdenziali
+   La struttura e in regola con i versamenti contributivi all’INPS per tutti i lavoratori dipendenti. I professionisti collaboratori sono in regola con i versamenti alla Cassa di Previdenza di categoria (ENPAM o equivalente).
+1. Responsabilita del Direttore Tecnico
+   Il Direttore Tecnico e dotato di polizza assicurativa personale per la responsabilita civile professionale, come previsto dalla normativa vigente per i professionisti sanitari.`,
 
 // 26 - 1A.05.03.01
 `CARTA DEI SERVIZI
@@ -382,9 +373,9 @@ Il Direttore Tecnico e dotato di polizza assicurativa personale per la responsab
 STUDIO ODONTOIATRICO - CARTA DEI SERVIZI
 
 1. Presentazione della Struttura
-Lo studio odontoiatrico eroga prestazioni specialistiche nel settore odontoiatrico e stomatologico, operando nel rispetto delle normative vigenti e con l'obiettivo di garantire la massima qualita delle cure.
+   Lo studio odontoiatrico eroga prestazioni specialistiche nel settore odontoiatrico e stomatologico, operando nel rispetto delle normative vigenti e con l’obiettivo di garantire la massima qualita delle cure.
+1. Prestazioni Erogate
 
-2. Prestazioni Erogate
 - Visita odontoiatrica e diagnosi
 - Igiene professionale e prevenzione
 - Odontoiatria conservativa (otturazioni, devitalizzazioni)
@@ -394,45 +385,44 @@ Lo studio odontoiatrico eroga prestazioni specialistiche nel settore odontoiatri
 - Chirurgia estrattiva
 - Radiologia endorale e panoramica
 
-3. Modalita di Accesso
-Apertura: dal lunedi al venerdi, orario 9:00-13:00 e 15:00-19:00
-Prenotazioni: telefono, di persona, portale online
-Per urgenze: contattare il numero dedicato anche nelle ore serali
+1. Modalita di Accesso
+   Apertura: dal lunedi al venerdi, orario 9:00-13:00 e 15:00-19:00
+   Prenotazioni: telefono, di persona, portale online
+   Per urgenze: contattare il numero dedicato anche nelle ore serali
+1. Tariffe
+   Le tariffe sono esposte in sala d’attesa e disponibili su richiesta. Sono accettate tutte le principali forme di pagamento. E possibile rateizzare i trattamenti di importo elevato.
+1. Standard di Qualita
 
-4. Tariffe
-Le tariffe sono esposte in sala d'attesa e disponibili su richiesta. Sono accettate tutte le principali forme di pagamento. E possibile rateizzare i trattamenti di importo elevato.
-
-5. Standard di Qualita
 - Tempi di attesa per prima visita: entro 7 giorni
 - Risposta ai reclami: entro 15 giorni lavorativi
 - Soddisfazione paziente: >= 85% (rilevata con questionari semestrali)
 
-6. Tutela del Paziente
-In caso di insoddisfazione e possibile presentare reclamo al referente designato. I dati personali sono trattati nel rispetto del GDPR 679/2016.`,
+1. Tutela del Paziente
+   In caso di insoddisfazione e possibile presentare reclamo al referente designato. I dati personali sono trattati nel rispetto del GDPR 679/2016.`,
 
 // 27 - 1A.05.03.03
 `MODALITA DI IDENTIFICAZIONE DI TIROCINANTI, SPECIALIZZANDI E ALTRI SOGGETTI
 
 1. Scopo
-Il presente documento definisce le modalita di identificazione e gestione dei soggetti che, nell'ambito di percorsi formativi, intervengono nel percorso assistenziale dei pazienti.
+   Il presente documento definisce le modalita di identificazione e gestione dei soggetti che, nell’ambito di percorsi formativi, intervengono nel percorso assistenziale dei pazienti.
+1. Tipologie di Soggetti
 
-2. Tipologie di Soggetti
 - Tirocinanti universitari (laurea in Odontoiatria, Igiene Dentale)
 - Specializzandi post-laurea
 - Osservatori in stage formativo
 - Collaboratori in periodo di affiancamento
 
-3. Requisiti per l'Accesso
-- Convenzione formale tra la struttura e l'istituzione formativa
+1. Requisiti per l’Accesso
+
+- Convenzione formale tra la struttura e l’istituzione formativa
 - Copertura assicurativa specifica per il periodo di tirocinio
 - Idoneita sanitaria al lavoro
 - Formazione sulla sicurezza (D.Lgs 81/2008)
 
-4. Identificazione
-Ogni soggetto in formazione e identificato da un cartellino identificativo ben visibile, riportante nome, cognome, qualifica e istituzione di provenienza. I pazienti sono informati della presenza di tirocinanti e possono rifiutarne la presenza.
-
-5. Supervisione
-Le attivita dei tirocinanti sono svolte sempre sotto la diretta supervisione di un professionista abilitato e responsabile. Non e consentita l'esecuzione autonoma di prestazioni cliniche da parte dei tirocinanti.`,
+1. Identificazione
+   Ogni soggetto in formazione e identificato da un cartellino identificativo ben visibile, riportante nome, cognome, qualifica e istituzione di provenienza. I pazienti sono informati della presenza di tirocinanti e possono rifiutarne la presenza.
+1. Supervisione
+   Le attivita dei tirocinanti sono svolte sempre sotto la diretta supervisione di un professionista abilitato e responsabile. Non e consentita l’esecuzione autonoma di prestazioni cliniche da parte dei tirocinanti.`,
 
 // 28 - 1A.05.03.05
 `REPORT ANALISI RECLAMI E CUSTOMER SATISFACTION
@@ -440,24 +430,28 @@ Le attivita dei tirocinanti sono svolte sempre sotto la diretta supervisione di 
 REPORT ANNUALE - ANNO 2025
 
 1. Analisi dei Reclami
+
 - Totale reclami ricevuti: 3
 - Reclami risolti positivamente: 3 (100%)
 - Tempi medi di risoluzione: 8 giorni lavorativi
 - Tipologia: 2 relativi a tempi di attesa, 1 relativo a comunicazione del preventivo
 
-2. Azioni Correttive Intraprese
+1. Azioni Correttive Intraprese
+
 - Implementazione nuovo sistema di gestione agenda con buffer per ritardi
 - Revisione del modulo preventivo per maggiore chiarezza espositiva
 - Formazione del personale di accoglienza sulla comunicazione con il paziente
 
-3. Customer Satisfaction
+1. Customer Satisfaction
+
 - Questionari distribuiti: 120
 - Questionari restituiti: 98 (tasso di risposta: 82%)
 - Soddisfazione complessiva: 91% (soddisfatti o molto soddisfatti)
 - Principali punti di forza rilevati: professionalita del personale, pulizia degli ambienti
 - Aree di miglioramento indicate: tempi di attesa, facilita di parcheggio
 
-4. Piani di Miglioramento per il 2026
+1. Piani di Miglioramento per il 2026
+
 - Implementazione sistema di prenotazione online
 - Ampliamento orari di apertura il sabato mattina
 - Introduzione promemoria automatici via SMS per gli appuntamenti`,
@@ -466,9 +460,9 @@ REPORT ANNUALE - ANNO 2025
 `PIANO AZIENDALE PER LA GESTIONE DEL RISCHIO
 
 1. Scopo e Campo di Applicazione
-Il presente piano definisce le modalita con cui la struttura identifica, valuta e gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro, in conformita al D.Lgs 81/2008 e alle Raccomandazioni Ministeriali per la sicurezza in sanita.
+   Il presente piano definisce le modalita con cui la struttura identifica, valuta e gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro, in conformita al D.Lgs 81/2008 e alle Raccomandazioni Ministeriali per la sicurezza in sanita.
+1. Rischi per gli Operatori
 
-2. Rischi per gli Operatori
 - Rischio biologico: esposizione a sangue e fluidi corporei
   Misure: uso sistematico dei DPI, vaccinazione anti-epatite B, protocollo per incidenti con aghi
 - Rischio da radiazioni ionizzanti: esposizione a raggi X
@@ -478,599 +472,615 @@ Il presente piano definisce le modalita con cui la struttura identifica, valuta 
 - Rischio chimico: utilizzo di disinfettanti e materiali odontoiatrici
   Misure: schede di sicurezza (SDS) disponibili, DPI appropriati, ventilazione adeguata
 
-3. Rischi per i Pazienti
-- Infezioni correlate all'assistenza: protocollo di sterilizzazione e disinfezione
+1. Rischi per i Pazienti
+
+- Infezioni correlate all’assistenza: protocollo di sterilizzazione e disinfezione
 - Errori terapeutici: check-list pre-trattamento, consenso informato
 - Reazioni avverse ai farmaci: anamnesi sistematica, kit di emergenza
 - Cadute: pavimenti antiscivolo, illuminazione adeguata
 
-4. Gestione degli Eventi Avversi
-Ogni evento avverso, near miss o evento sentinella e segnalato al Responsabile, analizzato con metodologia Root Cause Analysis e documentato nel registro dedicato. Le azioni correttive sono monitorate nel tempo.
-
-5. Responsabile della Gestione del Rischio
-E formalmente nominato un Responsabile per la gestione del rischio clinico, con il compito di coordinare le attivita di prevenzione, formare il personale e produrre il report annuale.`,
+1. Gestione degli Eventi Avversi
+   Ogni evento avverso, near miss o evento sentinella e segnalato al Responsabile, analizzato con metodologia Root Cause Analysis e documentato nel registro dedicato. Le azioni correttive sono monitorate nel tempo.
+1. Responsabile della Gestione del Rischio
+   E formalmente nominato un Responsabile per la gestione del rischio clinico, con il compito di coordinare le attivita di prevenzione, formare il personale e produrre il report annuale.`,
 
 // 30 - 1A.06.02.02
 `PROCEDURA PER LA PULIZIA E SANIFICAZIONE DEGLI AMBIENTI
 
 1. Scopo
-La presente procedura definisce le modalita operative per la pulizia, detersione, disinfezione e sanificazione degli ambienti dello studio, al fine di prevenire le infezioni correlate all'assistenza.
+   La presente procedura definisce le modalita operative per la pulizia, detersione, disinfezione e sanificazione degli ambienti dello studio, al fine di prevenire le infezioni correlate all’assistenza.
+1. Frequenza degli Interventi
 
-2. Frequenza degli Interventi
 - Pulizia ordinaria dei pavimenti e superfici: dopo ogni sessione di lavoro
 - Disinfezione delle superfici di lavoro (piano riunito, strumentario): dopo ogni paziente
 - Pulizia approfondita dei locali: giornaliera a fine giornata lavorativa
 - Sanificazione straordinaria: settimanale e dopo ogni caso di paziente infetto
 
-3. Prodotti Utilizzati
+1. Prodotti Utilizzati
+
 - Detergente multiuso per superfici: _______________
 - Disinfettante a base di cloro attivo (superfici): _______________
 - Disinfettante per strumentario: _______________
-Tutti i prodotti sono utilizzati alle concentrazioni indicate dal produttore. Le schede di sicurezza sono disponibili nel locale di deposito.
+  Tutti i prodotti sono utilizzati alle concentrazioni indicate dal produttore. Le schede di sicurezza sono disponibili nel locale di deposito.
 
-4. Procedura Operativa
+1. Procedura Operativa
 1. Indossare i DPI (guanti monouso, mascherina, grembiule)
-2. Rimuovere i rifiuti e i materiali utilizzati
-3. Detersione delle superfici con prodotto detergente
-4. Risciacquo con acqua
-5. Applicazione del disinfettante con i tempi di contatto indicati
-6. Ventilazione del locale
-
-5. Formazione e Responsabilita
-Il personale addetto alle pulizie e formato sulle procedure e sui prodotti utilizzati. Un responsabile verifica periodicamente il rispetto della procedura.`,
+1. Rimuovere i rifiuti e i materiali utilizzati
+1. Detersione delle superfici con prodotto detergente
+1. Risciacquo con acqua
+1. Applicazione del disinfettante con i tempi di contatto indicati
+1. Ventilazione del locale
+1. Formazione e Responsabilita
+   Il personale addetto alle pulizie e formato sulle procedure e sui prodotti utilizzati. Un responsabile verifica periodicamente il rispetto della procedura.`,
 
 // 31 - 1A.06.02.03
 `PROCEDURA PER LA PROTEZIONE DAGLI INCIDENTI DA ESPOSIZIONE A MATERIALE BIOLOGICO
 
 1. Scopo
-La presente procedura definisce le misure di protezione e le azioni da intraprendere in caso di incidente con esposizione a materiale biologico (puntura con ago, taglio con strumento tagliente, contatto con mucose).
+   La presente procedura definisce le misure di protezione e le azioni da intraprendere in caso di incidente con esposizione a materiale biologico (puntura con ago, taglio con strumento tagliente, contatto con mucose).
+1. Misure di Prevenzione
 
-2. Misure di Prevenzione
 - Uso sistematico di guanti, mascherina e visiera durante i trattamenti
 - Utilizzo di aghi con dispositivo di sicurezza retraibile
 - Divieto di reincappucciare gli aghi manualmente
 - Contenitori rigidi per lo smaltimento degli aghi e degli oggetti taglienti
 - Vaccinazione anti-epatite B obbligatoria per tutto il personale a rischio
 
-3. Procedura in Caso di Incidente
-PUNTURA O TAGLIO:
+1. Procedura in Caso di Incidente
+   PUNTURA O TAGLIO:
 1. Togliere immediatamente i guanti
-2. Far sanguinare la ferita senza succhiare
-3. Lavare con acqua corrente e sapone per 5 minuti
-4. Disinfettare con iodopovidone o clorexidina
-5. Segnalare immediatamente al responsabile
-6. Recarsi al Pronto Soccorso entro 2 ore per la profilassi post-esposizione
+1. Far sanguinare la ferita senza succhiare
+1. Lavare con acqua corrente e sapone per 5 minuti
+1. Disinfettare con iodopovidone o clorexidina
+1. Segnalare immediatamente al responsabile
+1. Recarsi al Pronto Soccorso entro 2 ore per la profilassi post-esposizione
 
 CONTATTO CON MUCOSE (occhi, bocca):
-1. Sciacquare abbondantemente con acqua
-2. Segnalare al responsabile
-3. Recarsi al Pronto Soccorso per valutazione
 
-4. Registrazione e Follow-up
-Ogni incidente e registrato nel registro degli infortuni (D.Lgs 81/2008) e comunicato all'INAIL. Il lavoratore esposto e sottoposto a sorveglianza sanitaria con controlli sierologici a 1, 3 e 6 mesi.`,
+1. Sciacquare abbondantemente con acqua
+1. Segnalare al responsabile
+1. Recarsi al Pronto Soccorso per valutazione
+1. Registrazione e Follow-up
+   Ogni incidente e registrato nel registro degli infortuni (D.Lgs 81/2008) e comunicato all’INAIL. Il lavoratore esposto e sottoposto a sorveglianza sanitaria con controlli sierologici a 1, 3 e 6 mesi.`,
 
 // 32 - 1A.06.02.04
-`SISTEMA PER L'IDENTIFICAZIONE E SEGNALAZIONE DI NEAR MISS ED EVENTI AVVERSI
+`SISTEMA PER L’IDENTIFICAZIONE E SEGNALAZIONE DI NEAR MISS ED EVENTI AVVERSI
 
 1. Scopo
-Il presente documento descrive il sistema adottato dalla struttura per la rilevazione, analisi e gestione dei near miss (quasi errori), degli eventi avversi e degli eventi sentinella, al fine di migliorare la sicurezza delle cure.
+   Il presente documento descrive il sistema adottato dalla struttura per la rilevazione, analisi e gestione dei near miss (quasi errori), degli eventi avversi e degli eventi sentinella, al fine di migliorare la sicurezza delle cure.
+1. Definizioni
 
-2. Definizioni
 - Near miss: evento che avrebbe potuto causare un danno ma che non lo ha prodotto per cause fortuite o per un intervento tempestivo
 - Evento avverso: evento indesiderato che ha causato un danno al paziente
-- Evento sentinella: evento avverso di particolare gravita che richiede un'analisi approfondita
+- Evento sentinella: evento avverso di particolare gravita che richiede un’analisi approfondita
 
-3. Sistema di Segnalazione
-E istituito un sistema di segnalazione confidenziale e non punitivo. Il personale e incoraggiato a segnalare qualsiasi near miss o evento avverso compilando il modulo di segnalazione disponibile in formato cartaceo e digitale. Le segnalazioni sono trasmesse al Responsabile per la Gestione del Rischio.
-
-4. Analisi degli Eventi
-Per ogni segnalazione viene effettuata un'analisi delle cause utilizzando metodologie validate (Root Cause Analysis, diagramma di Ishikawa). I risultati dell'analisi sono documentati e condivisi con il personale in modo anonimizzato.
-
-5. Azioni Correttive e Monitoraggio
-A seguito dell'analisi sono definite azioni correttive con responsabile e scadenza. L'efficacia delle azioni e monitorata nel tempo. I dati aggregati sono presentati annualmente al personale per promuovere la cultura della sicurezza.
-
-6. Report Annuale
-Il Responsabile per la Gestione del Rischio produce un report annuale con: numero e tipologia di segnalazioni, analisi delle cause piu frequenti, azioni intraprese, indicatori di esito. Il report e presentato alla Direzione e trasmesso alla ASP di riferimento.`
+1. Sistema di Segnalazione
+   E istituito un sistema di segnalazione confidenziale e non punitivo. Il personale e incoraggiato a segnalare qualsiasi near miss o evento avverso compilando il modulo di segnalazione disponibile in formato cartaceo e digitale. Le segnalazioni sono trasmesse al Responsabile per la Gestione del Rischio.
+1. Analisi degli Eventi
+   Per ogni segnalazione viene effettuata un’analisi delle cause utilizzando metodologie validate (Root Cause Analysis, diagramma di Ishikawa). I risultati dell’analisi sono documentati e condivisi con il personale in modo anonimizzato.
+1. Azioni Correttive e Monitoraggio
+   A seguito dell’analisi sono definite azioni correttive con responsabile e scadenza. L’efficacia delle azioni e monitorata nel tempo. I dati aggregati sono presentati annualmente al personale per promuovere la cultura della sicurezza.
+1. Report Annuale
+   Il Responsabile per la Gestione del Rischio produce un report annuale con: numero e tipologia di segnalazioni, analisi delle cause piu frequenti, azioni intraprese, indicatori di esito. Il report e presentato alla Direzione e trasmesso alla ASP di riferimento.`
 
 ];
 
-
-
 const STEPS = [
-  { label: "Anagrafica", num: 1 },
-  { label: "Gestione", num: 2 },
-  { label: "Sicurezza", num: 3 },
-  { label: "Struttura", num: 4 },
-  { label: "Personale", num: 5 },
-  { label: "Documento", num: 6 },
+{ label: “Anagrafica”, num: 1 },
+{ label: “Gestione”, num: 2 },
+{ label: “Sicurezza”, num: 3 },
+{ label: “Struttura”, num: 4 },
+{ label: “Personale”, num: 5 },
+{ label: “Documento”, num: 6 },
 ];
 
 let currentStep = 1;
 
 // Build progress bar
-const stepsRow = document.getElementById('stepsRow');
+const stepsRow = document.getElementById(‘stepsRow’);
 STEPS.forEach(s => {
-  const el = document.createElement('div');
-  el.className = 'step-item' + (s.num === 1 ? ' active' : '');
-  el.id = `step_${s.num}`;
-  el.addEventListener('click', function(){ goTo(s.num); });
-  el.innerHTML = `<div class="step-num">${s.num}</div><div class="step-label">${s.label}</div>`;
-  stepsRow.appendChild(el);
+const el = document.createElement(‘div’);
+el.className = ‘step-item’ + (s.num === 1 ? ’ active’ : ‘’);
+el.id = `step_${s.num}`;
+el.addEventListener(‘click’, function(){ goTo(s.num); });
+el.innerHTML = `<div class="step-num">${s.num}</div><div class="step-label">${s.label}</div>`;
+stepsRow.appendChild(el);
 });
 
 function goTo(n) {
-  if (n < 1 || n > 6) return;
-  document.getElementById(`s${currentStep}`).classList.remove('active');
-  document.getElementById(`step_${currentStep}`).classList.remove('active');
-  if (currentStep < n) document.getElementById(`step_${currentStep}`).classList.add('done');
-  currentStep = n;
-  document.getElementById(`s${currentStep}`).classList.add('active');
-  document.getElementById(`step_${currentStep}`).classList.add('active');
-  document.getElementById(`step_${currentStep}`).classList.remove('done');
-  document.getElementById('navText').textContent = `Sezione ${currentStep} di 6`;
-  document.getElementById('btnBack').style.visibility = currentStep === 1 ? 'hidden' : 'visible';
-  document.getElementById('btnNext').textContent = currentStep === 6 ? '✔ Chiudi' : 'Avanti →';
-  document.getElementById('btnNext').className = currentStep === 6 ? 'btn btn-secondary' : 'btn btn-gold';
-  if (currentStep === 6) {
-    generateOutput();
-    // Mostra banner iOS solo su Safari/iPhone
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-    const banner = document.getElementById('iosBanner');
-    if (banner) banner.style.display = (isIOS || isSafari) ? 'block' : 'none';
-  }
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+try {
+if (n < 1 || n > 6) return;
+document.getElementById(`s${currentStep}`).classList.remove(‘active’);
+document.getElementById(`step_${currentStep}`).classList.remove(‘active’);
+if (currentStep < n) document.getElementById(`step_${currentStep}`).classList.add(‘done’);
+currentStep = n;
+document.getElementById(`s${currentStep}`).classList.add(‘active’);
+document.getElementById(`step_${currentStep}`).classList.add(‘active’);
+document.getElementById(`step_${currentStep}`).classList.remove(‘done’);
+document.getElementById(‘navText’).textContent = `Sezione ${currentStep} di 6`;
+document.getElementById(‘btnBack’).style.visibility = currentStep === 1 ? ‘hidden’ : ‘visible’;
+document.getElementById(‘btnNext’).textContent = currentStep === 6 ? ‘✔ Chiudi’ : ‘Avanti →’;
+document.getElementById(‘btnNext’).className = currentStep === 6 ? ‘btn btn-secondary’ : ‘btn btn-gold’;
+if (currentStep === 6) {
+generateOutput();
+// Mostra banner iOS solo su Safari/iPhone
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+const banner = document.getElementById(‘iosBanner’);
+if (banner) banner.style.display = (isIOS || isSafari) ? ‘block’ : ‘none’;
+}
+window.scrollTo({ top: 0, behavior: ‘smooth’ });
+} catch(e) {
+console.error(‘goTo error:’, e);
+window.onerror && window.onerror(e.message, ‘wizard.js’, 0, 0, e);
+}
 }
 
 function navigate(dir) {
-  if (dir === 1 && currentStep === 6) return;
-  goTo(currentStep + dir);
+if (dir === 1 && currentStep === 6) return;
+goTo(currentStep + dir);
 }
 
 function toggleCheck(id) {
-  const el = document.getElementById(id);
-  const cb = el.querySelector('input[type="checkbox"]');
-  el.classList.toggle('checked', cb.checked);
+const el = document.getElementById(id);
+const cb = el.querySelector(‘input[type=“checkbox”]’);
+el.classList.toggle(‘checked’, cb.checked);
 }
 
 function val(id) {
-  const el = document.getElementById(id);
-  if (!el) return '';
-  return el.value || '';
+const el = document.getElementById(id);
+if (!el) return ‘’;
+return el.value || ‘’;
 }
 function checked(id) {
-  const el = document.getElementById(id);
-  if (!el) return false;
-  return el.checked;
+const el = document.getElementById(id);
+if (!el) return false;
+return el.checked;
 }
 
 function generateOutput() {
-  const ora = new Date().toLocaleDateString('it-IT', { day:'2-digit', month:'long', year:'numeric' });
+const ora = new Date().toLocaleDateString(‘it-IT’, { day:‘2-digit’, month:‘long’, year:‘numeric’ });
 
-  const sections = [];
+const sections = [];
 
-  // Sezione 1
-  sections.push({
-    title: '1. DATI IDENTIFICATIVI DELLA STRUTTURA',
-    rows: [
-      ['Denominazione', val('denominazione') || '—'],
-      ['Titolare / Legale Rappresentante', val('titolare') || '—'],
-      ['Codice Fiscale / P.IVA', val('piva') || '—'],
-      ['Indirizzo', `${val('indirizzo')}, ${val('comune')} (${val('provincia')}) – ${val('cap')}`],
-      ['ASP di riferimento', val('asp') || '—'],
-      ['Telefono', val('telefono') || '—'],
-      ['PEC / E-mail', val('email') || '—'],
-      ['Direttore Tecnico', val('direttore') || '—'],
-      ['Iscrizione Albo Odontoiatri', val('albo') || '—'],
-      ['Ordine Provinciale', val('ordine') || '—'],
-    ]
-  });
+// Sezione 1
+sections.push({
+title: ‘1. DATI IDENTIFICATIVI DELLA STRUTTURA’,
+rows: [
+[‘Denominazione’, val(‘denominazione’) || ‘—’],
+[‘Titolare / Legale Rappresentante’, val(‘titolare’) || ‘—’],
+[‘Codice Fiscale / P.IVA’, val(‘piva’) || ‘—’],
+[‘Indirizzo’, `${val('indirizzo')}, ${val('comune')} (${val('provincia')}) – ${val('cap')}`],
+[‘ASP di riferimento’, val(‘asp’) || ‘—’],
+[‘Telefono’, val(‘telefono’) || ‘—’],
+[‘PEC / E-mail’, val(‘email’) || ‘—’],
+[‘Direttore Tecnico’, val(‘direttore’) || ‘—’],
+[‘Iscrizione Albo Odontoiatri’, val(‘albo’) || ‘—’],
+[‘Ordine Provinciale’, val(‘ordine’) || ‘—’],
+]
+});
 
-  // Sezione 2
-  const evidenze2 = [
-    [checked('gdpr'), 'Procedure GDPR e sicurezza dati adottate (D.lgs 196/2003 / GDPR 679/2016)'],
-    [checked('backup'), 'Sistema di backup dati attivo'],
-    [checked('tracciamento'), 'Procedure raccolta, conservazione e tracciamento dati'],
-    [checked('reclami'), 'Procedura reclami/suggerimenti formalmente adottata (referente designato)'],
-    [checked('piani_miglio'), 'Piani di miglioramento documentati con indicatori di monitoraggio'],
-    [checked('carta'), 'Carta dei Servizi adottata, accessibile e periodicamente rivalutata'],
-  ];
-  sections.push({
-    title: '2. SISTEMA INFORMATIVO, GESTIONE QUALITÀ E COMUNICAZIONE (Criterio 1A.01)',
-    software: val('software'),
-    qualita: val('qualita'),
-    checklist: evidenze2
-  });
+// Sezione 2
+const evidenze2 = [
+[checked(‘gdpr’), ‘Procedure GDPR e sicurezza dati adottate (D.lgs 196/2003 / GDPR 679/2016)’],
+[checked(‘backup’), ‘Sistema di backup dati attivo’],
+[checked(‘tracciamento’), ‘Procedure raccolta, conservazione e tracciamento dati’],
+[checked(‘reclami’), ‘Procedura reclami/suggerimenti formalmente adottata (referente designato)’],
+[checked(‘piani_miglio’), ‘Piani di miglioramento documentati con indicatori di monitoraggio’],
+[checked(‘carta’), ‘Carta dei Servizi adottata, accessibile e periodicamente rivalutata’],
+];
+sections.push({
+title: ‘2. SISTEMA INFORMATIVO, GESTIONE QUALITÀ E COMUNICAZIONE (Criterio 1A.01)’,
+software: val(‘software’),
+qualita: val(‘qualita’),
+checklist: evidenze2
+});
 
-  // Sezione 3
-  const evidenze3 = [
-    [checked('proc_ero'), 'Procedura erogazione assistenza (prenotazione, accesso, urgenze, continuità)'],
-    [checked('urgenze_proc'), 'Procedura gestione urgenze cliniche e tecnico-organizzative'],
-    [checked('continuita'), 'Protocolli/linee guida percorso assistenziale paziente'],
-    [checked('piano_emerg'), 'Piano per la gestione delle emergenze – noto al personale'],
-    [checked('isolamento'), 'Protocollo isolamento pazienti con patologie contagiose'],
-    [checked('doc_san'), 'Procedura gestione documentazione sanitaria (GDPR, accesso, referti)'],
-    [checked('dvr'), 'DVR (D.lgs 81/2008) adottato e aggiornato'],
-    [checked('proc_bio'), 'Procedure protezione materiale biologico e sanificazione ambienti'],
-    [checked('rischio_clinico'), 'Sistema gestione rischio clinico con LG, checklist, raccolta eventi avversi'],
-  ];
-  sections.push({
-    title: '3. PRESTAZIONI, CONTINUITÀ ASSISTENZIALE E SICUREZZA CLINICA (Criteri 1A.02 / 1A.06)',
-    rischio: val('rischio'),
-    checklist: evidenze3
-  });
+// Sezione 3
+const evidenze3 = [
+[checked(‘proc_ero’), ‘Procedura erogazione assistenza (prenotazione, accesso, urgenze, continuità)’],
+[checked(‘urgenze_proc’), ‘Procedura gestione urgenze cliniche e tecnico-organizzative’],
+[checked(‘continuita’), ‘Protocolli/linee guida percorso assistenziale paziente’],
+[checked(‘piano_emerg’), ‘Piano per la gestione delle emergenze – noto al personale’],
+[checked(‘isolamento’), ‘Protocollo isolamento pazienti con patologie contagiose’],
+[checked(‘doc_san’), ‘Procedura gestione documentazione sanitaria (GDPR, accesso, referti)’],
+[checked(‘dvr’), ‘DVR (D.lgs 81/2008) adottato e aggiornato’],
+[checked(‘proc_bio’), ‘Procedure protezione materiale biologico e sanificazione ambienti’],
+[checked(‘rischio_clinico’), ‘Sistema gestione rischio clinico con LG, checklist, raccolta eventi avversi’],
+];
+sections.push({
+title: ‘3. PRESTAZIONI, CONTINUITÀ ASSISTENZIALE E SICUREZZA CLINICA (Criteri 1A.02 / 1A.06)’,
+rischio: val(‘rischio’),
+checklist: evidenze3
+});
 
-  // Sezione 4
-  const evidenze4 = [
-    [checked('n1'), 'Caratteristiche ambientali e accessibilità'],
-    [checked('n2'), 'Protezione antincendio'],
-    [checked('n3'), 'Protezione acustica'],
-    [checked('n4'), 'Sicurezza elettrica e continuità elettrica'],
-    [checked('n5'), 'Sicurezza antinfortunistica'],
-    [checked('n6'), 'Protezione da radiazioni ionizzanti'],
-    [checked('n7'), 'Eliminazione barriere architettoniche'],
-    [checked('n8'), 'Smaltimento rifiuti sanitari'],
-    [checked('n9'), 'Condizioni microclimatiche'],
-    [checked('n10'), 'Impianti distribuzione gas medicali'],
-    [checked('n11'), 'Protezione antisismica'],
-    [checked('inventario'), 'Inventario attrezzature aggiornato annualmente'],
-    [checked('piano_man'), 'Piano di manutenzione ordinaria e straordinaria adottato'],
-    [checked('resp_man'), 'Responsabile Manutenzione formalmente designato'],
-    [checked('doc_tec'), 'Documentazione tecnica attrezzature disponibile'],
-  ];
-  sections.push({
-    title: '4. ASPETTI STRUTTURALI E TECNOLOGICI (Criterio 1A.03)',
-    locali: `N° locali: ${val('nLocali') || '—'} | N° riuniti: ${val('nRiuniti') || '—'}\n${val('locali')}`,
-    attrezzature: val('attrezzature'),
-    checklist: evidenze4
-  });
+// Sezione 4
+const evidenze4 = [
+[checked(‘n1’), ‘Caratteristiche ambientali e accessibilità’],
+[checked(‘n2’), ‘Protezione antincendio’],
+[checked(‘n3’), ‘Protezione acustica’],
+[checked(‘n4’), ‘Sicurezza elettrica e continuità elettrica’],
+[checked(‘n5’), ‘Sicurezza antinfortunistica’],
+[checked(‘n6’), ‘Protezione da radiazioni ionizzanti’],
+[checked(‘n7’), ‘Eliminazione barriere architettoniche’],
+[checked(‘n8’), ‘Smaltimento rifiuti sanitari’],
+[checked(‘n9’), ‘Condizioni microclimatiche’],
+[checked(‘n10’), ‘Impianti distribuzione gas medicali’],
+[checked(‘n11’), ‘Protezione antisismica’],
+[checked(‘inventario’), ‘Inventario attrezzature aggiornato annualmente’],
+[checked(‘piano_man’), ‘Piano di manutenzione ordinaria e straordinaria adottato’],
+[checked(‘resp_man’), ‘Responsabile Manutenzione formalmente designato’],
+[checked(‘doc_tec’), ‘Documentazione tecnica attrezzature disponibile’],
+];
+sections.push({
+title: ‘4. ASPETTI STRUTTURALI E TECNOLOGICI (Criterio 1A.03)’,
+locali: `N° locali: ${val('nLocali') || '—'} | N° riuniti: ${val('nRiuniti') || '—'}\n${val('locali')}`,
+attrezzature: val(‘attrezzature’),
+checklist: evidenze4
+});
 
-  // Sezione 5
-  const evidenze5 = [
-    [checked('fascicoli'), 'Fascicoli personali per ogni collaboratore aggiornati'],
-    [checked('assicurativi'), 'Obblighi assicurativi/previdenziali assolti (INAIL, INPS, RC L.24/2017)'],
-    [checked('formazione'), 'Programma formativo/ECM documentato'],
-    [checked('sito'), 'Sito web aggiornato con info struttura, servizi, mappa, form contatto'],
-    [checked('customer'), 'Procedure per valutazione esperienza utente / customer satisfaction'],
-  ];
-  sections.push({
-    title: '5. PERSONALE E COMUNICAZIONE (Criteri 1A.04 / 1A.05)',
-    personale: `Odontoiatri: ${val('nMedici') || '—'} | Igienisti/ASO: ${val('nAso') || '—'} | Amm.: ${val('personaleAmm') || '—'}`,
-    sito: val('sitoUrl'),
-    checklist: evidenze5
-  });
+// Sezione 5
+const evidenze5 = [
+[checked(‘fascicoli’), ‘Fascicoli personali per ogni collaboratore aggiornati’],
+[checked(‘assicurativi’), ‘Obblighi assicurativi/previdenziali assolti (INAIL, INPS, RC L.24/2017)’],
+[checked(‘formazione’), ‘Programma formativo/ECM documentato’],
+[checked(‘sito’), ‘Sito web aggiornato con info struttura, servizi, mappa, form contatto’],
+[checked(‘customer’), ‘Procedure per valutazione esperienza utente / customer satisfaction’],
+];
+sections.push({
+title: ‘5. PERSONALE E COMUNICAZIONE (Criteri 1A.04 / 1A.05)’,
+personale: `Odontoiatri: ${val('nMedici') || '—'} | Igienisti/ASO: ${val('nAso') || '—'} | Amm.: ${val('personaleAmm') || '—'}`,
+sito: val(‘sitoUrl’),
+checklist: evidenze5
+});
 
-  // Render output
-  const wrap = document.getElementById('outputArea');
-  wrap.innerHTML = '';
+// Render output
+const wrap = document.getElementById(‘outputArea’);
+wrap.innerHTML = ‘’;
 
-  const header = document.createElement('div');
-  header.className = 'output-wrap';
-  header.style.marginBottom = '20px';
+const header = document.createElement(‘div’);
+header.className = ‘output-wrap’;
+header.style.marginBottom = ‘20px’;
 
-  let html = `<div class="output-section">
-    <h3>ALLEGATO A1 — REQUISITI GENERALI PER L'AUTORIZZAZIONE</h3>
-    <div style="color:rgba(255,255,255,0.55); font-size:12px; margin-top:4px;">
-      Strutture Non Residenziali Semplici Monopresidio · D.A. 9 gennaio 2024, n. 20 · MAMB 3.0 (giugno 2025)<br>
-      Documento generato il ${ora} tramite Wizard Allegato A1
-    </div>
+let html = `<div class="output-section">
+<h3>ALLEGATO A1 — REQUISITI GENERALI PER L’AUTORIZZAZIONE</h3>
+<div style="color:rgba(255,255,255,0.55); font-size:12px; margin-top:4px;">
+Strutture Non Residenziali Semplici Monopresidio · D.A. 9 gennaio 2024, n. 20 · MAMB 3.0 (giugno 2025)<br>
+Documento generato il ${ora} tramite Wizard Allegato A1
+</div>
+
   </div>`;
 
-  sections.forEach(sec => {
-    html += `<div class="output-section"><h3>${sec.title}</h3>`;
+sections.forEach(sec => {
+html += `<div class="output-section"><h3>${sec.title}</h3>`;
 
-    if (sec.rows) {
-      sec.rows.forEach(r => {
-        html += `<div class="output-row"><span class="output-key">${r[0]}</span><span class="output-val">${r[1]}</span></div>`;
-      });
-    }
-    if (sec.software) {
-      html += `<div class="output-row"><span class="output-key">Software gestionale</span><span class="output-val">${sec.software}</span></div>`;
-    }
-    if (sec.qualita) {
-      html += `<div class="output-row"><span class="output-key">Qualità servizi</span><span class="output-val" style="white-space:pre-wrap">${sec.qualita}</span></div>`;
-    }
-    if (sec.rischio) {
-      html += `<div class="output-row"><span class="output-key">Gestione rischio</span><span class="output-val" style="white-space:pre-wrap">${sec.rischio}</span></div>`;
-    }
-    if (sec.locali) {
-      html += `<div class="output-row"><span class="output-key">Locali</span><span class="output-val" style="white-space:pre-wrap">${sec.locali}</span></div>`;
-    }
-    if (sec.attrezzature) {
-      html += `<div class="output-row"><span class="output-key">Attrezzature</span><span class="output-val" style="white-space:pre-wrap">${sec.attrezzature}</span></div>`;
-    }
-    if (sec.personale) {
-      html += `<div class="output-row"><span class="output-key">Personale</span><span class="output-val">${sec.personale}</span></div>`;
-    }
-    if (sec.sito) {
-      html += `<div class="output-row"><span class="output-key">Sito web</span><span class="output-val">${sec.sito}</span></div>`;
-    }
-
-    if (sec.checklist) {
-      html += `<div style="margin-top:14px; border-top:1px solid rgba(255,255,255,0.08); padding-top:12px;">`;
-      const ok = sec.checklist.filter(r => r[0]).length;
-      const tot = sec.checklist.length;
-      const pct = Math.round(ok/tot*100);
-      html += `<div style="font-size:11px; color:${pct===100?'#4ade80':'#fbbf24'}; margin-bottom:10px; font-weight:600; letter-spacing:1px;">EVIDENZE: ${ok}/${tot} PRESENTI (${pct}%)</div>`;
-      sec.checklist.forEach(r => {
-        const icon = r[0] ? '<span class="check-ok">✅</span>' : '<span class="check-no">❌</span>';
-        const style = r[0] ? '' : 'opacity:0.6';
-        html += `<div class="checklist-row" style="${style}">${icon}<span>${r[1]}</span></div>`;
-      });
-      html += `</div>`;
-    }
-
-    html += `</div>`;
+```
+if (sec.rows) {
+  sec.rows.forEach(r => {
+    html += `<div class="output-row"><span class="output-key">${r[0]}</span><span class="output-val">${r[1]}</span></div>`;
   });
+}
+if (sec.software) {
+  html += `<div class="output-row"><span class="output-key">Software gestionale</span><span class="output-val">${sec.software}</span></div>`;
+}
+if (sec.qualita) {
+  html += `<div class="output-row"><span class="output-key">Qualità servizi</span><span class="output-val" style="white-space:pre-wrap">${sec.qualita}</span></div>`;
+}
+if (sec.rischio) {
+  html += `<div class="output-row"><span class="output-key">Gestione rischio</span><span class="output-val" style="white-space:pre-wrap">${sec.rischio}</span></div>`;
+}
+if (sec.locali) {
+  html += `<div class="output-row"><span class="output-key">Locali</span><span class="output-val" style="white-space:pre-wrap">${sec.locali}</span></div>`;
+}
+if (sec.attrezzature) {
+  html += `<div class="output-row"><span class="output-key">Attrezzature</span><span class="output-val" style="white-space:pre-wrap">${sec.attrezzature}</span></div>`;
+}
+if (sec.personale) {
+  html += `<div class="output-row"><span class="output-key">Personale</span><span class="output-val">${sec.personale}</span></div>`;
+}
+if (sec.sito) {
+  html += `<div class="output-row"><span class="output-key">Sito web</span><span class="output-val">${sec.sito}</span></div>`;
+}
 
-  // Score complessivo
-  const allChecks = [
-    'gdpr','backup','tracciamento','reclami','piani_miglio','carta',
-    'proc_ero','urgenze_proc','continuita','piano_emerg','isolamento','doc_san','dvr','proc_bio','rischio_clinico',
-    'n1','n2','n3','n4','n5','n6','n7','n8','n9','n10','n11',
-    'inventario','piano_man','resp_man','doc_tec',
-    'fascicoli','assicurativi','formazione','sito','customer'
-  ];
-  const tot = allChecks.length;
-  const ok = allChecks.filter(id => checked(id)).length;
+if (sec.checklist) {
+  html += `<div style="margin-top:14px; border-top:1px solid rgba(255,255,255,0.08); padding-top:12px;">`;
+  const ok = sec.checklist.filter(r => r[0]).length;
+  const tot = sec.checklist.length;
   const pct = Math.round(ok/tot*100);
-  const colore = pct >= 80 ? '#4ade80' : pct >= 50 ? '#fbbf24' : '#f87171';
+  html += `<div style="font-size:11px; color:${pct===100?'#4ade80':'#fbbf24'}; margin-bottom:10px; font-weight:600; letter-spacing:1px;">EVIDENZE: ${ok}/${tot} PRESENTI (${pct}%)</div>`;
+  sec.checklist.forEach(r => {
+    const icon = r[0] ? '<span class="check-ok">✅</span>' : '<span class="check-no">❌</span>';
+    const style = r[0] ? '' : 'opacity:0.6';
+    html += `<div class="checklist-row" style="${style}">${icon}<span>${r[1]}</span></div>`;
+  });
+  html += `</div>`;
+}
 
-  html += `<div style="border-top:2px solid rgba(255,255,255,0.15); padding-top:20px; text-align:center;">
-    <div style="font-size:11px; letter-spacing:2px; color:rgba(255,255,255,0.5); text-transform:uppercase; margin-bottom:8px;">Indice di Completezza Documentale</div>
-    <div style="font-family:'DM Serif Display',serif; font-size:52px; color:${colore}; line-height:1;">${pct}%</div>
-    <div style="font-size:13px; color:rgba(255,255,255,0.6); margin-top:6px;">${ok} evidenze su ${tot} presenti e dichiarate</div>
+html += `</div>`;
+```
+
+});
+
+// Score complessivo
+const allChecks = [
+‘gdpr’,‘backup’,‘tracciamento’,‘reclami’,‘piani_miglio’,‘carta’,
+‘proc_ero’,‘urgenze_proc’,‘continuita’,‘piano_emerg’,‘isolamento’,‘doc_san’,‘dvr’,‘proc_bio’,‘rischio_clinico’,
+‘n1’,‘n2’,‘n3’,‘n4’,‘n5’,‘n6’,‘n7’,‘n8’,‘n9’,‘n10’,‘n11’,
+‘inventario’,‘piano_man’,‘resp_man’,‘doc_tec’,
+‘fascicoli’,‘assicurativi’,‘formazione’,‘sito’,‘customer’
+];
+const tot = allChecks.length;
+const ok = allChecks.filter(id => checked(id)).length;
+const pct = Math.round(ok/tot*100);
+const colore = pct >= 80 ? ‘#4ade80’ : pct >= 50 ? ‘#fbbf24’ : ‘#f87171’;
+
+html += `<div style="border-top:2px solid rgba(255,255,255,0.15); padding-top:20px; text-align:center;">
+<div style="font-size:11px; letter-spacing:2px; color:rgba(255,255,255,0.5); text-transform:uppercase; margin-bottom:8px;">Indice di Completezza Documentale</div>
+<div style="font-family:'DM Serif Display',serif; font-size:52px; color:${colore}; line-height:1;">${pct}%</div>
+<div style="font-size:13px; color:rgba(255,255,255,0.6); margin-top:6px;">${ok} evidenze su ${tot} presenti e dichiarate</div>
+
   </div>`;
 
-  header.innerHTML = html;
-  wrap.appendChild(header);
+header.innerHTML = html;
+wrap.appendChild(header);
 }
 
 function copyOutput() {
-  const el = document.getElementById('outputArea');
-  const text = el ? el.innerText : '';
-  navigator.clipboard.writeText(text).then(() => {
-    const btn = document.querySelector('.copy-btn');
-    btn.textContent = '✅ Copiato!';
-    setTimeout(() => { btn.innerHTML = '📋 Copia testo'; }, 2000);
-  });
+const el = document.getElementById(‘outputArea’);
+const text = el ? el.innerText : ‘’;
+navigator.clipboard.writeText(text).then(() => {
+const btn = document.querySelector(’.copy-btn’);
+btn.textContent = ‘✅ Copiato!’;
+setTimeout(() => { btn.innerHTML = ‘📋 Copia testo’; }, 2000);
+});
 }
 
 /* ══════════════════════════════════════════════════
-   PDF WRITER – zero dipendenze esterne
-   Genera PDF/1.4 valido con testo multiriga, sezioni,
-   checklist e score. Funziona offline al 100%.
-   ══════════════════════════════════════════════════ */
+PDF WRITER – zero dipendenze esterne
+Genera PDF/1.4 valido con testo multiriga, sezioni,
+checklist e score. Funziona offline al 100%.
+══════════════════════════════════════════════════ */
 function exportPDF() {
-  const btn = document.getElementById('btnPdf');
-  btn.disabled = true;
-  btn.textContent = '⏳ Generazione PDF...';
+const btn = document.getElementById(‘btnPdf’);
+btn.disabled = true;
+btn.textContent = ‘⏳ Generazione PDF…’;
 
-  // Lascia respirare il browser prima di bloccare col calcolo
-  setTimeout(() => {
-    try {
-      const pdf = buildPDF();
-      const studio = (val('denominazione') || 'studio').replace(/[^a-zA-Z0-9]/g,'_').toLowerCase().slice(0,30);
-      const dataStr = new Date().toISOString().slice(0,10).replace(/-/g,'');
-      const fileName = `AllegatoA1_${studio}_${dataStr}.pdf`;
+// Lascia respirare il browser prima di bloccare col calcolo
+setTimeout(() => {
+try {
+const pdf = buildPDF();
+const studio = (val(‘denominazione’) || ‘studio’).replace(/[^a-zA-Z0-9]/g,’_’).toLowerCase().slice(0,30);
+const dataStr = new Date().toISOString().slice(0,10).replace(/-/g,’’);
+const fileName = `AllegatoA1_${studio}_${dataStr}.pdf`;
 
-      // Converti stringa PDF in array di byte
-      const bytes = new Uint8Array(pdf.length);
-      for (let i = 0; i < pdf.length; i++) {
-        bytes[i] = pdf.charCodeAt(i) & 0xff;
-      }
+```
+  // Converti stringa PDF in array di byte
+  const bytes = new Uint8Array(pdf.length);
+  for (let i = 0; i < pdf.length; i++) {
+    bytes[i] = pdf.charCodeAt(i) & 0xff;
+  }
 
-      // Converti bytes in base64 (funziona su tutti i dispositivi)
-      // btoa su chunk per evitare stack overflow su PDF grandi
-      let binary = '';
-      const CHUNK = 8192;
-      for (let i = 0; i < bytes.length; i += CHUNK) {
-        binary += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
-      }
-      const b64 = btoa(binary);
-      const dataUrl = 'data:application/pdf;base64,' + b64;
+  // Converti bytes in base64 (funziona su tutti i dispositivi)
+  // btoa su chunk per evitare stack overflow su PDF grandi
+  let binary = '';
+  const CHUNK = 8192;
+  for (let i = 0; i < bytes.length; i += CHUNK) {
+    binary += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
+  }
+  const b64 = btoa(binary);
+  const dataUrl = 'data:application/pdf;base64,' + b64;
 
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-      if (isIOS || isSafari) {
-        // Safari / iOS: apre il PDF nel viewer nativo.
-        // L'utente tocca "Condividi → Salva in File" o "Apri in..."
-        // È l'unico metodo affidabile su Safari — il download via blob non funziona.
-        const newTab = window.open('', '_blank');
-        if (newTab) {
-          newTab.document.write(
-            '<html><head><title>' + fileName + '</title></head>' +
-            '<body style="margin:0">' +
-            '<iframe src="' + dataUrl + '" style="width:100%;height:100vh;border:none"></iframe>' +
-            '</body></html>'
-          );
-          newTab.document.close();
-        } else {
-          // Popup bloccato: fallback link diretto
-          const a = document.createElement('a');
-          a.href = dataUrl;
-          a.target = '_blank';
-          a.click();
-        }
-        btn.disabled = false;
-        btn.textContent = '✅ Aperto – tocca Condividi → Salva in File';
-        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 6000);
-      } else {
-        // Desktop (Chrome, Firefox, Edge) e Android: download diretto
-        const blob = new Blob([bytes], { type: 'application/pdf' });
-        const url  = URL.createObjectURL(blob);
-        const a    = document.createElement('a');
-        a.href     = url;
-        a.download = fileName;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 5000);
-        btn.disabled = false;
-        btn.textContent = '✅ PDF scaricato!';
-        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
-      }
-    } catch(e) {
-      console.error(e);
-      btn.disabled = false;
-      btn.textContent = '❌ Errore – riprova';
-      setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
+  if (isIOS || isSafari) {
+    // Safari / iOS: apre il PDF nel viewer nativo.
+    // L'utente tocca "Condividi → Salva in File" o "Apri in..."
+    // È l'unico metodo affidabile su Safari — il download via blob non funziona.
+    const newTab = window.open('', '_blank');
+    if (newTab) {
+      newTab.document.write(
+        '<html><head><title>' + fileName + '</title></head>' +
+        '<body style="margin:0">' +
+        '<iframe src="' + dataUrl + '" style="width:100%;height:100vh;border:none"></iframe>' +
+        '</body></html>'
+      );
+      newTab.document.close();
+    } else {
+      // Popup bloccato: fallback link diretto
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.target = '_blank';
+      a.click();
     }
-  }, 80);
+    btn.disabled = false;
+    btn.textContent = '✅ Aperto – tocca Condividi → Salva in File';
+    setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 6000);
+  } else {
+    // Desktop (Chrome, Firefox, Edge) e Android: download diretto
+    const blob = new Blob([bytes], { type: 'application/pdf' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    btn.disabled = false;
+    btn.textContent = '✅ PDF scaricato!';
+    setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
+  }
+} catch(e) {
+  console.error(e);
+  btn.disabled = false;
+  btn.textContent = '❌ Errore – riprova';
+  setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
+}
+```
+
+}, 80);
 }
 
 const DOC_TEMPLATES = {
-  1: `Il presente documento descritto è un Piano di Organizzazione e Gestione delle Risorse (POG-R) o
-    un Piano di Gestione dei Servizi, che definisce le politiche, i processi e la struttura organizzativa
-    per l'uso efficiente delle risorse e include un'analisi dei processi per identificare i punti deboli e i
-    possibili disservizi dello studio Odontoiatrico.
-     L'obiettivo è garantire un'organizzazione ottimale e prevenire problemi operativi, spesso
-    attraverso l'analisi dei rischi e l'implementazione di procedure di controllo interno.
-    Funzioni e scopi del documento
-   Definizione dell'organizzazione:
-    Descrive la struttura organizzativa, i ruoli e le responsabilità per la gestione delle risorse.
+1: `Il presente documento descritto è un Piano di Organizzazione e Gestione delle Risorse (POG-R) o
+un Piano di Gestione dei Servizi, che definisce le politiche, i processi e la struttura organizzativa
+per l’uso efficiente delle risorse e include un’analisi dei processi per identificare i punti deboli e i
+possibili disservizi dello studio Odontoiatrico.
+L’obiettivo è garantire un’organizzazione ottimale e prevenire problemi operativi, spesso
+attraverso l’analisi dei rischi e l’implementazione di procedure di controllo interno.
+Funzioni e scopi del documento
+   Definizione dell’organizzazione:
+Descrive la struttura organizzativa, i ruoli e le responsabilità per la gestione delle risorse.
    Politiche di gestione:
-    Stabilisce le regole e i principi che guidano l'uso delle risorse, come finanziarie, umane e materiali.
+Stabilisce le regole e i principi che guidano l’uso delle risorse, come finanziarie, umane e materiali.
    Analisi dei processi:
-    Mappa i processi aziendali per identificare le fasi critiche in cui potrebbero verificarsi disservizi,
-    errori o inefficienze.
+Mappa i processi aziendali per identificare le fasi critiche in cui potrebbero verificarsi disservizi,
+errori o inefficienze.
    Prevenzione dei disservizi:
-    Individua le criticità e implementa azioni correttive o preventive per mitigare i rischi e garantire la
-    continuità dei servizi.
+Individua le criticità e implementa azioni correttive o preventive per mitigare i rischi e garantire la
+continuità dei servizi.
    Controllo interno:
-    Supporta l'implementazione di un sistema di controllo interno per assicurare la conformità alle
-    procedure e la salvaguardia delle risorse.
+Supporta l’implementazione di un sistema di controllo interno per assicurare la conformità alle
+procedure e la salvaguardia delle risorse.
    Base documentale:
-    Fornisce una base documentale che può essere utilizzata per la formazione, la revisione e il
-    miglioramento continuo delle operazioni.
+Fornisce una base documentale che può essere utilizzata per la formazione, la revisione e il
+miglioramento continuo delle operazioni.
 
-    Contenuti tipici
+```
+Contenuti tipici
+```
+
    Mappatura dei processi:
-    Descrizione dettagliata delle attività e delle interazioni tra le diverse unità organizzative.
+Descrizione dettagliata delle attività e delle interazioni tra le diverse unità organizzative.
    Analisi dei rischi:
-    Identificazione dei rischi associati a ogni fase del processo e valutazione della loro probabilità e
-    impatto.
+Identificazione dei rischi associati a ogni fase del processo e valutazione della loro probabilità e
+impatto.
    Piani di mitigazione:
-    Descrizione delle misure preventive e correttive da attuare per ridurre i rischi.
+Descrizione delle misure preventive e correttive da attuare per ridurre i rischi.
    Indicatori di performance:
-    Definizioni degli indicatori chiave di performance per monitorare l'efficienza e l'efficacia dei
-    processi.
+Definizioni degli indicatori chiave di performance per monitorare l’efficienza e l’efficacia dei
+processi.
    Procedure operative standard:
-    Istruzioni dettagliate su come svolgere le attività operative.
-
-
-                                                                                                 
+Istruzioni dettagliate su come svolgere le attività operative.
 
 Documento Organizzativo e di Gestione delle Risorse
-                      [STUDIO]
+[STUDIO]
 
 1. Scopo del Documento
-Il presente documento ha l’obiettivo di definire e rendere esplicita l’organizzazione interna dello
-studio odontoiatrico e le politiche adottate per la gestione delle risorse (umane, materiali e
-tecnologiche). Inoltre, analizza i principali processi operativi per individuare eventuali fasi critiche
-in cui possono verificarsi disservizi, al fine di prevenirli e garantire un servizio di qualità e in
-sicurezza per i pazienti.
-
-
-2. Struttura Organizzativa dello Studio
-2.1 Personale e Ruoli
-
+   Il presente documento ha l’obiettivo di definire e rendere esplicita l’organizzazione interna dello
+   studio odontoiatrico e le politiche adottate per la gestione delle risorse (umane, materiali e
+   tecnologiche). Inoltre, analizza i principali processi operativi per individuare eventuali fasi critiche
+   in cui possono verificarsi disservizi, al fine di prevenirli e garantire un servizio di qualità e in
+   sicurezza per i pazienti.
+1. Struttura Organizzativa dello Studio
+   2.1 Personale e Ruoli
+   
       Responsabile Sanitario / Titolare: Coordinamento generale, supervisione clinica e
-       gestionale.
+   gestionale.
       Odontoiatri collaboratori: Esecuzione dei trattamenti e presa in carico dei pazienti.
       Igienisti dentali: Prevenzione, educazione e igiene orale.
       Assistenti alla poltrona (ASO): Supporto clinico e logistico alle attività odontoiatriche.
       Personale amministrativo: Accoglienza, gestione appuntamenti, documentazione,
-       fatturazione.
+   fatturazione.
 
 2.2 Comunicazione Interna
 
-      Riunioni periodiche di coordinamento (mensili o bimestrali).
-      Uso di software gestionale per la condivisione di informazioni cliniche e organizzative.
-      Canali interni di comunicazione digitale (email, chat interne, agenda condivisa).
+   Riunioni periodiche di coordinamento (mensili o bimestrali).
+   Uso di software gestionale per la condivisione di informazioni cliniche e organizzative.
+   Canali interni di comunicazione digitale (email, chat interne, agenda condivisa).
 
-
-3. Politiche di Gestione delle Risorse
+1. Politiche di Gestione delle Risorse
 
 3.1 Risorse Umane
 
-      Aggiornamento continuo e formazione obbligatoria (corsi ECM, formazione ASO).
-      Affiancamento e formazione on-the-job per nuovo personale.
-      Verifica annuale delle competenze e colloqui di feedback.
+   Aggiornamento continuo e formazione obbligatoria (corsi ECM, formazione ASO).
+   Affiancamento e formazione on-the-job per nuovo personale.
+   Verifica annuale delle competenze e colloqui di feedback.
 
 3.2 Risorse Materiali e Tecnologiche
 
-      Manutenzione periodica delle attrezzature odontoiatriche secondo calendario prestabilito.
-      Controllo di scorte e materiali sanitari (sistemi di inventario automatico o manuale).
-      Adozione di software gestionali aggiornati per appuntamenti, cartelle cliniche e
-       amministrazione.
+   Manutenzione periodica delle attrezzature odontoiatriche secondo calendario prestabilito.
+   Controllo di scorte e materiali sanitari (sistemi di inventario automatico o manuale).
+   Adozione di software gestionali aggiornati per appuntamenti, cartelle cliniche e
+amministrazione.
 
 3.3 Sicurezza e Igiene
 
-      Adozione dei protocolli di sterilizzazione e sanificazione secondo normative vigenti.
-      Formazione del personale in materia di sicurezza sul lavoro e gestione emergenze.
-                                                                                           
+   Adozione dei protocolli di sterilizzazione e sanificazione secondo normative vigenti.
+   Formazione del personale in materia di sicurezza sul lavoro e gestione emergenze.
 
 Verifica periodica del rispetto delle normative igienico-sanitarie.
 
-
-4. Analisi dei Processi e delle Fasi Critiche
+1. Analisi dei Processi e delle Fasi Critiche
 
 L’analisi dei principali processi permette di individuare punti di rischio e prevenire i disservizi. Di
 seguito una tabella riepilogativa:
 
-                                                                                Azioni Preventive /
-       Processo               Fase Critica             Possibili Disservizi
-                                                                                    Correttive
-                                                                                Software gestionale,
-  Accoglienza del                                     Errori agenda, attese         promemoria
-                      Prenotazione, accettazione
-     paziente                                              prolungate           automatici, conferma
-                                                                                     telefonica
+```
+                                                                            Azioni Preventive /
+   Processo               Fase Critica             Possibili Disservizi
+                                                                                Correttive
+                                                                            Software gestionale,
+```
 
-                                                          Errori clinici,      Check-list, formazione
+Accoglienza del                                     Errori agenda, attese         promemoria
+Prenotazione, accettazione
+paziente                                              prolungate           automatici, conferma
+telefonica
+
+```
+                                                      Errori clinici,      Check-list, formazione
+```
+
 Trattamento clinico Diagnosi, esecuzione terapia      strumentazione non        continua, protocolli
-                                                           disponibile                 clinici
+disponibile                 clinici
 
-                                                                                   Manutenzione
-   Sterilizzazione       Pulizia, imbustamento,         Contaminazione,
-                                                                               periodica, tracciabilità
-     strumenti             gestione autoclave          malfunzionamento
-                                                                                   sterilizzazione
+```
+                                                                               Manutenzione
+```
 
-                                                                              Backup, digitalizzazione
-     Gestione                                          Errori documentali,
-                       Fatturazione, archiviazione                            documenti, formazione
-   amministrativa                                          perdita dati
-                                                                                  amministrativi
+Sterilizzazione       Pulizia, imbustamento,         Contaminazione,
+periodica, tracciabilità
+strumenti             gestione autoclave          malfunzionamento
+sterilizzazione
 
-                                                          Mancanza di
-                                                                                   Promemoria
+```
+                                                                          Backup, digitalizzazione
+ Gestione                                          Errori documentali,
+                   Fatturazione, archiviazione                            documenti, formazione
+```
+
+amministrativa                                          perdita dati
+amministrativi
+
+```
+                                                      Mancanza di
+                                                                               Promemoria
+```
+
 Comunicazione con        Informazioni pre/post           informazioni,
-                                                                               SMS/email, materiale
-    pazienti            trattamento, follow-up           appuntamenti
-                                                                               informativo standard
-                                                          dimenticati
+SMS/email, materiale
+pazienti            trattamento, follow-up           appuntamenti
+informativo standard
+dimenticati
 
-5. Monitoraggio e Miglioramento Continuo
+1. Monitoraggio e Miglioramento Continuo
 
 Lo studio si impegna in un processo continuo di miglioramento della qualità attraverso:
 
-       Raccolta del feedback da parte dei pazienti (questionari cartacei o digitali).
-       Audit interni periodici per la verifica del rispetto delle procedure.
-       Revisione degli eventi critici, analisi delle cause e implementazione di azioni correttive.
-       Aggiornamento dei protocolli interni in base alle normative vigenti e ai risultati delle
-        verifiche.
+    Raccolta del feedback da parte dei pazienti (questionari cartacei o digitali).
+    Audit interni periodici per la verifica del rispetto delle procedure.
+    Revisione degli eventi critici, analisi delle cause e implementazione di azioni correttive.
+    Aggiornamento dei protocolli interni in base alle normative vigenti e ai risultati delle
+verifiche.
 
-
-6. Conclusioni
+1. Conclusioni
 
 Una gestione strutturata ed efficiente delle risorse è essenziale per garantire l’eccellenza del
 servizio odontoiatrico offerto ai pazienti. Questo documento rappresenta una guida pratica per il
 personale, promuovendo la qualità, la sicurezza e il miglioramento continuo in ogni area dello
-studio.`,
-  2: `Premessa
+studio.`, 2: `Premessa
 Il Codice sulla privacy impone a chiunque tratta informazioni relative ad altre persone, imprese, enti od
 associazioni di rispettare alcuni principi fondamentali a garanzia della riservatezza dei dati stessi.
 Il Codice prescrive precisi obblighi e comportamenti da attuare nel trattare i dati; questi obblighi sono
@@ -1100,8 +1110,10 @@ all’analisi dei rischi connessi all’utilizzo degli strumenti mediante i qual
 
 Il Documento si applica al trattamento di tutti i dati personali per mezzo di:
 
-                Strumenti elettronici di elaborazione
-                Altri strumenti di elaborazione (es. cartacei, audio, visivi e audiovisivi, ecc.)
+```
+            Strumenti elettronici di elaborazione
+            Altri strumenti di elaborazione (es. cartacei, audio, visivi e audiovisivi, ecc.)
+```
 
 Il Documento deve essere conosciuto ed applicato da tutti i componenti e collaboratori dello studio
 
@@ -1109,71 +1121,71 @@ Risorse Hardware
 Le risorse hardware utilizzate per trattare i dati personali sono analizzate nelle seguenti schede
 riepilogative:
 
-                                                                                                     
-
 SCHEDA RILEVAZIONE RISORSE HARDWAREN.01
 Codice:                                PC01
 Modello:                               HP OMEN 15
 
 Sistema Operativo:                     Windows11
 Categoria:                             [] Sistema Elaborativo Server
-                                       [] Sistema Elaborativo Client
-                                       [x] Altro Sistema: PC stand alone
+[] Sistema Elaborativo Client
+[x] Altro Sistema: PC stand alone
 Elaboratore in rete:                   [] No
-                                       [X] Rete Privata
-                                       [ ] Rete Disponibile al pubblico:
+[X] Rete Privata
+[ ] Rete Disponibile al pubblico:
 Dislocazione:                          Segreteria/ sala operativa 1
 Operatore:                             [TITOLARE]
 
-
 DISPOSITIVI DI PROTEZIONE
 Presenza di Password:                  []No
-                                       [x]Si
-                                       Note: L’utente può cambiare
-                                       autonomamente la password
+[x]Si
+Note: L’utente può cambiare
+autonomamente la password
 Antivirus:                             [ ] No
-                                       [x] Si
-                                       Tipo/Prodotto: kaspersky internet
-                                       security
-                                       Periodicità: aggiornamento:
-                                       Automatico
+[x] Si
+Tipo/Prodotto: kaspersky internet
+security
+Periodicità: aggiornamento:
+Automatico
 Firewall:                              [ ] No
-                                       [x] Si
-                                       Tipo/Prodotto: Presente nel
-                                       Sistema Operativo
-                                       Note:
+[x] Si
+Tipo/Prodotto: Presente nel
+Sistema Operativo
+Note:
 Gruppo di Continuità:                  [ ] No
-                                       [x]Si
-
+[x]Si
 
 COMPONENTI DI RILIEVO AI FINI DELLA SICUREZZA DEI
 DATI
 
 Componente                             Descrizione
 Supporti di memorizzazione             HD locale da 1TB
-                                       Masterizzatore DVD
-                                       Dual.Rom
-                                       PenDrive Flash Disk
-                                       Cloud. NO
+Masterizzatore DVD
+Dual.Rom
+PenDrive Flash Disk
+Cloud. NO
 Connessione Internet                   Si
 
- Banche dati
- Gli archivi e le banche dati contenenti i dati personali trattati sono i seguenti:
+Banche dati
+Gli archivi e le banche dati contenenti i dati personali trattati sono i seguenti:
 
-                BANCA DATI CLIENTI;
-                BANCA DATI FORNITORI;
-                                                                                      
+```
+            BANCA DATI CLIENTI;
+            BANCA DATI FORNITORI;
+```
 
    BANCA DATI DIPENDENTI
 
-             SCHEDA RILEVAZIONE BANCHE DATIN. 01
+```
+         SCHEDA RILEVAZIONE BANCHE DATIN. 01
+```
+
 Codice:                               BD01
 Descrizione:                          BANCA DATI CLIENTI: In questa
-                                      banca dati sono conservati i dati dei
-                                      clienti.
+banca dati sono conservati i dati dei
+clienti.
 Tipologia risorsa:                    [x]Archivio Elettronico
-                                      [x] Archivio Cartaceo
-                                      Nota:
+[x] Archivio Cartaceo
+Nota:
 Ubicazione                            Cartacea: in Segreteria
 Banca Dati                            Elettronica: Segreteria
 Incaricati della Raccolta             Dot. [TITOLARE]
@@ -1182,132 +1194,123 @@ Elettronica:                          Applicativo Software
 
 Risorse Hardware su cui è allocata:   PC01
 
-               STRUMENTI E POLITICHE DI BACKUP
+```
+           STRUMENTI E POLITICHE DI BACKUP
+```
+
 Dispositivo di backup:          [] Non esistente
-                                [x] Si, presente
-                                Note:
+[x] Si, presente
+Note:
 Frequenza di backup:                  [] Giornaliera
-                                      [X]Settimanale
-                                      [ ] Periodico
+[X]Settimanale
+[ ] Periodico
 Incaricati del backup:                Dot. [TITOLARE]
 Modalità Operative:                   Mensilmente viene effettuato un
-                                      backup completo.
+backup completo.
 Supporti di backup:                   Pendrive
 Etichettatura:                        Denominazione univoca cartella di
-                                      destinazione
+destinazione
 Luogo di conservazione:               Studio
 Verifica backup:                      La verifica del backup è effettuata
-                                      confrontandole dimensioni dei file
-                                      di backup con le dimensioni dei file
-                                      originali.
-
-
-                                                                              
+confrontandole dimensioni dei file
+di backup con le dimensioni dei file
+originali.
 
 Analisi dei Rischi sulle Aree e sui Locali
 
 Risorsa         Elemento di Rischio               Soglia                     Motivazione
-                                                Individuata
+Individuata
 Tutte     Accesso nei locali dove si svolge     Bassa         L’accesso allo studio è sempre controllato
-          il trattamento (rapine, furti, atti                 durante il normale svolgimento
-          vandalici)                                          dell’attività lavorativa.
+il trattamento (rapine, furti, atti                 durante il normale svolgimento
+vandalici)                                          dell’attività lavorativa.
 Tutte     Allagamenti                           Bassa         Area non soggetta ad inondazioni o calamità
-                                                              di questo tipo.
+di questo tipo.
 Tutte     Incendio                              Bassa         La sede è provvista di dispositivi
-                                                              antincendio.
+antincendio.
 Tutte     Cortocircuito                         Bassa         La sede è provvista di impianti a norma.
-
-
-                                                                                            
 
 Analisi dei Rischi sulle Risorse Hardware
 
 Risorsa         Elemento di         Soglia                           Motivazione
-                  Rischio         Individuata
+Rischio         Individuata
 
- Tutte     Uso non autorizzato     Bassa        L’utilizzo dell’hardware è soggetto all’utilizzo di
-             dell’hardware                      credenziali d’accesso.
+Tutte     Uso non autorizzato     Bassa        L’utilizzo dell’hardware è soggetto all’utilizzo di
+dell’hardware                      credenziali d’accesso.
 
+Tutte    Manomissione/Sabot       Bassa        Alle risorse non accedono persone non autorizzate.
+aggio                            La manutenzione è effettuata da tecnici autorizzati.
 
- Tutte    Manomissione/Sabot       Bassa        Alle risorse non accedono persone non autorizzate.
-               aggio                            La manutenzione è effettuata da tecnici autorizzati.
+Tutte    Probabilità/Frequenz     Bassa        L’hardware acquistato è di qualità e non ha
+a di guasto                       mai dato problemi rilevanti.
 
+Tutte       Rischi connessi       Bassa        Gli elaboratori sono dotati di gruppo di continuità
+all’elettricità                   che fornisce energia di buona qualità
+(stabilizzazione) e impedisce
+l’improvvisa assenza di corrente elettrica.
 
- Tutte    Probabilità/Frequenz     Bassa        L’hardware acquistato è di qualità e non ha
-              a di guasto                       mai dato problemi rilevanti.
-
- Tutte       Rischi connessi       Bassa        Gli elaboratori sono dotati di gruppo di continuità
-              all’elettricità                   che fornisce energia di buona qualità
-                                                (stabilizzazione) e impedisce
-                                                l’improvvisa assenza di corrente elettrica.
-
- Tutte     Rischi connessi alla    Bassa        Sono previste procedure di backup settimanali su
-           l'integrità e la                     supporti informatici e Hard-disk. Tutti i sistemi
-           sicurezza dei dati                   informatici sono dotati di antivirus aggiornati e la
-                                                scansione degli hard disk viene effettuata
-                                                settimanalmente.
-                                                La gestione dei dati informatici è soggetta ad
-                                                accesso protetto da password con credenziali
-                                                gestite dal Titolare dello studio odontoiatrico.
-                                                Per i dati in formato cartaceo è prevista la loro
-                                                digitalizzazione con conseguente trattamento come
-                                                dati informatici o in alternativa produzione di copie
-                                                fotostatiche da conservare in archivio separato.
-
-
-                                                                                       
+Tutte     Rischi connessi alla    Bassa        Sono previste procedure di backup settimanali su
+l’integrità e la                     supporti informatici e Hard-disk. Tutti i sistemi
+sicurezza dei dati                   informatici sono dotati di antivirus aggiornati e la
+scansione degli hard disk viene effettuata
+settimanalmente.
+La gestione dei dati informatici è soggetta ad
+accesso protetto da password con credenziali
+gestite dal Titolare dello studio odontoiatrico.
+Per i dati in formato cartaceo è prevista la loro
+digitalizzazione con conseguente trattamento come
+dati informatici o in alternativa produzione di copie
+fotostatiche da conservare in archivio separato.
 
 Analisi dei Rischi sulle Banche Dati
 
-  Risorsa               Elemento di Rischio                    Soglia                     Motivazione
-                                                             Individuata
+Risorsa               Elemento di Rischio                    Soglia                     Motivazione
+Individuata
 Tutte             Accesso non autorizzato                 Bassa                  L’accesso alle risorse dati
-                                                                                 informato elettronico avviene
-                                                                                 solo tramite gli elaboratori
-                                                                                 protetti dall’utilizzo di
-                                                                                 credenziali d’accesso gestite
-                                                                                 dal titolare
+informato elettronico avviene
+solo tramite gli elaboratori
+protetti dall’utilizzo di
+credenziali d’accesso gestite
+dal titolare
 Tutte             Intrusione da parte di soggetti         Bassa                  Le risorse sono protette da
-                  Estranei o non autorizzati al                                  Un idoneo firewall software.
-                  trattamento dei dati
+Estranei o non autorizzati al                                  Un idoneo firewall software.
+trattamento dei dati
 Tutte             Cancellazione non autorizzata di        Bassa                  L’accesso alle risorse dati in
-                  dati/Manomissione di dati                                      formato elettronico avviene
-                                                                                 solo tramite gli elaboratori
-                                                                                 protetti dall’utilizzo di
-                                                                                 credenziali d’accesso gestite
-                                                                                 dal titolare e solo i diretti
-                                                                                 incaricati.
+dati/Manomissione di dati                                      formato elettronico avviene
+solo tramite gli elaboratori
+protetti dall’utilizzo di
+credenziali d’accesso gestite
+dal titolare e solo i diretti
+incaricati.
 Tutte             Perdita di dati                         Bassa                  Vengono effettuate copie
-                                                                                 periodiche di backup delle
-                                                                                 banche dati. I PC sono
-                                                                                 dotati di Software Anti virus
-                                                                                 costantemente aggiornato.
+periodiche di backup delle
+banche dati. I PC sono
+dotati di Software Anti virus
+costantemente aggiornato.
 
 Misure di Sicurezza adottate
 
-        Descrizione Misura                                 Criteri per la corretta applicazione
-Custodia dei supporti                    I supporti che vengono utilizzati per l’attività di backup sono conservati in
-                                          un cassetto/armadio con serratura custodite dal titolare
-Integrità e la sicurezza dei dati        Sono previste procedure di backup settimanali su supporti informatici e su
-                                         Hard-disk. Tutti i sistemi informati ci sono dotati di antivirus aggiornati e
-                                         la scansione deglihard diskviene effettuata settimanalmente. Per i dati in
-                                         formato cartaceo è prevista la loro digitalizzazione con conseguente
-                                         trattamento o in alternativa produzione di copie fotostatiche da conservare
-                                         in archivio separato.
+```
+    Descrizione Misura                                 Criteri per la corretta applicazione
+```
 
+Custodia dei supporti                    I supporti che vengono utilizzati per l’attività di backup sono conservati in
+un cassetto/armadio con serratura custodite dal titolare
+Integrità e la sicurezza dei dati        Sono previste procedure di backup settimanali su supporti informatici e su
+Hard-disk. Tutti i sistemi informati ci sono dotati di antivirus aggiornati e
+la scansione deglihard diskviene effettuata settimanalmente. Per i dati in
+formato cartaceo è prevista la loro digitalizzazione con conseguente
+trattamento o in alternativa produzione di copie fotostatiche da conservare
+in archivio separato.
 
 Continuità dell’alimentazione elettrica Gli HD e le Pendrive dedicate ove sono contenute le banche dati sono
-                                         collegati ad un gruppo di continuità che garantisce una stabilizzazione
-                                         dell’energia elettrica erogata. Il gruppo garantisce inoltre una autonomia
-                                         temporale di esercizio sufficiente a chiudere correttamente tutte le
-                                         applicazioni e completare la procedura di spegnimento dell’elaboratore.
+collegati ad un gruppo di continuità che garantisce una stabilizzazione
+dell’energia elettrica erogata. Il gruppo garantisce inoltre una autonomia
+temporale di esercizio sufficiente a chiudere correttamente tutte le
+applicazioni e completare la procedura di spegnimento dell’elaboratore.
 Verifica dell’esito del backup          Sistematicamente dopo aver fatto la copia di backup settimanale,
-                                         l’incaricato ne testa il contenuto dei dati registrati verificando nel contesto
-                                         l’integrità.
+l’incaricato ne testa il contenuto dei dati registrati verificando nel contesto
+l’integrità.
 Dispositivi antincendio                 I locali sono dotati di estintori regolarmente mantenuti.
-
-
-                                                                                                           
 
 Raccolta, archiviazione e custodia di atti, documenti e supporti.
 La politica di gestione dei dati sensibili dei pazienti ad oggi i è esclusivamente in formatto cartaceo.
@@ -1341,45 +1344,44 @@ I supporti contenenti le copie vengono archiviati in armadi chiusi a chiave.
 Per i dati trattati con strumenti elettronici, sono previste procedure di backup, attraverso le quali viene
 periodicamente effettuata una copia di tutti i dati presenti nel sistema, su dispositivi opportuni.
 Il salvataggio dei dati trattati avviene come segue:
-      la frequenza è settimanale;
-      si utilizzano supporti differenti da quelli in cui sono contenuti i dati dei salvataggi eseguiti la volta
-         precedente;
-      per ciascun salvataggio, si esegue 1copia.
+ la frequenza è settimanale;
+ si utilizzano supporti differenti da quelli in cui sono contenuti i dati dei salvataggi eseguiti la volta
+precedente;
+ per ciascun salvataggio, si esegue 1copia.
 
-  Piano di Verifica delle Misure adottate
-  Al [TITOLARE] è affidato il compito di aggiornare le misure di sicurezza, al fine di adottare
-  gli strumenti e le conoscenze, resi disponibili dal progresso tecnico, che consentano di ridurre al minimo
-  i rischi di distruzione o perdita, anche accidentale, dei dati, di accesso non autorizzato odi trattamento
-  non consentito.
-  Al fine di verificare l’efficacia delle misure di sicurezza adottate, il Titolare provvede con frequenza
-  mensile, anche con controlli a campione, ad effettuare una o più delle seguenti attività:
-        verificare l’accesso fisico ai locali dove si svolge il trattamento;
-        verificare la correttezza delle procedure di archiviazione e custodia di atti, documenti e supporti
-           contenenti dati personali;
-        verificare l’integrità dei dati e delle loro copie di backup;
-        verificare la sicurezza delle trasmissioni in rete;
-        verificare che i supporti magnetici, che non possono più essere riutilizzati, vengano di strutti.
+Piano di Verifica delle Misure adottate
+Al [TITOLARE] è affidato il compito di aggiornare le misure di sicurezza, al fine di adottare
+gli strumenti e le conoscenze, resi disponibili dal progresso tecnico, che consentano di ridurre al minimo
+i rischi di distruzione o perdita, anche accidentale, dei dati, di accesso non autorizzato odi trattamento
+non consentito.
+Al fine di verificare l’efficacia delle misure di sicurezza adottate, il Titolare provvede con frequenza
+mensile, anche con controlli a campione, ad effettuare una o più delle seguenti attività:
+ verificare l’accesso fisico ai locali dove si svolge il trattamento;
+ verificare la correttezza delle procedure di archiviazione e custodia di atti, documenti e supporti
+contenenti dati personali;
+ verificare l’integrità dei dati e delle loro copie di backup;
+ verificare la sicurezza delle trasmissioni in rete;
+ verificare che i supporti magnetici, che non possono più essere riutilizzati, vengano di strutti.
 
-  Almeno ogni sei mesi, si procederà ad una sistematica verifica del corretto utilizzo delle parole chiave e dei
-  profili di autorizzazione che consentono l’accesso agli strumenti elettronici.`,
-  3: `Il presente documento definisce i criteri e le modalità operative applicate dallo Studio
+Almeno ogni sei mesi, si procederà ad una sistematica verifica del corretto utilizzo delle parole chiave e dei
+profili di autorizzazione che consentono l’accesso agli strumenti elettronici.`, 3: `Il presente documento definisce i criteri e le modalità operative applicate dallo Studio
 Odontoiatrico nel pianificare, programmare e gestire le modalità per la valutazione e
 ilmiglioramento della qualità delle prestazioni e dei servizi erogati, le attività di valutazione e
 miglioramento del sistema di gestione per la qualità, ma anche e soprattutto per migliorare
 continuamente l’efficacia del sistema stesso.
 Quanto descritto in questo documento, infatti, è fondamentale per una organizzazione che:
    Ha l’esigenza di dimostrare la propria capacità di fornire prestazioni che ottemperino alle
-    necessità dei pazienti;
+necessità dei pazienti;
    Considera l’accrescimento della soddisfazione del paziente un obbiettivo fondamentale che
-    porta inevitabilmente ad una continua ricerca del miglioramento dell’efficacia del proprio
-    sistema di gestione.
+porta inevitabilmente ad una continua ricerca del miglioramento dell’efficacia del proprio
+sistema di gestione.
 Lo Studio intende gestire il miglioramento continuo del proprio sistema di gestione per la
 qualità, con riferimento a:
    Soddisfazione del paziente, come metodo efficace di rilevazione dell’efficacia del sistema di
-    gestione;
+gestione;
    Verifiche interne, come metodo di rilevamento finalizzato a verificare che l’applicazione del
-    sistema rispetti quanto pianificato, e che sia efficacemente attuato e costantemente
-    aggiornato.
+sistema rispetti quanto pianificato, e che sia efficacemente attuato e costantemente
+aggiornato.
 Lo Studio Odontoiatricomisura e analizza costantemente la soddisfazione dei pazienti al fine di
 valutare se siano stati soddisfatti i requisiti da lui richiesti, essendo questo uno dei maggiori
 rilevatori dell’efficacia della gestione del sistema per la qualità.
@@ -1387,17 +1389,15 @@ Lefontidiinformazionisullasoddisfazionedelpazientesono:
    Incontriconipazienti;
    I questionarisoddisfazione;
    Controllo delle non conformità rilevate in tutte le fasi di erogazione dei servizi e delle
-    prestazioni;
+prestazioni;
    Gestione dei reclami provenienti dai pazienti relativamente alle prestazioni e ai serviziforniti
-    al fine di migliorare il servizio offerto ed erogato;
+al fine di migliorare il servizio offerto ed erogato;
 
    Incrementodelnumerodeipazienti.
 I reclamie le comunicazioni dirette, e la loro registrazione, forniscono un’evidenza continua
 dello stato di soddisfazione o insoddisfazione dei pazienti e sono costantemente monitoratedallo
 Studio Odontoiatrico.
 L’analisi delle risposte al questionario indica il grado di soddisfazione/insoddisfazione in fase di
-
-                                                                                         
 
 erogazione del servizio e delle prestazioni.
 
@@ -1414,7 +1414,6 @@ b) Le Verifiche vengono generalmente svolte dal Titolare dello Studio, che può 
 collaborazione di personale competente esterno o interno, nel settore da verificare, purché non
 direttamente responsabile dell’aspetto da verificare.
 
-
 Procedura:
 b) Raccolta ed archiviazione tutta la documentazione oggetto della Verifica a seguito di
 rilevamento di carenzeriscontrate su riscontro della clientela in merito ad organizzazione,
@@ -1430,44 +1429,45 @@ dei servizi
 Tuttiprocessidescrittivengonogestitiinotticadimiglioramentocontinuativo.
 Il Titolare ha individuato nella gestione dei seguenti strumenti le opportunità di miglioramento
 effettivo che possono essere individuati in:
-     Riesame della direzione;
-     Analisi dei risultati delle verifiche interne;
-     Misurazioni dei processi/servizi e della soddisfazione dei pazienti;
-     Rispetto della politica della qualità e degli obiettivi della qualità
-                                                                                         
+    Riesame della direzione;
+    Analisi dei risultati delle verifiche interne;
+    Misurazioni dei processi/servizi e della soddisfazione dei pazienti;
+    Rispetto della politica della qualità e degli obiettivi della qualità
 
 determinati.
 
 Le Azioni Correttive possono attivarsi per:
--   Esitinegativi delle verifiche ispettive;
--   Riesami del sistema qualità;
--   ReclamideiPazienti;
--   Osservazioni non conformità dell’ente di controllo.
-Le Azioni Preventive vengono intraprese qualora, analizzando i vari dati disponibili presso
-l’Studio o provenienti dall’esterno, si individuino dalle situazioni a rischio che rendono
-opportune delle attività di miglioramento o di prevenzione:
--   Reclamideipazienti;
--   Derogheoconcessioni;
--   Propostedimiglioramentodelpersonale(suggerimenti).`,
-  4: `La presentazione di un reclamo da parte di un cittadino che utilizzerà i servizi dello studio è un
- segnale sulla possibile esistenza nel sistema aziendale di disfunzioni che possono avere la loro
- causa nell’organizzazione, nella struttura tecnica dei servizi, nei comportamenti del Personale.
 
- Ai fini del mantenimento dei più alti livelli di qualità del servizio, che costituisce l’obiettivo
- strategico dello Studio tale segnale è di importanza fondamentale perché consente di intervenire per
- l’eliminazione delle disfunzioni e di riportare ai livelli la qualità dei servizi.
+- Esitinegativi delle verifiche ispettive;
+- Riesami del sistema qualità;
+- ReclamideiPazienti;
+- Osservazioni non conformità dell’ente di controllo.
+  Le Azioni Preventive vengono intraprese qualora, analizzando i vari dati disponibili presso
+  l’Studio o provenienti dall’esterno, si individuino dalle situazioni a rischio che rendono
+  opportune delle attività di miglioramento o di prevenzione:
+- Reclamideipazienti;
+- Derogheoconcessioni;
+- Propostedimiglioramentodelpersonale(suggerimenti).`,   4: `La presentazione di un reclamo da parte di un cittadino che utilizzerà i servizi dello studio è un
+  segnale sulla possibile esistenza nel sistema aziendale di disfunzioni che possono avere la loro
+  causa nell’organizzazione, nella struttura tecnica dei servizi, nei comportamenti del Personale.
 
- Lo Studio si doterà di una procedura formalizzata per la trattazione dei reclami che mira non
- soltanto alla risoluzione del problema posto in evidenza ma anche ad agire come importante
- informazione di ritorno sull’efficacia ed efficienza del sistema qualità dell’azienda.
+Ai fini del mantenimento dei più alti livelli di qualità del servizio, che costituisce l’obiettivo
+strategico dello Studio tale segnale è di importanza fondamentale perché consente di intervenire per
+l’eliminazione delle disfunzioni e di riportare ai livelli la qualità dei servizi.
 
- I cittadini utenti possono presentare eventuali reclami per disservizi subiti prima, durante e dopo
- l'esecuzione delle prestazioni erogate dal Centro; il reclamo può essere inoltrato con le seguenti
- modalità:
+Lo Studio si doterà di una procedura formalizzata per la trattazione dei reclami che mira non
+soltanto alla risoluzione del problema posto in evidenza ma anche ad agire come importante
+informazione di ritorno sull’efficacia ed efficienza del sistema qualità dell’azienda.
 
-        per iscritto, utilizzando il modulo predisposto disponibile presso l'ufficio di accettazione;
-        per iscritto su carta semplice o a mezzo mail;
-        verbalmente rivolgendosi al Personale in servizio presso Lo Studio.
+I cittadini utenti possono presentare eventuali reclami per disservizi subiti prima, durante e dopo
+l’esecuzione delle prestazioni erogate dal Centro; il reclamo può essere inoltrato con le seguenti
+modalità:
+
+```
+    per iscritto, utilizzando il modulo predisposto disponibile presso l'ufficio di accettazione;
+    per iscritto su carta semplice o a mezzo mail;
+    verbalmente rivolgendosi al Personale in servizio presso Lo Studio.
+```
 
 Il [TITOLARE] titolare dello Studio fornirà una risposta a tutti i reclami entro il termine
 massimo di 8giorni.
@@ -1475,48 +1475,47 @@ massimo di 8giorni.
 Si allega il modello che sarà utilizzato dello studio:
 
 Gentile Signora/Gentile Signore
-      Il questionario a cui Lei, se vorrà, potrà rispondere è formulato in forma anonima con lo scopo
- di conoscere il grado di soddisfazione per le prestazioni e i servizi erogati da questo studio.
-      Le Sue risposte e gli eventuali suggerimenti serviranno a migliorare il livello delle prestazioni
- dei servizi. È sufficiente che sbarri con una croce la risposta che ritiene più giusta.
+Il questionario a cui Lei, se vorrà, potrà rispondere è formulato in forma anonima con lo scopo
+di conoscere il grado di soddisfazione per le prestazioni e i servizi erogati da questo studio.
+Le Sue risposte e gli eventuali suggerimenti serviranno a migliorare il livello delle prestazioni
+dei servizi. È sufficiente che sbarri con una croce la risposta che ritiene più giusta.
 
- 1. Come valuta l’ubicazione dell’ambulatorio per facilità di accesso, raggiungimento, e presenza di
-       ostacoli?
-      Buona               Sufficiente               Insufficiente           Scarsa
-
- 2.   Come giudica il sistema di prenotazione?
-      Buono               Sufficiente                Insufficiente          Scarso
-
- 3.   Come giudica il sistema di accoglienza?
-      Buono               Sufficiente                Insufficiente          Scarso
- 4.   Come giudica il sistema di accettazione?
-      Buono               Sufficiente                Insufficiente          Scarso
- 5.   Come giudica la prestazione sanitaria?
-      Buona               Sufficiente               Insufficiente           Scarsa
- 6.   Come valuta la disponibilità del front-office e l’atteggiamento mostrato nel venire in contro alle
-        sue esigenze?
-      Buona               Sufficiente               Insufficiente           Scarsa
- 7. Comevalutanelsuoinsiemetuttoilpercorsodallarichiestadelsuomedicoall’esecuzionedellaprestazione?
-      Buono               Sufficiente                Insufficiente          Scarso
-
-      Qualora avesse dei suggerimenti da proporre, La invitiamo a scriverle nello spazio sottostante.
-
-
-                                                                       Grazie per la collaborazione
-                                                                             LA DIREZIONE
-
-
-      P.S. Dopo aver debitamente compilato questo stampato, affinché il tutto avvenga in modo
-      anonimo, La invitiamo a depositarlo presso la segreteria in apposito contenitore.
+1. Come valuta l’ubicazione dell’ambulatorio per facilità di accesso, raggiungimento, e presenza di
+   ostacoli?
+   Buona               Sufficiente               Insufficiente           Scarsa
+1. Come giudica il sistema di prenotazione?
+   Buono               Sufficiente                Insufficiente          Scarso
+1. Come giudica il sistema di accoglienza?
+   Buono               Sufficiente                Insufficiente          Scarso
+1. Come giudica il sistema di accettazione?
+   Buono               Sufficiente                Insufficiente          Scarso
+1. Come giudica la prestazione sanitaria?
+   Buona               Sufficiente               Insufficiente           Scarsa
+1. Come valuta la disponibilità del front-office e l’atteggiamento mostrato nel venire in contro alle
+   sue esigenze?
+   Buona               Sufficiente               Insufficiente           Scarsa
+1. Comevalutanelsuoinsiemetuttoilpercorsodallarichiestadelsuomedicoall’esecuzionedellaprestazione?
+   Buono               Sufficiente                Insufficiente          Scarso
+   
+   Qualora avesse dei suggerimenti da proporre, La invitiamo a scriverle nello spazio sottostante.
+   
+   ```
+                                                                  Grazie per la collaborazione
+                                                                        LA DIREZIONE
+   ```
+   
+   P.S. Dopo aver debitamente compilato questo stampato, affinché il tutto avvenga in modo
+   anonimo, La invitiamo a depositarlo presso la segreteria in apposito contenitore.
 
 Lo studio Odontoiatrico è in fase di apertura, pertanto si prevede che a seguito della apertura può
- essere che sarà designato formalmente un referente per i rapporti con il pubblico individuabile con la
- figura di:
+essere che sarà designato formalmente un referente per i rapporti con il pubblico individuabile con la
+figura di:
 
-       Addetto alla Segreteria (attualmente non presente)
+```
+   Addetto alla Segreteria (attualmente non presente)
+```
 
- Sino ad allora l’incarico sarà coperto direttamente dal Titolare dello Studio.
-
+Sino ad allora l’incarico sarà coperto direttamente dal Titolare dello Studio.
 
 Tutto il personale (eventuali dipendenti e/o collaboratori esterni) sarà formato ed informato sulla
 gestione dei reclami, osservazioni e/o suggerimenti. Le schede di valutazione da parte del pubblico
@@ -1526,114 +1525,107 @@ Nello specifico si terrà una riunione interna per la presentazione del modello 
 eventuali reclami, osservazioni e suggerimenti
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
-    Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 5
 Documento/procedura che descrive
 le modalità di erogazione
 dell’assistenza.
 
-
 Cod. Requisito
 1A.02.02.01
-
 
 [TITOLARE]
 
 La presente procedura ha lo scopo di descrivere in modo chiaro e uniforme le modalità di
- erogazione dell’assistenza odontoiatrica presso lo Studio del [TITOLARE], garantendo
- qualità, sicurezza del paziente e conformità alle normative vigenti (D.Lgs. 81/08, GDPR, normative
- sanitarie regionali, Linee guida Ministero della Salute).
+erogazione dell’assistenza odontoiatrica presso lo Studio del [TITOLARE], garantendo
+qualità, sicurezza del paziente e conformità alle normative vigenti (D.Lgs. 81/08, GDPR, normative
+sanitarie regionali, Linee guida Ministero della Salute).
 
- 1. Campo di applicazione
- La procedura si applica a tutte le attività cliniche e assistenziali erogate all’interno dello studio
- odontoiatrico, comprese:
+1. Campo di applicazione
+   La procedura si applica a tutte le attività cliniche e assistenziali erogate all’interno dello studio
+   odontoiatrico, comprese:
 
-      Visite odontoiatriche e diagnostiche
-      Trattamenti terapeutici e chirurgici
-      Prestazioni igienico - preventive
-      Gestione delle urgenze odontoiatriche
+   Visite odontoiatriche e diagnostiche
+   Trattamenti terapeutici e chirurgici
+   Prestazioni igienico - preventive
+   Gestione delle urgenze odontoiatriche
 
- 2. Riferimenti normativi
+1. Riferimenti normativi
 
-      D.Lgs. 81/2008 – Sicurezza nei luoghi di lavoro
-      Regolamento UE 2016/679 (GDPR) – Protezione dei dati personali
-      Linee guida del Ministero della Salute per la sicurezza del paziente odontoiatrico
-      Codice Deontologico degli Odontoiatri
+   D.Lgs. 81/2008 – Sicurezza nei luoghi di lavoro
+   Regolamento UE 2016/679 (GDPR) – Protezione dei dati personali
+   Linee guida del Ministero della Salute per la sicurezza del paziente odontoiatrico
+   Codice Deontologico degli Odontoiatri
 
-3. Responsabilità
-
+1. Responsabilità
+   
       Titolare: supervisione generale del processo assistenziale, esecuzione delle prestazioni cliniche,
-       diagnosi, trattamento, consenso informato, gestione strumenti, disinfezione e sterilizzazione,
-       gestione accettazione, anagrafica, appuntamenti, privacy.
-
-4. Descrizione della procedura
+   diagnosi, trattamento, consenso informato, gestione strumenti, disinfezione e sterilizzazione,
+   gestione accettazione, anagrafica, appuntamenti, privacy.
+1. Descrizione della procedura
 
 4.1 Accoglienza e accettazione del paziente
 
-   1. Il paziente viene accolto dal titolare dello studio o da eventuale personale amministrativo,
-   2. Vengono registrati i dati anagrafici e acquisiti i consensi informati (privacy e trattamento
-      sanitario).
-   3. Viene fissato o confermato l’appuntamento con l’odontoiatra.
+1. Il paziente viene accolto dal titolare dello studio o da eventuale personale amministrativo,
+1. Vengono registrati i dati anagrafici e acquisiti i consensi informati (privacy e trattamento
+   sanitario).
+1. Viene fissato o confermato l’appuntamento con l’odontoiatra.
 
 4.2 Valutazione clinica e piano di trattamento
 
-   1. L’odontoiatra effettua l’anamnesi generale e odontoiatrica.
-   2. Si procede con l’esaminare il paziente.
-   3. Viene elaborato un piano di trattamento personalizzato, discusso e approvato dal paziente
-      mediante consenso informato scritto.
+1. L’odontoiatra effettua l’anamnesi generale e odontoiatrica.
+1. Si procede con l’esaminare il paziente.
+1. Viene elaborato un piano di trattamento personalizzato, discusso e approvato dal paziente
+   mediante consenso informato scritto.
 
 4.3 Erogazione della prestazione odontoiatrica
 
-   1. Il titolare, verificando pulizia, sterilità e funzionamento delle attrezzature.
-   2. L’odontoiatra esegue la prestazione secondo protocolli clinici e linee guida.
-   3. Durante la seduta vengono rispettate le procedure di sicurezza e prevenzione del rischio
-      biologico (uso DPI, gestione rifiuti sanitari, disinfezione).
-   4. Al termine, il titolare provvede alla detersione, disinfezione e sterilizzazione degli strumenti
-      utilizzati.
+1. Il titolare, verificando pulizia, sterilità e funzionamento delle attrezzature.
+1. L’odontoiatra esegue la prestazione secondo protocolli clinici e linee guida.
+1. Durante la seduta vengono rispettate le procedure di sicurezza e prevenzione del rischio
+   biologico (uso DPI, gestione rifiuti sanitari, disinfezione).
+1. Al termine, il titolare provvede alla detersione, disinfezione e sterilizzazione degli strumenti
+   utilizzati.
 
 4.4 Follow-up e monitoraggio
 
-   1. Al termine della prestazione, vengono fornite al paziente le indicazioni post-operatorie o di
-      mantenimento.
-   2. si pianifica eventuali controlli successivi.
-   3. Tutti i dati clinici vengono registrati nella cartella odontoiatrica elettronica o cartacea.
-
-5. Gestione delle urgenze
+1. Al termine della prestazione, vengono fornite al paziente le indicazioni post-operatorie o di
+   mantenimento.
+1. si pianifica eventuali controlli successivi.
+1. Tutti i dati clinici vengono registrati nella cartella odontoiatrica elettronica o cartacea.
+1. Gestione delle urgenze
 
 Le urgenze odontoiatriche vengono gestite con priorità.
 
-   1. Il paziente viene identificato e valutato rapidamente.
-   2. L’odontoiatra stabilisce la priorità e la tipologia di intervento.
-   3. Dopo la prestazione, viene programmato il follow-up per la risoluzione definitiva.
-
-6. Sicurezza e igiene
-
+1. Il paziente viene identificato e valutato rapidamente.
+1. L’odontoiatra stabilisce la priorità e la tipologia di intervento.
+1. Dopo la prestazione, viene programmato il follow-up per la risoluzione definitiva.
+1. Sicurezza e igiene
+   
       Tutti gli ambienti vengono sanificati secondo protocolli giornalieri e tra un paziente e l’altro.
       Gli strumenti vengono sterilizzati in autoclave e tracciati mediante sistema di controllo.
       Vengono rispettati i protocolli di prevenzione del rischio infettivo (HBV, HCV, HIV, COVID-
-       19, ecc.).
-
-7. Documentazione e registrazioni
+   19, ecc.).
+1. Documentazione e registrazioni
 
 Le seguenti registrazioni devono essere mantenute:
 
-      Schede anagrafiche e cliniche dei pazienti
-      Consensi informati
-      Registri di sterilizzazione
-      Piani di manutenzione apparecchiature
-      Registro smaltimento rifiuti sanitari
+   Schede anagrafiche e cliniche dei pazienti
+   Consensi informati
+   Registri di sterilizzazione
+   Piani di manutenzione apparecchiature
+   Registro smaltimento rifiuti sanitari
 
-8. Miglioramento continuo
+1. Miglioramento continuo
 
 Il Direttore Sanitario valuta periodicamente:
 
-      Soddisfazione del paziente
-      Non conformità e segnalazioni
-      Aggiornamenti scientifici e normativi
-      Necessità di formazione del personale
+   Soddisfazione del paziente
+   Non conformità e segnalazioni
+   Aggiornamenti scientifici e normativi
+   Necessità di formazione del personale
 
 Eventuali azioni correttive o preventive vengono pianificate e documentate.
 
@@ -1641,37 +1633,38 @@ Mensilmente è prevista la revisione di una tabella riepilogativa contenente i d
 all’interno dello studio odontoiatrico, al fine di effettuare un’analisi statistica degli stessi, finalizzata
 alla predisposizione di eventuali azioni di indagine e intervento.
 
-               DESCRIZIONE                     MESE         Numero di          Rispetto al mese precedente
-                                                              eventi        Diminuiti      Inalterati Aumentati
-     Disservizi dovuti a fuori uso
-              attrezzature
+```
+           DESCRIZIONE                     MESE         Numero di          Rispetto al mese precedente
+                                                          eventi        Diminuiti      Inalterati Aumentati
+ Disservizi dovuti a fuori uso
+          attrezzature
+```
+
 Ritardi erogazione prestazioni
-    dovute a indisponibilità
-      personale di studio
+dovute a indisponibilità
+personale di studio
 Appuntamenti non rispettati da
 parte del pubblico giustificati
-   Appuntamenti non rispettati per
-   insufficiente comunicazione e/o
- chiarezza da parte della segreteria
- Disservizi dovuti a guasti impianti
-           Disservizi dovuti a
-          guasti/indisponibilità
-           sistema informatico`,
-  6: `PIANO PER LA GESTIONE
-                           DELLE
-                        EMERGENZA
-                               Ultima revisione: _____________2025
-
+Appuntamenti non rispettati per
+insufficiente comunicazione e/o
+chiarezza da parte della segreteria
+Disservizi dovuti a guasti impianti
+Disservizi dovuti a
+guasti/indisponibilità
+sistema informatico`, 6: `PIANO PER LA GESTIONE
+DELLE
+EMERGENZA
+Ultima revisione: _____________2025
 
 Datore di Lavoro                          TERESI FRANCESCO
 
 R.L.S.                                    _______________
 
-
 Addetto all’antincendio ed emergenze      TERESI FRANCESCO
 
-
-                                              1
+```
+                                          1
+```
 
 Il presente Piano di Emergenza si basa su istruzioni scritte e chiare, ed è rivolto a tutte le persone
 presenti all’interno dei locali indicati.
@@ -1679,37 +1672,40 @@ Al suo interno sono definite specifiche funzioni e responsabilità, assegnate al
 con      ruolo      attivo      nella     gestione  e    nel      contenimento       dell’emergenza.
 L’organizzazione interna è regolamentata secondo lo schema riportato di seguito.
 
-
 Responsabile dell’emergenza: TERESI FRANCESCO
 
 Responsabile delle chiamate: TERESI FRANCESCO
 
+```
+                                  ATTENZIONE
+  Chiunque appartenga alla Squadra d’Emergenza o ricopra un ruolo importante per
+                 l’attuazione di Questo PIANO D’EMERGENZA
 
-                                      ATTENZIONE
-      Chiunque appartenga alla Squadra d’Emergenza o ricopra un ruolo importante per
-                     l’attuazione di Questo PIANO D’EMERGENZA
+                                 NONDIMENTICHIche:
+```
 
-                                     NONDIMENTICHIche:
+ NON DEVE combattere il fuoco al di sopra delle sue possibilità
+ DEVE preoccuparsi di tenersi sempre libera una via di fuga
+ AL PRIMO segnale di malessere deve portarsi FUORI dalla zona di pericolo
+ DEVE raggiungere gli altri al luogo di ritrovo sicuro e, SE POSSIBILE,
+attribuisca ad un altro i suoi incarichi preoccupandosi come PRIMA COSA di
+se stesso.
 
-  NON DEVE combattere il fuoco al di sopra delle sue possibilità
-  DEVE preoccuparsi di tenersi sempre libera una via di fuga
-  AL PRIMO segnale di malessere deve portarsi FUORI dalla zona di pericolo
-  DEVE raggiungere gli altri al luogo di ritrovo sicuro e, SE POSSIBILE,
-   attribuisca ad un altro i suoi incarichi preoccupandosi come PRIMA COSA di
-   se stesso.
+```
+                            NUMERI TELEFONICI UTILI
+```
 
-                                NUMERI TELEFONICI UTILI
+SOCCORSOPUBBLICO:                                                          113
 
-  SOCCORSOPUBBLICO:                                                          113
+CARABINIERI:                                                               112
 
-  CARABINIERI:                                                               112
+VIGILIDELFUOCO:                                                            115
 
-  VIGILIDELFUOCO:                                                            115
+EMERGENZASANITARIA:                                                        118
 
-  EMERGENZASANITARIA:                                                        118
-
-
-                                                2
+```
+                                            2
+```
 
 PREMESSA
 La presente relazione è stata redatta in base al D.M. 03/07/2021 “Decreto Mini codice” in attuazione
@@ -1724,16 +1720,16 @@ e/o cose, arrecando danni.
 Obbligo del datore di lavoro, secondo quanto previsto dall’Art. 18 del D.Lgs. 81/08, nonché dal
 decreto di attuazione D.M. 03/07/2021 “Decreto Minicodice”, rimane:
 
-1) attuare e rendere operativi tutti i necessari rapporti con i servizi pubblicicompetenti in materia di
-pronto soccorso, salvataggio, lotta antincendio egestione dell’emergenza;
-2) nominare, tra il personale, coloro che in caso di emergenza abbiano il compito diattuare le idonee
-misure di prevenzione incendi e lotta antincendio, dievacuazione in caso di pericolo grave ed
-immediato, di salvataggio, di prontosoccorso e, comunque di gestione dell’emergenza;
-3) rendere edotti, tutti coloro che possono essere esposti ad un pericolo grave edimmediato circa le
-misure predisposte ed i comportamenti da adottare;
-4) in caso di pericolo grave ed immediato, pianificare e programmare in formapreventiva ogni
-intervento,     affinché      tutti    possano      cessare     ordinatamente      leproprie    attività,
-abbandonandoimmediatamente il luogo di lavoro, verso aree sicure.
+1. attuare e rendere operativi tutti i necessari rapporti con i servizi pubblicicompetenti in materia di
+   pronto soccorso, salvataggio, lotta antincendio egestione dell’emergenza;
+1. nominare, tra il personale, coloro che in caso di emergenza abbiano il compito diattuare le idonee
+   misure di prevenzione incendi e lotta antincendio, dievacuazione in caso di pericolo grave ed
+   immediato, di salvataggio, di prontosoccorso e, comunque di gestione dell’emergenza;
+1. rendere edotti, tutti coloro che possono essere esposti ad un pericolo grave edimmediato circa le
+   misure predisposte ed i comportamenti da adottare;
+1. in caso di pericolo grave ed immediato, pianificare e programmare in formapreventiva ogni
+   intervento,     affinché      tutti    possano      cessare     ordinatamente      leproprie    attività,
+   abbandonandoimmediatamente il luogo di lavoro, verso aree sicure.
 
 Questo Piano di Emergenza, deve essere portato a conoscenza di tutti coloro i qualihanno un ruolo
 attivo ai fine dell’attuazione dello stesso, pertanto esso sarà oggetto di riunioni periodiche
@@ -1744,24 +1740,25 @@ Questo elaborato non ha scadenza, ma deve essere necessariamente aggiornato.
 Ogni qualvolta vi siano variazioni sostanziali tali da non renderlo più attuale.
 
 Caratteristiche degli ambienti di lavoro:
-            TIPO ATTIVITA’                   Studio odontoiatrico
-       CLASSE DI RISCHIO INCENDIO            Bassa
-        DURATA CORSO ADDETTI                 4 ore con aggiornamento quinquennale di 2 ore
-             ANTINCENDIO
-               ESTINTORI                     N.3 aCO2da5kg
-              VIE DI ESODO                  Su luoghi sicuri all’esterno. Idonee al massimo
-                                            Affollamento ipotizzabile – max percorrenza <1min
-        NUMERO DI LAVORATORI E              Collaboratori oltre il pubblico (circa 3 persone)
-           PERSONE PRESENTI
-      LAVORATORI ESPOSTI A RISCHI            Nessuno
-              PARTICOLARI
-       ADDETTI ALLA PREVENZIONE              TERESI FRANCESCO
-     INCENDI, ED ALLA EVACUAZIONE
-        ADDETTI ALLE EMERGENZE               TERESI FRANCESCO
-    ADDETTI AL PRIMO SOCCORSO                TERESI FRANCESCO
+TIPO ATTIVITA’                   Studio odontoiatrico
+CLASSE DI RISCHIO INCENDIO            Bassa
+DURATA CORSO ADDETTI                 4 ore con aggiornamento quinquennale di 2 ore
+ANTINCENDIO
+ESTINTORI                     N.3 aCO2da5kg
+VIE DI ESODO                  Su luoghi sicuri all’esterno. Idonee al massimo
+Affollamento ipotizzabile – max percorrenza <1min
+NUMERO DI LAVORATORI E              Collaboratori oltre il pubblico (circa 3 persone)
+PERSONE PRESENTI
+LAVORATORI ESPOSTI A RISCHI            Nessuno
+PARTICOLARI
+ADDETTI ALLA PREVENZIONE              TERESI FRANCESCO
+INCENDI, ED ALLA EVACUAZIONE
+ADDETTI ALLE EMERGENZE               TERESI FRANCESCO
+ADDETTI AL PRIMO SOCCORSO                TERESI FRANCESCO
 
-
-                                                  3
+```
+                                              3
+```
 
 Scopo del piano
 
@@ -1769,56 +1766,57 @@ Il presente Piano di Emergenza ed Evacuazione (PEE) ha lo scopo di definire le p
 comportamenti da adottare in caso di emergenza (incendio, fuga di gas, terremoto, malore, ecc.)
 all’interno dello studio odontoiatrico, al fine di:
 
-      Salvaguardare la vita e la salute delle persone presenti;
-      Limitare i danni alle strutture, alle apparecchiature e ai materiali;
-      Garantire un’evacuazione ordinata, rapida e sicura;
-      Agevolare l’intervento dei soccorsi esterni.
+   Salvaguardare la vita e la salute delle persone presenti;
+   Limitare i danni alle strutture, alle apparecchiature e ai materiali;
+   Garantire un’evacuazione ordinata, rapida e sicura;
+   Agevolare l’intervento dei soccorsi esterni.
 
 Campo di applicazione
 
 Il piano si applica a tutti i locali dello studio odontoiatrico, compresi:
 
-      Sale operative e di sterilizzazione
-      Sala d’attesa
-      Uffici
-      Servizi igienici e locali tecnici
+   Sale operative e di sterilizzazione
+   Sala d’attesa
+   Uffici
+   Servizi igienici e locali tecnici
 
 Riferimenti normativi
 
-      D.Lgs. 81/2008 – Sicurezza nei luoghi di lavoro
-      D.M. 10/03/1998 – Criteri generali di sicurezza antincendio nei luoghi di lavoro
-      D.M. 02/09/2021 – Criteri per la gestione dei luoghi di lavoro in esercizio e in emergenza
+   D.Lgs. 81/2008 – Sicurezza nei luoghi di lavoro
+   D.M. 10/03/1998 – Criteri generali di sicurezza antincendio nei luoghi di lavoro
+   D.M. 02/09/2021 – Criteri per la gestione dei luoghi di lavoro in esercizio e in emergenza
 
 Identificazione dei rischi di emergenza
 
 I principali rischi che possono richiedere l’attuazione del presente piano sono:
 
-      Incendio o principio d’incendio
-      Fuga di gas o sostanze chimiche (es. disinfettanti, ossigeno, anestetici)
-      Corto circuito o guasti elettrici
-      Evento sismico
-      Malore o infortunio grave di pazienti o operatori
-      Minaccia esterna o evento imprevisto (es. allagamento, vandalismo, blackout)
+   Incendio o principio d’incendio
+   Fuga di gas o sostanze chimiche (es. disinfettanti, ossigeno, anestetici)
+   Corto circuito o guasti elettrici
+   Evento sismico
+   Malore o infortunio grave di pazienti o operatori
+   Minaccia esterna o evento imprevisto (es. allagamento, vandalismo, blackout)
 
 Mezzi e presidi antincendio presenti
 
-      Estintori a CO₂ e/o polvere (uno ogni 150 m² o 30 m di percorso)
-      Segnaletica di sicurezza conforme D.Lgs. 81/08
-      Illuminazione di emergenza automatica
-      Cassette di pronto soccorso e presidi sanitari
-      Planimetria di evacuazione affissa in punti visibili.
+   Estintori a CO₂ e/o polvere (uno ogni 150 m² o 30 m di percorso)
+   Segnaletica di sicurezza conforme D.Lgs. 81/08
+   Illuminazione di emergenza automatica
+   Cassette di pronto soccorso e presidi sanitari
+   Planimetria di evacuazione affissa in punti visibili.
 
-
-                                                   4
+```
+                                               4
+```
 
 1. SORVEGLIANZA E CONTROLLO DELLE ATTREZZATURE E DEI SISTEMI DI
-SICUREZZA
-I sistemi, i dispositivi, le attrezzature e gli impianti necessitano di una corretta gestione
-emanutenzione.
-Per gestione s’intende l’insieme delle operazioni atte a garantire nel tempo un grado diaffidabilità
-sufficiente per il corretto funzionamento in caso di situazioni di emergenza.In particolare, nella
-gestione antincendio un’importanza fondamentale riveste lamanutenzione, oltre ad un’attenta attività
-di controllo e verifica riguardante:
+   SICUREZZA
+   I sistemi, i dispositivi, le attrezzature e gli impianti necessitano di una corretta gestione
+   emanutenzione.
+   Per gestione s’intende l’insieme delle operazioni atte a garantire nel tempo un grado diaffidabilità
+   sufficiente per il corretto funzionamento in caso di situazioni di emergenza.In particolare, nella
+   gestione antincendio un’importanza fondamentale riveste lamanutenzione, oltre ad un’attenta attività
+   di controllo e verifica riguardante:
 
  Estintori;
  Uscite di sicurezza;
@@ -1826,7 +1824,6 @@ di controllo e verifica riguardante:
  Pulsanti di sganci o corrente elettrica;
  Pulsanti di allarme;
  Dispositivi di protezione individuali antincendio
-
 
 Inoltre devono essere tenute sotto costante controllo i seguenti dispositivi:
 
@@ -1842,19 +1839,20 @@ Inoltre devono essere tenute sotto costante controllo i seguenti dispositivi:
 Si definisce emergenza, un fatto anormale che può costituire fonte di grave pericoloper il personale o
 per gli impianti.
 Le principali situazione di pericolo sono:
-     Incendio
-     Esplosione
-     Allagamenti dovuti alla rottura di impianti
-     Mancanza di energia elettrica
-     Persona in grave pericolo
-     Infortunio grave
-     Eventi naturali (alluvioni, terremoti,)
+ Incendio
+ Esplosione
+ Allagamenti dovuti alla rottura di impianti
+ Mancanza di energia elettrica
+ Persona in grave pericolo
+ Infortunio grave
+ Eventi naturali (alluvioni, terremoti,)
 
 Nel seguito di questo documento, saranno esaminate le situazioni che s’intendono dipericolo
 maggiore, poiché potenzialmente ad elevato rischio (incendio, allagamento, fughe di gas, terremoto).
 
-
-                                                      5
+```
+                                                  5
+```
 
 L’efficace gestione della situazione di emergenza, non può prescindere dallacomprensione e dalla
 natura dell’emergenza stessa. Per questo motivo, in genere, risulta utile classificare le emergenze come
@@ -1874,24 +1872,24 @@ C) Emergenza di livello grave
 Questo tipo di emergenza deve essere affrontata esclusivamente mediante l’intervento delle forze
 pubbliche di pronto intervento.
 
-3. FIGURE RESPONSABILI PER L’ESECUZIONE DELLE MISURE DI SICUREZZA
-Di fronte ad una situazione riconosciuta “di emergenza”, alcuni membri del personale sono eletti e
-designati come elementi facenti parte della “Squadra di Emergenza”.
-Ogni figura della Squadra di Emergenza, dovrà conoscere perfettamente il proprio ruolo e compito
-durante l’evento.
-Ogni elemento avrà, tra gli altri, il principale compito di invitare il resto del personale presente a
-tenere la calma: questo fattore è determinante al fine di garantire un ordinato svolgimento delle
-operazioni previste da questo piano di emergenza.
-Deve pertanto provvedersi preventivamente, alla nomina delle seguenti figure:
-     Responsabile emergenza
-     Responsabile chiamate
-     Addetti antincendio
-(che abbiano seguito con profitto un corso di formazione ai sensi del T.U. 81/08 e delD.M. 10/03/98).
-     Addetti primo soccorso
-(che abbiano seguito con profitto un corso di formazione ai sensi del T.U. 81/08 e delDecreto
-Interministeriale in materia di pronto soccorso in azienda)
-Gli elementi della Squadra, devono essere coadiuvati da sostituti che, in caso di loro assenza, sono
-preposti allo svolgimento delle citate procedure in caso emergenza.
+1. FIGURE RESPONSABILI PER L’ESECUZIONE DELLE MISURE DI SICUREZZA
+   Di fronte ad una situazione riconosciuta “di emergenza”, alcuni membri del personale sono eletti e
+   designati come elementi facenti parte della “Squadra di Emergenza”.
+   Ogni figura della Squadra di Emergenza, dovrà conoscere perfettamente il proprio ruolo e compito
+   durante l’evento.
+   Ogni elemento avrà, tra gli altri, il principale compito di invitare il resto del personale presente a
+   tenere la calma: questo fattore è determinante al fine di garantire un ordinato svolgimento delle
+   operazioni previste da questo piano di emergenza.
+   Deve pertanto provvedersi preventivamente, alla nomina delle seguenti figure:
+    Responsabile emergenza
+    Responsabile chiamate
+    Addetti antincendio
+   (che abbiano seguito con profitto un corso di formazione ai sensi del T.U. 81/08 e delD.M. 10/03/98).
+    Addetti primo soccorso
+   (che abbiano seguito con profitto un corso di formazione ai sensi del T.U. 81/08 e delDecreto
+   Interministeriale in materia di pronto soccorso in azienda)
+   Gli elementi della Squadra, devono essere coadiuvati da sostituti che, in caso di loro assenza, sono
+   preposti allo svolgimento delle citate procedure in caso emergenza.
 
 3.1 RESPONSABILE DELL’EMERGENZA E PROCEDURE DA SEGUIRE IN STATO DI
 NONEMERGENZA
@@ -1904,8 +1902,9 @@ collaboreranno al coordinamento delle procedure prescritte.
 In caso di assenza contemporanea del responsabile designato e del suo sostituto, l’eventuale
 situazione di emergenza, viene condotta da un addetto antincendio.
 
-
-                                                 6
+```
+                                             6
+```
 
 Nell’ambito dello svolgimento delle proprie mansioni, l’attività dei facenti parte dellasquadra addetta
 all’emergenza, non si limita solo esclusivamente durante le fasi di unmalaugurato evento sinistro,
@@ -1940,44 +1939,45 @@ variazioni alla squadra di emergenza.
 EMERGENZA
 Collaborano con le squadre dei VV.FF. durante la fase di emergenza; in particolaremodo deve sapere
 dare informazioni su:
-     l’esatta ubicazione dei presidi antincendio e di emergenza,
-     la locazione quadri elettrici generali e secondare,
-     l’eventuale presenza di linee sotto tensione, attivate da sistemi di generazionesecondari o
-        tampone,
-     possibili cause generatrici dell’incendio,
-     eventuale tipologie di materiali stoccati al momento del sinistro.
+ l’esatta ubicazione dei presidi antincendio e di emergenza,
+ la locazione quadri elettrici generali e secondare,
+ l’eventuale presenza di linee sotto tensione, attivate da sistemi di generazionesecondari o
+tampone,
+ possibili cause generatrici dell’incendio,
+ eventuale tipologie di materiali stoccati al momento del sinistro.
 
 In stato di NON EMERGENZA, gli addetti antincendio hanno il compito di:
 a) controllare periodicamente (almeno una volta al mese) l’efficienza dei presidiantincendio:
-         carica degli estintori;
-         controllo della fruibilità dei percorsi di esodo;
-         controllo e verifica dell’impianto di illuminazione d’emergenza;
+ carica degli estintori;
+ controllo della fruibilità dei percorsi di esodo;
+ controllo e verifica dell’impianto di illuminazione d’emergenza;
 b) segnalare a chiunque la presenza dei divieti vigenti (ad esempio “VietatoFumare”);
 c) assicurarsi che le vie di esodo, le uscite di emergenza, i presidi antincendio e diemergenza, siano
 sempre tenuti sgombri ed accessibili.
 Uso corretto e manutenzione della cartellonistica di emergenza
 
-
-                                                7
+```
+                                            7
+```
 
 I cartelli ed i dispositivi segnaletici devono essere:
-     posizionati appropriatamente e non coperti da ostacoli, in rapporto all'obiettivo
-     bene illuminati ed in caso di cattiva illuminazione a colori fosforescenti,rifrangenti o ad
-         illuminazione artificiale
-     rimossi se non più necessari
-     controllati, riparati, se necessario sostituiti, sottoposti a manutenzione affinché conservino le
-         loro proprietà intrinseche; bisogna prevedere una periodicità neicontrolli per quelli alimentati
-         da una fonte di energia
-     garantiti da una alimentazione di emergenza se funzionanti a mezzo di fonte di energia in
-         numero adeguato; non esiste un numero preciso se non in funzione dei rischie dell’area da
-         coprire.
+ posizionati appropriatamente e non coperti da ostacoli, in rapporto all’obiettivo
+ bene illuminati ed in caso di cattiva illuminazione a colori fosforescenti,rifrangenti o ad
+illuminazione artificiale
+ rimossi se non più necessari
+ controllati, riparati, se necessario sostituiti, sottoposti a manutenzione affinché conservino le
+loro proprietà intrinseche; bisogna prevedere una periodicità neicontrolli per quelli alimentati
+da una fonte di energia
+ garantiti da una alimentazione di emergenza se funzionanti a mezzo di fonte di energia in
+numero adeguato; non esiste un numero preciso se non in funzione dei rischie dell’area da
+coprire.
 
 Incompatibilità:
-    Non utilizzare contemporaneamente due segnali luminosi che possano confondersi.
-    Non utilizzare un segnale luminoso nelle vicinanze di un’altra emissione luminosa poco
-      distinta.
-    Non utilizzare contemporaneamente due segnali sonori.
-    Non utilizzare un segnale sonoro se il rumore di fondo è troppo intenso.
+ Non utilizzare contemporaneamente due segnali luminosi che possano confondersi.
+ Non utilizzare un segnale luminoso nelle vicinanze di un’altra emissione luminosa poco
+distinta.
+ Non utilizzare contemporaneamente due segnali sonori.
+ Non utilizzare un segnale sonoro se il rumore di fondo è troppo intenso.
 
 Marcatura:
 La segnaletica di sicurezza non richiede o prevede nessun tipo di marcatura checonfermi la
@@ -1995,48 +1995,49 @@ intervenire il locale presidio ospedaliero (118 “EMERGENZA SANITARIA”).
 Essi hanno inoltre il compito di verificare periodicamente l’efficienza e la completezza delle cassette
 sanitarie.
 
-4. PROCEDURE OPERATIVE PIANO DI EMERGENZA
-Nei paragrafi che seguono, sono riportate le riportate le procedure di caratteregenerale da rispettare
-durante le possibili situazioni di emergenza.
-Le norme comportamentali e le procedure che vengono esposte, sono valide sia per iresponsabili ed
-addetti che per tutto il personale presente nei locali della sede.
-Nello schema presente, a semplice titolo illustrativo, è possibile. Osservare le fasi chegeneralmente
-caratterizzano una situazione di allarme, dovuto al propagarsi di unincendio: si osservi in particolare,
-la necessità di dovere completare la fase dievacuazione della struttura interessata all’evento, entro i
-tempi di estensione “generalizzata dell’incendio (flash over). Se la fase di evacuazione si protrae in
-talefase, le conseguenze in termini di vite umane, possono essere disastrose. Si percepiscepertanto
-l’importanza assoluta della tempestiva segnalazione e localizzazione delfuoco, succeduta
-dall’immediata evacuazione.
-Leggete attentamente le seguenti:
-
-
-                                                 8
+1. PROCEDURE OPERATIVE PIANO DI EMERGENZA
+   Nei paragrafi che seguono, sono riportate le riportate le procedure di caratteregenerale da rispettare
+   durante le possibili situazioni di emergenza.
+   Le norme comportamentali e le procedure che vengono esposte, sono valide sia per iresponsabili ed
+   addetti che per tutto il personale presente nei locali della sede.
+   Nello schema presente, a semplice titolo illustrativo, è possibile. Osservare le fasi chegeneralmente
+   caratterizzano una situazione di allarme, dovuto al propagarsi di unincendio: si osservi in particolare,
+   la necessità di dovere completare la fase dievacuazione della struttura interessata all’evento, entro i
+   tempi di estensione “generalizzata dell’incendio (flash over). Se la fase di evacuazione si protrae in
+   talefase, le conseguenze in termini di vite umane, possono essere disastrose. Si percepiscepertanto
+   l’importanza assoluta della tempestiva segnalazione e localizzazione delfuoco, succeduta
+   dall’immediata evacuazione.
+   Leggete attentamente le seguenti:
+   
+   ```
+                                             8
+   ```
 
 NORME DI PREVENZIONE
 Familiarizzate con le seguenti procedure di prevenzione e protezione:
-   Localizzate vie di fuga e uscite di emergenza;
-   Osservate la posizione di pulsanti di emergenza, estintori e cassette di Primo Soccorso;
-   Ponete in evidenza i numeri telefonici di emergenza;
-   Non ostruite le vie di fuga o le uscite di emergenza;
-   Leggete e rispettate quanto riportato nelle cartellonistica esposta;
-   Tenete in ordine il vostro luogo di lavoro in modo tale che non possa rappresentare fonte di
-      rischio;
-   NON FUMATE né usate fiamme libere di alcun tipo dove vi è pericolo di incendio;
-   Disponete i materiali facilmente infiammabili lontani da ogni possibile fonte di calore;
-   Gettate i fiammiferi e i mozziconi di sigaretta negli appositi cestini solo DOPO esservi
-      ATTENTAMENTE assicurati che siano spenti;
-   NON sovraccaricate le prese di corrente;
-   Quando possibile spegnete le apparecchiature elettriche al termine della giornata;
-   Segnalate sempre tempestivamente il cattivo stato di apparecchiature elettriche o di prese di
-      corrente;
-   Segnalate sempre tempestivamente ai Responsabili principi di incendio o piccoli incidenti
-      accaduti, anche quando vi sembrano trascurabili.
-
+ Localizzate vie di fuga e uscite di emergenza;
+ Osservate la posizione di pulsanti di emergenza, estintori e cassette di Primo Soccorso;
+ Ponete in evidenza i numeri telefonici di emergenza;
+ Non ostruite le vie di fuga o le uscite di emergenza;
+ Leggete e rispettate quanto riportato nelle cartellonistica esposta;
+ Tenete in ordine il vostro luogo di lavoro in modo tale che non possa rappresentare fonte di
+rischio;
+ NON FUMATE né usate fiamme libere di alcun tipo dove vi è pericolo di incendio;
+ Disponete i materiali facilmente infiammabili lontani da ogni possibile fonte di calore;
+ Gettate i fiammiferi e i mozziconi di sigaretta negli appositi cestini solo DOPO esservi
+ATTENTAMENTE assicurati che siano spenti;
+ NON sovraccaricate le prese di corrente;
+ Quando possibile spegnete le apparecchiature elettriche al termine della giornata;
+ Segnalate sempre tempestivamente il cattivo stato di apparecchiature elettriche o di prese di
+corrente;
+ Segnalate sempre tempestivamente ai Responsabili principi di incendio o piccoli incidenti
+accaduti, anche quando vi sembrano trascurabili.
 
 FASI IN CUI SI PROPAGA UN INCENDIO
 
-
-                                              9
+```
+                                          9
+```
 
 4.1 SEGNALAZIONE DELL’EMERGENZA
 La gestione di una situazione di emergenza è compito esclusivo della squadra di emergenza.
@@ -2048,65 +2049,72 @@ presente, il sancito ORDINE DI EVACUAZIONE.
 Il livello di Emergenza che si prospetta, STABILITO DAL RESPONSABILE
 DELL’EMERGENZA determina il tipo di comportamento e di approccio all’evento, discriminando
 tra icomportamenti da adottare in ogni diversa circostanza, in particolare si devericonoscere:
-      Emergenza di livello lieve
+ Emergenza di livello lieve
 Evento di modesta entità, ad esempio piccolo incendio, da fronteggiare con ilpersonale della
 “Squadra di emergenza” senza prevedere l’evacuazione deipresenti.
-      Emergenza di livello medio
+ Emergenza di livello medio
 Evento di media entità in cui deve essere evacuata parte della struttura, ed in cuioccorre un notevole
 dispiego di forze interne; avvisare in questo caso le forzepubbliche di pronto intervento.
-      Emergenza di livello grave
+ Emergenza di livello grave
 Evento grave in cui è necessario evacuare l’intera struttura. Deve essere richiesto immediatamente
 l’intervento delle forze pubbliche.
 
 In caso di evacuazione, è necessario:
-    1. Dirigersi immediatamente verso le vie di esodo consigliate e/o più vicine, senza correre;
-    2. Abbandonare effetti personali o documenti.
-    3. Non perdere tempo nell’aspettare colleghi o amici.
-    4. Se eventuali visitatori non sono già stati presi in consegna da elementi dellasquadra di
-       emergenza, condurli con se verso l’uscita di emergenza.
-    5. Raggiunto il punto di raccolta prestabilito, detto “Punto di Riunione”, restare in tale area fino
-       al termine dell’emergenza o fino a nuovo ordine da parte della squadra diemergenza.
-    6. Non sostare in aree dove sono installati mezzi di emergenza/antincendio e nonintralciare in
-       nessun modo il lavoro delle forza di emergenza.
-    7. Tenere un comportamento ordinato, che non induca al panico se stessi ed il restodel personale.
+1. Dirigersi immediatamente verso le vie di esodo consigliate e/o più vicine, senza correre;
+2. Abbandonare effetti personali o documenti.
+3. Non perdere tempo nell’aspettare colleghi o amici.
+4. Se eventuali visitatori non sono già stati presi in consegna da elementi dellasquadra di
+emergenza, condurli con se verso l’uscita di emergenza.
+5. Raggiunto il punto di raccolta prestabilito, detto “Punto di Riunione”, restare in tale area fino
+al termine dell’emergenza o fino a nuovo ordine da parte della squadra diemergenza.
+6. Non sostare in aree dove sono installati mezzi di emergenza/antincendio e nonintralciare in
+nessun modo il lavoro delle forza di emergenza.
+7. Tenere un comportamento ordinato, che non induca al panico se stessi ed il restodel personale.
 
 4.3 PROCEDURE PER IL RESPONSABILE DELL’EMERGENZA                                           DURANTE
 L’EMERGENZA
 È compito del Responsabile dell’Emergenza:
-    1. Stabilire la natura dell’emergenza, optando per emergenza di livello:
-     Lieve
-     Medio
-     Grave
+1. Stabilire la natura dell’emergenza, optando per emergenza di livello:
+ Lieve
+ Medio
+ Grave
 
-    2. Decidere se fare intervenire la squadra antincendio (se si tratta di incendio modesto).
-    3. Contattare telefonicamente (attraverso il Responsabile chiamate ed eventualmente anche
-       personalmente) gli Enti pubblici di Pronto Intervento, comunicando la natura dell’emergenza
-       (VV.F.F. tel. 115, Carabinieri Tel. 112, Soccorso Sanitario 118).
-    4. Decidere se dare il l’Ordine di Evacuazione.
-    5. Coordinare gli Addetti antincendio, premurandosi di:
-    togliere tensione elettrica all’impianto (localizzare dalle planimetrie il quadroelettrico
-       generale);
+```
+2. Decidere se fare intervenire la squadra antincendio (se si tratta di incendio modesto).
+3. Contattare telefonicamente (attraverso il Responsabile chiamate ed eventualmente anche
+   personalmente) gli Enti pubblici di Pronto Intervento, comunicando la natura dell’emergenza
+   (VV.F.F. tel. 115, Carabinieri Tel. 112, Soccorso Sanitario 118).
+4. Decidere se dare il l’Ordine di Evacuazione.
+5. Coordinare gli Addetti antincendio, premurandosi di:
+```
 
+ togliere tensione elettrica all’impianto (localizzare dalle planimetrie il quadroelettrico
+generale);
 
-                                                 10
+```
+                                             10
+```
 
    verificare che l’illuminazione di emergenza, sia entrata in funzione.
 
-    6. Dirigere e coordinare, l’abbandono degli occupanti i locali attraverso le prefissatevie di fuga
-       secondo i percorsi indicati in planimetria.
-    7. Organizzare, qualora necessario, percorsi di fuga alternativi.
-    8. In caso di evacuazione di portatori di handicap attenersi a quanto esposto nelparagrafo 4.8.
-    9. Provvedere all’appello nominale, attraverso il registro delle presenze, una voltaraggiunto il
-        PUNTO DI RACCOLTA. Qualora del personale risultasse assenteall’appello, accertatosi
-        dell’attendibilità della lista presenze, informare le squadre disoccorso (interne ed esterne) per
-        iniziare la loro ricerca.
+```
+6. Dirigere e coordinare, l’abbandono degli occupanti i locali attraverso le prefissatevie di fuga
+   secondo i percorsi indicati in planimetria.
+7. Organizzare, qualora necessario, percorsi di fuga alternativi.
+8. In caso di evacuazione di portatori di handicap attenersi a quanto esposto nelparagrafo 4.8.
+9. Provvedere all’appello nominale, attraverso il registro delle presenze, una voltaraggiunto il
+    PUNTO DI RACCOLTA. Qualora del personale risultasse assenteall’appello, accertatosi
+    dell’attendibilità della lista presenze, informare le squadre disoccorso (interne ed esterne) per
+    iniziare la loro ricerca.
+```
 
 4.4 PROCEDURE PER IL RESPONSABILE CHIAMATE DURANTE EMERGENZA
 È compito del responsabile delle chiamate:
-1) Informare gli Enti Pubblici preposti al soccorso (secondo lo schema di seguitoallegato), seguendo
-le indicazione del Responsabile emergenza e/o degli Addettiantincendio.
-Il contenuto del messaggio telefonico deve essere breve e esaustivo nei confrontidelle domande che
-vengono poste, esempio:
+
+1. Informare gli Enti Pubblici preposti al soccorso (secondo lo schema di seguitoallegato), seguendo
+   le indicazione del Responsabile emergenza e/o degli Addettiantincendio.
+   Il contenuto del messaggio telefonico deve essere breve e esaustivo nei confrontidelle domande che
+   vengono poste, esempio:
 
 VIGILI DEL FUOCO 115
 Sono il sig. . . . . . . . . , responsabile delle chiamate dello
@@ -2123,47 +2131,51 @@ dell’emergenza.
 
 4.5 PROCEDURE PER GLI ADDETTI ANTINCENDIO DURANTE EMERGENZA
 È compito della Squadra Antincendio:
-1) Raggiungere il quadro generale, interrompendo l’erogazione di energia elettrica nella zona
-interessata dall’emergenza.
-2) In caso di incendio, riconoscere la causa dell’incendio, agire prontamente sul principio d’incendio
-con i mezzi di estinzione più idoneo al caso (mobili, semimobili o fissi).
-3) In caso di evacuazione, togliere tensione all’intera sede agendo sull’interruttore generale.
-4) In caso di perdite di acqua, provvedere alla chiusura delle valvole di intercettazione. In caso di
-impossibilità della manovra, informare il responsabile delle chiamate, il quale contattare il il
-Comando Provinciale dei VV.F.F.
-5) Agire prontamente su un principio d’incendio con i mezzi di estinzione in dotazione: non usare
-mai acqua su apparecchiature elettriche ancora sotto tensione, ne estintori a base di acqua
-(SCHIUMOGENI).
-6) In caso di terremoto, appena terminato il movimento tellurico provvedere a chiudere le adduzioni
-di acqua e gas.
-7) Qualora si presenti il caso di individuo in fiamme:
 
-
-                                                 11
+1. Raggiungere il quadro generale, interrompendo l’erogazione di energia elettrica nella zona
+   interessata dall’emergenza.
+1. In caso di incendio, riconoscere la causa dell’incendio, agire prontamente sul principio d’incendio
+   con i mezzi di estinzione più idoneo al caso (mobili, semimobili o fissi).
+1. In caso di evacuazione, togliere tensione all’intera sede agendo sull’interruttore generale.
+1. In caso di perdite di acqua, provvedere alla chiusura delle valvole di intercettazione. In caso di
+   impossibilità della manovra, informare il responsabile delle chiamate, il quale contattare il il
+   Comando Provinciale dei VV.F.F.
+1. Agire prontamente su un principio d’incendio con i mezzi di estinzione in dotazione: non usare
+   mai acqua su apparecchiature elettriche ancora sotto tensione, ne estintori a base di acqua
+   (SCHIUMOGENI).
+1. In caso di terremoto, appena terminato il movimento tellurico provvedere a chiudere le adduzioni
+   di acqua e gas.
+1. Qualora si presenti il caso di individuo in fiamme:
+   
+   ```
+                                             11
+   ```
 
 - Invitare alla calma, bloccando con decisione l’individuo, provvedendo adattaccare le fiamme
-soffocandole mediante coperte (preferibilmente inumidite) o mediante qualsiasi altro indumenti;
+  soffocandole mediante coperte (preferibilmente inumidite) o mediante qualsiasi altro indumenti;
 - inondare l’individuo con acqua;
 - se non è possibile il rapido reperimento di coperte, qualsiasi abiti o indumenti, fare rotolare per terra
-la persona coinvolta;
+  la persona coinvolta;
 - L’utilizzo dell’estintore è ammesso, solo se trattasi di ESTINTORE A POLVERE (evitando di
-dirigere il getto verso parti del corpo scoperte), non usare maiestintori caricati a CO2. (se presenti)
-8) Coordinare l’ordinato sgombero dei locali.
-9) Invitare il personale presente a proteggere le vie respiratorie con fazzolettiinumiditi, qualora le vie
-di fuga risultassero pervase dal fumo.
-10) In attesa dell’arrivo dei soccorritori effettuare una rapida ricognizione peraccertare la presenza di
-persone all’interno dei locali (in particolare servizi, localiaccessori, etc.).
-11) Informare i soccorritori sull’esatta ubicazione dei presidi antincendio ed indirizzarlisul particolare
-tipo di incidente.
+  dirigere il getto verso parti del corpo scoperte), non usare maiestintori caricati a CO2. (se presenti)
+
+1. Coordinare l’ordinato sgombero dei locali.
+1. Invitare il personale presente a proteggere le vie respiratorie con fazzolettiinumiditi, qualora le vie
+   di fuga risultassero pervase dal fumo.
+1. In attesa dell’arrivo dei soccorritori effettuare una rapida ricognizione peraccertare la presenza di
+   persone all’interno dei locali (in particolare servizi, localiaccessori, etc.).
+1. Informare i soccorritori sull’esatta ubicazione dei presidi antincendio ed indirizzarlisul particolare
+   tipo di incidente.
 
 4.6 PROCEDURE PER GLI ADDETTI PRIMO SOCCORSO DURANTE L’EMERGENZA
 È compito degli addetti al primo soccorso:
+
 1. Richiedere, d’accordo con il responsabile dell’emergenza, l’intervento del personale medico (118
-“EMERGENZA SANITARIA”).
-2. Invitare alla calma gli eventuali feriti, prestando i primi medicamenti, in attesa del personale
-  medico esterno.
-3. Informare il personale medico esterno del tipo di evento subito dagli infortunati, precisando i
-medicamenti già adoperati sugli stessi (bendaggi di fortuna, medicinali, ect)
+   “EMERGENZA SANITARIA”).
+1. Invitare alla calma gli eventuali feriti, prestando i primi medicamenti, in attesa del personale
+   medico esterno.
+1. Informare il personale medico esterno del tipo di evento subito dagli infortunati, precisando i
+   medicamenti già adoperati sugli stessi (bendaggi di fortuna, medicinali, ect)
 
 4.7 PROCEDURE COMPORTAMENTALI PER TUTTO IL PERSONALE DURANTE LE
 EMERGENZE
@@ -2177,36 +2189,40 @@ valide i Responsabili / Addetti, con i comportamenti tenuti dal resto del person
 Per quanto detto, il personale presente nel luogo dove si è generata la condizione di emergenza, deve:
 
 In Caso di Incendio:
-1) Appena si rileva la presenza di un incendio (o principio di incendio), informare ilResponsabile
-dell’emergenza o gli Addetti antincendio e procedereall’attivazione dei segnali d’allarme.
-2) Rispettare le disposizione fornite dalla squadra di emergenza.
-3) Assistere le persone non autosufficienti ed allontanarsi dalla zona interessata edalle zone
-potenzialmente pericolose.
-4) Non utilizzare acqua sugli apparecchi elettrici sotto tensione, utilizzare gli estintoricon cognizione
-delle loro caratteristiche.
-5) In caso di locali densi di fumo, proteggere le vie respiratori, rimando bassi sulpavimento,
-guadagnare l’uscita.
-6) Portarsi nei posti di raccolta, senza intralciare l’opera dei soccorritori, segnalando la propria
-presenza e l’eventuale assenza di terzi impossibilitati per qualunque motivo.
 
-
-                                                  12
+1. Appena si rileva la presenza di un incendio (o principio di incendio), informare ilResponsabile
+   dell’emergenza o gli Addetti antincendio e procedereall’attivazione dei segnali d’allarme.
+1. Rispettare le disposizione fornite dalla squadra di emergenza.
+1. Assistere le persone non autosufficienti ed allontanarsi dalla zona interessata edalle zone
+   potenzialmente pericolose.
+1. Non utilizzare acqua sugli apparecchi elettrici sotto tensione, utilizzare gli estintoricon cognizione
+   delle loro caratteristiche.
+1. In caso di locali densi di fumo, proteggere le vie respiratori, rimando bassi sulpavimento,
+   guadagnare l’uscita.
+1. Portarsi nei posti di raccolta, senza intralciare l’opera dei soccorritori, segnalando la propria
+   presenza e l’eventuale assenza di terzi impossibilitati per qualunque motivo.
+   
+   ```
+                                              12
+   ```
 
 In Caso di Allagamento:
-1) Attenersi esattamente alle indicazioni fornite dalla squadra di emergenza.
-2) Interrompere, se possibile, l’erogazione dell’energia elettrica (per i responsabili/addetti),
-verificando che l’acqua non abbia raggiunto quadri.
-3) Accertarsi che nessuna persona sia rimasta isolata in locali interessatidall’allagamento.
-4) Verificare se vi sono cause accertabili di perdite di acqua - rubinetti aperti, visibilirotture di
-tubazioni (per i responsabili / addetti).
+
+1. Attenersi esattamente alle indicazioni fornite dalla squadra di emergenza.
+1. Interrompere, se possibile, l’erogazione dell’energia elettrica (per i responsabili/addetti),
+   verificando che l’acqua non abbia raggiunto quadri.
+1. Accertarsi che nessuna persona sia rimasta isolata in locali interessatidall’allagamento.
+1. Verificare se vi sono cause accertabili di perdite di acqua - rubinetti aperti, visibilirotture di
+   tubazioni (per i responsabili / addetti).
 
 In Caso di Terremoto:
-1) Mantenere la calma e NON MUOVERSI sino a quando il sisma è finito.
-2) Durante il sisma, se si è all’interno dell’edificio rimanerci, disponendosi sottoscrivanie, architravi.
-3) Una volta terminato il movimento tellurico, procedere ordinatamente allo sgomberodei locali.
-4) È compito dei responsabili e degli addetti, verificare che nei servizi igienici e localiaccessori non
-siano rimaste persone bloccate.
-5) È compito degli addetti al primo soccorso occuparsi di eventuali feriti.
+
+1. Mantenere la calma e NON MUOVERSI sino a quando il sisma è finito.
+1. Durante il sisma, se si è all’interno dell’edificio rimanerci, disponendosi sottoscrivanie, architravi.
+1. Una volta terminato il movimento tellurico, procedere ordinatamente allo sgomberodei locali.
+1. È compito dei responsabili e degli addetti, verificare che nei servizi igienici e localiaccessori non
+   siano rimaste persone bloccate.
+1. È compito degli addetti al primo soccorso occuparsi di eventuali feriti.
 
 5 PRESIDI ANTINCENDIO E DI EMERGENZA
 L’impianto antincendio, di tipo mobile, è costituito in particolare da:
@@ -2232,71 +2248,70 @@ PERTANTO NON RIENTRA
 Tra le attività per cui è necessario richiedere il parere preventivo dei Comandi Provinciali dei Vigili
 del Fuoco con il susseguente rilascio del certificato di prevenzione incendi.
 
-
 Ai fini del presente piano d’emergenza si definiscono:
 
-
-                                                  13
+```
+                                              13
+```
 
 - LUOGO SICURO: luogo dove le persone possono ritenersi al sicuro dagli effetti di unincendio;
 - PERCORSO PROTETTO: percorso caratterizzato da una adeguata protezione contro glieffetti di
-un incendio che può svilupparsi nella restante parte dell'edificio.
+  un incendio che può svilupparsi nella restante parte dell’edificio.
 - USCITA DI PIANO: uscita che consente alle persone di non essere ulteriormenteesposte al rischio
-diretto degli effetti di un incendio e che può configurarsi come segue:
-● uscita che immette direttamente in un luogo sicuro;
-● uscita che immette in un percorso protetto attraverso il quale può essereraggiunta l'uscita che
-immette in un luogo sicuro;
+  diretto degli effetti di un incendio e che può configurarsi come segue:
+  ● uscita che immette direttamente in un luogo sicuro;
+  ● uscita che immette in un percorso protetto attraverso il quale può essereraggiunta l’uscita che
+  immette in un luogo sicuro;
 - VIA DI ESODO (da utilizzare in caso di emergenza): percorso senza ostacoli al deflussoche
-consente agli occupanti un edificio o un locale di raggiungere un luogo sicuro.
+  consente agli occupanti un edificio o un locale di raggiungere un luogo sicuro.
 
+1. PRESIDI DA INSTALLARE ED OPERAZIONI DA COMPIERE AI FINI DELLA
+   SICUREZZA
+   Per potere gestire al meglio le eventuali situazioni di emergenza che si possonopresentare, sono
+   installati alcuni presidi all’interno dei locali atti a definire delleoperazioni preventive da compiere ai
+   fini della sicurezza.
+   Nei locali aziendali, si è pertanto provveduto a:
+   a) affliggere un numero sufficiente di planimetrie con l’indicazione delle vie di esodo, l’ubicazione
+   degli estintori, del quadro elettrico generale, del posto telefonico per lechiamate esterne (insieme alle
+   indicazioni grafiche saranno indicate le normecomportamentali di sicurezza in condizioni di
+   emergenza);
+   b) l’individuare delle aree di riferimento esterne all’edificio da utilizzare come zona diraccolta;
+   Queste aree sono scelte, in modo da essere:
 
-6. PRESIDI DA INSTALLARE ED OPERAZIONI DA COMPIERE AI FINI DELLA
-SICUREZZA
-Per potere gestire al meglio le eventuali situazioni di emergenza che si possonopresentare, sono
-installati alcuni presidi all’interno dei locali atti a definire delleoperazioni preventive da compiere ai
-fini della sicurezza.
-Nei locali aziendali, si è pertanto provveduto a:
-a) affliggere un numero sufficiente di planimetrie con l’indicazione delle vie di esodo, l’ubicazione
-degli estintori, del quadro elettrico generale, del posto telefonico per lechiamate esterne (insieme alle
-indicazioni grafiche saranno indicate le normecomportamentali di sicurezza in condizioni di
-emergenza);
-b) l’individuare delle aree di riferimento esterne all’edificio da utilizzare come zona diraccolta;
-Queste aree sono scelte, in modo da essere:
 - sufficientemente distanti dall’edificio;
 - sicuri e protetti dal traffico stradale;
 - un riferimento sicuro e conosciuto;
 - di non intralcio per lo svolgimento delle operazioni di soccorso.
-c) Affiggere idonea segnaletica di emergenza;
-d) Istallare una adeguato sistema di illuminazione autonomo di emergenza.
-L’importanza di un opportuna segnaletica d’emergenza, è stata analizzata danumerosi studi i quali
-hanno analizzato la psiche umane nelle condizioni di panico.
+  c) Affiggere idonea segnaletica di emergenza;
+  d) Istallare una adeguato sistema di illuminazione autonomo di emergenza.
+  L’importanza di un opportuna segnaletica d’emergenza, è stata analizzata danumerosi studi i quali
+  hanno analizzato la psiche umane nelle condizioni di panico.
 
-
-7. PROVA DI EVACUAZIONE
-Almeno al biennio l'azienda deve organizzare la Prova di Evacuazione, resaobbligatoria dallo stesso
-decreto antincendio, attenendosi al seguente schema.
-La Prova sarà condotta e coordinata dal Responsabile del Servizio di Prevenzione eProtezione, con
-l’ausilio della Squadra di Emergenza.
-Gli Addetti all’Antincendio interverranno con gli estintori là dove la prova verta sullospegnimento di
-un evento di tipo comunque controllabile, contrariamente siprovvederà ad avvertire i Vigili del
-Fuoco.
-Gli Addetti al Primo soccorso lo faranno laddove venga richiesto un loro intervento aseguito di
-contusioni, traumi, abrasioni, ustioni causate da eventi come crolli, inondazioni, incendi.
-Gli Addetti alle Emergenze, cureranno la correttezza delle procedure esplicate durantele varie fasi
-della simulazione che sono, nella fattispecie:
-     il presidio delle uscite di emergenza e dei cancelli adibiti ad ingresso, così daorientare i mezzi
-        di soccorso diretti nell’insediamento;
-     il disinnesco dell’energia elettrica;
-
-
-                                                  14
+1. PROVA DI EVACUAZIONE
+   Almeno al biennio l’azienda deve organizzare la Prova di Evacuazione, resaobbligatoria dallo stesso
+   decreto antincendio, attenendosi al seguente schema.
+   La Prova sarà condotta e coordinata dal Responsabile del Servizio di Prevenzione eProtezione, con
+   l’ausilio della Squadra di Emergenza.
+   Gli Addetti all’Antincendio interverranno con gli estintori là dove la prova verta sullospegnimento di
+   un evento di tipo comunque controllabile, contrariamente siprovvederà ad avvertire i Vigili del
+   Fuoco.
+   Gli Addetti al Primo soccorso lo faranno laddove venga richiesto un loro intervento aseguito di
+   contusioni, traumi, abrasioni, ustioni causate da eventi come crolli, inondazioni, incendi.
+   Gli Addetti alle Emergenze, cureranno la correttezza delle procedure esplicate durantele varie fasi
+   della simulazione che sono, nella fattispecie:
+    il presidio delle uscite di emergenza e dei cancelli adibiti ad ingresso, così daorientare i mezzi
+   di soccorso diretti nell’insediamento;
+    il disinnesco dell’energia elettrica;
+   
+   ```
+                                              14
+   ```
 
     L’avviso a voce di tutto il personale anche (o in sostituzione) dopo l’eventuale suono delle
-       sirene di evacuazione;
-       La messa in sicurezza, ove sia possibile, di alcuni beni aziendali esposti a rischio;
-       La concentrazione del personale nei luoghi di lavoro in sicurezza;
-      L’uscita dallo stabile dello stesso personale.
-
+sirene di evacuazione;
+    La messa in sicurezza, ove sia possibile, di alcuni beni aziendali esposti a rischio;
+    La concentrazione del personale nei luoghi di lavoro in sicurezza;
+   L’uscita dallo stabile dello stesso personale.
 
 Uno specifico verbale firmato dal Responsabile del Servizio di Prevenzione e Protezione, dai
 componenti la Squadra di Emergenza, dal Rappresentante dei Lavoratori per laSicurezza, dovrà
@@ -2306,10 +2321,9 @@ del meccanismo non abbiano funzionatoperfettamente.
 Ricordiamo che la Prova di Evacuazione va ripetuta almeno ogni due anni, e che ilregime
 sanzionatorio è quello di cui al Dlgs 81/08, coordinato con il DLgs 106/09 e s.m.i.per ciascuna delle
 seguenti inadempienze:
-    Piano di Emergenza mancante.
-    Valutazione del Rischio Incendio mancante.
-    Mancata effettuazione della prova di evacuazione.
-
+ Piano di Emergenza mancante.
+ Valutazione del Rischio Incendio mancante.
+ Mancata effettuazione della prova di evacuazione.
 
 Conclusioni
 Il Presente PIANO DI EMERGENZA è stato redatto aNovembre 2025 ed èsoggetto alla revisione
@@ -2319,17 +2333,15 @@ Perapprovazione:
 
 firma del Datore di Lavoro _________________________
 
-
 firma del R.S.P.P. _________________________
-
 
 firma del Responsabile dell’Emergenza ______________________________
 
-
 firma del R.L.S. ______________________________
 
-
-                                                15
+```
+                                            15
+```
 
 VERBALE PROVA PERIODICA SIMULATA DI EMERGENZA GENERALE
 
@@ -2337,24 +2349,23 @@ In data …………… dalle ore …………. alle ore ………… è stata e
 
 simulata di emergenza generale secondo quanto prescritto dal Piano diEmergenza.
 
-
 Funzioni e persone coinvolte:
 
-  ________________________________________________________
+-----
 
-  ________________________________________________________
+-----
 
-  ________________________________________________________
+-----
 
-  ________________________________________________________
+-----
 
-  Esito della prova e comportamento delle Funzioni interessate e del Personale:
+Esito della prova e comportamento delle Funzioni interessate e del Personale:
 
-  ________________________________________________________
+-----
 
-  ________________________________________________________
+-----
 
-  ________________________________________________________
+-----
 
 Tipo di segnale usato: ______________________________________________________
 
@@ -2362,16 +2373,15 @@ Tempi di evacuazione: _____________________________________________________
 
 Osservazioni eventuali: _____________________________________________________
 
-
 Firma per presa visione del personale dipendente ___________________________________
 
 Firma per presa visione dei collaboratori__________________________________________
 
+DataILRESPONSABILE
 
-  DataILRESPONSABILE
-
-
-                                               16
+```
+                                           16
+```
 
 INDICE
 1 Sorveglianza e controllo delle attrezzature e dei sistemi di sicurezza
@@ -2397,18 +2407,20 @@ INDICE
 8 Elenco dei responsabili / addetti per la gestione delle emergenze
 8.1 Elenco del personale
 
-  Allegati
+Allegati
 
-      Planimetrie con vie di fuga, uscite di emergenza e presidi antincendio
-      Elenco aggiornato del personale e ruoli in emergenza
-      Istruzioni nell’utilizzo dei sistemi di emergenza
-      Attestati del personale
-      Registro prove di evacuazione
-      Schede di verifica estintori e impianti
+   Planimetrie con vie di fuga, uscite di emergenza e presidi antincendio
+   Elenco aggiornato del personale e ruoli in emergenza
+   Istruzioni nell’utilizzo dei sistemi di emergenza
+   Attestati del personale
+   Registro prove di evacuazione
+   Schede di verifica estintori e impianti
 
+```
+                                            17`,
+```
 
-                                                17`,
-  7: `Il presente protocollo intende definire le raccomandazioni per le misure di isolamento da adottare per i
+7: `Il presente protocollo intende definire le raccomandazioni per le misure di isolamento da adottare per i
 pazienti con patologie contagiose o potenzialmente tali.
 
 DEFINIZIONI:
@@ -2425,42 +2437,45 @@ Fonte di infezione: luogo da cui proviene il microrganismo infettante. In alcuni
 la fonte di infezione coincidono (ad esempio Staphylococcus aureus e mucosa nasale), mentre in
 altri casi serbatoio e fonte di infezione sono differenti (ad esempio nella salmonellosi).
 
-           Ospite suscettibile: soggetto che, venendo a contatto con un microrganismo, sviluppa la
-            malattia infettiva. Le difese dell’ospite possono essere alterate da diverse condizioni
-            patologiche, dall’età, da terapie antibiotiche, steroidee, immunosoppressive o
-            radioterapiche, nonché da procedure diagnostiche e/o terapeutiche (cateteri, endoscopie,
-            interventi chirurgici, ecc.). Per questo motivo, un soggetto può diventare suscettibile anche
-            venendo a contatto con microrganismi generalmente non patogeni.
+```
+       Ospite suscettibile: soggetto che, venendo a contatto con un microrganismo, sviluppa la
+        malattia infettiva. Le difese dell’ospite possono essere alterate da diverse condizioni
+        patologiche, dall’età, da terapie antibiotiche, steroidee, immunosoppressive o
+        radioterapiche, nonché da procedure diagnostiche e/o terapeutiche (cateteri, endoscopie,
+        interventi chirurgici, ecc.). Per questo motivo, un soggetto può diventare suscettibile anche
+        venendo a contatto con microrganismi generalmente non patogeni.
+```
 
 Trasmissione: passaggio dell’agente infettivo dal serbatoio o dalla fonte di infezione all’ospite.
 Le principali modalità di trasmissione delle infezioni sono:
 
-          Per contatto diretto: avviene attraverso un contatto immediato tra la fonte di infezione e
-           l’ospite.
-           Esempio: durante attività di assistenza che richiedono il contatto diretto dell’operatore con
-           liquidi biologici del paziente (mobilizzazione, igiene personale)
+       Per contatto diretto: avviene attraverso un contatto immediato tra la fonte di infezione e
+l’ospite.
+Esempio: durante attività di assistenza che richiedono il contatto diretto dell’operatore con
+liquidi biologici del paziente (mobilizzazione, igiene personale)
 
+```
+       Esempio di infezioni: infezioni a trasmissione parenterale.
+```
 
-           Esempio di infezioni: infezioni a trasmissione parenterale.
-
-          Per contatto indiretto:
-               o Attraverso veicoli: avviene tramite il contatto tra un ospite suscettibile e un oggetto
-                    contaminato da microrganismi (veicolo di infezione), come strumenti chirurgici,
-                    manipoli, specilli, aghi, guanti.
-               o Attraverso vettori: avviene quando il vettore (insetto o macroparassita in genere)
-                    partecipa attivamente alla trasmissione dell’infezione.
-          Attraverso droplets: il microrganismo si trasmette dalla fonte o dal serbatoio di infezione
-           mediante particelle chiamate droplets (goccioline), eliminate con la tosse, gli starnuti o durante
-           l’utilizzo di strumenti rotanti ad alta velocità. Le goccioline si depositano sulle mucose
-           dell’ospite.
-           Questo tipo di trasmissione avviene solo se l’ospite si trova a distanza ravvicinata dalla fonte
-           di infezione.
-           Esempi: Neisseria meningitidis, virus influenzali.
-          Per via aerea: la trasmissione per via aerea si verifica quando il microrganismo è in grado di
-           diffondersi nell’aria attraverso la disseminazione di nuclei di goccioline (droplet nuclei) di
-           dimensioni inferiori rispetto alle droplets, oppure mediante particelle di polvere contaminate.
-           In tal caso, il microrganismo può raggiungere anche lunghe distanze dalla fonte di infezione.
-           Esempi: Mycobacterium tuberculosis (TBC), morbillo, varicella.
+       Per contatto indiretto:
+o Attraverso veicoli: avviene tramite il contatto tra un ospite suscettibile e un oggetto
+contaminato da microrganismi (veicolo di infezione), come strumenti chirurgici,
+manipoli, specilli, aghi, guanti.
+o Attraverso vettori: avviene quando il vettore (insetto o macroparassita in genere)
+partecipa attivamente alla trasmissione dell’infezione.
+       Attraverso droplets: il microrganismo si trasmette dalla fonte o dal serbatoio di infezione
+mediante particelle chiamate droplets (goccioline), eliminate con la tosse, gli starnuti o durante
+l’utilizzo di strumenti rotanti ad alta velocità. Le goccioline si depositano sulle mucose
+dell’ospite.
+Questo tipo di trasmissione avviene solo se l’ospite si trova a distanza ravvicinata dalla fonte
+di infezione.
+Esempi: Neisseria meningitidis, virus influenzali.
+       Per via aerea: la trasmissione per via aerea si verifica quando il microrganismo è in grado di
+diffondersi nell’aria attraverso la disseminazione di nuclei di goccioline (droplet nuclei) di
+dimensioni inferiori rispetto alle droplets, oppure mediante particelle di polvere contaminate.
+In tal caso, il microrganismo può raggiungere anche lunghe distanze dalla fonte di infezione.
+Esempi: Mycobacterium tuberculosis (TBC), morbillo, varicella.
 
 MODALITA’OPERATIVE
 
@@ -2472,36 +2487,32 @@ Il presente protocollo si propone, a scopo di prevenzione primaria, di applicare
 indicate nelle Linee Guida dei principali organismi scientifici internazionali, in particolare quelle del
 Centers for Disease Control and Prevention (CDC).
 
-
 CAMPODIAPPLICAZIONE
 
 Vi sono due livelli nelle precauzioni di isolamento:
 
-   1. Precauzioni destinate all’assistenza di tutti i pazienti in ospedale
-      → Precauzioni standard
-   2. Precauzioni destinate all’assistenza di specifici pazienti
-      → Precauzioni basate sulla modalità di trasmissione
-         o Precauzioni per la trasmissione aerea
-         o Precauzioni per la trasmissione attraverso goccioline (droplet)
-         o Precauzioni da contatto
-
+1. Precauzioni destinate all’assistenza di tutti i pazienti in ospedale
+   → Precauzioni standard
+1. Precauzioni destinate all’assistenza di specifici pazienti
+   → Precauzioni basate sulla modalità di trasmissione
+   o Precauzioni per la trasmissione aerea
+   o Precauzioni per la trasmissione attraverso goccioline (droplet)
+   o Precauzioni da contatto
 
 Le “Precauzioni standard (S)” riguardano:
 
-   1.   Misure di barriera
-   2.   Strumenti / oggetti taglienti
-   3.   Decontaminazione dello strumentario riutilizzabile
-   4.   Biancheria
-   5.   Pulizia e disinfezione ambientale
-   6.   Collocazione del paziente
-
+1. Misure di barriera
+1. Strumenti / oggetti taglienti
+1. Decontaminazione dello strumentario riutilizzabile
+1. Biancheria
+1. Pulizia e disinfezione ambientale
+1. Collocazione del paziente
 
 Le “Precauzioni basate sulla modalità di trasmissione” riguardano:
 
-   1. Precauzioni per la trasmissione aerea
-   2. Precauzioni per la trasmissione attraverso goccioline (droplet)
-   3. Precauzioni per la trasmissione da contatto
-
+1. Precauzioni per la trasmissione aerea
+1. Precauzioni per la trasmissione attraverso goccioline (droplet)
+1. Precauzioni per la trasmissione da contatto
 1. Precauzioni standard
 
 1.1. Misure di barriera
@@ -2519,92 +2530,96 @@ infezioni in ambito odontoiatrico.
 
 Il lavaggio delle mani deve avvenire:
 
-      Prima di ogni seduta con il paziente
-      Prima e dopo le procedure asettiche
-      Prima e dopo gli interventi chirurgici
-      Prima e dopo le medicazioni
-      Immediatamente, in caso di contatto accidentale con sangue, fluidi corporei, secreti, escreti o
-       oggetti contaminati, anche se si indossavano i guanti
-      Dopo aver tolto i guanti
-      Dopo l’uso dei servizi igienici
+   Prima di ogni seduta con il paziente
+   Prima e dopo le procedure asettiche
+   Prima e dopo gli interventi chirurgici
+   Prima e dopo le medicazioni
+   Immediatamente, in caso di contatto accidentale con sangue, fluidi corporei, secreti, escreti o
+oggetti contaminati, anche se si indossavano i guanti
+   Dopo aver tolto i guanti
+   Dopo l’uso dei servizi igienici
 
 Ulteriori indicazioni:
 
-      Lavare le mani dopo la rimozione dei guanti e tra un paziente e l’altro.
-      Utilizzare detergente normale per il lavaggio sociale (di routine) delle mani.
-      Utilizzare antisettico in circostanze specifiche, rispettando tempi di lavaggio di almeno 1–2
-       minuti.
-      I lavabi devono essere dotati di dispenser con detergente, antisettico e salviette di carta
-       monouso.
-      Le unghie devono essere ben curate, corte e prive di smalto. Durante l’attività non portare
-       anelli, bracciali o altri monili.
-
+   Lavare le mani dopo la rimozione dei guanti e tra un paziente e l’altro.
+   Utilizzare detergente normale per il lavaggio sociale (di routine) delle mani.
+   Utilizzare antisettico in circostanze specifiche, rispettando tempi di lavaggio di almeno 1–2
+minuti.
+   I lavabi devono essere dotati di dispenser con detergente, antisettico e salviette di carta
+monouso.
+   Le unghie devono essere ben curate, corte e prive di smalto. Durante l’attività non portare
+anelli, bracciali o altri monili.
 
 1.1.2. Guanti
 
-      Devono essere indossati guanti monouso sterili in lattice o vinile per le procedure che
-       comportano contatto con aree del corpo normalmente sterili.
-      Devono essere indossati guanti monouso non sterili in lattice o vinile per le procedure che
-       prevedono contatto con mucose o altre procedure diagnostiche o di controllo che non
-       richiedono guanti sterili.
-      Devono essere indossati guanti in gomma per uso domestico per la pulizia ambientale e la
-       decontaminazione dello strumentario.
+   Devono essere indossati guanti monouso sterili in lattice o vinile per le procedure che
+comportano contatto con aree del corpo normalmente sterili.
+   Devono essere indossati guanti monouso non sterili in lattice o vinile per le procedure che
+prevedono contatto con mucose o altre procedure diagnostiche o di controllo che non
+richiedono guanti sterili.
+   Devono essere indossati guanti in gomma per uso domestico per la pulizia ambientale e la
+decontaminazione dello strumentario.
 
 I guanti devono essere:
 
-      Rimossi prontamente dopo l’uso.
+   Rimossi prontamente dopo l’uso.
 
    Rimossi prima di assistere un altro paziente.
-       Sostituiti quando si rompono, si verifica una puntura o una lacerazione.
-       Dopo la rimozione dei guanti, lavare immediatamente le mani.
+   Sostituiti quando si rompono, si verifica una puntura o una lacerazione.
+   Dopo la rimozione dei guanti, lavare immediatamente le mani.
 
 ATTENZIONE:
 
 Indossare i guanti non sostituisce la necessità di lavare le mani, poiché:
 
-    1. I guanti possono presentare difetti invisibili o lacerarsi durante l’uso.
-    2. Le mani possono contaminarsi durante la rimozione dei guanti.
-    3. I guanti possono contaminarsi quando vengono indossati.
-
+```
+1. I guanti possono presentare difetti invisibili o lacerarsi durante l’uso.
+2. Le mani possono contaminarsi durante la rimozione dei guanti.
+3. I guanti possono contaminarsi quando vengono indossati.
+```
 
 1.1.3. Mascherine, occhiali protettivi / visiere
 
-       Devono essere utilizzati durante le procedure che possono determinare schizzi di sangue o di
-        altri liquidi biologici.
-       La mascherina deve essere sostituita ad ogni paziente e comunque non oltre un’ora di impiego,
-        quindi gettata nel contenitore dei rifiuti pericolosi a rischio infettivo.
-
+```
+   Devono essere utilizzati durante le procedure che possono determinare schizzi di sangue o di
+    altri liquidi biologici.
+   La mascherina deve essere sostituita ad ogni paziente e comunque non oltre un’ora di impiego,
+    quindi gettata nel contenitore dei rifiuti pericolosi a rischio infettivo.
+```
 
 1.1.4. Camici
 
-       Devono essere utilizzati camici in cotone pesante o camici in TNT per proteggere la cute e
-        prevenire l’imbrattamento degli indumenti, riducendo la trasmissione di microrganismi durante
-        procedure che possono determinare schizzi di sangue o altri liquidi biologici.
-       Dopo aver tolto il camice, lavare le mani.
-
+```
+   Devono essere utilizzati camici in cotone pesante o camici in TNT per proteggere la cute e
+    prevenire l’imbrattamento degli indumenti, riducendo la trasmissione di microrganismi durante
+    procedure che possono determinare schizzi di sangue o altri liquidi biologici.
+   Dopo aver tolto il camice, lavare le mani.
+```
 
 1.2. Strumenti / oggetti taglienti
 
 Per prevenire incidenti causati da aghi, bisturi e altri dispositivi taglienti o appuntiti:
 
-       Non reincappucciare gli aghi né rimuoverli manualmente dalle siringhe.
-       Non indirizzare la punta di aghi o altri oggetti taglienti verso parti del corpo.
-       Non raccogliere strumenti taglienti o appuntiti mentre stanno cadendo.
-       Non piegare o rompere lame, aghi o altri oggetti taglienti.
-       Eliminare sempre aghi e altri oggetti taglienti negli appositi contenitori per prevenire
-        esposizioni accidentali.
-
+```
+   Non reincappucciare gli aghi né rimuoverli manualmente dalle siringhe.
+   Non indirizzare la punta di aghi o altri oggetti taglienti verso parti del corpo.
+   Non raccogliere strumenti taglienti o appuntiti mentre stanno cadendo.
+   Non piegare o rompere lame, aghi o altri oggetti taglienti.
+   Eliminare sempre aghi e altri oggetti taglienti negli appositi contenitori per prevenire
+    esposizioni accidentali.
+```
 
 1.3. Decontaminazione dello strumentario riutilizzabile
 
-       Tutto il materiale riutilizzabile venuto a contatto con sangue o altri liquidi potenzialmente
-        infetti deve essere immerso subito dopo l’uso in soluzione disinfettante a base di derivati
-        fenolici 0,4% per 30 minuti.
-       La pulizia dello strumentario va effettuata utilizzando mascherina con visiera e guanti.
+```
+   Tutto il materiale riutilizzabile venuto a contatto con sangue o altri liquidi potenzialmente
+    infetti deve essere immerso subito dopo l’uso in soluzione disinfettante a base di derivati
+    fenolici 0,4% per 30 minuti.
+   La pulizia dello strumentario va effettuata utilizzando mascherina con visiera e guanti.
+```
 
    I presidi medico-chirurgici critici o semi-critici contaminati vanno sterilizzati o disinfettati; la
-       tipologia di disinfettante da utilizzare è determinata dallo strumento e dal suo uso specifico.
-
+tipologia di disinfettante da utilizzare è determinata dallo strumento e dal suo uso specifico.
 
 1.4. Pulizia e disinfezione ambientale
 
@@ -2614,34 +2629,32 @@ Per alcuni microrganismi patogeni (es. enterococchi), che resistono a lungo nell
 un’adeguata disinfezione delle superfici con cui il paziente è venuto a contatto (sedute, sale d’attesa,
 maniglie delle porte, rubinetti, ecc.).
 
-
 1.5. Collocazione del paziente
 
 La gestione separata del paziente, in orari stabiliti e preferibilmente a fine giornata, può essere
 necessaria per:
 
-      Malattie a trasmissione aerea.
-      Pazienti con scadenti abitudini igieniche, non collaboranti o che contaminano l’ambiente (es.
-       bambini o soggetti con alterazioni mentali).
+   Malattie a trasmissione aerea.
+   Pazienti con scadenti abitudini igieniche, non collaboranti o che contaminano l’ambiente (es.
+bambini o soggetti con alterazioni mentali).
 
 La gestione separata riduce la possibilità di trasmissione e facilita l’adozione delle misure di profilassi
 da parte del personale.
-
 
 1.6. Gestione pazienti con patologie contagiose o potenzialmente tali
 
 Nel caso di:
 
-      Temperatura corporea superiore a 37°C
-      Insorgenza improvvisa di sintomi quali febbre, tosse, dispnea senza altra eziologia nota
-      Sintomatologia riconducibile a patologie contagiose
-      Riscontro di pediculosi o scabbia
+   Temperatura corporea superiore a 37°C
+   Insorgenza improvvisa di sintomi quali febbre, tosse, dispnea senza altra eziologia nota
+   Sintomatologia riconducibile a patologie contagiose
+   Riscontro di pediculosi o scabbia
 
 Il paziente sarà temporaneamente isolato presso la seconda sala operativa e dotato di DPI
 (mascherina FFP2 e guanti in lattice) in attesa di:
 
-      Eventuale intervento del 118
-      Arrivo di un familiare per il prelievo del paziente
+   Eventuale intervento del 118
+   Arrivo di un familiare per il prelievo del paziente
 
 Gli altri pazienti in sala d’attesa dovranno allontanarsi per almeno 60 minuti per consentire le
 successive operazioni di sanificazione.
@@ -2656,21 +2669,19 @@ ricircolo d’aria.
 
 DPI richiesti per le operazioni di sanificazione:
 
-      Maschera FFP2
-      Guanti monouso
-      Tuta da lavoro monouso in TNT
-      Cuffia in TNT
-      Visiera
-      Scarpe da lavoro con copricalzari monouso
+   Maschera FFP2
+   Guanti monouso
+   Tuta da lavoro monouso in TNT
+   Cuffia in TNT
+   Visiera
+   Scarpe da lavoro con copricalzari monouso
 
-
-2. Precauzioni basate sulla modalità di trasmissione
+1. Precauzioni basate sulla modalità di trasmissione
 
 Destinate ai pazienti riconosciuti o sospetti di essere infetti da patogeni altamente trasmissibili o
 epidemiologica mente importanti, diffusi per via aerea, tramite goccioline (droplets) o attraverso il
 contatto con cute o superfici contaminate.
 Richiedono ulteriori precauzioni oltre a quelle standard.
-
 
 2.1. Precauzioni per la trasmissione aerea
 
@@ -2682,15 +2693,14 @@ sospesi e diffondersi nell’aria (es. TBC, morbillo, varicella).
 
 Il personale deve indossare mascherina di protezione respiratoria all’ingresso nella sala operativa.
 
-      Per pazienti con TBC: FFP2 per procedure di assistenza generali, FFP3 per procedure che
-       inducono tosse o generano aerosol.
-      La mascherina non è necessaria per operatori immuni in caso di varicella o morbillo.
+   Per pazienti con TBC: FFP2 per procedure di assistenza generali, FFP3 per procedure che
+inducono tosse o generano aerosol.
+   La mascherina non è necessaria per operatori immuni in caso di varicella o morbillo.
 
 2.1.2. Educazione sanitaria
 
 Istruire il paziente sulle norme igieniche da osservare per prevenire la diffusione di microrganismi ad
 altri degenti o all’ambiente (es. coprirsi naso e bocca con salviette monouso durante la tosse).
-
 
 2.2. Precauzioni per la trasmissione attraverso goccioline (droplets)
 
@@ -2710,13 +2720,11 @@ In caso di urgenza, programmare la seduta come ultimo appuntamento della giornat
 Il personale deve indossare mascherina FFP2 quando lavora a meno di un metro di distanza dal
 paziente.
 
-
 2.3. Precauzioni per la trasmissione da contatto
 
 In aggiunta alle precauzioni standard, queste misure devono essere adottate per pazienti noti o sospetti
 di infezione da patogeni trasmissibili tramite contatto diretto (mani, cute, mucose) o indiretto
-(superfici, presidi). Esempi: affezioni gastrointestinali, ascessi, decubiti, scabbia, pediculosi.`,
-  8: `Scopo:
+(superfici, presidi). Esempi: affezioni gastrointestinali, ascessi, decubiti, scabbia, pediculosi.`, 8: `Scopo:
 Definire i requisiti e le modalità operative per garantire una corretta redazione, aggiornamento,
 conservazione e verifica della documentazione sanitaria dei pazienti, assicurando tracciabilità,
 riservatezza e conformità alle normative vigenti.
@@ -2724,93 +2732,106 @@ riservatezza e conformità alle normative vigenti.
 Documentazione:
 Può essere in diversi formati (cartaceo o elettronico) e su diversi supporti.
 In particolare la documentazione comprende:
-                    Cartella clinica;
-                    Consensi informati;
-                    Documenti di posta elettronica, compresi gli allegati.
-                    Gestione dei database informatici per radiografie digitali
-                    Documenti necessari allo svolgimento delle attività, come ad esempio, fotografie,
-                     esami radiografici
+    Cartella clinica;
+    Consensi informati;
+    Documenti di posta elettronica, compresi gli allegati.
+    Gestione dei database informatici per radiografie digitali
+    Documenti necessari allo svolgimento delle attività, come ad esempio, fotografie,
+esami radiografici
 
 Struttura della documentazione
-        La documentazione riporta nell’intestazione ordinatamente il nome dell’azienda, con
- l’eventuale logo, il nome del documento, modulo o altro, il codice del documento ed il numero di
- pagina, riferito al numero totale di pagine. Per i moduli è ammesso omettere la numerazione delle
- pagine se sono tutti contenuti in un sola pagina.
-        Il piede di pagina riporta il nome del documento ed il percorso della cartella in cui è
- conservato, la data e l’indice di revisione.
-        Quando è possibile la documentazione deve riportare l’indice generale; nei documenti più
- importanti e più articolati è raccomandato anche un indice analitico da inserire alla fine del
- documento stesso e che contenga le voci più importanti.
-
+La documentazione riporta nell’intestazione ordinatamente il nome dell’azienda, con
+l’eventuale logo, il nome del documento, modulo o altro, il codice del documento ed il numero di
+pagina, riferito al numero totale di pagine. Per i moduli è ammesso omettere la numerazione delle
+pagine se sono tutti contenuti in un sola pagina.
+Il piede di pagina riporta il nome del documento ed il percorso della cartella in cui è
+conservato, la data e l’indice di revisione.
+Quando è possibile la documentazione deve riportare l’indice generale; nei documenti più
+importanti e più articolati è raccomandato anche un indice analitico da inserire alla fine del
+documento stesso e che contenga le voci più importanti.
 
 Responsabilità della redazione
-         La redazione della documentazione sanitaria è compito del Titolare dello studio
- odontoiatrico, il [TITOLARE]. La redazione tiene conto per le specifiche pertinenze della
- normativa vigente sulla tutela dei dati personali, sul contenuto specifico (es. dati obbligatori e
- descrittivi della cartella clinica), sulla tutela radioprotezionistica (consenso informato)
+La redazione della documentazione sanitaria è compito del Titolare dello studio
+odontoiatrico, il [TITOLARE]. La redazione tiene conto per le specifiche pertinenze della
+normativa vigente sulla tutela dei dati personali, sul contenuto specifico (es. dati obbligatori e
+descrittivi della cartella clinica), sulla tutela radioprotezionistica (consenso informato)
 
 Riesame ed Aggiornamento
-          Ad ogni incontro con il paziente l’Odontoiatra richiama la cartella clinica
- cartacea/informatizzata e la documentazione sanitaria a corredo (dagli archivi e/o dal software
- gestionale), e dopo averla visionata apporrà gli eventuali aggiornamenti datati che descrivono gli
- avanzamenti del piano di cura concordato. Gli stessi aggiornamenti saranno di conseguenza
- attribuiti all’Odontoiatra che effettua le prestazioni/indagini strumentali tramite sigla autografa o
- direttamente dal software gestionale del database per le quali sono state consegnate le credenziali di
- accesso personali dal Titolare
-          Gli aggiornamenti si rendono quindi necessari per uniformare la documentazione, e quindi le
- attività da essa supportate, al nuovo quadro clinico dovuto al progredire delle prestazioni erogate o
- in alternativa alla chiusura con relativa conservazione per almeno cinque anni della cartella clinica e
- di tutte le informazioni ad essa associate.
+Ad ogni incontro con il paziente l’Odontoiatra richiama la cartella clinica
+cartacea/informatizzata e la documentazione sanitaria a corredo (dagli archivi e/o dal software
+gestionale), e dopo averla visionata apporrà gli eventuali aggiornamenti datati che descrivono gli
+avanzamenti del piano di cura concordato. Gli stessi aggiornamenti saranno di conseguenza
+attribuiti all’Odontoiatra che effettua le prestazioni/indagini strumentali tramite sigla autografa o
+direttamente dal software gestionale del database per le quali sono state consegnate le credenziali di
+accesso personali dal Titolare
+Gli aggiornamenti si rendono quindi necessari per uniformare la documentazione, e quindi le
+attività da essa supportate, al nuovo quadro clinico dovuto al progredire delle prestazioni erogate o
+in alternativa alla chiusura con relativa conservazione per almeno cinque anni della cartella clinica e
+di tutte le informazioni ad essa associate.
 
 Conservazione della documentazione sanitaria
-         La conservazione della documentazione sanitaria (es. cartella sanitaria, preventivi, piano di
- cura, consenso informato, prescrizioni e terapia) in formato digitale è prevista all’interno software
- gestionali protetti da password gestite dal titolare e/o all’interno di carpette codificate in maniera da
- essere riconducibili in maniera univoca al paziente, custodite all’interno di armadi con serratura a
- chiave affidata al titolare.
+La conservazione della documentazione sanitaria (es. cartella sanitaria, preventivi, piano di
+cura, consenso informato, prescrizioni e terapia) in formato digitale è prevista all’interno software
+gestionali protetti da password gestite dal titolare e/o all’interno di carpette codificate in maniera da
+essere riconducibili in maniera univoca al paziente, custodite all’interno di armadi con serratura a
+chiave affidata al titolare.
 
 La documentazione sanitaria può essere costituita da:
-           Cartella clinica digitale gestita da programma gestionale
-           Cartella clinica cartacea
-           Consensi informati informatizzati
-           Radiografie convenzionali digitalizzate
-           Piani di cura informatizzati
-           Email
+ Cartella clinica digitale gestita da programma gestionale
+ Cartella clinica cartacea
+ Consensi informati informatizzati
+ Radiografie convenzionali digitalizzate
+ Piani di cura informatizzati
+ Email
 
-     La integrità è garantita da procedure di backup periodici su supporti removibili dedicati oltre
- che dalla presenza di un antivirus aggiornato e accesso ai dati consentito da password gestite dal
- Titolare. E’ altresì presente un UPS che interviene in caso di interruzione della fornitura elettrica.
-     La documentazione cartacea sanitaria è custodita in armadio dotato di serratura a chiave tenute
- dal Titolare. Se ritenuto necessaria è prevista la copia della documentazione per sicurezza di
- conservazione che sarà inserita presso altro armadio distinto.
+```
+ La integrità è garantita da procedure di backup periodici su supporti removibili dedicati oltre
+```
 
-     La tutela dei dati personali si attua al livello fisico e al livello logistico. Per il primo è presente
- un locale segreteria ed un ufficio per la ricezione della clientela all’interno dei quali è rispettata la
- privacy durante i colloqui per le trattazioni sanitarie ed economiche. Il trattamento dei dati personali
- altresì per come previsto dalla normativa vigente viene concesso dal cliente tramite apposito
- consenso. La consultazione degli archivi digitali è consentito esclusivamente agli operatori
- odontoiatri dotati di apposite credenziali di accesso personali.
+che dalla presenza di un antivirus aggiornato e accesso ai dati consentito da password gestite dal
+Titolare. E’ altresì presente un UPS che interviene in caso di interruzione della fornitura elettrica.
+La documentazione cartacea sanitaria è custodita in armadio dotato di serratura a chiave tenute
+dal Titolare. Se ritenuto necessaria è prevista la copia della documentazione per sicurezza di
+conservazione che sarà inserita presso altro armadio distinto.
 
-     La attività odontoiatrica non prevede consegna ai clienti di referti. Copia della cartella clinica o
- copia delle indagini strumentali (radiografie) può essere comunque richiesta dall’interessato brevi
- manu o su delega in busta chiusa (e con documento di riconoscimento del delegante e del delegato
- in corso di validità) con a fine del trattamento tramite formale procedura scritta o via email e
- consegnata allo stesso con le stesse modalità con tempi previsti in una settimana.
+```
+ La tutela dei dati personali si attua al livello fisico e al livello logistico. Per il primo è presente
+```
 
-     Le cartelle cliniche sono firmate dal Titolare o suo collaboratore/consulente odontoiatra che ne
- cura la compilazione, e l’esecuzione delle indagini strumentali (eventuali radiografie) è consentito
- esclusivamente agli odontoiatri tramite software dedicato il quale abilita singolarmente gli stessi
- con credenziali personalizzabili. E’ di conseguenza identificabile univocamente il responsabile della
- prestazione.
+un locale segreteria ed un ufficio per la ricezione della clientela all’interno dei quali è rispettata la
+privacy durante i colloqui per le trattazioni sanitarie ed economiche. Il trattamento dei dati personali
+altresì per come previsto dalla normativa vigente viene concesso dal cliente tramite apposito
+consenso. La consultazione degli archivi digitali è consentito esclusivamente agli operatori
+odontoiatri dotati di apposite credenziali di accesso personali.
 
-     Tutti gli eventuali odontoiatri collaboratori coinvolti nel processo di redazione saranno formati
- ed informati delle procedure e relative responsabilità tramite incontri che saranno programmati al
- momento dell’inizio della collaborazione.
+```
+ La attività odontoiatrica non prevede consegna ai clienti di referti. Copia della cartella clinica o
+```
+
+copia delle indagini strumentali (radiografie) può essere comunque richiesta dall’interessato brevi
+manu o su delega in busta chiusa (e con documento di riconoscimento del delegante e del delegato
+in corso di validità) con a fine del trattamento tramite formale procedura scritta o via email e
+consegnata allo stesso con le stesse modalità con tempi previsti in una settimana.
+
+```
+ Le cartelle cliniche sono firmate dal Titolare o suo collaboratore/consulente odontoiatra che ne
+```
+
+cura la compilazione, e l’esecuzione delle indagini strumentali (eventuali radiografie) è consentito
+esclusivamente agli odontoiatri tramite software dedicato il quale abilita singolarmente gli stessi
+con credenziali personalizzabili. E’ di conseguenza identificabile univocamente il responsabile della
+prestazione.
+
+```
+ Tutti gli eventuali odontoiatri collaboratori coinvolti nel processo di redazione saranno formati
+```
+
+ed informati delle procedure e relative responsabilità tramite incontri che saranno programmati al
+momento dell’inizio della collaborazione.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
- Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 9
 Documento formale di incarico del
@@ -2818,7 +2839,6 @@ responsabile della Manutenzione.
 
 Cod. Requisito
 1A.03.01.01
-
 
 [TITOLARE]
 
@@ -2828,139 +2848,147 @@ Al fine di garantire l’efficienza, la sicurezza e la conformità normativa del
 delle strutture dello studio odontoiatrico, si rende necessario designare un Responsabile della Manutenzione
 incaricato di sovrintendere alle attività di controllo, manutenzione ordinaria e straordinaria e alla relativa
 documentazione, pertanto
-                                                  NOMINA
- Se stesso come Responsabile della manutenzione ordinaria e straordinaria della struttura.
-
+NOMINA
+Se stesso come Responsabile della manutenzione ordinaria e straordinaria della struttura.
 
 Compiti e responsabilità
 
 Il Responsabile della Manutenzione ha il compito di:
 
-   1. Garantire l’efficienza e la sicurezza di tutti gli strumenti odontoiatrici, e delle apparecchiature
-      elettromedicali, dei dispositivi ausiliari e degli impianti tecnici (elettrico, idrico, aspirazione,
-      compressore, ecc.).
-   2. Garantire l’efficienza degli eventuali strumenti di radiologia, (contratto con esperto qualificato)
-   3. Pianificare e monitorare gli interventi di manutenzione ordinaria e straordinaria, in accordo con le
-      indicazioni dei produttori e le normative vigenti.
-   4. Tenere aggiornato il registro delle manutenzioni e archiviare i relativi rapporti d’intervento.
-   5. Segnalare tempestivamente eventuali anomalie, guasti o rischi.
-   6. Verificare la regolarità delle tarature e verifiche di sicurezza elettrica delle apparecchiature
-      mediche.
-   7. Coordinare eventuali fornitori o tecnici esterni incaricati di interventi specialistici.
+1. Garantire l’efficienza e la sicurezza di tutti gli strumenti odontoiatrici, e delle apparecchiature
+   elettromedicali, dei dispositivi ausiliari e degli impianti tecnici (elettrico, idrico, aspirazione,
+   compressore, ecc.).
+1. Garantire l’efficienza degli eventuali strumenti di radiologia, (contratto con esperto qualificato)
+1. Pianificare e monitorare gli interventi di manutenzione ordinaria e straordinaria, in accordo con le
+   indicazioni dei produttori e le normative vigenti.
+1. Tenere aggiornato il registro delle manutenzioni e archiviare i relativi rapporti d’intervento.
+1. Segnalare tempestivamente eventuali anomalie, guasti o rischi.
+1. Verificare la regolarità delle tarature e verifiche di sicurezza elettrica delle apparecchiature
+   mediche.
+1. Coordinare eventuali fornitori o tecnici esterni incaricati di interventi specialistici.
+   
+   ```
+                                                            Firma:`,
+   ```
 
-
-                                                                   Firma:`,
-  10: `ELENCO DELLE ATTREZZATURE e STRUMENTARIO
+10: `ELENCO DELLE ATTREZZATURE e STRUMENTARIO
 
 Il sottoscritto [TITOLARE], nato a Palermo il 05/09/1996, residente in Misilmeri in via
 Nazionale n°67 titolare dello studio medico odontoiatrico privato, sito in Villabate via Ammiraglio
 Gravina n° 9-11,
 
-                                             D I C H IAR O
+```
+                                         D I C H IAR O
+```
+
 che l’elenco delle attrezzature all’interno dello studio è il seguente:
 
-        Locale tecnico:
-     -   Compressore
-         Marca: Cattani
-         Modello: Comp. 2c. LT 30 rosso
-         S/N: C2161289
-         (Riferimento in planimetria: 18)
-     -   Aspiratore
-         Marca: Cattani
-         Modello: “Micro smart cube” + idro
-         S/N: WS203486
-         (Riferimento in planimetria: 19)
-     -   Filtri legionella
-         Marca: Viroxidaqua
-         Modello: UF - Unit Pro 1
-         S/N: 070700
-         (Riferimento in planimetria: 21)
-        Sala Sterilizzazione:
-     -   Autoclave
-         Marca: Faro
-         Modello: Nisea
-         S/N: 21BSTN10A100104
-         (Riferimento in planimetria: 22)
-     -   Autoclave
-         Marca: Dental X
-         Modello: Domina Plus B
-         S/N: 0946PB
-         (Riferimento in planimetria: 23)
-     -   Termosigillatrice
-         Marca: Euronda S.P.A
-         Modello: EurosealInfinity
-         S/N: EDS250104
-         (Riferimento in planimetria: 24)
-     -   Distillatore
-         Marca: Faro
-         Modello: MH943T - SW
+```
+    Locale tecnico:
+ -   Compressore
+     Marca: Cattani
+     Modello: Comp. 2c. LT 30 rosso
+     S/N: C2161289
+     (Riferimento in planimetria: 18)
+ -   Aspiratore
+     Marca: Cattani
+     Modello: “Micro smart cube” + idro
+     S/N: WS203486
+     (Riferimento in planimetria: 19)
+ -   Filtri legionella
+     Marca: Viroxidaqua
+     Modello: UF - Unit Pro 1
+     S/N: 070700
+     (Riferimento in planimetria: 21)
+    Sala Sterilizzazione:
+ -   Autoclave
+     Marca: Faro
+     Modello: Nisea
+     S/N: 21BSTN10A100104
+     (Riferimento in planimetria: 22)
+ -   Autoclave
+     Marca: Dental X
+     Modello: Domina Plus B
+     S/N: 0946PB
+     (Riferimento in planimetria: 23)
+ -   Termosigillatrice
+     Marca: Euronda S.P.A
+     Modello: EurosealInfinity
+     S/N: EDS250104
+     (Riferimento in planimetria: 24)
+ -   Distillatore
+     Marca: Faro
+     Modello: MH943T - SW
+```
 
 S/N: 739071
-    (Riferimento in planimetria: 25)
--   Frigorifero farmaci
-    Marca: Atlantic
-    Modello: FM110
-    (Riferimento in planimetria: 26)
--   Termopulitrice
-    Marca: Tecno-Gaz
-    Modello: Multisteril
-    S/N: 2013092VM
-    (Riferimento in planimetria: 27)
-   Sala Operativa 1:
--   Diafanoscopio
-    Marca: Tecnogaz
-    Modello: 7085/N
-    S/N: NE7320109
-    (Riferimento in planimetria: 35)
--   Miscelatore per impronte dentali
-    Marca: Aquasil
-    Modello: Duomix 276000
-    S/N: B00842
-    (Riferimento in planimetria: 37)
--   Lampada fotopolimerizzante
-    Marca: Ivoclar
-    Modello: Bluephase G4 Grey
-    S/N: 1400000376
-    (Riferimento in planimetria: 38)
--   Scanner intraorale
-    Marca: Medit I-700
-    Modello: MD – IS0200
-    S/N: AZ2404100100
-    (Riferimento in planimetria: 39)
--   PC Notebook
-    Marca: HP OMEN 15
-    Modello: DC1050NL
-    S/N: 5CD0142DGK
-    (Riferimento in planimetria: 40)
--   Micromotore chirurgico
-    Marca: Kavo
-    Modello: Expert surg lux 1.008.3500
-    S/N: 1016796
-    (Riferimento in planimetria: 41)
--   Riunito
-    Marca: Anthos
-    Modello: A7 Plus continental
+(Riferimento in planimetria: 25)
+
+- Frigorifero farmaci
+  Marca: Atlantic
+  Modello: FM110
+  (Riferimento in planimetria: 26)
+- Termopulitrice
+  Marca: Tecno-Gaz
+  Modello: Multisteril
+  S/N: 2013092VM
+  (Riferimento in planimetria: 27)
+     Sala Operativa 1:
+- Diafanoscopio
+  Marca: Tecnogaz
+  Modello: 7085/N
+  S/N: NE7320109
+  (Riferimento in planimetria: 35)
+- Miscelatore per impronte dentali
+  Marca: Aquasil
+  Modello: Duomix 276000
+  S/N: B00842
+  (Riferimento in planimetria: 37)
+- Lampada fotopolimerizzante
+  Marca: Ivoclar
+  Modello: Bluephase G4 Grey
+  S/N: 1400000376
+  (Riferimento in planimetria: 38)
+- Scanner intraorale
+  Marca: Medit I-700
+  Modello: MD – IS0200
+  S/N: AZ2404100100
+  (Riferimento in planimetria: 39)
+- PC Notebook
+  Marca: HP OMEN 15
+  Modello: DC1050NL
+  S/N: 5CD0142DGK
+  (Riferimento in planimetria: 40)
+- Micromotore chirurgico
+  Marca: Kavo
+  Modello: Expert surg lux 1.008.3500
+  S/N: 1016796
+  (Riferimento in planimetria: 41)
+- Riunito
+  Marca: Anthos
+  Modello: A7 Plus continental
 
 S/N: 71BX1581
-       (Riferimento in planimetria: 16)
-      Sala Operativa 2:
-   -   Riunito
-       Marca: Castellini
-       Modello: Skema 5
-       S/N: 71LP1052
-       (Riferimento in planimetria: 16)
-   -   Lampada sbiancamento dentale
-       Marca: Blu Dent
-       Modello: 12 BC
-       S/N: 016750
-       (Riferimento in planimetria: 42)
+(Riferimento in planimetria: 16)
+   Sala Operativa 2:
+
+- Riunito
+  Marca: Castellini
+  Modello: Skema 5
+  S/N: 71LP1052
+  (Riferimento in planimetria: 16)
+- Lampada sbiancamento dentale
+  Marca: Blu Dent
+  Modello: 12 BC
+  S/N: 016750
+  (Riferimento in planimetria: 42)
 
  Dispositivi di protezione individuale (guanti, mascherine, occhiali, camici ecc.)
 
  Materiali monouso (cannule di aspirazione, bicchieri, mantelline ecc.)
 
  Strumentario necessario per l’attuazione delle diverse prestazioni odontoiatriche (conservatina,
-  protesica ecc.)
+protesica ecc.)
 
  Strumentario per estrattiva (pinze, leve ecc.)
 
@@ -2975,10 +3003,10 @@ Il manuale uso e manutenzione delle attrezzature si trova all’interno dello st
 e cartaceo.
 L’inventario delle attrezzature si riferisce alla data di apertura dello studio odontoiatrico.
 Lo stesso conterrà successivamente la eventuale data di modifica dello stesso.
-   DATA                                                                         In fede
-                                                                        [TITOLARE]
+DATA                                                                         In fede
+[TITOLARE]
 
-Procedura per l'identificazione delle attrezzature
+Procedura per l’identificazione delle attrezzature
 
 La presente procedura ha lo scopo di definire le modalità per l’identificazione, classificazione e
 tracciabilità delle attrezzature e apparecchiature presenti nello studio odontoiatrico, al fine di
@@ -2988,43 +3016,42 @@ rezza e qualità.
 La procedura si applica a tutte le attrezzature e apparecchiature in uso presso lo studio odontoia-
 trico, comprese:
 
-      Poltrone odontoiatriche e relative unità operative
-      Compressori e aspiratori chirurgici
-      Autoclavi e sistemi di sterilizzazione
-      Apparecchi radiografici e radiografici digitali
-      Dispositivi elettromedicali (lampade polimerizzatrici, ablatori, turbine, ecc.)
-      Strumentazione diagnostica e di laboratorio
-      Attrezzature informatiche collegate alla gestione clinica.
+   Poltrone odontoiatriche e relative unità operative
+   Compressori e aspiratori chirurgici
+   Autoclavi e sistemi di sterilizzazione
+   Apparecchi radiografici e radiografici digitali
+   Dispositivi elettromedicali (lampade polimerizzatrici, ablatori, turbine, ecc.)
+   Strumentazione diagnostica e di laboratorio
+   Attrezzature informatiche collegate alla gestione clinica.
 
 Modalità operative
 Identificazione delle attrezzature
 
 Ogni attrezzatura è identificata mediante:
 
-      Etichetta o codice identificativo univoco, applicato in posizione visibile;
-      Scheda di identificazione contenente:
-           o Codice attrezzatura
-           o Descrizione e marca/modello
-           o Numero di serie
-           o Data di acquisto o installazione
-           o Ubicazione (sala o reparto)
-           o Fornitore e contatti
-           o Scadenze di manutenzione/verifiche
-           o Eventuali note o limitazioni d’uso
+   Etichetta o codice identificativo univoco, applicato in posizione visibile;
+   Scheda di identificazione contenente:
+o Codice attrezzatura
+o Descrizione e marca/modello
+o Numero di serie
+o Data di acquisto o installazione
+o Ubicazione (sala o reparto)
+o Fornitore e contatti
+o Scadenze di manutenzione/verifiche
+o Eventuali note o limitazioni d’uso
 
 Registro delle attrezzature
 Tutte le attrezzature sono inserite nel Registro delle Attrezzature (cartaceo o digitale), mantenuto
 aggiornato dal Responsabile della Manutenzione.
 Ogni nuova apparecchiatura sarà registrata prima dell’uso operativo.
 
-
 Aggiornamenti
 
 In caso di:
 
-      Nuovo acquisto
-      Dismissione
-      Spostamento o rottamazione
+   Nuovo acquisto
+   Dismissione
+   Spostamento o rottamazione
 
 il registro sarà aggiornato entro 5 giorni lavorativi e la scheda dell’attrezzatura archiviata.
 
@@ -3032,10 +3059,9 @@ Verifiche e manutenzioni
 
 Le attrezzature saranno oggetto di:
 
-      Verifiche periodiche di sicurezza elettrica e funzionale (secondo indicazioni del produtto-
-       re o normativa vigente)
-      Manutenzione preventiva e correttiva, registrata nella scheda di manutenzione.
-
+   Verifiche periodiche di sicurezza elettrica e funzionale (secondo indicazioni del produtto-
+re o normativa vigente)
+   Manutenzione preventiva e correttiva, registrata nella scheda di manutenzione.
 
 Ogni intervento sarà firmato dall’esecutore (interno o esterno).
 
@@ -3044,14 +3070,12 @@ Identificazione di apparecchi fuori uso
 Le attrezzature non operative o in manutenzione saranno chiaramente contrassegnate con cartello
 “FUORI SERVIZIO”, per impedirne l’utilizzo accidentale.
 
-
 Documentazione correlata
 
-      Registro delle Attrezzature
-      Schede di manutenzione e verifica periodica
-      Rapporti tecnici di intervento
-      Manuali d’uso e libretti di manutenzione
-
+   Registro delle Attrezzature
+   Schede di manutenzione e verifica periodica
+   Rapporti tecnici di intervento
+   Manuali d’uso e libretti di manutenzione
 
 Archiviazione
 Tutta la documentazione relativa alle attrezzature sarà conservata per almeno 10 anni dalla
@@ -3059,9 +3083,8 @@ dismissione dell’apparecchiatura e archiviata in modo ordinato, accessibile so
 autorizzato.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
- Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 11
 Piano per la gestione e la
@@ -3073,47 +3096,48 @@ apparecchiature biomediche.
 Cod. Requisito
 1A.03.02.02
 
-
 [TITOLARE]
 
 PIANO VERIFICHE
-                                        PERIODICHE
+PERIODICHE
 
 Strutture
-      Ispezione visiva         Annuale
-      Tinteggiatura dei locali Quinquennale
+   Ispezione visiva         Annuale
+   Tinteggiatura dei locali Quinquennale
 
 Apparecchiature biomediche
 biennale Autoclave:
-      Vacuumtest – giornaliero
-      Bowie and Dick          mensile
-      Helix Test              mensile
-      Testchimico:            adogni ciclo
+   Vacuumtest – giornaliero
+   Bowie and Dick          mensile
+   Helix Test              mensile
+   Testchimico:            adogni ciclo
 
 Impianto elettrico:
-      Lampade di emergenza                   semestrale
-      Intervento interruttori differenziali: annuale
-      Continuità conduttori di protezione: triennale
+   Lampade di emergenza                   semestrale
+   Intervento interruttori differenziali: annuale
+   Continuità conduttori di protezione: triennale
 
 Impianto antincendio:           Estintori,semestrale
 Impianto idrico                 Riserva idrica, sanificazione ogni tre mesi.
-                                (vedi contratto con impresa “Pascale pulizie” allegato alla presente.)
+(vedi contratto con impresa “Pascale pulizie” allegato alla presente.)
 
 Le verifiche periodichesopra el encat e sono sotto la Responsabilità del Titolare dello studio
 odontoiatrico [TITOLARE].
 
 CODICE STRUMENTO                                                    DESCRIZIONE
-                                                             RIUNITO ODONTOIATRICO
+RIUNITO ODONTOIATRICO
 
 PRODUTTORE/FORNITORE                                                                 ANNODIACQUISTO
 
+```
+                                                 TELEFONO
+```
 
-                                                     TELEFONO
 CONTRATTO DI MANUTENZIONE
 
-
-                              TIPOLOGIACONTROLLIDAESEGUIRE                                  FREQUENZA
-
+```
+                          TIPOLOGIACONTROLLIDAESEGUIRE                                  FREQUENZA
+```
 
 Verifichedisicurezzaelettrica                                                               Annuale
 
@@ -3121,20 +3145,23 @@ Controllo funzionamento Manipoli, aria acqua, lampada                           
 
 Controllofunzionamentoaspirazione                                                         Settimanale
 
-
-                            REGISTRAZIONIMANUTENZIONEESEGUITA                                  DATA
+```
+                        REGISTRAZIONIMANUTENZIONEESEGUITA                                  DATA
+```
 
 CODICE STRUMENTO                                                    DESCRIZIONE
-                                                                STERILIZZATRICE
+STERILIZZATRICE
 PRODUTTORE/FORNITORE                                                              ANNODIACQUISTO
 
+```
+                                                 TELEFONO
+```
 
-                                                     TELEFONO
 CONTRATTO DI MANUTENZIONE
 
-
-                              TIPOLOGIACONTROLLIDAESEGUIRE                               FREQUENZA
-
+```
+                          TIPOLOGIACONTROLLIDAESEGUIRE                               FREQUENZA
+```
 
 Verifichedisicurezzaelettrica                                                            Annuale
 
@@ -3142,89 +3169,86 @@ Controllo Vacuum Test                                                           
 
 TestBowieandDick                                                                          Mensile
 
+```
+                        REGISTRAZIONIMANUTENZIONEESEGUITA                               DATA`,
+```
 
-                            REGISTRAZIONIMANUTENZIONEESEGUITA                               DATA`,
-  12: `DOCUMENTAZIONE TECNICA DELLE ATTREZZATURE E APPARECCHIATURE
+12: `DOCUMENTAZIONE TECNICA DELLE ATTREZZATURE E APPARECCHIATURE
 
 1. Obiettivo
 
 Garantire la disponibilità immediata della documentazione tecnica relativa a tutte le attrezzature e
 apparecchiature utilizzate nello studio odontoiatrico, al fine di:
 
-      Assicurare l’utilizzo corretto e sicuro da parte degli operatori;
-      Facilitare gli interventi di manutenzione ordinaria e straordinaria;
-      Rispettare i requisiti di sicurezza e conformità normativa.
+   Assicurare l’utilizzo corretto e sicuro da parte degli operatori;
+   Facilitare gli interventi di manutenzione ordinaria e straordinaria;
+   Rispettare i requisiti di sicurezza e conformità normativa.
 
-2. Modalità di Gestione della Documentazione
-
+1. Modalità di Gestione della Documentazione
+   
       Tutta la documentazione tecnica è conservata in formato cartaceo in appositi faldoni e/o
-       digitale in un archivio dedicato (“Manuali Tecnici e Schede Apparecchiature”).
+   digitale in un archivio dedicato (“Manuali Tecnici e Schede Apparecchiature”).
       Copie digitali sono archiviate su server locale o Hard-disk aziendale con accesso riservato al
-       personale autorizzato.
+   personale autorizzato.
       La documentazione deve essere sempre disponibile:
-           o Agli operatori sanitari che utilizzano le apparecchiature;
-           o Alla funzione preposta alla manutenzione (interna o esterna);
-           o Al Responsabile della Sicurezza o RSPP, se richiesto.
-
-3. Contenuti della Documentazione Tecnica
+   o Agli operatori sanitari che utilizzano le apparecchiature;
+   o Alla funzione preposta alla manutenzione (interna o esterna);
+   o Al Responsabile della Sicurezza o RSPP, se richiesto.
+1. Contenuti della Documentazione Tecnica
 
 Per ogni attrezzatura o apparecchiatura sono presenti almeno i seguenti documenti:
 
 Tipo di Documento:
 
-      Manuale d’uso e manutenzione;
-      Scheda tecnica;
-      Certificato di conformità CE;
-      Registro manutenzioni;
-      Scheda sicurezza materiali;
-      Check-list di controllo periodico
-      Garanzie e contratti di assistenza
+   Manuale d’uso e manutenzione;
+   Scheda tecnica;
+   Certificato di conformità CE;
+   Registro manutenzioni;
+   Scheda sicurezza materiali;
+   Check-list di controllo periodico
+   Garanzie e contratti di assistenza
 
-4. Aggiornamento e Controllo
-
+1. Aggiornamento e Controllo
+   
       La documentazione è revisionata annualmente o ad ogni sostituzione di apparecchiatura.
       Il titolare dello studio verifica la completezza dei fascicoli tecnici.
       Ogni nuova apparecchiatura sarà registrata prima della messa in servizio.
-
-5. Modalità di Consultazione
-
+1. Modalità di Consultazione
+   
       Gli operatori possono consultare la documentazione tramite terminale informatico o
-       raccoglitore cartaceo posto in segreteria.
-      Gli addetti alla manutenzione dispongono di accesso dedicato ai fascicoli.`,
-  13: `In relazione a quanto prescritto dalla norma vigente, si fa presente che:
+   raccoglitore cartaceo posto in segreteria.
+      Gli addetti alla manutenzione dispongono di accesso dedicato ai fascicoli.`,   13: `In relazione a quanto prescritto dalla norma vigente, si fa presente che:
 1. L’attività lavorativa si svolge all’interno di un locale sito a piano terra con ingresso da Via Ammiraglio
-    Gravina 9 – 11.
-2. L’immobile in oggetto è censito al N.C.E.U. del Comune di Villabate al foglio n° 3 particella 3150 sub 9
-    categoria A/10, per lo stesso è stato rilasciato dal comune di Villabate:
-      Certificato di destinazione d’uso specifico a studio medico, giusto atto di concessione N° 19 del
-          31.07.2001, ed autorizzazione N° 04 del 02 marzo 2007 per la fusione ed il cambio della destinazione
-          d’uso del locale.
-      È stata dichiarata agibile dal municipio di Villabate giusto certificato di agibilità Prot. N°
-          21435/07 rilasciato in data 17.10.2007.
-      È stata rilasciata dal Comune di Villabate Autorizzazione allo scarico n° 89 del 17.10.2007;
-3. Nello stabile non vi è presenza di piani scantinati e, pertanto non necessita di autorizzazione all’uso dei
-    locali seminterrati, prevista dell’art. 65 D.Lgs 81/08.
-4. Non ha bisogno di autorizzazione all’emissione in atmosfera, ai sensi del 203/88, in quanto, non produce
-    vapori e/o emissioni in atmosfera;
-5. Non rientra fra quelli cui è necessaria la valutazione d’impatto ambientale;
-6. Non necessita di Certificato di Prevenzione Incendi.
-7. Non è elencata fra le attività classificate come insalubri, il suo esercizio non reca in ogni modo nocumento
-    alla salute del vicinato.
-8. Oggetto della nuova richiesta di autorizzazione è dovuta per il cambio del titolare del locale già adibito a
-    studio medico odontoiatrico,
-9. La presente ha lo scopo di segnalare, la modifica degli impianti e delle attrezzature all’interno del locale,
-    adibito sostanzialmente a studio medico odontoiatrico.
-10. In relazione al tipo d’attività svolta, e alle lavorazioni che sono effettuate, bene si prestano i locali.
-
+   Gravina 9 – 11.
+1. L’immobile in oggetto è censito al N.C.E.U. del Comune di Villabate al foglio n° 3 particella 3150 sub 9
+   categoria A/10, per lo stesso è stato rilasciato dal comune di Villabate:
+    Certificato di destinazione d’uso specifico a studio medico, giusto atto di concessione N° 19 del
+   31.07.2001, ed autorizzazione N° 04 del 02 marzo 2007 per la fusione ed il cambio della destinazione
+   d’uso del locale.
+    È stata dichiarata agibile dal municipio di Villabate giusto certificato di agibilità Prot. N°
+   21435/07 rilasciato in data 17.10.2007.
+    È stata rilasciata dal Comune di Villabate Autorizzazione allo scarico n° 89 del 17.10.2007;
+1. Nello stabile non vi è presenza di piani scantinati e, pertanto non necessita di autorizzazione all’uso dei
+   locali seminterrati, prevista dell’art. 65 D.Lgs 81/08.
+1. Non ha bisogno di autorizzazione all’emissione in atmosfera, ai sensi del 203/88, in quanto, non produce
+   vapori e/o emissioni in atmosfera;
+1. Non rientra fra quelli cui è necessaria la valutazione d’impatto ambientale;
+1. Non necessita di Certificato di Prevenzione Incendi.
+1. Non è elencata fra le attività classificate come insalubri, il suo esercizio non reca in ogni modo nocumento
+   alla salute del vicinato.
+1. Oggetto della nuova richiesta di autorizzazione è dovuta per il cambio del titolare del locale già adibito a
+   studio medico odontoiatrico,
+1. La presente ha lo scopo di segnalare, la modifica degli impianti e delle attrezzature all’interno del locale,
+   adibito sostanzialmente a studio medico odontoiatrico.
+1. In relazione al tipo d’attività svolta, e alle lavorazioni che sono effettuate, bene si prestano i locali.
 
 Pertanto visto il certificato di Agibilità Prot. N° 21435/07 rilasciato dal Comune di Villabate in data
 17.10.2007, si attestano i requisiti previsti dalle vigenti leggi in materia di caratteristiche ambientali e
 di accessibilità.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
- Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 14
 Documentazione tecnica, in
@@ -3237,56 +3261,52 @@ antincendio.
 Cod. Requisito
 1A.03.05.02
 
-
 [TITOLARE]
 
 Lo studio ha stipulato un contratto disponibile in sede per la fornitura e la manutenzione
 ordinaria/straordinaria dei presidi antincendio secondo quanto previsto dal D.M. 03/07/2021
-con la ditta ITALFIRE S.R.L.`,
-  15: `Requisiti in materia di protezione acustica
+con la ditta ITALFIRE S.R.L.`, 15: `Requisiti in materia di protezione acustica
 
 Il presente documento attesta che lo Studio Odontoiatrico del [TITOLARE], sito
 in [INDIRIZZO]
 
 è conforme ai requisiti tecnici e normativi vigenti in materia di protezione acustica relativamente a:
 
-      Isolamento acustico dei locali;
-      Livelli di rumorosità interna ed esterna;
-      Emissioni sonore delle apparecchiature odontoiatriche e ausiliarie;
-      Tutela dei lavoratori esposti a rumore.
+   Isolamento acustico dei locali;
+   Livelli di rumorosità interna ed esterna;
+   Emissioni sonore delle apparecchiature odontoiatriche e ausiliarie;
+   Tutela dei lavoratori esposti a rumore.
 
 Tipologia delle Attività
 
 Lo studio svolge le seguenti attività:
 
-      Prestazioni odontoiatriche e chirurgiche ambulatoriali;
-      Attività di igiene e profilassi dentale;
-      Sterilizzazione di strumenti e materiali.
+   Prestazioni odontoiatriche e chirurgiche ambulatoriali;
+   Attività di igiene e profilassi dentale;
+   Sterilizzazione di strumenti e materiali.
 
 Le apparecchiature utilizzate comprendono:
 
-      Riuniti odontoiatrici con aspiratori e micromotori;
-      Compressori medicali insonorizzati;
-      Autoclavi per sterilizzazione;
-      Aspiratori chirurgici.
+   Riuniti odontoiatrici con aspiratori e micromotori;
+   Compressori medicali insonorizzati;
+   Autoclavi per sterilizzazione;
+   Aspiratori chirurgici.
 
 Pertanto ai sensi del D. Lgs. 81/08, l’attività odontoiatrica non produce emissioni acustiche che
-possano rientrare oltre ai “Valori inferiori di esposizione che fanno scattare l’azione”`,
-  16: `La presente documentazione attesta che lo Studio Odontoiatrico [TITOLARE], sito
+possano rientrare oltre ai “Valori inferiori di esposizione che fanno scattare l’azione”`, 16: `La presente documentazione attesta che lo Studio Odontoiatrico [TITOLARE], sito
 in [INDIRIZZO]
 
 è dotato di impianti elettrici conformi ai requisiti di sicurezza prescritti dalle normative, e da quando
 è stato redatto il progetto e la dichiarazione di conformità non sono avvenute modifiche.
 Pertanto presso la sede dello studio odontoiatrico è disponibile il progetto dell’impianto elettrico
 redatto da:
-      Professionista abilitato Ing. Antonino Romano;
-      Dichiarazione di conformità redatta dall’impiantista GIMAX s.n.c. di Morici G. e Romano
-         M. ai sensi del D.M. 64/08.
+ Professionista abilitato Ing. Antonino Romano;
+ Dichiarazione di conformità redatta dall’impiantista GIMAX s.n.c. di Morici G. e Romano
+M. ai sensi del D.M. 64/08.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
-    Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 17
 Documentazione tecnica, in
@@ -3296,26 +3316,25 @@ possesso dei requisiti previsti
 dalle vigenti leggi in materia
 di sicurezza anti infortunistica.
 
-
 Cod. Requisito
 1A.03.05.05
-
 
 [TITOLARE]
 
 Documentazione tecnica sulla sicurezza antinfortunistica
 
-         Conformità alle normative di tutela della salute e sicurezza nei luoghi di lavoro
-                            (D.Lgs. 81/2008 e successive modifiche).
+```
+     Conformità alle normative di tutela della salute e sicurezza nei luoghi di lavoro
+                        (D.Lgs. 81/2008 e successive modifiche).
+```
 
 Questa documentazione serve ad attestare che lo studio:
 
-      Ha valutato i rischi specifici delle proprie attività (cliniche, radiologiche, di sterilizzazione,
-       ecc.);
-      Ha adottato misure preventive e protettive adeguate;
-      Dispone di dispositivi, impianti e attrezzature conformi;
-      Forma e informa il personale.
-
+   Ha valutato i rischi specifici delle proprie attività (cliniche, radiologiche, di sterilizzazione,
+ecc.);
+   Ha adottato misure preventive e protettive adeguate;
+   Dispone di dispositivi, impianti e attrezzature conformi;
+   Forma e informa il personale.
 
 Attestazione del possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza
 antinfortunistica
@@ -3326,92 +3345,87 @@ Studio Odontoiatrico del [TITOLARE], sito in Villabate via Ammiraglio Gravina 9-
 conforme alle disposizioni legislative e normative vigenti in materia di sicurezza antinfortunistica e
 tutela della salute nei luoghi di lavoro, in particolare:
 
-      D.Lgs. 9 aprile 2008, n. 81 e s.m.i. – “Testo unico sulla salute e sicurezza nei luoghi di
-       lavoro”;
-      D.M. 10/03/1998 e D.M. 3/09/2021 – Prevenzione incendi e gestione emergenze;
-      D.Lgs. 475/1992 – Dispositivi di protezione individuale (DPI);
-      D.Lgs. 81/2008 – Titolo III (Uso delle attrezzature di lavoro e dei DPI);
-      D.Lgs. 81/2008 – Titolo IX (Agenti chimici e biologici);
+   D.Lgs. 9 aprile 2008, n. 81 e s.m.i. – “Testo unico sulla salute e sicurezza nei luoghi di
+lavoro”;
+   D.M. 10/03/1998 e D.M. 3/09/2021 – Prevenzione incendi e gestione emergenze;
+   D.Lgs. 475/1992 – Dispositivi di protezione individuale (DPI);
+   D.Lgs. 81/2008 – Titolo III (Uso delle attrezzature di lavoro e dei DPI);
+   D.Lgs. 81/2008 – Titolo IX (Agenti chimici e biologici);
 
-
-2. Obiettivi
+1. Obiettivi
 
 Il presente fascicolo ha lo scopo di:
 
-      Attestare il possesso dei requisiti tecnico-organizzativi previsti per la sicurezza dei
-       lavoratori;
-      Documentare le misure di prevenzione e protezione adottate;
-      Garantire la tracciabilità delle attività di controllo, manutenzione e formazione.
+   Attestare il possesso dei requisiti tecnico-organizzativi previsti per la sicurezza dei
+lavoratori;
+   Documentare le misure di prevenzione e protezione adottate;
+   Garantire la tracciabilità delle attività di controllo, manutenzione e formazione.
 
-
-3. Tipologia delle attività svolte
+1. Tipologia delle attività svolte
 
 Lo studio odontoiatrico svolge attività di:
 
-      Diagnosi, terapia e chirurgia odontoiatrica ambulatoriale;
-      Sterilizzazione di strumenti;
-      Igiene orale professionale.
+   Diagnosi, terapia e chirurgia odontoiatrica ambulatoriale;
+   Sterilizzazione di strumenti;
+   Igiene orale professionale.
 
 Personale presente:
 
-      Odontoiatri N° 1
+   Odontoiatri N° 1
 
-4. Requisiti e misure antinfortunistiche adottate
+1. Requisiti e misure antinfortunistiche adottate
+   
+   ```
+   Area / Rischio               Misure adottate                 Documentazione              Esito
+                                                                   disponibile
+   ```
 
-       Area / Rischio               Misure adottate                 Documentazione              Esito
-                                                                       disponibile
 Rischi generali nei luoghi   Conformità locali,                  DVR, planimetrie             Conforme
 di lavoro                    illuminazione, aerazione,                                        ✅
-                             segnaletica di sicurezza
+segnaletica di sicurezza
 Attrezzature                 Conformità CE, uso secondo          Manuali, schede tecniche,    Conforme
 odontoiatriche e di          manuali, controlli periodici        registro manutenzioni        ✅
 sterilizzazione
 Impianto elettrico e         Verifica impianto, messa a          Certificato di conformità    Conforme
 sicurezza elettrica          terra, differenziali,                                            ✅
 Rischio biologico            DPI, procedure di                   DVR, protocolli, registro    Conforme
-                             sterilizzazione, raccolta rifiuti   sterilizzazioni              ✅
-                             sanitari
+sterilizzazione, raccolta rifiuti   sterilizzazioni              ✅
+sanitari
 Rischio chimico              Valutazione rischio chimico,        Schede di sicurezza, DVR     Conforme
 (disinfettanti, monomeri,    etichette CLP, SDS                                               ✅
 anestetici)
 
 Antincendio e emergenze      Estintori, vie di fuga, piano       Registro controlli           Conforme
-                             emergenza, prove evacuazione        antincendio, planimetrie     ✅
+emergenza, prove evacuazione        antincendio, planimetrie     ✅
 Formazione e                 Formazione generale,                Attestati corsi, registro    Conforme
 informazione                 specifica e primo soccorso          formazione                   ✅
 Sorveglianza sanitaria       Visite mediche periodiche e         Cartelle sanitarie, nomina   Conforme
-                             idoneità                            medico competente            ✅
+idoneità                            medico competente            ✅
 
-
-5. Documentazione tecnica disponibile presso lo studio
-
+1. Documentazione tecnica disponibile presso lo studio
    1. Documento di Valutazione dei Rischi (DVR);
-   2. Piano di emergenza e gestione incendi;
-   3. Registro controlli antincendio e primo soccorso;
-   4. Manuali d’uso e manutenzione delle attrezzature;
-   5. Certificati CE e dichiarazioni di conformità;
-   6. Schede di sicurezza (SDS) dei prodotti chimici;
-   7. Verbali di verifica impianto elettrico e di terra;
-   8. Registro formazione e addestramento;
-   9. Relazioni tecniche su sicurezza elettrica;
-   10. Contratti di manutenzione periodica.
-
-
-6. Controllo e aggiornamento
-
+   1. Piano di emergenza e gestione incendi;
+   1. Registro controlli antincendio e primo soccorso;
+   1. Manuali d’uso e manutenzione delle attrezzature;
+   1. Certificati CE e dichiarazioni di conformità;
+   1. Schede di sicurezza (SDS) dei prodotti chimici;
+   1. Verbali di verifica impianto elettrico e di terra;
+   1. Registro formazione e addestramento;
+   1. Relazioni tecniche su sicurezza elettrica;
+   1. Contratti di manutenzione periodica.
+1. Controllo e aggiornamento
+   
        La documentazione è verificata e aggiornata annualmente dal Responsabile della Sicurezza
-        o RSPP;
+   o RSPP;
        Tutte le attrezzature sono sottoposte a manutenzione preventiva programmata;
        Eventuali nuovi rischi introdotti da modifiche strutturali o tecnologiche vengono valutati e
-        integrati nel DVR.
-
-7. Descrizione dei locali
-
+   integrati nel DVR.
+1. Descrizione dei locali
 
 I pavimenti sono stati realizzati in gres porcellanato e consentono la perfetta pulizia non vi sono
 fessure che sono ricettacolo di batteri e sporcizia, con classe di resistenza allo scivolamento R9.
 Non sono presenti dislivelli, gradini o pendenze.
-Dal punto di vista costruttivo, la struttura dell'edificio è realizzata con travi e pilastri in cemento
+Dal punto di vista costruttivo, la struttura dell’edificio è realizzata con travi e pilastri in cemento
 armato.
 I tompagnamenti perimetrali sono in blocchi di tufo e hanno uno spessore finito di circa30 cm.
 Itramezzi sono realizzati in parte con pannelli di faesite facili da pulire, in parte in conci di tufo,
@@ -3423,39 +3437,38 @@ Gliarredi sonoprividispigolivivi.
 Ladistanzatradiessi consenteiltransitodel personale a congrua distanza, circostanza che minimizza la
 probabilità di urti con gli stessi.
 
-
-8. Allegati (esempi)
-
+1. Allegati (esempi)
+   
       Allegato – Copia DVR aggiornato
       Allegato – Schede DPI e protocolli operativi di sicurezza
       Allegato – Attestati formazione personale
-      Allegato – Verbali manutenzione impianti e attrezzature`,
-  18: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
+      Allegato – Verbali manutenzione impianti e attrezzature`,   18: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
+   
+   ```
+                                          Dichiara
+   ```
 
-                                              Dichiara
-
-Che all’interno dello studio non vi sono apparecchiature che producono radiazioni ionizzanti.`,
-  19: `DICHIARAZIONE TECNICA DI CONFORMITÀ AI REQUISITI DI ACCESSIBILITÀ
-                           (ai sensi della L. 13/1989, D.M. 236/1989 e s.m.i.)
-
+Che all’interno dello studio non vi sono apparecchiature che producono radiazioni ionizzanti.`, 19: `DICHIARAZIONE TECNICA DI CONFORMITÀ AI REQUISITI DI ACCESSIBILITÀ
+(ai sensi della L. 13/1989, D.M. 236/1989 e s.m.i.)
 
 Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
 
-                                               Dichiara
+```
+                                           Dichiara
+```
 
 Di aver verificato la conformità dell’immobile in oggetto alle normative vigenti in materia di
 eliminazione delle barriere architettoniche, ai sensi della Legge 9 gennaio 1989, n. 13, del D.M.
 14 giugno 1989, n. 236, e del D.P.R. 503/1996, nonché alle norme regionali e comunali vigenti.
-
 
 Descrizione dell’immobile e dell’accesso
 
 L’attività odontoiatrica è ubicata al piano terra di un edificio, con accesso diretto dalla pubblica via
 mediante ingresso privo di barriere architettoniche.
 
-       Percorso esterno: il marciapiede antistante presenta una pavimentazione regolare e priva di
-        dislivelli superiori a 2,5 cm.
-       Accesso principale: dotato di porta con luce netta ≥ 90 cm.
+    Percorso esterno: il marciapiede antistante presenta una pavimentazione regolare e priva di
+dislivelli superiori a 2,5 cm.
+    Accesso principale: dotato di porta con luce netta ≥ 90 cm.
 
 In base ai rilievi effettuati e alla documentazione tecnica visionata, si attesta che lo studio
 odontoiatrico sito al piano terra in [INDIRIZZO]
@@ -3463,17 +3476,17 @@ alle prescrizioni vigenti in materia di eliminazione delle barriere architettoni
 l’accessibilità, la visitabilità e l’adattabilità previsti dalla normativa.
 
 Inoltre trattandosi di uno studio privato di odontoiatria non si è soggetti alle prescrizioni della
-normativa vigente.`,
-  20: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
+normativa vigente.`, 20: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
 
-                                                Dichiara
+```
+                                            Dichiara
+```
 
 Di aver stipulato un contratto con la ditta Ambietal S.r.l. via Pingitore n. 2 – 90017 Santa Flavia
 (PA) P.IVA: 03477990828 specializzata per il ritiro e lo smaltimento deirifiuti speciali.
 
-Il presente contratto allegato alla presente e anche disponibile in sede.`,
-  21: `DICHIARAZIONE TECNICA DI CONFORMITÀ – CONDIZIONI MICROCLIMATICHE
-         (ai sensi del D.Lgs. 81/2008, D.P.R. 74/2013, UNI EN ISO 7730 e s.m.i.)
+Il presente contratto allegato alla presente e anche disponibile in sede.`, 21: `DICHIARAZIONE TECNICA DI CONFORMITÀ – CONDIZIONI MICROCLIMATICHE
+(ai sensi del D.Lgs. 81/2008, D.P.R. 74/2013, UNI EN ISO 7730 e s.m.i.)
 
 1. Dati generali
 
@@ -3482,8 +3495,7 @@ Comune: Villabate (PA)
 Ubicazione: [INDIRIZZO]
 Titolare attività: [TITOLARE]
 
-
-2. Premessa
+1. Premessa
 
 Per gli adeguamenti delle condizioni ambientali e impiantistiche, il Dott. Tereso Francesco per garantire
 la conformità dei locali adibiti a studio odontoiatrico alle vigenti disposizioni in materia di microclima
@@ -3496,57 +3508,57 @@ ed invernali.
 
 La pulizia e sanificazione dei filtri è prevista con cadenza trimestrale.
 
-
-4. Descrizione dell’immobile e degli impianti
+1. Descrizione dell’immobile e degli impianti
 
 Lo studio odontoiatrico è situato al piano terra, dotato di:
 
-      Impianto di climatizzazione estiva/invernale con distribuzione a espansione diretta e
-       regolazione della temperatura per ambiente;
-      Impianto di ricambio d’aria e ventilazione meccanica controllata
+   Impianto di climatizzazione estiva/invernale con distribuzione a espansione diretta e
+regolazione della temperatura per ambiente;
+   Impianto di ricambio d’aria e ventilazione meccanica controllata
 
-       è stato istallato un recuperatore di calore “Mitsubishi Electric” denominato “Lossnay” modello
-       LGH-50RX5 avente una portata d’aria mc/h 500 (S.Alta) a 150 Pa e di mc/h 350 (bassa) a 30
-       Pa. Garantendo una portata d’aria ≥ 6 vol/h nei locali operativi e ≥ 3 vol/h nei locali di attesa;
-       (si allega scheda tecnica dell’istallatore)
+```
+   è stato istallato un recuperatore di calore “Mitsubishi Electric” denominato “Lossnay” modello
+   LGH-50RX5 avente una portata d’aria mc/h 500 (S.Alta) a 150 Pa e di mc/h 350 (bassa) a 30
+   Pa. Garantendo una portata d’aria ≥ 6 vol/h nei locali operativi e ≥ 3 vol/h nei locali di attesa;
+   (si allega scheda tecnica dell’istallatore)
+```
 
-      filtrazione aria conforme alla classe minima F7 (UNI EN ISO 16890) per ambienti sanitari;
-      sistemi di regolazione e manutenzione programmata documentata nel libretto d’impianto;
-      umidità relativa mantenuta tra 40% e 60%;
-      temperatura operativa media tra 20–24 °C in inverno e 24–26 °C in estate.
+   filtrazione aria conforme alla classe minima F7 (UNI EN ISO 16890) per ambienti sanitari;
+   sistemi di regolazione e manutenzione programmata documentata nel libretto d’impianto;
+   umidità relativa mantenuta tra 40% e 60%;
+   temperatura operativa media tra 20–24 °C in inverno e 24–26 °C in estate.
 
-
-5. Valutazione delle condizioni microclimatiche
+1. Valutazione delle condizioni microclimatiche
 
 Sulla base delle misurazioni e della documentazione tecnica degli impianti, si riscontra che:
 
-      i valori di temperatura, umidità relativa, velocità dell’aria e tasso di ventilazione rientrano
-       nei limiti raccomandati per ambienti sanitari;
+   i valori di temperatura, umidità relativa, velocità dell’aria e tasso di ventilazione rientrano
+nei limiti raccomandati per ambienti sanitari;
 
    i locali destinati a sala d’attesa, ambulatori odontoiatrici, locale sterilizzazione e servizi
-       igienici garantiscono un microclima idoneo al comfort termico e alla sicurezza igienico-
-       sanitaria;
-      l’impianto è oggetto di manutenzione periodica e controlli di efficienza energetica.
+igienici garantiscono un microclima idoneo al comfort termico e alla sicurezza igienico-
+sanitaria;
+   l’impianto è oggetto di manutenzione periodica e controlli di efficienza energetica.
 
-
-6. Conclusioni
+1. Conclusioni
 
 Pertanto lo studio odontoiatrico in oggettopossiede i requisiti microclimatici previsti dalle vigenti
 norme in materia di tutela della salute e sicurezza dei lavoratori e degli utenti, garantendo adeguate
 condizioni di aerazione e di comfort ambientale.
 
-
 Allegati
 
-      Scheda tecnica impianto di climatizzazione e recuperatore d’aria;
-      Verbale ultima manutenzione e controllo efficienza energetica;
-      Planimetria dei locali con indicazione dei punti di aerazione;
+   Scheda tecnica impianto di climatizzazione e recuperatore d’aria;
+   Verbale ultima manutenzione e controllo efficienza energetica;
+   Planimetria dei locali con indicazione dei punti di aerazione;
 
 SCHEDAREGISTROMANUTENZIONEIMPIANTODICONDIZIONAMENTO
 
-                                                          INTERVENTO
-     POSIZIONE              DATA     OPERATORE                                            NOTE
-                                                      (Indicaregliinterventieffettuati)
+```
+                                                      INTERVENTO
+ POSIZIONE              DATA     OPERATORE                                            NOTE
+                                                  (Indicaregliinterventieffettuati)
+```
 
 SALA ATTESA
 
@@ -3561,487 +3573,501 @@ SALA PERSONALE
 SALA
 STERILIZZAZIONE
 
-
 Intervento:
-1)    Rimozione filtro
-2)    Aspirazione polveri
-3)    Sgrassaggio
-4)    Sterilizzazione/Disinfezione/Sanificazione (per immersione almeno 30 mini soluzione, o in
-      alternativa trattamento con spray specifico)
-5)    Posizionamento filtro
-6)    Sostituzione filtro
-7)    Prodotto utilizzato: _______________________________________________________`,
-  22: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
 
-                                               Dichiara
+1. Rimozione filtro
+1. Aspirazione polveri
+1. Sgrassaggio
+1. Sterilizzazione/Disinfezione/Sanificazione (per immersione almeno 30 mini soluzione, o in
+   alternativa trattamento con spray specifico)
+1. Posizionamento filtro
+1. Sostituzione filtro
+1. Prodotto utilizzato: _______________________________________________________`,   22: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
+   
+   ```
+                                        Dichiara
+   ```
 
-Che all’interno dello studio non vi sono presenti impianti di distribuzione di gas.`,
-  23: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
+Che all’interno dello studio non vi sono presenti impianti di distribuzione di gas.`, 23: `Il titolare dello Studio Odontoiatrico [TITOLARE], sito in [INDIRIZZO]
 
-                                               Dichiara
+```
+                                           Dichiara
+```
 
-Che all’interno dello studio non sono presenti materiali esplodenti.`,
-  24: `L’immobile sito in [INDIRIZZO]
+Che all’interno dello studio non sono presenti materiali esplodenti.`, 24: `L’immobile sito in [INDIRIZZO]
 studio odontoiatrico è stato dichiarato agibile dal municipio di Villabate giusto
 certificato di agibilità Prot. N° 21435/07 rilasciato in data 17.10.2007.
 Da tale data l’immobile non ha subito variazioni strutturali tali da richiedere un nuovo
 nulla osta strutturale.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
-    Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 25
 Obblighi assicurativi definiti
 dalla normativa applicabile.
 
-
 Cod. Requisito
 1A.04.12.04
-
 
 [TITOLARE]
 
 Secondo la normativa applicabile il [TITOLARE] a stipulato polizza allegata
-alla presente`,
-  26: `CARTA DEI SERVIZI
+alla presente`, 26: `CARTA DEI SERVIZI
 
+```
+                         STUDIO
+                  ODONTOIATRICODOTT.TE
+                     RESI FRANCESCO
 
-                             STUDIO
-                      ODONTOIATRICODOTT.TE
-                         RESI FRANCESCO
+                      Via Ammiraglio
+                      Gravina n°9– 11
+```
 
-                          Via Ammiraglio
-                          Gravina n°9– 11
-
-
-Rev.01del03/11/2025                          
+Rev.01del03/11/2025
 
 INDICE
 
+```
+     1. Studio Odontoiatrico [TITOLARE]
 
-         1. Studio Odontoiatrico [TITOLARE]
-
-            1.1       Presentazione
-            1.2       Fini istituzionali
-            1.3       Principi fondamentali
-
-
-         2. PRESTAZIONI, MODALITA’DIACCESSO, STANDARD
-
-            2.1 Prenotazione eaccettazione
-
-         3. TUTELA DEGLI UTENTI E CONTROLLI DELLA QUALITA’
-
-            3.1 Organismi di controllo e verifica
-            3.2 Rilevazione della soddisfazione degli utenti
-            3.3 Gestione dei Reclami
+        1.1       Presentazione
+        1.2       Fini istituzionali
+        1.3       Principi fondamentali
 
 
-Rev.01del03/11/2025                                            
+     2. PRESTAZIONI, MODALITA’DIACCESSO, STANDARD
+
+        2.1 Prenotazione eaccettazione
+
+     3. TUTELA DEGLI UTENTI E CONTROLLI DELLA QUALITA’
+
+        3.1 Organismi di controllo e verifica
+        3.2 Rilevazione della soddisfazione degli utenti
+        3.3 Gestione dei Reclami
+```
+
+Rev.01del03/11/2025
 
 Gentile utente,
 
-         La presente Carta dei Servizi è essenzialmente volta alla tutela dei diritti degli utenti del
-         nostro Studio e costituisce un importante strumento di controllo da parte del cittadino
-         sulle modalità di erogazione dei servizi offerti, sugli standard di qualità garantiti e sulla
-         completezza delle informazioni fornite.
+```
+     La presente Carta dei Servizi è essenzialmente volta alla tutela dei diritti degli utenti del
+     nostro Studio e costituisce un importante strumento di controllo da parte del cittadino
+     sulle modalità di erogazione dei servizi offerti, sugli standard di qualità garantiti e sulla
+     completezza delle informazioni fornite.
 
-         Essa illustra, inoltre, gli organismi interni preposti alla tutela dell’utente e le procedure
-         per la presentazione dei reclami relativi ad atti o comportamenti che possano limitare o
-         impedire la piena fruibilità delle prestazioni sanitarie. In tal modo, lo Studio assicura la
-         trasparenza, la correttezza e l’efficacia delle prestazioni offerte.
+     Essa illustra, inoltre, gli organismi interni preposti alla tutela dell’utente e le procedure
+     per la presentazione dei reclami relativi ad atti o comportamenti che possano limitare o
+     impedire la piena fruibilità delle prestazioni sanitarie. In tal modo, lo Studio assicura la
+     trasparenza, la correttezza e l’efficacia delle prestazioni offerte.
 
-         Ai cittadini utenti è richiesto di collaborare attivamente, anche attraverso la compilazione
-         dei questionari di soddisfazione, al fine di consentire un continuo miglioramento della
-         qualità del servizio, frutto dell’impegno condiviso e coordinato di tutto il personale
-         operante nello Studio.
+     Ai cittadini utenti è richiesto di collaborare attivamente, anche attraverso la compilazione
+     dei questionari di soddisfazione, al fine di consentire un continuo miglioramento della
+     qualità del servizio, frutto dell’impegno condiviso e coordinato di tutto il personale
+     operante nello Studio.
 
-         In sintesi, l’obiettivo che ci proponiamo è quello di coinvolgere direttamente il cittadino
-         utente nella gestione della propria salute, promuovendo la conoscenza, la libera scelta e
-         la verifica dei servizi offerti.
-
-
-                                                                                          IlTitolare
+     In sintesi, l’obiettivo che ci proponiamo è quello di coinvolgere direttamente il cittadino
+     utente nella gestione della propria salute, promuovendo la conoscenza, la libera scelta e
+     la verifica dei servizi offerti.
 
 
-Rev.01del03/11/2025                                                                             
+                                                                                      IlTitolare
+```
+
+Rev.01del03/11/2025
 
 1. Lo Studio Odontoiatrico [TITOLARE]
+   
+   ```
+     1.1 PRESENTAZIONE
+   
+     La struttura sanitaria in oggetto è un riferimento d’eccellenza per il territorio nelcampo
+     odontoiatrico, ed offre una gamma di servizi che si erogano in ambienti dimoderna
+     concezione in cui sono previstedue sale operative dotate di attrezzature di nuova
+     concezione tecnologica, soluzioni impiantistiche all’avanguardia, ed è situata in una zona
+     facilmente raggiungibile.
+   
+     L’esecuzione delle prestazioni vanno dalla diagnosi alla cura e si inoltrano nelle seguenti
+     branche specialistiche della scienza e dell’arte odontoiatrica:
+   
+   
+          1) Odontoiatria Conservativa e Restaurativa
+          2) ChirurgiaOrale
+          3) Protesi dentaria riabilitativa e funzionale
+          4) Ortodonzia fissa, mobile, e funzionale
+          5) Igieneorale
+          6) Implantologia
+          7) Endodonzia
+     Lo studio odontoiatrico considera obiettivo primario il conseguimento di una qualità
+     ottimale delle prestazioni fornite ai pazienti. Questo obiettivo impegnatutto il personale
+     ad adeguare il proprio sistema operativo ed organizzativo alle richieste e ai bisogni
+     dell’utenza.
+     L’alta professionalità degli operatori garantisce una totale sicurezza e fiducia sia nelle
+     prestazioni e sia nella fase di accettazione e contatti con la clientela.
+   
+   
+                                      ORARI DI APERTURA:
+   
+            Lunedì Giovedì                        9.00 – 12.30
+   
+                                                  14.30- 19.00
+   
+            Venerdì                              9.00 – 12.00
+   
+     Ragione sociale: Studio Odontoiatrico Privato.
+     Denominazione: Studio Odontoiatrico [TITOLARE]
+     Sede: Via Ammiraglio Gravina 9 -11
+     Tel: 3392900330
+     Email: teresifrancesco@outlook.it
+     Azienda di appartenenza: ASP6 - Palermo
+   ```
 
-         1.1 PRESENTAZIONE
-
-         La struttura sanitaria in oggetto è un riferimento d’eccellenza per il territorio nelcampo
-         odontoiatrico, ed offre una gamma di servizi che si erogano in ambienti dimoderna
-         concezione in cui sono previstedue sale operative dotate di attrezzature di nuova
-         concezione tecnologica, soluzioni impiantistiche all’avanguardia, ed è situata in una zona
-         facilmente raggiungibile.
-
-         L’esecuzione delle prestazioni vanno dalla diagnosi alla cura e si inoltrano nelle seguenti
-         branche specialistiche della scienza e dell’arte odontoiatrica:
-
-
-              1) Odontoiatria Conservativa e Restaurativa
-              2) ChirurgiaOrale
-              3) Protesi dentaria riabilitativa e funzionale
-              4) Ortodonzia fissa, mobile, e funzionale
-              5) Igieneorale
-              6) Implantologia
-              7) Endodonzia
-         Lo studio odontoiatrico considera obiettivo primario il conseguimento di una qualità
-         ottimale delle prestazioni fornite ai pazienti. Questo obiettivo impegnatutto il personale
-         ad adeguare il proprio sistema operativo ed organizzativo alle richieste e ai bisogni
-         dell’utenza.
-         L’alta professionalità degli operatori garantisce una totale sicurezza e fiducia sia nelle
-         prestazioni e sia nella fase di accettazione e contatti con la clientela.
-
-
-                                          ORARI DI APERTURA:
-
-                Lunedì Giovedì                        9.00 – 12.30
-
-                                                      14.30- 19.00
-
-                Venerdì                              9.00 – 12.00
-
-         Ragione sociale: Studio Odontoiatrico Privato.
-         Denominazione: Studio Odontoiatrico [TITOLARE]
-         Sede: Via Ammiraglio Gravina 9 -11
-         Tel: 3392900330
-         Email: teresifrancesco@outlook.it
-         Azienda di appartenenza: ASP6 - Palermo
-
-
-Rev.01del03/11/2025                                                                             
+Rev.01del03/11/2025
 
 1.2 INFORMAZIONI PER L’UTENTE
 
-         COME ARRIVARE
+```
+     COME ARRIVARE
 
-       Lo Studio Odontoiatrico è situato in [INDIRIZZO]
-           E’ raggiungibile tramite mezzi pubblici (autobus di linea) con fermata a me t r i 50 dallo
-              Studio o con il Taxi
-           Con mezzi privati che trovano facilmente parcheggio in zona: (foto Google)
+   Lo Studio Odontoiatrico è situato in [INDIRIZZO]
+       E’ raggiungibile tramite mezzi pubblici (autobus di linea) con fermata a me t r i 50 dallo
+          Studio o con il Taxi
+       Con mezzi privati che trovano facilmente parcheggio in zona: (foto Google)
+```
 
-
-Rev.01del03/11/2025                                                                              
+Rev.01del03/11/2025
 
 1.2 FINI ISTITUZIONALI
-         Scopo dello Studio è quello di erogare prestazioni odontoiatriche connesse con le
-         esigenze dei cittadini; Lo Studio intende, inoltre, partecipare attivamente alla integrazione
-         delle attività di quanti operano nell'ambito del Sistema Sanitario Nazionale (medici di
-         base, medici specialisti, strutture ospedaliere, etc.). I suoi fini istituzionali sono:
+Scopo dello Studio è quello di erogare prestazioni odontoiatriche connesse con le
+esigenze dei cittadini; Lo Studio intende, inoltre, partecipare attivamente alla integrazione
+delle attività di quanti operano nell’ambito del Sistema Sanitario Nazionale (medici di
+base, medici specialisti, strutture ospedaliere, etc.). I suoi fini istituzionali sono:
 
-                 Facilitare l’accesso ai servizi da parte dei cittadini, riducendo al minimo i tempi di
-                  attesa e semplificando le procedure.
-                 Ricercare ed attuare il massimo della sicurezza e dell’efficienza nell’esecuzione
-                  delle procedure odontoiatriche e nell’assistenza agli utenti.
-                 Garantire prestazioni del più alto livello di qualità, rispondenti alle esigenze di
-                  personalizzazione delle attività sanitarie.
-                 Garantire la disponibilità di tutti i mezzi giudicati necessari da parte dell’équipe di
-                  medici, biologi e tecnici che operano al suo interno.
-                 Informare compiutamente e correttamente il cittadino sull’iter successivo
-                  all’esecuzione degli esami e alla presentazione dei risultati.
-                 Partecipare alla ricerca scientifica nel settore, favorendo l’attività multidisciplinare
-                  e la collaborazione con centri, enti e istituzioni esterne.
-                 Partecipare alla formazione di odontoiatri, tecnici e personale amministrativo.
-
-
-          1.3 PRINCIPI FONDAMENTALI
-
-         Eguaglianza
-         Lo Studio si impegna costantemente per assicurare l'accesso ai propri servizi nei tempi
-         più brevi possibili, qualunque sia l’appartenenza sociale, razziale, ideologica, politica,
-         economica e di età del cittadino utente in ossequio ai principi fondamentali di
-         eguaglianza.
-         Imparzialità
-         Il personale del Centro ispira il proprio comportamento a criteri di giustizia e imparzialità
-         nel pieno rispetto dei principi della dignità umana.
-         Efficienza ed efficacia
-         L'efficienza dell'organizzazione e l'efficacia delle prestazioni sono i due principi ispiratori
-         dell'attività dello Studio.
-         Partecipazione
-         Lo Studio assicura al cittadino, nelle forme previste dalla legge, la possibilità diaccedere
-         alle informazioni riferite alla propria persona, delle quali può richiederecopiain qualsiasi
-         momento, e di formulare proposte di soluzioni migliorativenell'erogazionedeiservizi.
+```
+             Facilitare l’accesso ai servizi da parte dei cittadini, riducendo al minimo i tempi di
+              attesa e semplificando le procedure.
+             Ricercare ed attuare il massimo della sicurezza e dell’efficienza nell’esecuzione
+              delle procedure odontoiatriche e nell’assistenza agli utenti.
+             Garantire prestazioni del più alto livello di qualità, rispondenti alle esigenze di
+              personalizzazione delle attività sanitarie.
+             Garantire la disponibilità di tutti i mezzi giudicati necessari da parte dell’équipe di
+              medici, biologi e tecnici che operano al suo interno.
+             Informare compiutamente e correttamente il cittadino sull’iter successivo
+              all’esecuzione degli esami e alla presentazione dei risultati.
+             Partecipare alla ricerca scientifica nel settore, favorendo l’attività multidisciplinare
+              e la collaborazione con centri, enti e istituzioni esterne.
+             Partecipare alla formazione di odontoiatri, tecnici e personale amministrativo.
 
 
-Rev.01del03/11/2025                                                                                 
+      1.3 PRINCIPI FONDAMENTALI
 
-2. ORGANIZZAZIONE
+     Eguaglianza
+     Lo Studio si impegna costantemente per assicurare l'accesso ai propri servizi nei tempi
+     più brevi possibili, qualunque sia l’appartenenza sociale, razziale, ideologica, politica,
+     economica e di età del cittadino utente in ossequio ai principi fondamentali di
+     eguaglianza.
+     Imparzialità
+     Il personale del Centro ispira il proprio comportamento a criteri di giustizia e imparzialità
+     nel pieno rispetto dei principi della dignità umana.
+     Efficienza ed efficacia
+     L'efficienza dell'organizzazione e l'efficacia delle prestazioni sono i due principi ispiratori
+     dell'attività dello Studio.
+     Partecipazione
+     Lo Studio assicura al cittadino, nelle forme previste dalla legge, la possibilità diaccedere
+     alle informazioni riferite alla propria persona, delle quali può richiederecopiain qualsiasi
+     momento, e di formulare proposte di soluzioni migliorativenell'erogazionedeiservizi.
+```
 
+Rev.01del03/11/2025
 
-              Si tratta di un’organizzazione molto semplice, dal momento che la Direzione
-               accentra la maggior parte delle attività critiche dell’ambulatorio.
-              Il seguente organigramma illustra nel dettaglio le figure professionali presenti.
+1. ORGANIZZAZIONE
+   
+   ```
+          Si tratta di un’organizzazione molto semplice, dal momento che la Direzione
+           accentra la maggior parte delle attività critiche dell’ambulatorio.
+          Il seguente organigramma illustra nel dettaglio le figure professionali presenti.
+   
+   
+                                              Titolare
+                                           [TITOLARE]
+   
+   
+                         EspertoQualificato
+                        ____________
+   ```
+   
+   SEGRETERIA/URP
+   RESP. MANUTENZIONE
+   Dott.         AMMINISTRAZIONE           Dott.TERESI
+   Dott.TERESI            FRANCESCO
+   RESP.            FRANCESCO
+   SISTEMAQUALIT
+   A’                                                          ODONTOIATRIA
+   Dott.                                                          Dott.TERESI
+   TERESI                                                          FRANCESCO
+   FRANCESCO
 
+Rev.01del03/11/2025
 
-                                                  Titolare
-                                               [TITOLARE]
+1. PRESTAZIONI, MODALITA’ DI ACCESSO, STANDARD
+   
+   Le prestazione offerte dal Centro odontoiatrico sono le seguenti:
+   
+      Visitaodontoiatrica
+      Endodonzia
+      Conservativa
+      Estrattiva
+      Parodontologia/implantologia
+      Ortodonzia
+      Protesi
+   
+   Presso la segreteria dello Studio è disponibile un prontuario dettagliato delle singole
+   prestazioni. Il cliente può fare espressa richiesta di prendere in visione tale elenco, al
+   personale di segreteria.
+   
+   3.1 Prenotazione e accettazione
+   Modalità di Accesso e Gestione delle Prestazioni
 
+L’utente può richiedere l’effettuazione di una visita:
 
-                             EspertoQualificato
-                            ____________
+```
+    Telefonando negli orari di apertura riportati nel frontespizio;
+    Presentandosi direttamente al Centro in qualunque giorno feriale.
+```
 
+In quest’ultimo caso, vengono rispettati i turni in base all’ordine di arrivo e alla priorità delle
+emergenze.
+I piani di cura vengono preventivamente concordati con il medico e regolarmente registrati.
 
-      SEGRETERIA/URP
-                                            RESP. MANUTENZIONE
-           Dott.         AMMINISTRAZIONE           Dott.TERESI
-                            Dott.TERESI            FRANCESCO
-           RESP.            FRANCESCO
-      SISTEMAQUALIT
-            A'                                                          ODONTOIATRIA
-           Dott.                                                          Dott.TERESI
-          TERESI                                                          FRANCESCO
-        FRANCESCO
+Gestione delle Emergenze
 
+Le emergenze sono gestite secondo le seguenti modalità:
 
-Rev.01del03/11/2025                                                                       
+```
+    Emergenza urgente (emorragia, dente fratturato, dolore spontaneo intenso, gonfiore con
+     rialzo termico, decementazione provvisoria con dolore):
+     → Appuntamento immediato con il medico responsabile, senza tener conto dell’ordine
+     delle prenotazioni.
+    Emergenza (rottura di protesi, frattura di dente non dolente):
+     → Appuntamento entro 24 ore con il medico responsabile.
+    Urgenza (rottura di protesi senza impedimenti particolari, caduta di otturazione senza
+     dolore, decementazione, rottura o danno ortodontico):
+     → Appuntamento entro 48-72 ore con il medico responsabile.
+```
 
-3.    PRESTAZIONI, MODALITA’ DI ACCESSO, STANDARD
+Comunicazioni e Documentazione
 
+```
+   Le chiusure programmate dello studio sono comunicate per tempo mediante affissione.
+```
 
-         Le prestazione offerte dal Centro odontoiatrico sono le seguenti:
-
-            Visitaodontoiatrica
-            Endodonzia
-            Conservativa
-            Estrattiva
-            Parodontologia/implantologia
-            Ortodonzia
-            Protesi
-
-         Presso la segreteria dello Studio è disponibile un prontuario dettagliato delle singole
-         prestazioni. Il cliente può fare espressa richiesta di prendere in visione tale elenco, al
-         personale di segreteria.
-
-
-         3.1 Prenotazione e accettazione
-         Modalità di Accesso e Gestione delle Prestazioni
-
- L’utente può richiedere l’effettuazione di una visita:
-
-        Telefonando negli orari di apertura riportati nel frontespizio;
-        Presentandosi direttamente al Centro in qualunque giorno feriale.
-
- In quest’ultimo caso, vengono rispettati i turni in base all’ordine di arrivo e alla priorità delle
- emergenze.
- I piani di cura vengono preventivamente concordati con il medico e regolarmente registrati.
-
-
- Gestione delle Emergenze
-
- Le emergenze sono gestite secondo le seguenti modalità:
-
-        Emergenza urgente (emorragia, dente fratturato, dolore spontaneo intenso, gonfiore con
-         rialzo termico, decementazione provvisoria con dolore):
-         → Appuntamento immediato con il medico responsabile, senza tener conto dell’ordine
-         delle prenotazioni.
-        Emergenza (rottura di protesi, frattura di dente non dolente):
-         → Appuntamento entro 24 ore con il medico responsabile.
-        Urgenza (rottura di protesi senza impedimenti particolari, caduta di otturazione senza
-         dolore, decementazione, rottura o danno ortodontico):
-         → Appuntamento entro 48-72 ore con il medico responsabile.
-
-
- Comunicazioni e Documentazione
-
-       Le chiusure programmate dello studio sono comunicate per tempo mediante affissione.
-Rev. 01 del 06/11/2025                                                                  
+Rev. 01 del 06/11/2025
 
    Le chiusure per cause di forza maggiore saranno tempestivamente comunicate agli
-          utenti.
-         Il paziente deve essere provvisto di un documento di riconoscimento, come richiesto
-          dalle normative sanitarie nazionali e regionali in materia di privacy.
-         Il paziente è tenuto a fornire tutte le informazioni relative al proprio stato di salute e alle
-          eventuali terapie in corso, per consentire una diagnosi e una cura accurate.
-         Il mancato rispetto di uno o più appuntamenti, se non concordato con il personale di
-          studio, autorizza il Titolare a considerare chiuso il piano di cura.
+utenti.
+   Il paziente deve essere provvisto di un documento di riconoscimento, come richiesto
+dalle normative sanitarie nazionali e regionali in materia di privacy.
+   Il paziente è tenuto a fornire tutte le informazioni relative al proprio stato di salute e alle
+eventuali terapie in corso, per consentire una diagnosi e una cura accurate.
+   Il mancato rispetto di uno o più appuntamenti, se non concordato con il personale di
+studio, autorizza il Titolare a considerare chiuso il piano di cura.
 
+Consenso Informato e Trattamento dei Dati
 
- Consenso Informato e Trattamento dei Dati
+L’utente deve inoltre sottoscrivere il modulo di consenso informato per il trattamento dei dati
+personali, ai sensi del Regolamento UE 679/2016 (GDPR) e del D.Lgs. 101/2018.
 
- L’utente deve inoltre sottoscrivere il modulo di consenso informato per il trattamento dei dati
- personali, ai sensi del Regolamento UE 679/2016 (GDPR) e del D.Lgs. 101/2018.
+Tempi di Attesa
 
+Per quanto riguarda i tempi medi di attesa, si fa riferimento al tempo necessario per sottoporsi
+alla visita iniziale, che viene erogata al momento stesso della richiesta.
+Il tempo successivo per le altre prestazioni è stabilito in base alla tipologia dell’intervento e alle
+esigenze del paziente, e pertanto non è standardizzabile.
 
- Tempi di Attesa
+Prenotazioni e Gestione delle Liste d’Attesa
 
- Per quanto riguarda i tempi medi di attesa, si fa riferimento al tempo necessario per sottoporsi
- alla visita iniziale, che viene erogata al momento stesso della richiesta.
- Il tempo successivo per le altre prestazioni è stabilito in base alla tipologia dell’intervento e alle
- esigenze del paziente, e pertanto non è standardizzabile.
+La segreteria dello Studio Odontoiatrico può ricevere prenotazioni:
 
+```
+     Telefonicamente (chiamate, SMS, WhatsApp, e-mail);
+     Direttamente in studio, preferibilmente previo appuntamento telefonico.
+```
 
- Prenotazioni e Gestione delle Liste d’Attesa
+Le liste d’attesa sono gestite dal personale preposto tramite un software gestionale o, in
+alternativa, mediante agenda cartacea, tenendo conto delle urgenze e delle terapie di particolare
+impegno stabilite dal Titolare.
 
- La segreteria dello Studio Odontoiatrico può ricevere prenotazioni:
+```
+     Al paziente presente fisicamente viene consegnata una ricevuta di promemoria;
+     Al paziente non presente viene inviato un SMS di conferma e promemoria.
+```
 
-         Telefonicamente (chiamate, SMS, WhatsApp, e-mail);
-         Direttamente in studio, preferibilmente previo appuntamento telefonico.
+Modalità di Pagamento
 
- Le liste d’attesa sono gestite dal personale preposto tramite un software gestionale o, in
- alternativa, mediante agenda cartacea, tenendo conto delle urgenze e delle terapie di particolare
- impegno stabilite dal Titolare.
+Il pagamento delle prestazioni prevede:
 
-         Al paziente presente fisicamente viene consegnata una ricevuta di promemoria;
-         Al paziente non presente viene inviato un SMS di conferma e promemoria.
+```
+     Un acconto iniziale pari a circa il 30% dell’importo totale, dopo l’accettazione del
+      preventivo del piano di cura;
+     Un secondo acconto durante l’erogazione delle prestazioni;
+     Il saldo finale alla conclusione del trattamento.
+```
 
+Le modalità di pagamento possono essere scelte dal cliente tra le opzioni proposte dallo studio.
 
- Modalità di Pagamento
+```
+             Contante (massimale secondo le norme di legge vigenti)
+```
 
- Il pagamento delle prestazioni prevede:
-
-         Un acconto iniziale pari a circa il 30% dell’importo totale, dopo l’accettazione del
-          preventivo del piano di cura;
-         Un secondo acconto durante l’erogazione delle prestazioni;
-         Il saldo finale alla conclusione del trattamento.
-
- Le modalità di pagamento possono essere scelte dal cliente tra le opzioni proposte dallo studio.
-
-                 Contante (massimale secondo le norme di legge vigenti)
-Rev. 01 del 06/11/2025                                                                             
+Rev. 01 del 06/11/2025
 
     Bonifico bancario
-                  POS
-                  Finanziamento
+    POS
+    Finanziamento
 
-         STANDARD
+```
+     STANDARD
 
-                                                              INURGENZA                  INELEZIONE
-                   TEMPID’ATTESA                              IMMEDIATA                  3GIORNILAVORATIVI
-                      PERVISITA
-                   ODONTOIATRICA
-          TEMPID’ATTESA PER TRATTAMENTO                       3GIORNI                    7GG
-          TEMPID’ATTESA PER IMPLANTOLOGIA                                                14GG
-          TEMPID’ATTESA PER ORTODONZIA                                                   14GG
-
-
-         Indicatori, valori di accettabilità e metodi di verifica dei requisiti
-
-                                                                Valore di
-                             Indicatore                                               Metodo di verifica
-                                                              accettabilità
-
-          Verifica accuratezza dei controlli sulla                            Verifica attività a campione (5
-                                                                  100%
-          sterilizzazione                                                     attività ogni mese)
-
-          Verifica rispetto dei protocolli                        100%        Riesame annuale dei protocolli
-
-                                                                              Rilevazione a campione su almeno
-          Verifica della completezza dei referti rilasciati
-                                                                  100%        10 cartelle o referti ogni 4 mesi
+                                                          INURGENZA                  INELEZIONE
+               TEMPID’ATTESA                              IMMEDIATA                  3GIORNILAVORATIVI
+                  PERVISITA
+               ODONTOIATRICA
+      TEMPID’ATTESA PER TRATTAMENTO                       3GIORNI                    7GG
+      TEMPID’ATTESA PER IMPLANTOLOGIA                                                14GG
+      TEMPID’ATTESA PER ORTODONZIA                                                   14GG
 
 
-          Verifica registrazioni avvenuto controllo su                        Rilevazione a campione su
-          apparecchiature/ impianti/dispositivi/farmaci           100%        almeno 10 registrazioni dei
-                                                                              controlli ogni 6 mesi
+     Indicatori, valori di accettabilità e metodi di verifica dei requisiti
+
+                                                            Valore di
+                         Indicatore                                               Metodo di verifica
+                                                          accettabilità
+
+      Verifica accuratezza dei controlli sulla                            Verifica attività a campione (5
+                                                              100%
+      sterilizzazione                                                     attività ogni mese)
+
+      Verifica rispetto dei protocolli                        100%        Riesame annuale dei protocolli
+
+                                                                          Rilevazione a campione su almeno
+      Verifica della completezza dei referti rilasciati
+                                                              100%        10 cartelle o referti ogni 4 mesi
 
 
-         4.TUTELA DEGLI UTENTI E CONTROLLI DELLA QUALITÀ
-          4.1 ORGANISMIDICONTROLLOEVERIFICA
-         Lo Studio tramite il suo Titolare garantisce la supervisione ed il controllo di tutte le
-         attività svolte al proprio interno, sia nell’ambito strettamente sanitario, sia in quello
-         tecnologico.
-         Lo stesso inoltre
+      Verifica registrazioni avvenuto controllo su                        Rilevazione a campione su
+      apparecchiature/ impianti/dispositivi/farmaci           100%        almeno 10 registrazioni dei
+                                                                          controlli ogni 6 mesi
 
-          •    Garantisce l’informazione, l’accoglienza e la tutela degli utenti, con particolare
-               riguardo agli aspetti di personalizzazione e umanizzazione del rapporto.
-          •    Analizza le risultanze dei reclami pervenuti e i dati dei questionari di soddisfazione
-               compilati dai cittadini utenti.
-          •    Promuove l’attuazione delle azioni correttive e preventive necessarie al superamento
-               delle criticità riscontrate.
-          •    Riesamina annualmente l’intera struttura per assicurare la costante adeguatezza dei
-               servizi rispetto alle aspettative dei cittadini utenti.
 
-Rev. 01 del 06/11/2025                                                                                          
+     4.TUTELA DEGLI UTENTI E CONTROLLI DELLA QUALITÀ
+      4.1 ORGANISMIDICONTROLLOEVERIFICA
+     Lo Studio tramite il suo Titolare garantisce la supervisione ed il controllo di tutte le
+     attività svolte al proprio interno, sia nell’ambito strettamente sanitario, sia in quello
+     tecnologico.
+     Lo stesso inoltre
+
+      •    Garantisce l’informazione, l’accoglienza e la tutela degli utenti, con particolare
+           riguardo agli aspetti di personalizzazione e umanizzazione del rapporto.
+      •    Analizza le risultanze dei reclami pervenuti e i dati dei questionari di soddisfazione
+           compilati dai cittadini utenti.
+      •    Promuove l’attuazione delle azioni correttive e preventive necessarie al superamento
+           delle criticità riscontrate.
+      •    Riesamina annualmente l’intera struttura per assicurare la costante adeguatezza dei
+           servizi rispetto alle aspettative dei cittadini utenti.
+```
+
+Rev. 01 del 06/11/2025
 
 •    Garantisce il rispetto del “Codice deontologico della professione dei medici
-               chirurghi e degli odontoiatri”, aggiornato il 16 dicembre 2006 dalla FNOMCeO
-               (Federazione Nazionale degli Ordini dei Medici Chirurghi e degli Odontoiatri),
-               nonché delle leggi e dei regolamenti vigenti in materia di esercizio delle attività
-               odontoiatriche.
+chirurghi e degli odontoiatri”, aggiornato il 16 dicembre 2006 dalla FNOMCeO
+(Federazione Nazionale degli Ordini dei Medici Chirurghi e degli Odontoiatri),
+nonché delle leggi e dei regolamenti vigenti in materia di esercizio delle attività
+odontoiatriche.
 
+```
+     4.2       RILEVAZIONE DELLA SODDISFAZIONE DEGLI UTENTI
+      Lo Studio rileva periodicamente il grado di soddisfazione e i motivi di eventuale
+      insoddisfazione degli utenti che hanno usufruito dei propri servizi, mediante la
+      distribuzione di un questionario anonimo. I risultati della rilevazione vengono
+      sintetizzati in un report trimestrale, che rappresenta un importante punto di riferimento
+      per il miglioramento continuo del servizio.
+     4.3 GESTIONE DEI RECLAMI
 
-         4.2       RILEVAZIONE DELLA SODDISFAZIONE DEGLI UTENTI
-          Lo Studio rileva periodicamente il grado di soddisfazione e i motivi di eventuale
-          insoddisfazione degli utenti che hanno usufruito dei propri servizi, mediante la
-          distribuzione di un questionario anonimo. I risultati della rilevazione vengono
-          sintetizzati in un report trimestrale, che rappresenta un importante punto di riferimento
-          per il miglioramento continuo del servizio.
-         4.3 GESTIONE DEI RECLAMI
+      La presentazione di un reclamo da parte di un cittadino utente rappresenta un segnale
+      importante della possibile esistenza, all’interno del sistema organizzativo, di disfunzioni
+      che possono avere origine nell’organizzazione stessa, nella struttura tecnica dei servizi o
+      nei comportamenti del personale.
 
-          La presentazione di un reclamo da parte di un cittadino utente rappresenta un segnale
-          importante della possibile esistenza, all’interno del sistema organizzativo, di disfunzioni
-          che possono avere origine nell’organizzazione stessa, nella struttura tecnica dei servizi o
-          nei comportamenti del personale.
+      Ai fini del mantenimento dei più alti livelli di qualità del servizio, che costituisce
+      l’obiettivo strategico dello Studio, tale segnalazione è di fondamentale importanza, in
+      quanto consente di intervenire tempestivamente per l’eliminazione delle disfunzioni e per
+      il ripristino degli standard qualitativi.
 
-          Ai fini del mantenimento dei più alti livelli di qualità del servizio, che costituisce
-          l’obiettivo strategico dello Studio, tale segnalazione è di fondamentale importanza, in
-          quanto consente di intervenire tempestivamente per l’eliminazione delle disfunzioni e per
-          il ripristino degli standard qualitativi.
+      Il reclamo viene quindi considerato come un contributo collaborativo da parte dei
+      cittadini utenti al miglioramento del sistema aziendale e, come tale, è oggetto della
+      massima attenzione.
 
-          Il reclamo viene quindi considerato come un contributo collaborativo da parte dei
-          cittadini utenti al miglioramento del sistema aziendale e, come tale, è oggetto della
-          massima attenzione.
+      Lo Studio si impegna a instaurare con chi ha presentato il reclamo un rapporto
+      trasparente e collaborativo, volto alla risoluzione del problema e alla prevenzione di
+      eventuali recidive.
 
-          Lo Studio si impegna a instaurare con chi ha presentato il reclamo un rapporto
-          trasparente e collaborativo, volto alla risoluzione del problema e alla prevenzione di
-          eventuali recidive.
+      Lo Studio si è dotato di una procedura formalizzata per la gestione dei reclami, che
+      mira non soltanto alla risoluzione delle problematiche segnalate, ma anche a costituire
+      un’importante fonte di informazione di ritorno sull’efficacia e l’efficienza del proprio
+      sistema di qualità.
+```
 
-          Lo Studio si è dotato di una procedura formalizzata per la gestione dei reclami, che
-          mira non soltanto alla risoluzione delle problematiche segnalate, ma anche a costituire
-          un’importante fonte di informazione di ritorno sull’efficacia e l’efficienza del proprio
-          sistema di qualità.
+Modalità di Presentazione dei Reclami
 
- Modalità di Presentazione dei Reclami
+```
+      I cittadini utenti possono presentare eventuali reclami relativi a disservizi riscontrati
+      prima, durante o dopo l’erogazione delle prestazioni da parte dello Studio, con le
+      seguenti modalità:
 
-          I cittadini utenti possono presentare eventuali reclami relativi a disservizi riscontrati
-          prima, durante o dopo l’erogazione delle prestazioni da parte dello Studio, con le
-          seguenti modalità:
+               Per iscritto, utilizzando l’apposito modulo predisposto, disponibile presso
+                l’ufficio di accettazione;
+               Per iscritto su carta semplice o tramite posta elettronica (e-mail);
+               Verbalmente, rivolgendosi al personale in servizio presso lo Studio.
+```
 
-                   Per iscritto, utilizzando l’apposito modulo predisposto, disponibile presso
-                    l’ufficio di accettazione;
-                   Per iscritto su carta semplice o tramite posta elettronica (e-mail);
-                   Verbalmente, rivolgendosi al personale in servizio presso lo Studio.
-
-Rev. 01 del 06/11/2025                                                                                
+Rev. 01 del 06/11/2025
 
 Raccolta dei Reclami e delle Osservazioni
 
-          Presso la segreteria dello Studio è presente una cassetta appositamente predisposta,
-          all’interno della quale l’utente può depositare i moduli di reclamo e, più in generale,
-          qualsiasi osservazione o suggerimento finalizzato al miglioramento degli standard di
-          qualità dei servizi erogati.
+```
+      Presso la segreteria dello Studio è presente una cassetta appositamente predisposta,
+      all’interno della quale l’utente può depositare i moduli di reclamo e, più in generale,
+      qualsiasi osservazione o suggerimento finalizzato al miglioramento degli standard di
+      qualità dei servizi erogati.
 
-          Il Titolare dello Studio si impegna a fornire una risposta a tutti i reclami entro il
-          termine massimo di 8 giorni dalla loro ricezione.
+      Il Titolare dello Studio si impegna a fornire una risposta a tutti i reclami entro il
+      termine massimo di 8 giorni dalla loro ricezione.
+```
+
+Disponibilità della Carta dei Servizi
+
+```
+      Una copia della Carta dei Servizi è disponibile nella sala d’attesa e presso la segreteria
+      dello Studio, a disposizione degli utenti e del personale.
+```
+
+Revisione del Documento
+
+```
+      La revisione del presente documento è prevista con cadenza annuale e, in ogni caso, a
+      seguito di modifiche riguardanti:
+
+              Le modalità e tipologie di erogazione dei servizi, oppure
+              L’organigramma dello Studio.
 
 
- Disponibilità della Carta dei Servizi
+                                                                           IL TITOLARE
+```
 
-          Una copia della Carta dei Servizi è disponibile nella sala d’attesa e presso la segreteria
-          dello Studio, a disposizione degli utenti e del personale.
-
-
- Revisione del Documento
-
-          La revisione del presente documento è prevista con cadenza annuale e, in ogni caso, a
-          seguito di modifiche riguardanti:
-
-                  Le modalità e tipologie di erogazione dei servizi, oppure
-                  L’organigramma dello Studio.
-
-
-                                                                               IL TITOLARE
-
-
-Rev. 01 del 06/11/2025`,
-  27: `In pianta organica non sono presenti né previsti tirocinanti, specializzandi o altri soggetti che
-intervengono nel percorso assistenziale.`,
-  28: `La presentazione di un reclamo da parte di un cittadino che ha utilizzato i servizi dello studio è un
+Rev. 01 del 06/11/2025`, 27: `In pianta organica non sono presenti né previsti tirocinanti, specializzandi o altri soggetti che
+intervengono nel percorso assistenziale.`, 28: `La presentazione di un reclamo da parte di un cittadino che ha utilizzato i servizi dello studio è un
 segnale sulla possibile esistenza nel sistema aziendale di disfunzioni che possono avere la loro
 causa nell’organizzazione, nella struttura tecnica dei servizi, nei comportamenti del Personale.
 Tale segnale è per noi di importanza fondamentale perché consente di intervenire per la
@@ -4057,80 +4083,87 @@ soltanto alla risoluzione del problema posto in evidenza ma anche ad agire come 
 informazione di ritorno sull’efficacia ed efficienza del sistema qualità dell’azienda.
 
 I cittadini utenti possono presentare eventuali reclami per disservizi subiti prima, durante e dopo
-l'esecuzione delle prestazioni erogate dal Centro; il reclamo può essere inoltrato con le seguenti
+l’esecuzione delle prestazioni erogate dal Centro; il reclamo può essere inoltrato con le seguenti
 modalità:
-    per iscritto, utilizzando il modulo predisposto disponibile presso l'ufficio di accettazione.
-    per iscritto su carta semplice o a mezzo mail.
-    verbalmente rivolgendosi al Personale in servizio presso lo studio.
-
+ per iscritto, utilizzando il modulo predisposto disponibile presso l’ufficio di accettazione.
+ per iscritto su carta semplice o a mezzo mail.
+ verbalmente rivolgendosi al Personale in servizio presso lo studio.
 
 Presso la segreteria dello Studio è presente una cassetta appositamente predisposta all’interno della
 quale l’utente conferirà i moduli di reclamo e comunque qualunque osservazione volta al
 miglioramento degli standard di qualità.
 
-
-       La Direzione fornirà una risposta a tutti i reclami entro il termine massimo di 8 giorni.
+```
+   La Direzione fornirà una risposta a tutti i reclami entro il termine massimo di 8 giorni.
+```
 
 Scheda fornita ai clienti al fine di utilizzare le loro valutazioni insieme a
-           quella dei familiari per la progettazione di piani di miglioramento:
+quella dei familiari per la progettazione di piani di miglioramento:
 
-    Gentile Signora/Gentile Signore
-     Il questionario a cui Lei, se vorrà, potrà rispondere è formulato in forma anonima con lo scopo
+```
+Gentile Signora/Gentile Signore
+ Il questionario a cui Lei, se vorrà, potrà rispondere è formulato in forma anonima con lo scopo
+```
+
 di conoscere il grado di soddisfazione per le prestazioni e i servizi erogati da questo studio.
-     Le Sue risposte e gli eventuali suggerimenti serviranno a migliorare il livello delle prestazioni e
+Le Sue risposte e gli eventuali suggerimenti serviranno a migliorare il livello delle prestazioni e
 dei servizi. È sufficiente che sbarri con una croce la risposta che ritiene più giusta.
 
-    1. Come valuta l’ubicazione dell’ambulatorio per facilità di accesso, raggiungimento, e presenza
-       di ostacoli?
-    Buona                Sufficiente               Insufficiente          Scarsa
+```
+1. Come valuta l’ubicazione dell’ambulatorio per facilità di accesso, raggiungimento, e presenza
+   di ostacoli?
+Buona                Sufficiente               Insufficiente          Scarsa
 
-    2. Come giudica il sistema di prenotazione?
-    Buono                Sufficiente               Insufficiente          Scarso
+2. Come giudica il sistema di prenotazione?
+Buono                Sufficiente               Insufficiente          Scarso
 
-    3. Come giudica il sistema di accoglienza?
-    Buono                Sufficiente               Insufficiente          Scarso
-    4. Come giudica il sistema di accettazione?
-    Buono                Sufficiente               Insufficiente          Scarso
-    5. Come giudica la prestazione sanitaria?
-    Buona                Sufficiente               Insufficiente          Scarsa
+3. Come giudica il sistema di accoglienza?
+Buono                Sufficiente               Insufficiente          Scarso
+4. Come giudica il sistema di accettazione?
+Buono                Sufficiente               Insufficiente          Scarso
+5. Come giudica la prestazione sanitaria?
+Buona                Sufficiente               Insufficiente          Scarsa
 
-    6. Come valuta la disponibilità del front office e l’atteggiamento mostrato nel venire incontro
-       alle sue esigenze?
-    Buona                Sufficiente               Insufficiente          Scarsa
+6. Come valuta la disponibilità del front office e l’atteggiamento mostrato nel venire incontro
+   alle sue esigenze?
+Buona                Sufficiente               Insufficiente          Scarsa
 
-    7. Come valuta nel suo insieme tutto il percorso dalla richiesta del suo medico all’esecuzione
-       della prestazione?
-    Buono                Sufficiente               Insufficiente          Scarso
+7. Come valuta nel suo insieme tutto il percorso dalla richiesta del suo medico all’esecuzione
+   della prestazione?
+Buono                Sufficiente               Insufficiente          Scarso
 
-    Qualora avesse dei suggerimenti da proporre, La invitiamo a scriverle nello spazio sottostante.
+Qualora avesse dei suggerimenti da proporre, La invitiamo a scriverle nello spazio sottostante.
 
 
-                                                                     Grazie per la collaborazione
-                                                                           LA DIREZIONE
+                                                                 Grazie per la collaborazione
+                                                                       LA DIREZIONE
 
-    P. S. Dopo aver debitamente compilato questo stampato, affinché il tutto avvenga in modo
-anonimo, La invitiamo a depositarlo presso la segreteria in apposito contenitore.`,
-  29: `PIANOAZIENDALEPERLAGESTIONEDELRISCHIO
-                                   REV. 01 del 06/11/2025
+P. S. Dopo aver debitamente compilato questo stampato, affinché il tutto avvenga in modo
+```
 
-1.      Assistente alla poltrona
+anonimo, La invitiamo a depositarlo presso la segreteria in apposito contenitore.`, 29: `PIANOAZIENDALEPERLAGESTIONEDELRISCHIO
+REV. 01 del 06/11/2025
+
+1. ```
+    Assistente alla poltrona
+   ```
+
 In tale gruppo sono compresi gli addetti alle operazioni di supporto all’attività professionale
 dell’odontoiatra svolta presso lo Studio. Essi operano in prossimità del paziente durante le sedute e si
 occupano delle esigenze logistiche, quali la preparazione delle attrezzature, le operazioni di
 sterilizzazione dello strumentario e la disinfezione delle postazioni di lavoro tra un paziente e il
 successivo.
 
-
 Descrizione del pericolo                                       Durata   Gravità   Evento       I/R
 Disturbi muscolo-scheletrici dovuti a posizioni di
-                                                                 4        2         2           16
+4        2         2           16
 lavoro prolungate in piedi o incongrue/inadeguate.
 Elettrocuzione durante l’uso di attrezzature elettriche.         2        4         1           8
 Infortuni dovuti all’uso di attrezzature manuali, in
 particolare a carico degli arti superiori, causati dal           2        2         2           8
 contatto con parti taglienti o aghi.
 Contatto con materiale organico potenzialmente
-                                                                 2        4         2           16
+2        4         2           16
 infetto (ad esempio sangue o saliva).
 Rischio biologico: contagio con i ceppi virali HSV1 e
 HSV2 HBV e HCV, HIV, batteri e virus responsabili
@@ -4140,10 +4173,10 @@ di affezioni polmonari virali e batteriche (es. legionella)
 Inalazione di polveri e vapori/aerosol                           3        3         1           9
 Irritazioni cutanee dovute all’uso di guanti in lattice.         2        2         1           4
 Stress psicofisico causato da orari e ritmi di lavoro
-                                                                 3        3         1           9
+3        3         1           9
 eccessivi.
 “Contatto con detergenti e disinfettanti utilizzati per
-                                                                 3        2         2           12
+3        2         2           12
 la manutenzione igienica dei locali e delle
 attrezzature.”
 Rischio da R.I..                                                 1        4         1            4
@@ -4154,226 +4187,232 @@ Microclima                                                       4        2     
 Incendio                                                         1        4         1            4
 Radiazioni ottiche artificiali (noncoerenti)                     2        2         2            8
 
-
-              PRINCIPALI MISURE DI PREVENZIONE ED ISTRUZIONI PER GLI ADDETTI
+```
+          PRINCIPALI MISURE DI PREVENZIONE ED ISTRUZIONI PER GLI ADDETTI
+```
 
 Misure di Prevenzione e Protezione Generali
 
-    Sostituire, ove possibile, i prodotti maggiormente nocivi con altri a minore impatto sulla salute e
-     sull’ambiente.
-    Effettuare ricambi d’aria dei locali in numero adeguato, garantendo una corretta ventilazione.
-    Prevedere un’etichettatura idonea per tutte le sostanze chimiche o tossiche presenti nello studio.
-    Sono predisposti comandi di emergenza per interrompere rapidamente l’alimentazione elettrica sia
-     all’intero impianto (sul quadro generale) sia alle singole zone operative (quadri di zona).
-    Gli utensili elettrici portatili devono essere corredati da libretto d’uso e manutenzione.
-
+   Sostituire, ove possibile, i prodotti maggiormente nocivi con altri a minore impatto sulla salute e
+sull’ambiente.
+   Effettuare ricambi d’aria dei locali in numero adeguato, garantendo una corretta ventilazione.
+   Prevedere un’etichettatura idonea per tutte le sostanze chimiche o tossiche presenti nello studio.
+   Sono predisposti comandi di emergenza per interrompere rapidamente l’alimentazione elettrica sia
+all’intero impianto (sul quadro generale) sia alle singole zone operative (quadri di zona).
+   Gli utensili elettrici portatili devono essere corredati da libretto d’uso e manutenzione.
 
 Uso di Prodotti Chimici e Disinfettanti
 
    Fornire formazione e informazione ai lavoratori sui rischi connessi all’uso di disinfettanti e prodotti
-       chimici impiegati in odontoiatria.
-      Durante l’uso di tali sostanze, adottare gli accorgimenti necessari per evitare il contatto con pelle, occhi
-       e altre parti del corpo.
-      Utilizzare adeguati dispositivi di protezione individuale (DPI).
-      Ogni sostanza deve essere conservata in modo appropriato, secondo le indicazioni riportate nella
-       scheda di sicurezza.
-      È vietato consumare cibi e bevande durante l’utilizzo di sostanze chimiche o disinfettanti.
-      Acquisire e conservare le schede di sicurezza (SDS) relative a tutte le sostanze chimiche e tossiche
-       utilizzate.
-      Predisporre tabelle di pronto soccorso con indicazioni sugli interventi da attuare in caso di esposizione
-       accidentale.
+chimici impiegati in odontoiatria.
+   Durante l’uso di tali sostanze, adottare gli accorgimenti necessari per evitare il contatto con pelle, occhi
+e altre parti del corpo.
+   Utilizzare adeguati dispositivi di protezione individuale (DPI).
+   Ogni sostanza deve essere conservata in modo appropriato, secondo le indicazioni riportate nella
+scheda di sicurezza.
+   È vietato consumare cibi e bevande durante l’utilizzo di sostanze chimiche o disinfettanti.
+   Acquisire e conservare le schede di sicurezza (SDS) relative a tutte le sostanze chimiche e tossiche
+utilizzate.
+   Predisporre tabelle di pronto soccorso con indicazioni sugli interventi da attuare in caso di esposizione
+accidentale.
 
+Misure Ergonomiche e Organizzative
 
-  Misure Ergonomiche e Organizzative
+   Attuare misure tecnico-organizzative per ridurre la ripetitività e la monotonia delle operazioni (pause,
+rotazione delle mansioni, turni equilibrati).
+   Durante le operazioni di pulizia tra un paziente e l’altro, utilizzare sostanze il meno tossiche e volatili
+possibile.
+   Scegliere prodotti detergenti con pH vicino alla neutralità.
+   Utilizzare e conservare con cura le attrezzature taglienti.
+   Adottare posizioni di lavoro comode ed ergonomiche.
+   I pavimenti devono essere non scivolosi e mantenuti puliti.
+   Le attività di pulizia non devono essere effettuate contemporaneamente ad altre attività operative.
+   L’apertura delle porte non deve generare situazioni di pericolo; devono essere libere da ostacoli, avere
+maniglie prive di spigoli vivi ed essere facilmente accessibili.
+   L’impianto idraulico deve fornire acqua calda e fredda; devono essere disponibili detergenti e mezzi
+per l’asciugatura delle mani.
+   I locali devono essere mantenuti in perfette condizioni igieniche.
+   Curare una scrupolosa igiene personale, con lavaggio frequente delle mani.
 
-      Attuare misure tecnico-organizzative per ridurre la ripetitività e la monotonia delle operazioni (pause,
-       rotazione delle mansioni, turni equilibrati).
-      Durante le operazioni di pulizia tra un paziente e l’altro, utilizzare sostanze il meno tossiche e volatili
-       possibile.
-      Scegliere prodotti detergenti con pH vicino alla neutralità.
-      Utilizzare e conservare con cura le attrezzature taglienti.
-      Adottare posizioni di lavoro comode ed ergonomiche.
-      I pavimenti devono essere non scivolosi e mantenuti puliti.
-      Le attività di pulizia non devono essere effettuate contemporaneamente ad altre attività operative.
-      L’apertura delle porte non deve generare situazioni di pericolo; devono essere libere da ostacoli, avere
-       maniglie prive di spigoli vivi ed essere facilmente accessibili.
-      L’impianto idraulico deve fornire acqua calda e fredda; devono essere disponibili detergenti e mezzi
-       per l’asciugatura delle mani.
-      I locali devono essere mantenuti in perfette condizioni igieniche.
-      Curare una scrupolosa igiene personale, con lavaggio frequente delle mani.
-
-
-  Dispositivi di Protezione Individuale (DPI)
+Dispositivi di Protezione Individuale (DPI)
 
 I lavoratori devono utilizzare DPI conformi alla normativa CE, in particolare:
 
-      Guanti in lattice (per operazioni con contatto con liquidi biologici del paziente, es. sangue, saliva,
-       sudore).
-      Indumenti protettivi adeguati (camici o divise sanitarie).
-      Mascherina di protezione delle vie respiratorie, da sostituire indicativamente ogni ora o quando
-       necessario.
-      Visiera protettiva durante le operazioni a stretto contatto con il paziente, soprattutto in caso di utilizzo
-       di strumentazione rotante ad alta velocità.
-      Cuffia per capelli per evitare contaminazioni.
-      Occhiali protettivi durante l’esposizione a radiazioni ottiche artificiali non coerenti (ROA non
-       coerenti).
+   Guanti in lattice (per operazioni con contatto con liquidi biologici del paziente, es. sangue, saliva,
+sudore).
+   Indumenti protettivi adeguati (camici o divise sanitarie).
+   Mascherina di protezione delle vie respiratorie, da sostituire indicativamente ogni ora o quando
+necessario.
+   Visiera protettiva durante le operazioni a stretto contatto con il paziente, soprattutto in caso di utilizzo
+di strumentazione rotante ad alta velocità.
+   Cuffia per capelli per evitare contaminazioni.
+   Occhiali protettivi durante l’esposizione a radiazioni ottiche artificiali non coerenti (ROA non
+coerenti).
 
-2.       Collaboratore Odontoiatra/Igienista
-  In tale gruppo sono considerati i collaboratori di supporto delle attività e pratiche professionali specifiche svolte in
-  regime di consulenza svolte presso lo Studio. Operano in prossimità del paziente durante le sedutee provvedono alla
-  prestazione delle pratiche professionali per le quali sono chiamati secondo le proprie specializzazioni, compreso la
-  effettuazione delle radiografie ad uso complementare alla attività
+1. ```
+     Collaboratore Odontoiatra/Igienista
+   ```
 
+In tale gruppo sono considerati i collaboratori di supporto delle attività e pratiche professionali specifiche svolte in
+regime di consulenza svolte presso lo Studio. Operano in prossimità del paziente durante le sedutee provvedono alla
+prestazione delle pratiche professionali per le quali sono chiamati secondo le proprie specializzazioni, compreso la
+effettuazione delle radiografie ad uso complementare alla attività
 
-   Descrizionedelpericolo                                          Durata        Gravità       Evento           I/R
-   Disturbimuscolo-scheletriciperposizionedilavoro in piedi o
-                                                                       2            1             2              4
-   incongrue/inadeguate.
-   Elettrocuzione durante l’utilizzo di attrezzature                   2            2             1              4
-   elettriche.
-   Infortuni per l’uso di attrezzature manuali e, in particolare
-   agli arti superiori, per il contatto con parti taglienti ed         3            1             3              9
-   aghi.
-   Contatto con materiale organico potenzialmente in fetto
-                                                                       3            3             3              27
-   (es. sangue, saliva)
-   Movimentazione Manuale dei Carichi                                  1            1             1              1
-   Rischio biologico: contagio con i ceppi virali HSV1 e
-   HSV2 HBV e HCV, HIV, batteri e virus responsabili
-   delle infezioni delle vie aeree superiori, agenti                   3            3             3              27
-   eziologicidiaffezionipolmonariviraliebatteriche
-   (es.legionella)
-   Inalazione di polveri e vapori/aerosol                              3            3             3              27
-   Irritazioni cutanee da guanti in latice                             2            1             2               4
-   Stress psicofisico causato da orari e ritmi di lavoro
-                                                                       3            1             1              3
-   eccessivi.
-   Contatto con detergenti e disinfettanti per la manutenzione
-                                                                       3            1             2              6
-   igienica dei locali e delle attrezzature.
-   Rischio daR.I..                                                     1            3             2              6
-   Microclima                                                          3            2             1              6
-   Incendio                                                            1            3             1              3
-   Rischio elettrico                                                   3            2             1              6
-   Radiazioni ottiche artificiali (non coerenti)                       2            2             2              8
+Descrizionedelpericolo                                          Durata        Gravità       Evento           I/R
+Disturbimuscolo-scheletriciperposizionedilavoro in piedi o
+2            1             2              4
+incongrue/inadeguate.
+Elettrocuzione durante l’utilizzo di attrezzature                   2            2             1              4
+elettriche.
+Infortuni per l’uso di attrezzature manuali e, in particolare
+agli arti superiori, per il contatto con parti taglienti ed         3            1             3              9
+aghi.
+Contatto con materiale organico potenzialmente in fetto
+3            3             3              27
+(es. sangue, saliva)
+Movimentazione Manuale dei Carichi                                  1            1             1              1
+Rischio biologico: contagio con i ceppi virali HSV1 e
+HSV2 HBV e HCV, HIV, batteri e virus responsabili
+delle infezioni delle vie aeree superiori, agenti                   3            3             3              27
+eziologicidiaffezionipolmonariviraliebatteriche
+(es.legionella)
+Inalazione di polveri e vapori/aerosol                              3            3             3              27
+Irritazioni cutanee da guanti in latice                             2            1             2               4
+Stress psicofisico causato da orari e ritmi di lavoro
+3            1             1              3
+eccessivi.
+Contatto con detergenti e disinfettanti per la manutenzione
+3            1             2              6
+igienica dei locali e delle attrezzature.
+Rischio daR.I..                                                     1            3             2              6
+Microclima                                                          3            2             1              6
+Incendio                                                            1            3             1              3
+Rischio elettrico                                                   3            2             1              6
+Radiazioni ottiche artificiali (non coerenti)                       2            2             2              8
 
-
-                   PRINCIPALI MISURE DI PREVENZIONE E DISTRUZIONI PER GLI ADDETTI
+```
+               PRINCIPALI MISURE DI PREVENZIONE E DISTRUZIONI PER GLI ADDETTI
+```
 
 Misure di prevenzione e protezione generali
 
-       Sostituire i prodotti maggiormente nocivi con altri a minore impatto tossicologico.
-       Effettuare ricambi d’aria dei locali in numero adeguato, garantendo una corretta ventilazione.
-       Prevedere un’idonea etichettatura delle sostanze chimiche o tossiche presenti nello studio.
-       Sono predisposti comandi di emergenza per interrompere rapidamente l’alimentazione elettrica
-        all’intero impianto (sul quadro generale) e alle singole zone (quadri di settore).
-       Gli utensili elettrici portatili devono essere corredati da un libretto d’uso e manutenzione.
-       Fornire formazione e informazione ai lavoratori sui rischi lavorativi connessi all’uso di disinfettanti e
-        prodotti chimici impiegati in odontoiatria.
-       Durante l’uso di sostanze chimiche devono essere adottati tutti gli accorgimenti necessari per evitare il
-        contatto con pelle, occhi e mucose.
-       Adoperare adeguati mezzi di protezione personale (es. creme barriera, guanti in lattice, mascherine,
-        visiere).
-       Ogni sostanza deve essere opportunamente conservata secondo le istruzioni del produttore.
-       Durante l’uso di sostanze chimiche o tossiche è vietato consumare cibi e bevande.
-       Attenersi scrupolosamente a quanto prescritto dall’Esperto Qualificato in materia di Radioprotezione
-        (art. 80 D.Lgs. 230/95 e s.m.i.).
-       Acquisire e tenere a disposizione le schede di sicurezza (SDS) delle sostanze chimiche o tossiche
-        utilizzate.
+    Sostituire i prodotti maggiormente nocivi con altri a minore impatto tossicologico.
+    Effettuare ricambi d’aria dei locali in numero adeguato, garantendo una corretta ventilazione.
+    Prevedere un’idonea etichettatura delle sostanze chimiche o tossiche presenti nello studio.
+    Sono predisposti comandi di emergenza per interrompere rapidamente l’alimentazione elettrica
+all’intero impianto (sul quadro generale) e alle singole zone (quadri di settore).
+    Gli utensili elettrici portatili devono essere corredati da un libretto d’uso e manutenzione.
+    Fornire formazione e informazione ai lavoratori sui rischi lavorativi connessi all’uso di disinfettanti e
+prodotti chimici impiegati in odontoiatria.
+    Durante l’uso di sostanze chimiche devono essere adottati tutti gli accorgimenti necessari per evitare il
+contatto con pelle, occhi e mucose.
+    Adoperare adeguati mezzi di protezione personale (es. creme barriera, guanti in lattice, mascherine,
+visiere).
+    Ogni sostanza deve essere opportunamente conservata secondo le istruzioni del produttore.
+    Durante l’uso di sostanze chimiche o tossiche è vietato consumare cibi e bevande.
+    Attenersi scrupolosamente a quanto prescritto dall’Esperto Qualificato in materia di Radioprotezione
+(art. 80 D.Lgs. 230/95 e s.m.i.).
+    Acquisire e tenere a disposizione le schede di sicurezza (SDS) delle sostanze chimiche o tossiche
+utilizzate.
 
    Predisporre tabelle e istruzioni di primo soccorso per le sostanze impiegate.
-       Attuare misure tecnico-organizzative per ridurre il più possibile la ripetitività e la monotonia delle
-        operazioni (pause, rotazione dei compiti, turni equilibrati).
-       Scegliere prodotti detergenti con pH vicino alla neutralità.
-       Utilizzare e conservare gli strumenti taglienti con la dovuta attenzione e cura.
-       Utilizzare occhiali protettivi durante l’esposizione a radiazioni ottiche artificiali (ROA) non coerenti.
-
+   Attuare misure tecnico-organizzative per ridurre il più possibile la ripetitività e la monotonia delle
+operazioni (pause, rotazione dei compiti, turni equilibrati).
+   Scegliere prodotti detergenti con pH vicino alla neutralità.
+   Utilizzare e conservare gli strumenti taglienti con la dovuta attenzione e cura.
+   Utilizzare occhiali protettivi durante l’esposizione a radiazioni ottiche artificiali (ROA) non coerenti.
 
 Dispositivi di Protezione Individuale (DPI) con marcatura “CE”
 
 I lavoratori che eseguono le attività operative devono utilizzare regolarmente i seguenti DPI:
 
-       Guanti in lattice (per operazioni con contatto con liquidi biologici del paziente, come sangue, saliva,
-        sudore).
-       Indumenti protettivi adeguati (camici o divise da lavoro).
-       Maschera di protezione delle vie respiratorie, da sostituire circa ogni ora o quando si inumidisce.
-       Visiera protettiva durante le operazioni in prossimità del paziente che prevedono l’uso di
-        strumentazione rotante, specialmente ad alta velocità.
-       Occhiali schermanti protettivi per l’impiego di ROA non coerenti.
+```
+   Guanti in lattice (per operazioni con contatto con liquidi biologici del paziente, come sangue, saliva,
+    sudore).
+   Indumenti protettivi adeguati (camici o divise da lavoro).
+   Maschera di protezione delle vie respiratorie, da sostituire circa ogni ora o quando si inumidisce.
+   Visiera protettiva durante le operazioni in prossimità del paziente che prevedono l’uso di
+    strumentazione rotante, specialmente ad alta velocità.
+   Occhiali schermanti protettivi per l’impiego di ROA non coerenti.
+```
 
-3.       Impiegato amministrativo
+1. ```
+     Impiegato amministrativo
+   ```
 
-  In tale gruppo sono considerati gli addetti ai videoterminali, i responsabili dei rapporti con la clientela e con i fornitori
+In tale gruppo sono considerati gli addetti ai videoterminali, i responsabili dei rapporti con la clientela e con i fornitori
 
-   Descrizionedelpericolo                                          Durata         Gravità       Evento           I/R
-   Uso dei video terminali                                           3              1             4              12
-   Urti, colpi, impatti e compressioni                               1              1             1               1
-   Stress psicofisico                                                3              3             2              18
-   Rischio biologico: contagio con i ceppi viraliHSV1 e              1              2             2               4
-   HSV2 HBV e HCV, HIV, batteri e virus responsabili
-   delle infezioni delle vie aeree superiori, agenti
-   eziologici di affezioni polmonari virali e batteriche
+Descrizionedelpericolo                                          Durata         Gravità       Evento           I/R
+Uso dei video terminali                                           3              1             4              12
+Urti, colpi, impatti e compressioni                               1              1             1               1
+Stress psicofisico                                                3              3             2              18
+Rischio biologico: contagio con i ceppi viraliHSV1 e              1              2             2               4
+HSV2 HBV e HCV, HIV, batteri e virus responsabili
+delle infezioni delle vie aeree superiori, agenti
+eziologici di affezioni polmonari virali e batteriche
 
-   Punture, tagli ed abrasioni                                        1              1             2              2
-   Elettrocuzione                                                     2              1             2              4
-   Incendio                                                           2              3             1              6
-   Inalazione di polveri                                              2              2             2              8
-   Contatto con sostanze irritanti e allergizzanti                    1              1             1              1
-   Contatto con materiale organico                                    1              1             1              1
-   Allergie                                                           1              1             1              1
-   Rumore                                                             1              1             1              1
-   Movimentazione manuale dei carichi                                 1              2             2              4
+Punture, tagli ed abrasioni                                        1              1             2              2
+Elettrocuzione                                                     2              1             2              4
+Incendio                                                           2              3             1              6
+Inalazione di polveri                                              2              2             2              8
+Contatto con sostanze irritanti e allergizzanti                    1              1             1              1
+Contatto con materiale organico                                    1              1             1              1
+Allergie                                                           1              1             1              1
+Rumore                                                             1              1             1              1
+Movimentazione manuale dei carichi                                 1              2             2              4
 
+```
+               PRINCIPALI MISURE DI PREVENZIONE E DISTRUZIONI PER GLI ADDETTI
+```
 
-                   PRINCIPALI MISURE DI PREVENZIONE E DISTRUZIONI PER GLI ADDETTI
 Misure di Prevenzione e Buone Pratiche Operative – Uffici e Aree Amministrative
 
-       Utilizzare schermi protettivi o filtri per ridurre l’affaticamento visivo durante il lavoro al
-        videoterminale (VDT).
-       Evitare di mantenere posizioni scomode o statiche per tempi prolungati; quando non è possibile,
-        interrompere frequentemente il lavoro per rilassare la muscolatura.
-       Assumere sempre una postura comoda ed ergonomicamente corretta.
-       Effettuare semplici esercizi di rilassamento, stiramento e rinforzo muscolare durante la giornata
-        lavorativa.
-       Indossare la mascherina durante la sostituzione del toner della fotocopiatrice.
-       Le prese elettriche devono essere correttamente fissate, dimensionate per l’utilizzo previsto e progettate
-        in modo da impedire il contatto accidentale con parti in tensione durante l’inserimento della spina.
-       I pavimenti devono essere antisdrucciolevoli e mantenuti in buono stato di pulizia.
-       Le attività di pulizia non devono essere svolte contemporaneamente ad altre attività lavorative.
-       L’apertura delle porte non deve generare situazioni di pericolo: i passaggi devono essere sgombri da
-        ostacoli, le maniglie prive di spigoli vivi e facilmente accessibili.
-       L’impianto idraulico deve fornire acqua fredda e calda, detergenti e mezzi idonei per l’asciugatura
-        delle mani; i locali devono essere mantenuti puliti e ordinati.
-       Mantenere una scrupolosa igiene personale, con lavaggio frequente delle mani.
-       Garantire che temperatura e umidità dei locali siano mantenute entro i limiti del benessere termico;
-        evitare attività rumorose nelle aree aperte al pubblico, salvo la normale rumorosità ambientale.
-       Le sedie devono essere ergonomiche e stabili:
-            o i sedili fissi devono garantire stabilità;
-            o i sedili mobili devono avere cinque razze;
-            o i comandi per le regolazioni (altezza, schienale, supporto lombare) devono essere facilmente
-                 accessibili;
-            o ove necessario, fornire poggiapiedi regolabili.
-       I tavoli e le scrivanie devono avere superfici opache e prive di spigoli vivi.
-       Gli scaffali devono essere ben fissati alla parete o alla struttura portante e recare l’indicazione del
-        carico massimo per ciascun ripiano.
-       L’utilizzo degli scaffali deve essere agevole e sicuro, anche in caso di impiego di scale, sgabelli o altri
-        accessori.
-       Le macchine da ufficio alimentate elettricamente devono:
-            o essere collegate all’impianto di messa a terra tramite spina di alimentazione, oppure
+    Utilizzare schermi protettivi o filtri per ridurre l’affaticamento visivo durante il lavoro al
+videoterminale (VDT).
+    Evitare di mantenere posizioni scomode o statiche per tempi prolungati; quando non è possibile,
+interrompere frequentemente il lavoro per rilassare la muscolatura.
+    Assumere sempre una postura comoda ed ergonomicamente corretta.
+    Effettuare semplici esercizi di rilassamento, stiramento e rinforzo muscolare durante la giornata
+lavorativa.
+    Indossare la mascherina durante la sostituzione del toner della fotocopiatrice.
+    Le prese elettriche devono essere correttamente fissate, dimensionate per l’utilizzo previsto e progettate
+in modo da impedire il contatto accidentale con parti in tensione durante l’inserimento della spina.
+    I pavimenti devono essere antisdrucciolevoli e mantenuti in buono stato di pulizia.
+    Le attività di pulizia non devono essere svolte contemporaneamente ad altre attività lavorative.
+    L’apertura delle porte non deve generare situazioni di pericolo: i passaggi devono essere sgombri da
+ostacoli, le maniglie prive di spigoli vivi e facilmente accessibili.
+    L’impianto idraulico deve fornire acqua fredda e calda, detergenti e mezzi idonei per l’asciugatura
+delle mani; i locali devono essere mantenuti puliti e ordinati.
+    Mantenere una scrupolosa igiene personale, con lavaggio frequente delle mani.
+    Garantire che temperatura e umidità dei locali siano mantenute entro i limiti del benessere termico;
+evitare attività rumorose nelle aree aperte al pubblico, salvo la normale rumorosità ambientale.
+    Le sedie devono essere ergonomiche e stabili:
+o i sedili fissi devono garantire stabilità;
+o i sedili mobili devono avere cinque razze;
+o i comandi per le regolazioni (altezza, schienale, supporto lombare) devono essere facilmente
+accessibili;
+o ove necessario, fornire poggiapiedi regolabili.
+    I tavoli e le scrivanie devono avere superfici opache e prive di spigoli vivi.
+    Gli scaffali devono essere ben fissati alla parete o alla struttura portante e recare l’indicazione del
+carico massimo per ciascun ripiano.
+    L’utilizzo degli scaffali deve essere agevole e sicuro, anche in caso di impiego di scale, sgabelli o altri
+accessori.
+    Le macchine da ufficio alimentate elettricamente devono:
+o essere collegate all’impianto di messa a terra tramite spina di alimentazione, oppure
 
 o    possedere un doppio isolamento (doppia protezione), garantito da marchio CE e
-               documentazione del fabbricante.
+documentazione del fabbricante.
 
-
-4.       Pazienti
+1. ```
+     Pazienti
+   ```
 
 In tale gruppo sono considerati i pazienti dello studio odontoiatrico
-
 
 Descrizionedelpericolo                                             Durata   Gravità   Evento        I/R
 Scivolamenti a livello                                               2        2         1            4
 Urti e impatti con spigoli vivi degli arredi a corredo dello
-                                                                        2     2         1            4
+2     2         1            4
 studio
 Rischio biologico: contagio con i ceppi virali HSV1 e
 HSV2 HBV e HCV, HIV, batteri e virus responsabili
@@ -4387,27 +4426,31 @@ Incendio                                                                1     3 
 Rischio elettrico                                                       3     2         1            6
 Radiazioni ottiche artificiali (non coerenti)                           2     2         2            8
 
-
-               PRINCIPALI MISURE DI PREVENZIONE E DI STRUZIONI PER GLI ADDETTI
+```
+           PRINCIPALI MISURE DI PREVENZIONE E DI STRUZIONI PER GLI ADDETTI
+```
 
     Effettuare ricambi d’aria dei locali in numero adeguato, garantendo una corretta ventilazione
-     naturale o meccanica.
+naturale o meccanica.
     Manutenere e sanificare i filtri dei condizionatori con cadenza trimestrale, utilizzando prodotti
-     disinfettanti ad ampio spettro, specifici contro batteri Gram-negativi (es. Legionella) e virus
-     Sars-CoV-2 (es. ipoclorito di sodio in soluzione al 2%).
-    Sono predisposti comandi di emergenza per interrompere rapidamente l'alimentazione all'intero
-     impianto elettrico (sul quadro generale) e a sue parti (sui quadri di zona);
+disinfettanti ad ampio spettro, specifici contro batteri Gram-negativi (es. Legionella) e virus
+Sars-CoV-2 (es. ipoclorito di sodio in soluzione al 2%).
+    Sono predisposti comandi di emergenza per interrompere rapidamente l’alimentazione all’intero
+impianto elettrico (sul quadro generale) e a sue parti (sui quadri di zona);
     La manutenzione dei presidi antincendio deve essere effettuata con cadenza semestrale.
     Gli apparecchi elettromedicali devono essere verificati con cadenza biennale.
     Leoperazioni di pulizia e specificatamente di lavaggio dei pavimenti deve essere effettuata al termine
-     della giornata lavorativa e comunque in assenza di pubblico.
-    Attenersi a quanto prescritto dall'Esperto Qualificato in materia di Radioprotezione (art.131D.Lgs.
-     100/2020)
+della giornata lavorativa e comunque in assenza di pubblico.
+    Attenersi a quanto prescritto dall’Esperto Qualificato in materia di Radioprotezione (art.131D.Lgs.
+100/2020)
     Acquisire le schede di sicurezza delle sostanze chimiche o tossiche utilizzate
     Durante la attesa è obbligatorio l’uso di mascherine possibilmente del tipo FFP2
     Uso degli occhiali protettivi durante l’esposizione a ROA non coerenti
 
-5.       Ambienti di lavoro
+1. ```
+     Ambienti di lavoro
+   ```
+
 Rischi di natura infortunistica
 
 Pavimenti
@@ -4419,46 +4462,46 @@ Pavimenti
 
 Pareti e soffitti
  Hanno una superficie liscia, integra, non polverosa, lavabile e di colore chiaro (colori pastello). Gli
-  spigoli non devono presentare lesioni o disuniformità; gli zoccolini devono essere integri, privi di
-  sporgenze e ben fissati alla parete.
+spigoli non devono presentare lesioni o disuniformità; gli zoccolini devono essere integri, privi di
+sporgenze e ben fissati alla parete.
  Verificare che le pareti siano prive di sporgenze o chiodi.
  I rivestimenti dei servizi devono essere uniformi, integri, privi di asperità e facilmente lavabili.
  Le pareti trasparenti e in particolare le pareti vetrate devono essere segnalate.
 
 Porte
  L’apertura di porte non deve generare situazioni pericolose sia per chi compie l’operazione
-   che per altre persone. Devono essere mantenute sgombre da ostacoli, avere maniglie prive di
-   spigoli vivi ed essere facilmente accessibili. Le porte trasparenti, devono essere segnalare ad
-   altezza occhio (1,5 - 1,8 mt.). Le porte devono inoltre essere conformi alla normativa vigente,
-   dimensionate e posizionate correttamente a secondo del loro utilizzo (porte d’ingresso, porte
-   interne).
+che per altre persone. Devono essere mantenute sgombre da ostacoli, avere maniglie prive di
+spigoli vivi ed essere facilmente accessibili. Le porte trasparenti, devono essere segnalare ad
+altezza occhio (1,5 - 1,8 mt.). Le porte devono inoltre essere conformi alla normativa vigente,
+dimensionate e posizionate correttamente a secondo del loro utilizzo (porte d’ingresso, porte
+interne).
 
 Finestre
  L’apertura delle finestre, non deve generare situazioni pericolose sia per chi compie
-   l’operazione che per altre persone. Esse vanno dotate di idonei sistemi di schermatura (ad es.
-   tende regolabili di colore chiaro) per evitare fastidiosi abbagliamenti, inoltre devono garantire
-   un buon ricambio d’aria.
+l’operazione che per altre persone. Esse vanno dotate di idonei sistemi di schermatura (ad es.
+tende regolabili di colore chiaro) per evitare fastidiosi abbagliamenti, inoltre devono garantire
+un buon ricambio d’aria.
  le cinghie delle persiane avvolgibili devono essere mantenute in buone condizioni e
-   controllate periodicamente.
+controllate periodicamente.
  la conformazione delle finestre deve essere tale da consentire le operazioni di pulitura in
-   condizioni di sicurezza o dotati di dispositivi o attrezzature atte a conseguire il medesimo
-   risultato.
+condizioni di sicurezza o dotati di dispositivi o attrezzature atte a conseguire il medesimo
+risultato.
 
 Servizi
  i servizi devono servire pubblico e operatori.
  L’impianto idraulico deve erogare acqua fredda e calda e devono essere forniti i detergenti e i
-   mezzi per asciugarsi. I locali vanno tenuti puliti. Le pareti sono piastrellate sino ad una altezza
-   di mt. 2.20
+mezzi per asciugarsi. I locali vanno tenuti puliti. Le pareti sono piastrellate sino ad una altezza
+di mt. 2.20
 
 Passaggi
  i corridoi e i passaggi in genere devono essere liberi da ostacoli ed avere sempre un livello di
-   illuminamento sufficiente; eventuali dislivelli o riduzioni in altezza devono essere segnalati e
-   non devono ridurre a meno di mt. 2 il vano utile percorribile.
+illuminamento sufficiente; eventuali dislivelli o riduzioni in altezza devono essere segnalati e
+non devono ridurre a meno di mt. 2 il vano utile percorribile.
 
 Analisi
 
-L’analisi del ciclo di lavoro ha evidenziato la presenza di attività che implicano l'esposizione ad
-agenti biologici di cui all'art. 266 e seguenti del D.Lgs 81/2008
+L’analisi del ciclo di lavoro ha evidenziato la presenza di attività che implicano l’esposizione ad
+agenti biologici di cui all’art. 266 e seguenti del D.Lgs 81/2008
 Gli agenti biologici, sono classificati in quattro gruppi:
 Gruppo1: gli appartenenti a questo gruppo presentano poche probabilità di causare malattie in
 soggetti umani
@@ -4474,11 +4517,11 @@ efficaci misure profilattiche o terapeutiche.
 A titolo di esempio, i virus HIV e HBV sono inclusi nel gruppo 3.
 La popolazione microbica del cavo orale è composta sia di microrganismi assolutamente innocui
 che di agenti eziologici di patologie infettive tra le quali le più comuni sono:
-                VirusHerpesSimplexHSV1eHSV2
-                Virusdell’epatiteBeC(HBVeHCV)
-                Virusdell’AIDS(HIV)
-                Batteri e virus responsabili delle infezioni delle vie aeree superiori.
-                Agenti eziologici di affezioni polmonari virali e batteriche (es. tubercolosi).
+ VirusHerpesSimplexHSV1eHSV2
+ Virusdell’epatiteBeC(HBVeHCV)
+ Virusdell’AIDS(HIV)
+ Batteri e virus responsabili delle infezioni delle vie aeree superiori.
+ Agenti eziologici di affezioni polmonari virali e batteriche (es. tubercolosi).
 
 I fattori che concorrono alla trasmissione degli agenti patogeni negli ambienti dello studio sono da
 ricercarsi nel continuo passaggio di persone, caratteristica dell’attività professionale, nellamancanza
@@ -4495,92 +4538,96 @@ strumentario e gli agenti patogeni. A tale categoria appartengono i guanti, la p
 mascherine oro-nasali, occhiali, visiere.
 
 I guanti dovrebbero essere in latice di gommao al limite in vinile in caso di allergie al latice; le
-  mascherine oro-nasali sono di buona qualità se la BFE (BacteryFiltrationEfficiency) è superiore al
-  90% ed inoltre dovrebbero essere sostituite circa ogni ora dal momento che l’umidità riduce la
-  capacità filtrante.
-  Alla conclusione di ogni intervento, tutto lo strumentario contaminato deve essere trasportato
-  nell’area di sterilizzazione ed essere sottoposto a dei cicli per la decontaminazione, detersione e
-  disinfezione. A tal fine gli strumenti devono essere preventivamente immersi in bagno di
-  glutaraldeide al 2% per 30’ per ridurre la carica batterica cambiando la soluzione quotidianamente.
-  Successivamente la metodica ad ultrasuoni è la più impiegata in odontoiatria; si dovrà evitare di
-  mescolaremetallidiversichepotrebbedareluogoaprocessielettroliticiconconseguentecorrosione         e/o
-  colorazione. La vaschetta con la soluzione detergente durante il ciclo deve essere tenuta coperta per
-  evitare la produzione di aerosol.
-  A fine giornata lavorativa è consigliabile effettuare una disinfezione approfondita della sala
-  operativa pulendo attentamente oltre che il corpo del riunito anche la sua base ed i mobiletti e il
-  lavandino. Tra il paziente e l’altro sarebbe opportuno isolare con pellicola trasparente la lampada, i
-  comandi manuali della poltrona e della faretra del riunito, gli aspiratori chirurgici, la testata del
-  radiografico. Prima di ogni seduta si potrebbe chiedere al paziente uno sciacquo con clorexidina al
-  0.2% per un minuto.
+mascherine oro-nasali sono di buona qualità se la BFE (BacteryFiltrationEfficiency) è superiore al
+90% ed inoltre dovrebbero essere sostituite circa ogni ora dal momento che l’umidità riduce la
+capacità filtrante.
+Alla conclusione di ogni intervento, tutto lo strumentario contaminato deve essere trasportato
+nell’area di sterilizzazione ed essere sottoposto a dei cicli per la decontaminazione, detersione e
+disinfezione. A tal fine gli strumenti devono essere preventivamente immersi in bagno di
+glutaraldeide al 2% per 30’ per ridurre la carica batterica cambiando la soluzione quotidianamente.
+Successivamente la metodica ad ultrasuoni è la più impiegata in odontoiatria; si dovrà evitare di
+mescolaremetallidiversichepotrebbedareluogoaprocessielettroliticiconconseguentecorrosione         e/o
+colorazione. La vaschetta con la soluzione detergente durante il ciclo deve essere tenuta coperta per
+evitare la produzione di aerosol.
+A fine giornata lavorativa è consigliabile effettuare una disinfezione approfondita della sala
+operativa pulendo attentamente oltre che il corpo del riunito anche la sua base ed i mobiletti e il
+lavandino. Tra il paziente e l’altro sarebbe opportuno isolare con pellicola trasparente la lampada, i
+comandi manuali della poltrona e della faretra del riunito, gli aspiratori chirurgici, la testata del
+radiografico. Prima di ogni seduta si potrebbe chiedere al paziente uno sciacquo con clorexidina al
+0.2% per un minuto.
 
 La profilassi per gli operatori, in previsione, sarà garantita da ciclo vaccinale.
 
 Le responsabilità per la prevenzione e il controllo delle infezioni correlate all’assistenza sono:
 
-         a capo dell’Odontoiatra che effettua la prestazione clinica. Lo stesso supervisiona con
-          responsabilità diretta le eventuali ASO per le fasi di preparazione della sala operativa e,
-          successivamente al congedo del paziente, alla sua sanificazione.
+```
+     a capo dell’Odontoiatra che effettua la prestazione clinica. Lo stesso supervisiona con
+      responsabilità diretta le eventuali ASO per le fasi di preparazione della sala operativa e,
+      successivamente al congedo del paziente, alla sua sanificazione.
+```
 
-  Protocolli tecnici per la prevenzione dell’esposizione a Legionella
-  La legionella è un batterio Gram- che si sviluppa all’interno di biofilm nei circuiti idrici con
-  possibilità di permanenza di acqua stagnante. Il range di temperatura di proliferazione è compreso
-  tra 20 e 55 °C, raggiungibili ovviamente nei circuiti di distribuzione di acqua calda sanitaria,
-  impianti di condizionamento a termosifone, e circuiti idrici in prossimità di circuiti/apparecchiature
-  elettriche che durante il loro normale funzionamento raggiungono la temperatura di circa 35°Ccome
-  il caso delle poltrone odontoiatriche.
-  Al fine di procedere alla valutazione del rischio è stata effettuata la ricognizione all’interno della
-  struttura del circuito idrico nel suo complesso, dall’approvvigionamento comunale sino alle singole
-  utenze.
-  Le risultanze hanno escluso la presenza di rami morti e/o in disuso, e la configurazione “in serie”
-  della riserva idrica indipendente posta tra la fornitura comunale e il collettore di smistamento,
-  assicurando un continuo ricambio dell’acqua al suo interno. La stessa riserva idrica è
-  semestralmente sanificata con soluzione di Amuchina, il cui principio attivo è l’ipoclorito di sodio
-  1,15 g che nello spettro di azione contempla elettivamente i batteri Gram-.
+Protocolli tecnici per la prevenzione dell’esposizione a Legionella
+La legionella è un batterio Gram- che si sviluppa all’interno di biofilm nei circuiti idrici con
+possibilità di permanenza di acqua stagnante. Il range di temperatura di proliferazione è compreso
+tra 20 e 55 °C, raggiungibili ovviamente nei circuiti di distribuzione di acqua calda sanitaria,
+impianti di condizionamento a termosifone, e circuiti idrici in prossimità di circuiti/apparecchiature
+elettriche che durante il loro normale funzionamento raggiungono la temperatura di circa 35°Ccome
+il caso delle poltrone odontoiatriche.
+Al fine di procedere alla valutazione del rischio è stata effettuata la ricognizione all’interno della
+struttura del circuito idrico nel suo complesso, dall’approvvigionamento comunale sino alle singole
+utenze.
+Le risultanze hanno escluso la presenza di rami morti e/o in disuso, e la configurazione “in serie”
+della riserva idrica indipendente posta tra la fornitura comunale e il collettore di smistamento,
+assicurando un continuo ricambio dell’acqua al suo interno. La stessa riserva idrica è
+semestralmente sanificata con soluzione di Amuchina, il cui principio attivo è l’ipoclorito di sodio
+1,15 g che nello spettro di azione contempla elettivamente i batteri Gram-.
 
 Il riunito odontoiatrico si compone del gruppo di adduzione (siringa aria/acqua, ablatore,
-  micromotore, contrangolo, bicchiere) e dello scarico (vaschetta sputacchiera ed aspirazione
-  localizzata) con circuiti ovviamente separati.
-  Premesso che quotidianamente al termine della giornata lavorativa l’assistente alla poltrona
-  provvede alla sanificazione e sterilizzazione del gruppo aspirazione con prodotto apposito tramite
-  circolazione in matrice chiusa (escluso ogni possibile contatto e/o inalazione) di soluzione adatta
-  alla tipologia di riunito, periodicamente (con cadenza semestrale) un tecnico autorizzato provvedeal
-  “lavaggio e sanificazione” del gruppo di adduzione in modalità differenti a seconda della
-  classificazione e modello del riunito stesso:
-       Lavaggio a pressione (circa 2,5 bar) con soluzione (2%) di acido per acetico e tempo di
-          permanenza del gruppo idrico di circa 10 minuti con successivo risciacquo
-       Lavaggio con acqua ossigenata (per ossido di idrogeno) al3%
-  Per ridurre la contaminazione microbica e/o la formazione del biofilm all'interno dei circuiti idrici
-  del riunito, si raccomanda di:
+micromotore, contrangolo, bicchiere) e dello scarico (vaschetta sputacchiera ed aspirazione
+localizzata) con circuiti ovviamente separati.
+Premesso che quotidianamente al termine della giornata lavorativa l’assistente alla poltrona
+provvede alla sanificazione e sterilizzazione del gruppo aspirazione con prodotto apposito tramite
+circolazione in matrice chiusa (escluso ogni possibile contatto e/o inalazione) di soluzione adatta
+alla tipologia di riunito, periodicamente (con cadenza semestrale) un tecnico autorizzato provvedeal
+“lavaggio e sanificazione” del gruppo di adduzione in modalità differenti a seconda della
+classificazione e modello del riunito stesso:
+ Lavaggio a pressione (circa 2,5 bar) con soluzione (2%) di acido per acetico e tempo di
+permanenza del gruppo idrico di circa 10 minuti con successivo risciacquo
+ Lavaggio con acqua ossigenata (per ossido di idrogeno) al3%
+Per ridurre la contaminazione microbica e/o la formazione del biofilm all’interno dei circuiti idrici
+del riunito, si raccomanda di:
 
-         Eliminare dal circuito i tratti esclusi dalle correnti di flusso.
-         Installare dispositivi anti-ristagno in grado di far circolare l’acqua in continuo, in particolare durante
-          le pause lavorative.
-         Alimentare il circuito con soluzioni sterili, dopo averlo isolato dalla rete idrica.
-         Disinfettare l’acqua con trattamenti in continuo o discontinui. Questi ultimi, effettuati
-          periodicamente o tra un paziente e il successivo utilizzando disinfettanti di alto livello, evitano la
-          possibilità     di      contaminazioni         chimiche       del    campo       operatorio,      riducono
-          l'esposizionedeglioperatorieminimizzanoilrischiodiselezionaremicrorganismiresistenti,                   ma
-          richiedono maggiore impegno di risorse e attenzione rispetto ai trattamenti in continuo.
+```
+     Eliminare dal circuito i tratti esclusi dalle correnti di flusso.
+     Installare dispositivi anti-ristagno in grado di far circolare l’acqua in continuo, in particolare durante
+      le pause lavorative.
+     Alimentare il circuito con soluzioni sterili, dopo averlo isolato dalla rete idrica.
+     Disinfettare l’acqua con trattamenti in continuo o discontinui. Questi ultimi, effettuati
+      periodicamente o tra un paziente e il successivo utilizzando disinfettanti di alto livello, evitano la
+      possibilità     di      contaminazioni         chimiche       del    campo       operatorio,      riducono
+      l'esposizionedeglioperatorieminimizzanoilrischiodiselezionaremicrorganismiresistenti,                   ma
+      richiedono maggiore impegno di risorse e attenzione rispetto ai trattamenti in continuo.
+```
 
 Per ridurre l’esposizione del paziente ad aerosol potenzialmente contaminati e/o minimizzare il rischio di
 infezione.
 
 Il rischio nei pazienti più vulnerabili si consiglia di:
-    • All’inizio della giornata lavorativa, effettuare la disinfezione dei circuiti con soluzioni a base di acido
-    peracetico e successivo flussaggio di ciascuno strumento (tempo minimo 2 minuti) e prima di ogni
-    intervento (tempo minimo 20–30 secondi).
+• All’inizio della giornata lavorativa, effettuare la disinfezione dei circuiti con soluzioni a base di acido
+peracetico e successivo flussaggio di ciascuno strumento (tempo minimo 2 minuti) e prima di ogni
+intervento (tempo minimo 20–30 secondi).
 
-   • A fine giornata lavorativa, eseguire la disinfezione dei circuiti, della vaschetta e del bicchiere con soluzioni
-   a base di acido peracetico e successivo flussaggio di ciascuno strumento (tempo minimo 2 minuti) e prima di
-   ogni intervento (tempo minimo 20–30 secondi).
+• A fine giornata lavorativa, eseguire la disinfezione dei circuiti, della vaschetta e del bicchiere con soluzioni
+a base di acido peracetico e successivo flussaggio di ciascuno strumento (tempo minimo 2 minuti) e prima di
+ogni intervento (tempo minimo 20–30 secondi).
 
-   • Installare, subito a monte dei manipoli, filtri (≤ 0,2 μm) in grado di trattenere i microrganismi provenienti
-   dall’interno del circuito.
+• Installare, subito a monte dei manipoli, filtri (≤ 0,2 μm) in grado di trattenere i microrganismi provenienti
+dall’interno del circuito.
 
-   • Acquisire, preliminarmente all’inizio delle cure, informazioni sulla salute del paziente, con particolare
-   riguardo alle condizioni che definiscono il “rischio molto elevato” (Tabella 9). In tali casi, devono essere
-   rigorosamente adottate le misure sopra descritte, volte a contenere il rischio di contaminazione da
-   Legionella.
+• Acquisire, preliminarmente all’inizio delle cure, informazioni sulla salute del paziente, con particolare
+riguardo alle condizioni che definiscono il “rischio molto elevato” (Tabella 9). In tali casi, devono essere
+rigorosamente adottate le misure sopra descritte, volte a contenere il rischio di contaminazione da
+Legionella.
 
 Si provvederà a far eseguire annualmente una analisi di laboratorio di campioni d’acqua prelevati dal circuito di
 adduzione dei riuniti (bicchiere, manipoli e siringa) per la ricerca del batterio della legionella.
@@ -4589,18 +4636,17 @@ I filtri dei condizionatori saranno smontati e sanificati semestralmente con sol
 ipoclorito di sodio o disinfettante spray secondo la seguente sequenza:
 
 1         Rimozione filtro
-  2         Aspirazione polveri
-  3         Sgrassaggio
-  4         Sterilizzazione/Disinfezione/Sanificazione (per immersione almeno 30 min in soluzione, o
-            in alternativa trattamento con spray specifico
-  5         Posizionamento filtro
+2         Aspirazione polveri
+3         Sgrassaggio
+4         Sterilizzazione/Disinfezione/Sanificazione (per immersione almeno 30 min in soluzione, o
+in alternativa trattamento con spray specifico
+5         Posizionamento filtro
 
-  Il titolare e gli eventuali futuri dipendenti o collaboratori faranno uso costante dei DPI, seguiranno le
-  procedure di disinfezione dei piani di lavoro e delle attrezzature odontoiatriche (lampada e riunito) dopo ogni
-  seduta,     ed    effettueranno     il    ricambio     d’aria     naturale    tra    un     paziente     e    l’altro.
-  Si valuterà la necessità dell’istituzione della sorveglianza sanitaria tramite la nomina di un Medico
-  Competente.
-
+Il titolare e gli eventuali futuri dipendenti o collaboratori faranno uso costante dei DPI, seguiranno le
+procedure di disinfezione dei piani di lavoro e delle attrezzature odontoiatriche (lampada e riunito) dopo ogni
+seduta,     ed    effettueranno     il    ricambio     d’aria     naturale    tra    un     paziente     e    l’altro.
+Si valuterà la necessità dell’istituzione della sorveglianza sanitaria tramite la nomina di un Medico
+Competente.
 
 Firme per presa visione dei dipendenti e collaboratori
 
@@ -4617,14 +4663,12 @@ N. Nome e Cognome            Qualifica / Mansione         Firma        Data
 4
 5
 
-
-  Il piano sarà aggiornato nel caso di eventi straordinari e ogni qual volta sia necessario con la adozioni di eventuali
-  misure aggiuntive.
+Il piano sarà aggiornato nel caso di eventi straordinari e ogni qual volta sia necessario con la adozioni di eventuali
+misure aggiuntive.
 
 STUDIO ODONTOIATRICO
- [TITOLARE]
-     Sito in [INDIRIZZO]
-
+[TITOLARE]
+Sito in [INDIRIZZO]
 
 Documento 30
 Procedura per la pulizia e
@@ -4633,41 +4677,40 @@ sanificazione degli ambienti.
 Cod. Requisito
 1A.06.02.02
 
-
 [TITOLARE]
 
 INDICE
 
-Generalità .............................................................................................................................. 2
+Generalità ……………………………………………………………………………………………………………… 2
 
-Scopo ...................................................................................................................................... 2
+Scopo …………………………………………………………………………………………………………………….. 2
 
-Campo di applicazione........................................................................................................... 2
+Campo di applicazione…………………………………………………………………………………………….. 2
 
-Attività .................................................................................................................................... 3
+Attività …………………………………………………………………………………………………………………… 3
 
-Identificazione delle aree ....................................................................................................... 4
+Identificazione delle aree …………………………………………………………………………………………. 4
 
-Valutazione dei criteri igienico sanitari riferiti alle aree ...................................................... 4
+Valutazione dei criteri igienico sanitari riferiti alle aree ……………………………………………… 4
 
-Definizione dei protocolli di sanificazione ............................................................................ 4
+Definizione dei protocolli di sanificazione …………………………………………………………………. 4
 
-Scelta degli agenti sanificanti ................................................................................................ 6
+Scelta degli agenti sanificanti …………………………………………………………………………………… 6
 
-Sanificazione ordinaria .......................................................................................................... 7
+Sanificazione ordinaria ……………………………………………………………………………………………. 7
 
-Sanificazione straordinaria.................................................................................................... 7
+Sanificazione straordinaria………………………………………………………………………………………. 7
 
-Registrazione attività svolta ................................................................................................... 7
+Registrazione attività svolta ……………………………………………………………………………………… 7
 
 GENERALITÀ
 
 Per garantire l’igiene è necessario effettuare quattro distinte operazioni:
-   1.   Eliminazione dei rifiuti speciali
-   2.   Eliminazione dei rifiuti normali
-   3.   Detersione
-   4.   Disinfezione
 
+1. Eliminazione dei rifiuti speciali
+1. Eliminazione dei rifiuti normali
+1. Detersione
+1. Disinfezione
 
 Per l’eliminazione dei rifiuti speciali vanno utilizzati gli appositi contenitori forniti dalla ditta
 specializzata checura il ritiro e la successiva eliminazione; i contenitori dei rifiuti speciali devono
@@ -4681,56 +4724,58 @@ delle operazioni, deve provvedere alla registrazione sul documento–Scheda Puli
 Sino al momento della assunzione di personale, le operazioni di pulizia e sanificazione dello studio
 sarannosvoltedirettamentedalTitolare.
 
+SCOPO
 
-   SCOPO
+```
+    Scopo della presente proceduraè assicurare che vengano rispettate tutte le operazioni per la
+```
 
-        Scopo della presente proceduraè assicurare che vengano rispettate tutte le operazioni per la
 puliziadei locali pressolostudio.
 
-   CAMPODIAPPLICAZIONE
+CAMPODIAPPLICAZIONE
 
 L’istruzione si applica a tutte le aree operative e non dello studio.
 
 ATTIVITÀ
-   Sono qui descritte sinteticamente le attività dell’igiene degli ambienti per mezzo di un diagramma di
+Sono qui descritte sinteticamente le attività dell’igiene degli ambienti per mezzo di un diagramma di
 flusso.
 
-
-       Identificazione
-          delle aree
-
-
-     Valutazione dei criteri
-     igienico sanitari delle
-          Singole aree
+```
+   Identificazione
+      delle aree
 
 
-        Definizione del
-                                          Scelta degli agenti
-         protocollo di
-                                              sanificanti
-         Sanificazione
+ Valutazione dei criteri
+ igienico sanitari delle
+      Singole aree
 
 
-                                                                                    Controllo periodico
-                                          Sanificazione
-                                                                                     della conformità
-                                            Ordinaria
+    Definizione del
+                                      Scelta degli agenti
+     protocollo di
+                                          sanificanti
+     Sanificazione
 
 
-                                                                                     NO
+                                                                                Controllo periodico
+                                      Sanificazione
+                                                                                 della conformità
+                                        Ordinaria
 
 
-                                                                   Sanificazione
-                                                                    straordinaria
+                                                                                 NO
 
 
-                                                                                          Scheda
-                                                                Registrazione
-                                                                                          sanificazione
+                                                               Sanificazione
+                                                                straordinaria
+
+
+                                                                                      Scheda
+                                                            Registrazione
+                                                                                      sanificazione
+```
 
 Identificazione delle aree
-
 
 Lo studio ha identificato le seguenti aree:
 
@@ -4745,24 +4790,21 @@ h) Servizio igienico personale
 i) Ingresso - Corridoio
 j) zona tecnica
 
-
 Valutazione dei criteri igienico sanitari riferiti alle aree
 
 La sanificazione degli ambienti di lavoro va riferita alla destinazione d’uso degli ambienti e quindi
 alla potenziale contaminazione legata alla specifica attività.
 
 Per tale motivo vanno distinti:
-        AMBIENTI A RISCHIO GENERICO (zona di attesa, corridoi, ufficio amministrativo,
-         spogliatoio) (ZONA1)
-        AMBIENTI A BASSO RISCHIO (Servizi igienici) (ZONA2)
-        AMBIENTI A MEDIO RISCHIO (sale operative) (ZONA3)
-        SERVIZI IGIENICI (ZONA4)
-
+    AMBIENTI A RISCHIO GENERICO (zona di attesa, corridoi, ufficio amministrativo,
+spogliatoio) (ZONA1)
+    AMBIENTI A BASSO RISCHIO (Servizi igienici) (ZONA2)
+    AMBIENTI A MEDIO RISCHIO (sale operative) (ZONA3)
+    SERVIZI IGIENICI (ZONA4)
 
 Definizione dei protocolli di sanificazione.
 
 La sanificazione degli ambienti di lavoro comprende le seguenti operazioni:
-
 
 Locali:
 a) Sala d’attesa
@@ -4770,195 +4812,215 @@ b) Segreteria/ufficio
 c) Sala personale
 
 Attività giornaliera:
-            Sostituzione dei sacchi dei rifiuti dai cestini, pulire questi ultimi con panno umido, quindi
-             introdurre il sacchetto nuovo. Mediante panno inumidito con detergente, asportare la polvere
-             dalle mensole, dai tavoli e dalle suppellettili varie e dagli arredi, nonché dai davanzali interni
-             e dagli interruttori.
-            Sempre con panno umido, eliminare le tracce di sporco e di impronte da porte, stipiti, vetri e
-             maniglie, telefoni; per maniglie e telefoni è opportuno utilizzare successivamente un panno
-             umido intriso di soluzione disinfettante.
-            Lavare i pavimenti con l’uso di MOP a doppio secchio; devono essere previsti almeno due
-             passaggi: uno di detersione e il successivo di risciacquo. Ricordarsi di sostituire
-             periodicamente i panni utilizzati.
+   Sostituzione dei sacchi dei rifiuti dai cestini, pulire questi ultimi con panno umido, quindi
+introdurre il sacchetto nuovo. Mediante panno inumidito con detergente, asportare la polvere
+dalle mensole, dai tavoli e dalle suppellettili varie e dagli arredi, nonché dai davanzali interni
+e dagli interruttori.
+   Sempre con panno umido, eliminare le tracce di sporco e di impronte da porte, stipiti, vetri e
+maniglie, telefoni; per maniglie e telefoni è opportuno utilizzare successivamente un panno
+umido intriso di soluzione disinfettante.
+   Lavare i pavimenti con l’uso di MOP a doppio secchio; devono essere previsti almeno due
+passaggi: uno di detersione e il successivo di risciacquo. Ricordarsi di sostituire
+periodicamente i panni utilizzati.
 
 AttivitàMensile:
-        Pulizia delle tastiere dei computer con aria compressa.
-        Lavaggio finestre, porte, pareti, armadi, vetrine
+    Pulizia delle tastiere dei computer con aria compressa.
+    Lavaggio finestre, porte, pareti, armadi, vetrine
 
-    Sale Odontoiatriche e sterilizzazione
-     d) Sala operativa (1)
-     e) Sala operativa (2)
-     f) Sala sterilizzazione
-Durante l'attività:
-                        -   Disinfezione delle superfici di lavoro e/o dei pavimenti tutte le volte che si presenti la
-                            necessità (Per esempio, in caso di caduta accidentale di un campione biologico o di
-                            sostanze potenzialmente infette.)
-                        -   Turbine, ablatori, contrangoli, inserti
+```
+Sale Odontoiatriche e sterilizzazione
+ d) Sala operativa (1)
+ e) Sala operativa (2)
+ f) Sala sterilizzazione
+```
+
+Durante l’attività:
+-   Disinfezione delle superfici di lavoro e/o dei pavimenti tutte le volte che si presenti la
+necessità (Per esempio, in caso di caduta accidentale di un campione biologico o di
+sostanze potenzialmente infette.)
+-   Turbine, ablatori, contrangoli, inserti
 
 Attività Giornaliera:
-                        -   Pulizia superfici esterne attrezzature, alogene, riuniti, negativoscopio, autoclave, vasca
-                            ultras, ablatore. Lavaggio tubi di aspirazione. Lavaggio filtri aspirazione
-                        -   Disinfezione circuiti (prevenzione legionellosi)
-                        -   Aprire le finestre per aerare gli ambienti
-                        -   Disinfezione di tutte le superfici di lavoro
-                        -   Disinfezione lettighe
-                        -   Disinfezione pavimenti di tutte le aree di lavoro
-                        -   Disinfezione del lavandino
-                        -   Sostituzione sacchi rifiuti
-                        -   Sostituzione contenitori rifiuti speciali (o in accordo alle condizioni di contratto con la
-                            società addetta allo smaltimento)
+-   Pulizia superfici esterne attrezzature, alogene, riuniti, negativoscopio, autoclave, vasca
+ultras, ablatore. Lavaggio tubi di aspirazione. Lavaggio filtri aspirazione
+-   Disinfezione circuiti (prevenzione legionellosi)
+-   Aprire le finestre per aerare gli ambienti
+-   Disinfezione di tutte le superfici di lavoro
+-   Disinfezione lettighe
+-   Disinfezione pavimenti di tutte le aree di lavoro
+-   Disinfezione del lavandino
+-   Sostituzione sacchi rifiuti
+-   Sostituzione contenitori rifiuti speciali (o in accordo alle condizioni di contratto con la
+società addetta allo smaltimento)
 
 Attività settimanale
-                        -   Pulizia vasca ultrasuoni
-                        -   Pulizia camera sterilizzazione dell’autoclave
+-   Pulizia vasca ultrasuoni
+-   Pulizia camera sterilizzazione dell’autoclave
 
 AttivitàMensile:
-                        -   Lavaggio finestre, porte, pareti, armadi, vetrine
-                        -   Scarico condensa compressore;
-                        -   Lampade.
+-   Lavaggio finestre, porte, pareti, armadi, vetrine
+-   Scarico condensa compressore;
+-   Lampade.
 
-    Servizi igienici
+```
+Servizi igienici
+```
 
-Durante l'attività:
-                        -   Il titolare ed eventualmente il futuro personale da lui incaricato, ha il compito di
-                            controllare periodicamente le condizioni igieniche dei servizi e prevedere la disinfezione
-                            lasciandone traccia su apposito documento di registrazione.
-                        -   Provvederà inoltre alla sanificazione tutte le volte che sene presenti la necessità (per es.
-                            caduta accidentale di un campione biologico o di sostanze potenzialmente infette)
+Durante l’attività:
+-   Il titolare ed eventualmente il futuro personale da lui incaricato, ha il compito di
+controllare periodicamente le condizioni igieniche dei servizi e prevedere la disinfezione
+lasciandone traccia su apposito documento di registrazione.
+-   Provvederà inoltre alla sanificazione tutte le volte che sene presenti la necessità (per es.
+caduta accidentale di un campione biologico o di sostanze potenzialmente infette)
 
 Attività Giornaliera:
 
-                        -   Detergere i lavabi con prodotto specifico, quindi risciacquare abbondantemente ed
-                            igienizzare   con    derivati   del   cloro;   asciugare   accuratamente   la   rubinetteria.
-                            Periodicamente devono essere asportate dai lavabi e dalla rubinetteria le incrostazioni
-                            calcaree, con intervento meccanico o chimico.
+```
+                    -   Detergere i lavabi con prodotto specifico, quindi risciacquare abbondantemente ed
+                        igienizzare   con    derivati   del   cloro;   asciugare   accuratamente   la   rubinetteria.
+                        Periodicamente devono essere asportate dai lavabi e dalla rubinetteria le incrostazioni
+                        calcaree, con intervento meccanico o chimico.
 
-                        -   Pulire lavabi e water con polveri leggermente abrasive, risciacquare e disinfettare;
-                            versare nei sifoni una soluzione di idoneo detergente.
-                        -   Lavare i pavimenti
-                        -   Eseguire il lavaggio dei servizi igienici nel seguente ordine: con panno spugna
-                            inumiditocon detergente pulire i coperchi dei WC, quindi sciacquarli, proseguire poi con
-                            la pulizia dei vasi, utilizzando lo scopino e tirando lo sciacquone, infine igienizzare con
-                            candeggina
-                        -   Controllo e sostituzione carta igienica e rotoloni asciugamani
-                        -   Pulizia piastrelle e porte
+                    -   Pulire lavabi e water con polveri leggermente abrasive, risciacquare e disinfettare;
+                        versare nei sifoni una soluzione di idoneo detergente.
+                    -   Lavare i pavimenti
+                    -   Eseguire il lavaggio dei servizi igienici nel seguente ordine: con panno spugna
+                        inumiditocon detergente pulire i coperchi dei WC, quindi sciacquarli, proseguire poi con
+                        la pulizia dei vasi, utilizzando lo scopino e tirando lo sciacquone, infine igienizzare con
+                        candeggina
+                    -   Controllo e sostituzione carta igienica e rotoloni asciugamani
+                    -   Pulizia piastrelle e porte
 
-    Al termine delle operazioni di sanificazione, il responsabile di tale attività, registra la stessa in apposite
-    schede di registrazione (vedi allegati alla presente procedura).
+Al termine delle operazioni di sanificazione, il responsabile di tale attività, registra la stessa in apposite
+schede di registrazione (vedi allegati alla presente procedura).
 
 
-    Scelta degli agenti sanificanti.
+Scelta degli agenti sanificanti.
+```
+
 La scelta degli agenti sanificanti viene effettuata dal Titolare.
-    Per la disinfezione di tutte le superfici vengono utilizzati disinfettanti dotati dei seguenti requisiti:
-        Largo spettro di attività antibatterica.
+Per la disinfezione di tutte le superfici vengono utilizzati disinfettanti dotati dei seguenti requisiti:
+    Largo spettro di attività antibatterica.
 
    Bassa inattivazione da parte di materiale organico.
-    Lunga attività residua sulle superfici trattate.
-    Assenza di azione irritante o tossica per l’operatore.
+   Lunga attività residua sulle superfici trattate.
+   Assenza di azione irritante o tossica per l’operatore.
 
+Sanificazione ordinaria
+Il disinfettante viene ciclicamente (ogni anno o ogni qualvolta sorgano dubbi sulla sua efficacia) sostituito con
+un altro che soddisfi gli stessi criteri. I disinfettanti utilizzati per tutte le superfici sono il benzalconio cloruro e
+l’ipoclorito di sodio.
+Il disinfettante spray per ambienti e superfici contiene cloruro d’ammonio e cloruro benzilammonio
 
- Sanificazione ordinaria
- Il disinfettante viene ciclicamente (ogni anno o ogni qualvolta sorgano dubbi sulla sua efficacia) sostituito con
- un altro che soddisfi gli stessi criteri. I disinfettanti utilizzati per tutte le superfici sono il benzalconio cloruro e
- l’ipoclorito di sodio.
- Il disinfettante spray per ambienti e superfici contiene cloruro d’ammonio e cloruro benzilammonio
-
-
- Sanificazione straordinaria
- Quella stabilita dal programma di sanificazione.
- La disinfezione di maniglie delle porte, interruttori, suppellettili e di tutte le parti ad uso promiscuo avverrà
- periodicamente tramite nebulizzazione di spray disinfettante.
- La disinfezione delle attrezzature va eseguita ad oggi (in assenza di personale) dal Titolare, e in futuro
- dall’assistente alla poltrona sotto la direzione dell’odontoiatra.
+Sanificazione straordinaria
+Quella stabilita dal programma di sanificazione.
+La disinfezione di maniglie delle porte, interruttori, suppellettili e di tutte le parti ad uso promiscuo avverrà
+periodicamente tramite nebulizzazione di spray disinfettante.
+La disinfezione delle attrezzature va eseguita ad oggi (in assenza di personale) dal Titolare, e in futuro
+dall’assistente alla poltrona sotto la direzione dell’odontoiatra.
 
 Sarà effettuata in caso di riscontro di pazienti con patologie potenzialmente contagiose (es. Sars-CoV-2).
 
+Registrazione attività svolta
 
- Registrazione attività svolta
+Il personale addetto, al termine delle operazioni di sanificazione, registra la propria attività sull’apposita
+scheda di sanificazione.
 
- Il personale addetto, al termine delle operazioni di sanificazione, registra la propria attività sull’apposita
- scheda di sanificazione.
+```
+                                        IGIENEDELPERSONALE
+```
 
-                                            IGIENEDELPERSONALE
+È vietato fumare all’interno di tutti i locali della struttura, a partire dalla zona di attesa.
 
+L’abbigliamento in dotazione, costituito da camici in cotone pesante, deve essere conservato negli
+appositi armadietti personali situati nello spogliatoio ed indossato all’inizio di ogni giornata,
+assicurandosi che sia pulito e provvedendo, eventualmente, al cambio.
 
- È vietato fumare all’interno di tutti i locali della struttura, a partire dalla zona di attesa.
+Le mani devono essere prive di anelli e di bigiotteria, avere sempre le unghie corte e non coperte da
+smalti; eventuali ferite o abrasioni devono essere ben protette da medicazioni impermeabili atte a
+garantirne l’isolamento.
 
- L’abbigliamento in dotazione, costituito da camici in cotone pesante, deve essere conservato negli
- appositi armadietti personali situati nello spogliatoio ed indossato all’inizio di ogni giornata,
- assicurandosi che sia pulito e provvedendo, eventualmente, al cambio.
+Le operazioni di igiene personale vanno condotte con la seguente frequenza e modalità:
+• ogni volta che si rientra dall’esterno
+• prima di ogni prestazione effettuata sui pazienti
+• prima di ogni contatto con materiale sanitario o con alimenti
+• dopo ogni contatto con oggetti potenzialmente inquinanti
+• dopo l’utilizzazione dei servizi igienici
 
- Le mani devono essere prive di anelli e di bigiotteria, avere sempre le unghie corte e non coperte da
- smalti; eventuali ferite o abrasioni devono essere ben protette da medicazioni impermeabili atte a
- garantirne l’isolamento.
-
- Le operazioni di igiene personale vanno condotte con la seguente frequenza e modalità:
-    • ogni volta che si rientra dall’esterno
-    • prima di ogni prestazione effettuata sui pazienti
-    • prima di ogni contatto con materiale sanitario o con alimenti
-    • dopo ogni contatto con oggetti potenzialmente inquinanti
-    • dopo l’utilizzazione dei servizi igienici
-
-     Per l’igienizzazione devono essere utilizzati prodotti a base di tensioattivi vegetali e triclosan o
+```
+ Per l’igienizzazione devono essere utilizzati prodotti a base di tensioattivi vegetali e triclosan o
+```
 
 benzalconio, con pH compreso tra 5,5 e 6,5, ed effettuati i necessari risciacqui; le parti lavate
-    andranno asciugate utilizzando tessuto o carta idonea monouso.
+andranno asciugate utilizzando tessuto o carta idonea monouso.
 
-    ALLEGATI
+```
+ALLEGATI
+```
+
 1       Schedapuliziaesanificazione
-
 
 Firmeperpresavisione deilavoratoriedipendenti
 
-        NOMEE COGNOME                                                     FIRMA
+```
+    NOMEE COGNOME                                                     FIRMA
+```
 
 SCHEDAI GIENIZZAZIONE BAGNI
 
-                                                                                BAGNO ADIACENTE ALLA SALA D’ATTESA
-      Il presente modulo dovrà rimanere affisso nei bagni sino al termine della compilazione e va aggiornato quotidianamente. Scrivere in
-                                          stampatello leggibile. Al termine consegnare in Direzione.
+```
+                                                                            BAGNO ADIACENTE ALLA SALA D’ATTESA
+  Il presente modulo dovrà rimanere affisso nei bagni sino al termine della compilazione e va aggiornato quotidianamente. Scrivere in
+                                      stampatello leggibile. Al termine consegnare in Direzione.
+```
+
 Durante le attività:                                                                                        Attività Giornaliera:
 Il personale addetto, nelle ore destinate al ricevimento del pubblico, ha il compito di controllare ogni    Detergere i lavabi con un prodotto specifico, quindi risciacquare abbondantemente e igienizzare con derivati
-                                                                                                            del cloro; asciugare accuratamente la rubinetteria. Periodicamente devono essere asportate dai lavabi e dalla
+del cloro; asciugare accuratamente la rubinetteria. Periodicamente devono essere asportate dai lavabi e dalla
 2 ore le condizioni igieniche dei servizi e procedere alla disinfezione, lasciandone traccia su apposito    rubinetteria     le   incrostazioni    calcaree,     mediante     intervento   meccanico      o     chimico.
 documento di registrazione. Provvederà inoltre alla sanificazione tutte le volte che se ne presenti la      Pulire lavabi e water con polveri leggermente abrasive, risciacquare e disinfettare; versare nei sifoni una
-                                                                                                            soluzione di idoneo detergente. Lavare i pavimenti.
+soluzione di idoneo detergente. Lavare i pavimenti.
 necessità (ad esempio in caso di caduta accidentale di un campione biologico o di sostanze
 potenzialmente infette).                                                                                   Eseguire il lavaggio dei servizi igienici nel seguente ordine: con panno spugna inumidito con detergente pulire
-                                                                                                           i coperchi dei WC, quindi sciacquarli; proseguire con la pulizia dei vasi utilizzando lo scopino e tirando lo
-                                                                                                           sciacquone; infine igienizzare con candeggina.
+i coperchi dei WC, quindi sciacquarli; proseguire con la pulizia dei vasi utilizzando lo scopino e tirando lo
+sciacquone; infine igienizzare con candeggina.
 
-                                                                                                           Controllare e, se necessario, sostituire la carta igienica e i rotoloni asciugamani. Procedere alla pulizia delle
-                                                                                                           piastrelle e delle porte.
-
+```
+                                                                                                       Controllare e, se necessario, sostituire la carta igienica e i rotoloni asciugamani. Procedere alla pulizia delle
+                                                                                                       piastrelle e delle porte.
+```
 
 Mese                                                                                                        Mese
-       Data                Orario                                  Operatore                                      Data                 Orario                                        Operatore
+Data                Orario                                  Operatore                                      Data                 Orario                                        Operatore
 
+```
+                                                                                                                                                               Rev. N ____del______`,
+```
 
-                                                                                                                                                                   Rev. N ____del______`,
-  31: `Incidenti per esposizione a materiale biologico
- Gli operatori odontoiatri ed eventualmente le Assistenti di Studio Odontoiatrico possono essere soggetti
- ad incidenti che li espongano a materiale biologico. (Al momento non è presente altro personale in studio)
+31: `Incidenti per esposizione a materiale biologico
+Gli operatori odontoiatri ed eventualmente le Assistenti di Studio Odontoiatrico possono essere soggetti
+ad incidenti che li espongano a materiale biologico. (Al momento non è presente altro personale in studio)
 
 Gli stessi possono essere di seguito elencati:
-              Contatto accidentale con sangue del paziente durante l’impiego di bisturi
-              Contatto accidentale con liquido anestetico
-              Esposizione a radiazioni ottiche artificiali non coerenti (lampade fotopolimerizzatrici)
-      Ferite da taglio o da punta
+ Contatto accidentale con sangue del paziente durante l’impiego di bisturi
+ Contatto accidentale con liquido anestetico
+ Esposizione a radiazioni ottiche artificiali non coerenti (lampade fotopolimerizzatrici)
+ Ferite da taglio o da punta
 
 Procedura:
 Premesso che il Titolare ed eventualmente tutti gli eventuali collaboratori e personale di supporto (ASO)
 saranno formati ed informati sui rischi relativi alla mansione specifica, sarà obbligatorio indossare durante le
 sedute con i pazienti i seguenti dispositivi di protezione individuale:
 
-                Visiera para schizzi
-                Guanti in latice
-                Camice in TNT
-                Cuffie in TNT
-                Mascherine in TNT
-                Occhiali di protezione per ROA non coerenti (all’occorrenza durante i cicli di
-                 polimerizzazione)
+```
+            Visiera para schizzi
+            Guanti in latice
+            Camice in TNT
+            Cuffie in TNT
+            Mascherine in TNT
+            Occhiali di protezione per ROA non coerenti (all’occorrenza durante i cicli di
+             polimerizzazione)
+```
 
 Tutti i materiali di scarto impiegati durante la seduta odontoiatrica (es. rulli salivari, cannule, bicchieri, teli e
 monouso vari, scarti organici) vanno conferiti all’interno del contenitore dei rifiuti speciali. Stessa cosa andrà
@@ -4966,7 +5028,9 @@ fatta per i DPI potenzialmente infetti.
 
 Ai fini della prevenzione delle ferite da taglio o da punta lo studio segue le seguenti norme procedurali:
 
-                                NORME PER L’USO DI AGHI E TAGLIENTI
+```
+                            NORME PER L’USO DI AGHI E TAGLIENTI
+```
 
 Le norme per l’uso di aghi e taglienti (bisturi, lancette, lame, ecc.) sono fondamentali per garantire la
 sicurezza degli operatori sanitari e dei pazienti, prevenendo in particolare punture accidentali e infezioni da
@@ -4974,69 +5038,66 @@ agenti biologici (come HIV, HBV, HCV).
 
 Ecco le principali linee guida e buone pratiche:
 
-
 1. Principi generali
-
-       Utilizzare aghi e taglienti solo quando strettamente necessario.
-       Evitare di passare aghi o strumenti taglienti di mano in mano: utilizzare vassoi o superfici neutre.
-       Maneggiare sempre con attenzione, tenendo il dispositivo puntato lontano da sé e dagli altri.
-       Non piegare, rompere o reincappucciare gli aghi dopo l’uso.
-       Procedere con la massima attenzione per prevenire punture o tagli.
-       Laddove occorra praticare su uno stesso paziente iniezioni multiple di anestetico o di altri farmaci da
-        una singola siringa, è prudente, nell’intervallo tra una iniezione e un’altra, proteggere l’ago nodo in un
-        tubo sterile, piuttosto che incappucciarlo.
-       Smaltire aghi, siringhe, lame di bisturi e altri taglienti negli appositi contenitori rigidi resistenti
-        alla foratura.
-       Non manipolare o tenere con sé siringhe o taglienti usati, oltre il tempo strettamente necessario.
+   
+      Utilizzare aghi e taglienti solo quando strettamente necessario.
+      Evitare di passare aghi o strumenti taglienti di mano in mano: utilizzare vassoi o superfici neutre.
+      Maneggiare sempre con attenzione, tenendo il dispositivo puntato lontano da sé e dagli altri.
+      Non piegare, rompere o reincappucciare gli aghi dopo l’uso.
+      Procedere con la massima attenzione per prevenire punture o tagli.
+      Laddove occorra praticare su uno stesso paziente iniezioni multiple di anestetico o di altri farmaci da
+   una singola siringa, è prudente, nell’intervallo tra una iniezione e un’altra, proteggere l’ago nodo in un
+   tubo sterile, piuttosto che incappucciarlo.
+      Smaltire aghi, siringhe, lame di bisturi e altri taglienti negli appositi contenitori rigidi resistenti
+   alla foratura.
+      Non manipolare o tenere con sé siringhe o taglienti usati, oltre il tempo strettamente necessario.
 
    Non disconnettere manualmente gli aghi dalle siringhe o le lame di bisturi dal portalame e non
-        piegare, spezzare o manipolare in qualunque modo gli aghi.
-       Non manipolare gli aghi usati con entrambe le mani. (operazioni con una sola mano)
-       Non infilare gli aghi nei set di infusione.
-       Non rivolgere mai la punta dell’ago verso il corpo.
-       Utilizzare aghi con sistemi di protezione.
-       Durante l’uso di aghi e taglienti, gli altri operatori devono tenere le mani lontano dal campo
-        interessato dall’operazione a meno che non sia richiesto il loro aiuto.
-       Contenitori resistenti alla puntura devono essere sistemati in vicinanza ed in posizione comoda,
-        rispetto al posto dove devono essere utilizzati.
-       Non rompere, manipolare, piegare gli aghi usati con le mani.
-       I contenitori di sicurezza non vanno riempiti fino all'orlo ma al massimo per 3/4 (salvo attenersi alle
-        indicazioni di massimo livello presenti sugli stessi) e alla fine del riempimento vanno chiusi in
-        maniera definitiva.
+piegare, spezzare o manipolare in qualunque modo gli aghi.
+   Non manipolare gli aghi usati con entrambe le mani. (operazioni con una sola mano)
+   Non infilare gli aghi nei set di infusione.
+   Non rivolgere mai la punta dell’ago verso il corpo.
+   Utilizzare aghi con sistemi di protezione.
+   Durante l’uso di aghi e taglienti, gli altri operatori devono tenere le mani lontano dal campo
+interessato dall’operazione a meno che non sia richiesto il loro aiuto.
+   Contenitori resistenti alla puntura devono essere sistemati in vicinanza ed in posizione comoda,
+rispetto al posto dove devono essere utilizzati.
+   Non rompere, manipolare, piegare gli aghi usati con le mani.
+   I contenitori di sicurezza non vanno riempiti fino all’orlo ma al massimo per 3/4 (salvo attenersi alle
+indicazioni di massimo livello presenti sugli stessi) e alla fine del riempimento vanno chiusi in
+maniera definitiva.
 
-
-2. Dispositivi di protezione individuale (DPI)
-     Indossare guanti monouso (e, se necessario, doppi guanti).
-     Usare camici, mascherine, occhiali o visiere per proteggere da schizzi di sangue o liquidi
-         biologici.
-     Sostituire i guanti in caso di rottura o contaminazione.
- 3. Utilizzo corretto
-     Utilizzare solo dispositivi sterili e integri.
-     Non manipolare aghi e taglienti inutilmente dopo l’uso.
-     Eliminare immediatamente gli aghi e taglienti usati nei contenitori dedicati, senza lasciarli su
-         superfici o carrelli.
-🗑4. Smaltimento
-  Questi rifiuti devono essere raccolti in contenitori rigidi in polipropilene gialli, specifici per
-  taglienti, da lt. 3 o 6 o di capacità ancora inferiore.
-  Questi contenitori una volta riempiti al massimo per ¾ e chiusi ermeticamente, devono essere messi
-  nei contenitori per i rifiuti da lt. 60 utilizzati per gli altri rifiuti la cui raccolta e smaltimento richiede
-  precauzioni particolari in funzione della prevenzione di infezioni.
+1. Dispositivi di protezione individuale (DPI)
+    Indossare guanti monouso (e, se necessario, doppi guanti).
+    Usare camici, mascherine, occhiali o visiere per proteggere da schizzi di sangue o liquidi
+   biologici.
+    Sostituire i guanti in caso di rottura o contaminazione.
+1. Utilizzo corretto
+    Utilizzare solo dispositivi sterili e integri.
+    Non manipolare aghi e taglienti inutilmente dopo l’uso.
+    Eliminare immediatamente gli aghi e taglienti usati nei contenitori dedicati, senza lasciarli su
+   superfici o carrelli.
+   🗑4. Smaltimento
+   Questi rifiuti devono essere raccolti in contenitori rigidi in polipropilene gialli, specifici per
+   taglienti, da lt. 3 o 6 o di capacità ancora inferiore.
+   Questi contenitori una volta riempiti al massimo per ¾ e chiusi ermeticamente, devono essere messi
+   nei contenitori per i rifiuti da lt. 60 utilizzati per gli altri rifiuti la cui raccolta e smaltimento richiede
+   precauzioni particolari in funzione della prevenzione di infezioni.
 
    Utilizzare contenitori rigidi, resistenti alla perforazione, chiaramente identificabili,
-       posizionati vicino alla zona di utilizzo.
-      Non riempire oltre i 2/3 del volume del contenitore.
-      Non tentare mai di comprimere o svuotare i contenitori per recuperare spazio.
-      Smaltire secondo le normative sui rifiuti sanitari pericolosi a rischio infettivo (D.Lgs.
-       81/2008 e s.m.i., D.P.R. 254/2003).
-
+posizionati vicino alla zona di utilizzo.
+   Non riempire oltre i 2/3 del volume del contenitore.
+   Non tentare mai di comprimere o svuotare i contenitori per recuperare spazio.
+   Smaltire secondo le normative sui rifiuti sanitari pericolosi a rischio infettivo (D.Lgs.
+81/2008 e s.m.i., D.P.R. 254/2003).
 
 🚨 5. In caso di puntura o ferita accidentale
-  1. Non far sanguinare la ferita in modo forzato.
-  2. Lavare immediatamente con acqua e sapone.
-  3. Disinfettare con antisettico (es. clorexidina o iodopovidone).
-  4. Segnalare immediatamente l’incidente al responsabile o al medico competente.`,
-  32: `I near miss mettono in luce criticità impreviste e improvvise sul luogo di lavoro, riguardanti
-contesti di tipo organizzativo, tecnico o comportamentale.
+
+1. Non far sanguinare la ferita in modo forzato.
+1. Lavare immediatamente con acqua e sapone.
+1. Disinfettare con antisettico (es. clorexidina o iodopovidone).
+1. Segnalare immediatamente l’incidente al responsabile o al medico competente.`,   32: `I near miss mettono in luce criticità impreviste e improvvise sul luogo di lavoro, riguardanti
+   contesti di tipo organizzativo, tecnico o comportamentale.
 
 La procedura di segnalazione e analisi degli infortuni mancati (anche detti “incidenti” nel
 documento Inail) avviene su base volontaria.
@@ -5045,13 +5106,13 @@ In concreto, si tratta di un flusso di comunicazione che ha lo scopo di segnalar
 comunicare gli incidenti non dannosi. Gli obiettivi sono molteplici:
 
    Identificare, raccogliere e analizzare gli incidenti che si verificano sul lavoro e che
-    riguardano il personale o il pubblico, tramite modulistica appropriata;
+riguardano il personale o il pubblico, tramite modulistica appropriata;
    Valutare le situazioni di non conformità o di criticità organizzative, tecniche,
-    procedurali o comportamentali che precedono gli incidenti;
+procedurali o comportamentali che precedono gli incidenti;
    Individuare e applicare le adeguate misure correttive e preventive;
    Garantire un’opportuna comunicazione biunivoca e assicurare un’immediata risposta alla
-    segnalazione: sia nella fase iniziale che in quella di lavorazione sullo stato di avanzamento
-    e trattazione della segnalazione, fino all’esito finale.
+segnalazione: sia nella fase iniziale che in quella di lavorazione sullo stato di avanzamento
+e trattazione della segnalazione, fino all’esito finale.
 
 Per rendere effettivo questo strumento di prevenzione è fondamentale la partecipazione di tutte
 le componenti dello studio, in particolare attraverso feedback tempestivi e condivisione delle
@@ -5060,54 +5121,56 @@ problematiche.
 Le figure e i gruppi coinvolti nella gestione dei mancati infortuni sono:
 
    Lavoratore che effettua la segnalazione di incidente: può essere coinvolto o meno nello stesso,
-    e appartenere sia al personale aziendale che alle ditte appaltatrici;
+e appartenere sia al personale aziendale che alle ditte appaltatrici;
 
    Soggetto coinvolto nell’incidente: può essere diretto dipendente, oppure una qualsiasi figura
-    (cliente, fornitore, ecc.) che si trova in prossimità del luogo la cui titolarità è dell’azienda;
+(cliente, fornitore, ecc.) che si trova in prossimità del luogo la cui titolarità è dell’azienda;
 
    Gruppo di ricezione, trasmissione, valutazione degli incidenti (GRTVI): è composto da DL,
-    RSPP, RLS. Riceve la segnalazione dell’incidente, valuta e adotta le necessarie misure
-    correttive;
+RSPP, RLS. Riceve la segnalazione dell’incidente, valuta e adotta le necessarie misure
+correttive;
 
    Gruppo risoluzione incidenti (GRI). Si occupa di valutare la risoluzione degli incidenti
-    qualora il GRTVI non sia stato in grado di risolvere l’incidente in reparto e,
-    conseguentemente, verifica la concreta efficacia delle soluzioni adottate;
+qualora il GRTVI non sia stato in grado di risolvere l’incidente in reparto e,
+conseguentemente, verifica la concreta efficacia delle soluzioni adottate;
 
    DL - datore di lavoro: riceve le comunicazioni dal GRI e verifica l’efficacia delle soluzioni
-    adottate nel caso di incidente non risolvibile in reparto, oppure in caso di incidente non
-    risolvibile in azienda e risolvibile dalle ditte appaltatrici. Verifica, inoltre, la chiusura
-    dell’incidente da parte del GRI.
+adottate nel caso di incidente non risolvibile in reparto, oppure in caso di incidente non
+risolvibile in azienda e risolvibile dalle ditte appaltatrici. Verifica, inoltre, la chiusura
+dell’incidente da parte del GRI.
 
- NEAR MISS: MODALITÀ OPERATIVE DI COMUNICAZIONE DI INFORTUNIO MANCATO
+NEAR MISS: MODALITÀ OPERATIVE DI COMUNICAZIONE DI INFORTUNIO MANCATO
 
 Le modalità operative per la gestione degli infortuni mancati seguono 5 step:
 
-           1. Redazione/registrazione/archiviazione;
-           2. Coinvolgimento;
-           3. Verifica;
-           4. Approvazione;
-           5. Attuazione.
+```
+       1. Redazione/registrazione/archiviazione;
+       2. Coinvolgimento;
+       3. Verifica;
+       4. Approvazione;
+       5. Attuazione.
+```
 
 Il flusso di comunicazione del near miss è organizzato secondo dei moduli o feedback di
 differenti livelli, corrispondenti alle diverse azioni messe in atto dai soggetti coinvolti. Vediamo i
 principali passaggi:
 
    il lavoratore che effettua la segnalazione o eventuale testimone segnala l’incidente
-    all’incaricato, che provvede a comunicarlo a SPP e RLS);
+all’incaricato, che provvede a comunicarlo a SPP e RLS);
    l’incaricato comunica al lavoratore l’avvenuta ricezione
    il GRTVI valuta se la segnalazione sia da riconoscere come incidente. In caso negativo,
-    l’incaricato o il GRTVI consegna motivata comunicazione al lavoratore che effettua la
-    segnalazione di non presa in carico. In caso positivo, il GRTVI deve decidere se
-    l’incidente è risolvibile in reparto o meno;
+l’incaricato o il GRTVI consegna motivata comunicazione al lavoratore che effettua la
+segnalazione di non presa in carico. In caso positivo, il GRTVI deve decidere se
+l’incidente è risolvibile in reparto o meno;
    se la soluzione è gestita dal reparto, il GRTVI provvede a risolvere il problema, manda
-    relazione delle modalità esecutive adottate ai diversi responsabili e comunica al lavoratore
-    che effettua la segnalazione la risoluzione dell’incidente ;
+relazione delle modalità esecutive adottate ai diversi responsabili e comunica al lavoratore
+che effettua la segnalazione la risoluzione dell’incidente ;
    qualora non sia risolvibile in reparto, il GRTVI richiede l’ausilio del GRI per mezzo del
-    modulo per la risoluzione di incidenti a carico del DL in cui descrive dinamica
-    dell’incidente mancato e problematiche della messa in sicurezza;
+modulo per la risoluzione di incidenti a carico del DL in cui descrive dinamica
+dell’incidente mancato e problematiche della messa in sicurezza;
    il GRI valuta le condizioni, determina una risoluzione interna all’azienda e invia
-    comunicazione di risoluzione incidente al lavoratore che effettua la segnalazione e al
-    GRTVI, spiegando modalità esecutive e logistiche intervenute nella procedura.`,
+comunicazione di risoluzione incidente al lavoratore che effettua la segnalazione e al
+GRTVI, spiegando modalità esecutive e logistiche intervenute nella procedura.`,
 };
 
 // ══════════════════════════════════════════════════════════════
@@ -5116,64 +5179,70 @@ principali passaggi:
 // ══════════════════════════════════════════════════════════════
 
 function getDocTemplates(studio, titolare, indirizzo, comune, prov, software, nMedici, nAso) {
-  const S = studio || 'Studio Odontoiatrico';
-  const T = titolare || 'Il Titolare';
-  const IND = indirizzo ? indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : '') : comune || '';
-  const SW = software || 'software gestionale';
-  const NM = nMedici || '1';
-  const NA = nAso || '1';
-  const ANNO = new Date().getFullYear();
+const S = studio || ‘Studio Odontoiatrico’;
+const T = titolare || ‘Il Titolare’;
+const IND = indirizzo ? indirizzo + (comune ? ‘, ’ + comune : ‘’) + (prov ? ’ (’ + prov + ‘)’ : ‘’) : comune || ‘’;
+const SW = software || ‘software gestionale’;
+const NM = nMedici || ‘1’;
+const NA = nAso || ‘1’;
+const ANNO = new Date().getFullYear();
 
-  return [
+return [
 
 // ── DOC 1: Organizzazione e gestione risorse ─────────────────
 [`DOCUMENTO ORGANIZZATIVO E DI GESTIONE DELLE RISORSE
 ${S}
 
 1. SCOPO DEL DOCUMENTO
-Il presente documento definisce e rende esplicita l'organizzazione interna dello studio odontoiatrico e le politiche adottate per la gestione delle risorse (umane, materiali e tecnologiche). Analizza i principali processi operativi per individuare eventuali fasi critiche in cui possono verificarsi disservizi.
+   Il presente documento definisce e rende esplicita l’organizzazione interna dello studio odontoiatrico e le politiche adottate per la gestione delle risorse (umane, materiali e tecnologiche). Analizza i principali processi operativi per individuare eventuali fasi critiche in cui possono verificarsi disservizi.
+1. STRUTTURA ORGANIZZATIVA
+   2.1 Personale e Ruoli
 
-2. STRUTTURA ORGANIZZATIVA
-2.1 Personale e Ruoli
 - Responsabile Sanitario / Titolare (${T}): coordinamento generale, supervisione clinica e gestionale.
 - Odontoiatri collaboratori (n. ${NM}): esecuzione dei trattamenti e presa in carico dei pazienti.
 - Assistenti alla poltrona / Igienisti (n. ${NA}): supporto clinico, igiene orale, sterilizzazione.
 - Personale amministrativo: accoglienza, gestione appuntamenti, documentazione, fatturazione.
 
 2.2 Comunicazione Interna
+
 - Riunioni periodiche di coordinamento (mensili o bimestrali).
 - Utilizzo di ${SW} per la condivisione di informazioni cliniche e organizzative.
 - Canali interni di comunicazione digitale (email, agenda condivisa).
 
-3. POLITICHE DI GESTIONE DELLE RISORSE
-3.1 Risorse Umane
+1. POLITICHE DI GESTIONE DELLE RISORSE
+   3.1 Risorse Umane
+
 - Aggiornamento continuo e formazione obbligatoria ECM.
 - Affiancamento e formazione on-the-job per nuovo personale.
 - Verifica annuale delle competenze.
 
 3.2 Risorse Materiali e Tecnologiche
+
 - Manutenzione periodica delle attrezzature secondo calendario prestabilito.
 - Controllo di scorte e materiali sanitari tramite ${SW}.
 - Adozione di software gestionali aggiornati.
 
 3.3 Sicurezza e Igiene
+
 - Protocolli di sterilizzazione e sanificazione secondo normative vigenti.
 - Formazione del personale in materia di sicurezza sul lavoro.
 
-4. ANALISI DEI PROCESSI E FASI CRITICHE
-Processo / Fase Critica / Possibili Disservizi / Azioni Preventive:
+1. ANALISI DEI PROCESSI E FASI CRITICHE
+   Processo / Fase Critica / Possibili Disservizi / Azioni Preventive:
+
 - Accoglienza paziente: errori agenda → software gestionale, promemoria automatici.
 - Trattamento clinico: strumentazione non disponibile → check-list, protocolli clinici.
 - Sterilizzazione strumenti: contaminazione → manutenzione periodica, tracciabilita.
 - Gestione amministrativa: perdita dati → backup, digitalizzazione documenti.
 
-5. MONITORAGGIO E MIGLIORAMENTO CONTINUO
+1. MONITORAGGIO E MIGLIORAMENTO CONTINUO
+
 - Raccolta del feedback da parte dei pazienti.
 - Audit interni periodici per la verifica del rispetto delle procedure.
 - Aggiornamento dei protocolli interni in base alle normative vigenti.
 
-6. CONCLUSIONI
-Una gestione strutturata ed efficiente delle risorse e essenziale per garantire l'eccellenza del servizio odontoiatrico. Il presente documento e aggiornato annualmente o al variare della struttura organizzativa.
+1. CONCLUSIONI
+   Una gestione strutturata ed efficiente delle risorse e essenziale per garantire l’eccellenza del servizio odontoiatrico. Il presente documento e aggiornato annualmente o al variare della struttura organizzativa.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5183,42 +5252,45 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. PREMESSA
-Il presente documento definisce le modalita con cui e garantita l'integrita e la sicurezza dei dati trattati dallo ${S} con sede in ${IND}, nel rispetto del D.Lgs. 196/2003 e del Regolamento UE 679/2016 (GDPR).
+   Il presente documento definisce le modalita con cui e garantita l’integrita e la sicurezza dei dati trattati dallo ${S} con sede in ${IND}, nel rispetto del D.Lgs. 196/2003 e del Regolamento UE 679/2016 (GDPR).
+1. SISTEMA GESTIONALE IN USO
+   Software gestionale adottato: ${SW}
+   Funzioni coperte: gestione appuntamenti, cartelle cliniche, fatturazione, archivio pazienti, reportistica.
+1. RISORSE HARDWARE
 
-2. SISTEMA GESTIONALE IN USO
-Software gestionale adottato: ${SW}
-Funzioni coperte: gestione appuntamenti, cartelle cliniche, fatturazione, archivio pazienti, reportistica.
-
-3. RISORSE HARDWARE
 - PC/workstation in uso: sistema operativo aggiornato, antivirus attivo, accesso con password.
 - Connessione Internet: si, protetta da firewall.
 - Supporti di memorizzazione: hard disk locale + backup su supporto esterno e/o cloud.
 
-4. MISURE DI SICUREZZA ADOTTATE
-4.1 Protezione Accessi
+1. MISURE DI SICUREZZA ADOTTATE
+   4.1 Protezione Accessi
+
 - Accesso al sistema protetto da credenziali personali (username + password).
 - Cambio password periodico (ogni 90 giorni).
 - Accesso limitato al personale autorizzato.
 
 4.2 Backup e Conservazione Dati
+
 - Backup automatico giornaliero dei dati clinici e amministrativi.
 - Copia di sicurezza settimanale su supporto esterno conservato in luogo sicuro.
 - Conservazione dati clinici per il periodo previsto dalla normativa (minimo 10 anni).
 
 4.3 Protezione da Virus e Intrusioni
+
 - Antivirus con aggiornamento automatico installato su tutti i dispositivi.
 - Firewall attivo.
 - Aggiornamenti del sistema operativo e del software gestionale eseguiti regolarmente.
 
-5. GESTIONE DEI DATI PERSONALI (GDPR)
+1. GESTIONE DEI DATI PERSONALI (GDPR)
+
 - Titolare del trattamento: ${T}
 - Responsabile del trattamento: ${T}
 - I dati dei pazienti sono trattati esclusivamente per finalita di cura e amministrative.
-- Informativa privacy consegnata ad ogni paziente all'atto della prima visita.
+- Informativa privacy consegnata ad ogni paziente all’atto della prima visita.
 - Registro delle attivita di trattamento aggiornato.
 
-6. PIANO DI FORMAZIONE
-Tutto il personale e istruito sull'utilizzo corretto del sistema informativo e sulle norme di sicurezza. Formazione annuale o in caso di variazioni significative del sistema.
+1. PIANO DI FORMAZIONE
+   Tutto il personale e istruito sull’utilizzo corretto del sistema informativo e sulle norme di sicurezza. Formazione annuale o in caso di variazioni significative del sistema.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5228,42 +5300,45 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO
-Il presente documento definisce le modalita con cui lo ${S} valuta e migliora la qualita delle prestazioni erogate, in conformita al requisito 1A.01.05.01.
+   Il presente documento definisce le modalita con cui lo ${S} valuta e migliora la qualita delle prestazioni erogate, in conformita al requisito 1A.01.05.01.
+1. AREE DI INTERVENTO E OBIETTIVI
+   2.1 Soddisfazione del Paziente
 
-2. AREE DI INTERVENTO E OBIETTIVI
-2.1 Soddisfazione del Paziente
 - Indicatore: percentuale di pazienti soddisfatti (target: >90%).
 - Strumento: questionario soddisfazione distribuito semestralmente.
 - Frequenza monitoraggio: semestrale.
 
 2.2 Tempi di Attesa
+
 - Indicatore: tempo medio attesa dalla prenotazione alla prima visita.
 - Target: max 15 giorni per prime visite elettive.
 - Strumento: report da ${SW}.
 
 2.3 Gestione Reclami
+
 - Indicatore: numero di reclami ricevuti e percentuale risolti entro 30 giorni.
 - Target: risoluzione 100% entro 30 giorni.
 - Strumento: registro reclami.
 
 2.4 Appropriatezza Clinica
+
 - Indicatore: revisione periodica dei casi clinici.
 - Frequenza: audit clinico annuale.
 
-3. METODI DI VALUTAZIONE
+1. METODI DI VALUTAZIONE
+
 - Questionari di soddisfazione anonimi per i pazienti.
 - Analisi dei reclami e suggerimenti ricevuti.
 - Audit clinici interni con revisione cartelle cliniche.
 - Revisione degli indicatori di performance estratti da ${SW}.
 
-4. AZIONI DI MIGLIORAMENTO
-Per ogni criticita rilevata il responsabile sanitario provvede a:
-a) identificare la causa radice del problema;
-b) definire e attuare un'azione correttiva;
-c) verificare l'efficacia dell'azione nel monitoraggio successivo.
-
-5. DOCUMENTAZIONE E REPORTING
-Ogni ciclo di valutazione produce un report sintetico che viene conservato nel fascicolo qualita dello studio. Il programma e aggiornato annualmente.
+1. AZIONI DI MIGLIORAMENTO
+   Per ogni criticita rilevata il responsabile sanitario provvede a:
+   a) identificare la causa radice del problema;
+   b) definire e attuare un’azione correttiva;
+   c) verificare l’efficacia dell’azione nel monitoraggio successivo.
+1. DOCUMENTAZIONE E REPORTING
+   Ogni ciclo di valutazione produce un report sintetico che viene conservato nel fascicolo qualita dello studio. Il programma e aggiornato annualmente.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5273,82 +5348,92 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO E CAMPO DI APPLICAZIONE
-La presente procedura disciplina le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti presentati dai pazienti e dai loro accompagnatori.
+   La presente procedura disciplina le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti presentati dai pazienti e dai loro accompagnatori.
+1. RESPONSABILITA
+   Referente per i rapporti con il pubblico: ${T}
+   Compiti del referente:
 
-2. RESPONSABILITA
-Referente per i rapporti con il pubblico: ${T}
-Compiti del referente:
 - Raccogliere e protocollare i reclami ricevuti.
 - Fornire informazioni ai pazienti.
 - Accogliere reclami, segnalazioni e suggerimenti.
 - Elaborare i dati e predisporre il report periodico.
 
-3. MODALITA DI PRESENTAZIONE DEL RECLAMO
-I pazienti possono presentare reclami tramite:
-- Modulo cartaceo disponibile in sala d'attesa.
+1. MODALITA DI PRESENTAZIONE DEL RECLAMO
+   I pazienti possono presentare reclami tramite:
+
+- Modulo cartaceo disponibile in sala d’attesa.
 - Email dedicata dello studio.
 - Colloquio diretto con il referente.
-- Cassetta dei suggerimenti in sala d'attesa.
+- Cassetta dei suggerimenti in sala d’attesa.
 
-4. PROCEDURA DI GESTIONE
-4.1 Ricezione e Registrazione
+1. PROCEDURA DI GESTIONE
+   4.1 Ricezione e Registrazione
+
 - Ogni reclamo viene registrato nel registro reclami con: data, nominativo (se fornito), oggetto, canale di ricezione.
 - Al paziente viene rilasciata ricevuta di presa in carico (se richiesta).
 
 4.2 Istruttoria
+
 - Il referente analizza il reclamo entro 5 giorni lavorativi.
 - Se necessario, coinvolge il personale interessato per acquisire informazioni.
 
 4.3 Risposta
+
 - Risposta scritta al paziente entro 30 giorni dalla ricezione del reclamo.
 - In caso di fondatezza del reclamo, comunicazione delle azioni correttive intraprese.
 
 4.4 Analisi e Miglioramento
-- I reclami sono analizzati periodicamente (semestrale) per identificare problemi ricorrenti.
-- I risultati dell'analisi sono utilizzati per il miglioramento dei servizi.
 
-5. REGISTRO RECLAMI
-Il registro reclami e conservato in forma riservata. I dati sono trattati nel rispetto del GDPR.
+- I reclami sono analizzati periodicamente (semestrale) per identificare problemi ricorrenti.
+- I risultati dell’analisi sono utilizzati per il miglioramento dei servizi.
+
+1. REGISTRO RECLAMI
+   Il registro reclami e conservato in forma riservata. I dati sono trattati nel rispetto del GDPR.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
 
-// ── DOC 5: Erogazione dell'assistenza ────────────────────────
-[`DOCUMENTO/PROCEDURA PER LE MODALITA DI EROGAZIONE DELL'ASSISTENZA
+// ── DOC 5: Erogazione dell’assistenza ────────────────────────
+[`DOCUMENTO/PROCEDURA PER LE MODALITA DI EROGAZIONE DELL’ASSISTENZA
 ${S}
 
 1. SCOPO
-Il presente documento descrive le modalita con cui lo ${S} organizza e garantisce l'erogazione delle prestazioni odontoiatriche ai pazienti.
+   Il presente documento descrive le modalita con cui lo ${S} organizza e garantisce l’erogazione delle prestazioni odontoiatriche ai pazienti.
+1. MODALITA DI PRENOTAZIONE E ACCESSO
+   2.1 Prenotazione
 
-2. MODALITA DI PRENOTAZIONE E ACCESSO
-2.1 Prenotazione
 - Telefonica: negli orari di apertura della segreteria.
 - Tramite ${SW}: prenotazione online (se attiva).
 - Di persona presso la reception dello studio.
 
 2.2 Prima Visita
+
 - La prima visita comprende: anamnesi medica e odontoiatrica, esame obiettivo, eventuale documentazione radiologica, piano di trattamento personalizzato, preventivo.
 - Criteri di eleggibilita: tutti i pazienti che ne facciano richiesta, senza discriminazioni.
 
-2.3 Accesso d'urgenza
+2.3 Accesso d’urgenza
+
 - I pazienti con urgenza odontoiatrica (dolore acuto, trauma, gonfiore) sono visitati entro la stessa giornata o il primo giorno disponibile.
 
-3. MODALITA DI PAGAMENTO
+1. MODALITA DI PAGAMENTO
+
 - Pagamento in contanti, bancomat, carta di credito, bonifico bancario.
 - Rilascio di fattura per ogni prestazione.
 - Possibilita di piani di pagamento rateale (su accordo).
 
-4. CONTINUITA ASSISTENZIALE
+1. CONTINUITA ASSISTENZIALE
+
 - In caso di necessita di consulenza specialistica, il paziente e indirizzato a strutture di riferimento con lettera di invio.
 - Raccordo con il medico di base del paziente per le patologie sistemiche.
 - In caso di trattamenti pluriseduta, e garantita la continuita con lo stesso professionista.
 
-5. GESTIONE DEL PAZIENTE IN CASO DI URGENZE O EVENTI IMPREVISTI
-- In caso di emergenza medica in studio: attivazione del protocollo emergenze (chiamata 118, BLS se necessario).
-- In caso di rottura improvvisa di un'attrezzatura durante il trattamento: il paziente e informato, l'intervento e rimandato e riprogrammato nella prima data disponibile.
+1. GESTIONE DEL PAZIENTE IN CASO DI URGENZE O EVENTI IMPREVISTI
 
-6. CARTELLA CLINICA
-Per ogni paziente e aperta e aggiornata una cartella clinica informatizzata su ${SW}.
+- In caso di emergenza medica in studio: attivazione del protocollo emergenze (chiamata 118, BLS se necessario).
+- In caso di rottura improvvisa di un’attrezzatura durante il trattamento: il paziente e informato, l’intervento e rimandato e riprogrammato nella prima data disponibile.
+
+1. CARTELLA CLINICA
+   Per ogni paziente e aperta e aggiornata una cartella clinica informatizzata su ${SW}.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5358,14 +5443,15 @@ Il Responsabile: ${T}`],
 ${S} - ${IND}
 
 1. SCOPO
-Il presente Piano definisce le procedure e i comportamenti da adottare in caso di emergenza all'interno dello studio odontoiatrico, al fine di salvaguardare la vita e la salute delle persone presenti e limitare i danni.
+   Il presente Piano definisce le procedure e i comportamenti da adottare in caso di emergenza all’interno dello studio odontoiatrico, al fine di salvaguardare la vita e la salute delle persone presenti e limitare i danni.
+1. RIFERIMENTI NORMATIVI
 
-2. RIFERIMENTI NORMATIVI
 - D.Lgs. 81/2008 - Sicurezza nei luoghi di lavoro
-- D.M. 03/07/2021 "Decreto Minicodice" - Criteri valutazione rischi incendio
+- D.M. 03/07/2021 “Decreto Minicodice” - Criteri valutazione rischi incendio
 - D.M. 02/09/2021 - Gestione dei luoghi di lavoro in emergenza
 
-3. CARATTERISTICHE DELLO STUDIO
+1. CARATTERISTICHE DELLO STUDIO
+
 - Attivita: Studio odontoiatrico
 - Sede: ${IND}
 - Numero lavoratori presenti: ${NM} odontoiatri + ${NA} assistenti + personale amministrativo
@@ -5374,56 +5460,57 @@ Il presente Piano definisce le procedure e i comportamenti da adottare in caso d
 - Addetto prevenzione incendi ed evacuazione: ${T}
 - Addetto primo soccorso: ${T}
 
-4. TIPOLOGIE DI EMERGENZA
-- Incendio o principio d'incendio
+1. TIPOLOGIE DI EMERGENZA
+
+- Incendio o principio d’incendio
 - Fuga di gas o sostanze chimiche
 - Guasto elettrico / blackout
 - Evento sismico
 - Malore grave di paziente o operatore
 - Allagamento
 
-5. PROCEDURE IN CASO DI INCENDIO
-1. Chi scopre l'incendio avvisa immediatamente il responsabile.
-2. Chiamare il 115 (Vigili del Fuoco) e il 118 se vi sono feriti.
-3. Attivare il piano di evacuazione: accompagnare i pazienti verso le uscite di sicurezza.
-4. Non usare gli ascensori.
-5. Usare gli estintori solo se il fuoco e agli inizi e in sicurezza.
-6. Radunarsi nel punto di raccolta esterno.
-
-6. PROCEDURA IN CASO DI MALORE DEL PAZIENTE
+1. PROCEDURE IN CASO DI INCENDIO
+1. Chi scopre l’incendio avvisa immediatamente il responsabile.
+1. Chiamare il 115 (Vigili del Fuoco) e il 118 se vi sono feriti.
+1. Attivare il piano di evacuazione: accompagnare i pazienti verso le uscite di sicurezza.
+1. Non usare gli ascensori.
+1. Usare gli estintori solo se il fuoco e agli inizi e in sicurezza.
+1. Radunarsi nel punto di raccolta esterno.
+1. PROCEDURA IN CASO DI MALORE DEL PAZIENTE
 1. Mantenere la calma e non lasciare solo il paziente.
-2. Chiamare il 118.
-3. Mettere il paziente in posizione di sicurezza.
-4. Eseguire BLS (Basic Life Support) se il paziente e privo di coscienza e non respira.
-5. Utilizzare il defibrillatore (DAE) se disponibile.
+1. Chiamare il 118.
+1. Mettere il paziente in posizione di sicurezza.
+1. Eseguire BLS (Basic Life Support) se il paziente e privo di coscienza e non respira.
+1. Utilizzare il defibrillatore (DAE) se disponibile.
+1. DOTAZIONI DI SICUREZZA
 
-7. DOTAZIONI DI SICUREZZA
 - Estintori: n. 2 a CO2 (posizione: sala trattamento e corridoio)
 - Cassetta di pronto soccorso: presente e controllata mensilmente
 - Uscite di sicurezza: segnalate con apposita segnaletica
-- Planimetria evacuazione: affissa in sala d'attesa e corridoio
+- Planimetria evacuazione: affissa in sala d’attesa e corridoio
 
-8. FORMAZIONE
-Tutto il personale e formato annualmente sulle procedure di emergenza. Simulazioni di evacuazione: almeno 1 l'anno.
+1. FORMAZIONE
+   Tutto il personale e formato annualmente sulle procedure di emergenza. Simulazioni di evacuazione: almeno 1 l’anno.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
 
 // ── DOC 7: Isolamento pazienti contagiosi ────────────────────
-[`PROTOCOLLO PER L'ISOLAMENTO DI PAZIENTI CON PATOLOGIE CONTAGIOSE O POTENZIALMENTE TALI
+[`PROTOCOLLO PER L’ISOLAMENTO DI PAZIENTI CON PATOLOGIE CONTAGIOSE O POTENZIALMENTE TALI
 ${S}
 
 1. SCOPO E CAMPO DI APPLICAZIONE
-Il presente protocollo definisce le misure da adottare in caso di pazienti con patologie infettive o potenzialmente contagiose, per proteggere il personale dello studio e gli altri pazienti.
+   Il presente protocollo definisce le misure da adottare in caso di pazienti con patologie infettive o potenzialmente contagiose, per proteggere il personale dello studio e gli altri pazienti.
+1. IDENTIFICAZIONE DEL PAZIENTE A RISCHIO
+   All’atto della prenotazione e alla prima visita, l’anamnesi comprende la raccolta di informazioni su:
 
-2. IDENTIFICAZIONE DEL PAZIENTE A RISCHIO
-All'atto della prenotazione e alla prima visita, l'anamnesi comprende la raccolta di informazioni su:
 - Malattie infettive in corso (tubercolosi, epatiti, HIV, COVID-19 e simili).
 - Sintomi respiratori acuti (febbre, tosse, dispnea).
 - Stato vaccinale (ove pertinente).
 
-3. MISURE DI ISOLAMENTO
-3.1 Precauzioni Standard (sempre adottate)
+1. MISURE DI ISOLAMENTO
+   3.1 Precauzioni Standard (sempre adottate)
+
 - Guanti monouso per ogni paziente.
 - Mascherina chirurgica o FFP2.
 - Occhiali protettivi o visiera.
@@ -5431,20 +5518,19 @@ All'atto della prenotazione e alla prima visita, l'anamnesi comprende la raccolt
 - Lavaggio mani con soluzione idroalcolica prima e dopo ogni contatto.
 
 3.2 Precauzioni Aggiuntive (per patologie contagiose note)
-- Il paziente e fatto accedere direttamente alla sala trattamento, evitando la sala d'attesa.
+
+- Il paziente e fatto accedere direttamente alla sala trattamento, evitando la sala d’attesa.
 - Utilizzo di DPI di livello superiore (mascherina FFP2/FFP3, doppio guanto).
 - Arieggiamento della sala dopo il trattamento per almeno 30 minuti.
 - Sanificazione completa di tutte le superfici con disinfettante a virucida certificato.
 - Sterilizzazione in autoclave classe B di tutti gli strumenti utilizzati.
 
-4. GESTIONE DEI RIFIUTI
-I rifiuti prodotti durante il trattamento di paziente con patologia contagiosa sono smaltiti come rifiuti sanitari a rischio infettivo (CER 18 01 03*).
-
-5. SEGNALAZIONE
-In caso di patologie a notifica obbligatoria, il responsabile sanitario provvede alla notifica alle autorita competenti nei tempi previsti dalla normativa.
-
-6. FORMAZIONE
-Il personale e formato annualmente sulle precauzioni standard e aggiuntive.
+1. GESTIONE DEI RIFIUTI
+   I rifiuti prodotti durante il trattamento di paziente con patologia contagiosa sono smaltiti come rifiuti sanitari a rischio infettivo (CER 18 01 03*).
+1. SEGNALAZIONE
+   In caso di patologie a notifica obbligatoria, il responsabile sanitario provvede alla notifica alle autorita competenti nei tempi previsti dalla normativa.
+1. FORMAZIONE
+   Il personale e formato annualmente sulle precauzioni standard e aggiuntive.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5454,36 +5540,41 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO
-La presente procedura definisce i requisiti per la redazione, l'aggiornamento, la conservazione e la verifica della documentazione sanitaria, nonche le modalita di controllo.
+   La presente procedura definisce i requisiti per la redazione, l’aggiornamento, la conservazione e la verifica della documentazione sanitaria, nonche le modalita di controllo.
+1. TIPOLOGIA DI DOCUMENTAZIONE SANITARIA
 
-2. TIPOLOGIA DI DOCUMENTAZIONE SANITARIA
 - Cartella clinica del paziente (informatizzata su ${SW}).
 - Consensi informati per ogni trattamento.
 - Referti radiologici (OPT, RX endorali, CBCT).
 - Documentazione fotografica e impronte/modelli digitali.
 - Prescrizioni e lettere di invio a specialisti.
 
-3. REDAZIONE
+1. REDAZIONE
+
 - La cartella clinica e aperta alla prima visita con: dati anagrafici, anamnesi medica e farmacologica, stato dentale iniziale (odontogramma), piano di trattamento.
 - Ogni prestazione e registrata con: data, operatore, descrizione del trattamento eseguito, materiali utilizzati, farmaci prescritti.
-- I consensi informati sono firmati dal paziente prima dell'esecuzione di ogni trattamento invasivo.
+- I consensi informati sono firmati dal paziente prima dell’esecuzione di ogni trattamento invasivo.
 
-4. AGGIORNAMENTO E CONSERVAZIONE
+1. AGGIORNAMENTO E CONSERVAZIONE
+
 - La cartella clinica e aggiornata ad ogni accesso del paziente.
 - Conservazione minima: 10 anni per la documentazione clinica (D.Lgs. 196/2003).
 - Archivio informatico protetto con backup giornaliero.
 - Archivio cartaceo (consensi, referti cartacei) in armadio chiuso a chiave ad accesso limitato.
 
-5. ACCESSO E SICUREZZA
+1. ACCESSO E SICUREZZA
+
 - Accesso alla cartella clinica: solo personale autorizzato con credenziali personali.
 - Il paziente ha diritto di accesso alla propria documentazione clinica (art. 15 GDPR).
 - Le richieste di copia della documentazione sono evase entro 30 giorni.
 
-6. MODALITA DI CONSEGNA DEI REFERTI
+1. MODALITA DI CONSEGNA DEI REFERTI
+
 - Referti radiologici: consegnati in formato digitale (CD/USB/email sicura) o cartaceo.
 - Referto firmato digitalmente o con firma autografa del professionista.
 
-7. IDENTIFICAZIONE DEGLI OPERATORI
+1. IDENTIFICAZIONE DEGLI OPERATORI
+
 - Ogni registrazione in cartella clinica riporta il codice operatore o la firma del professionista che ha eseguito la prestazione.
 
 Luogo e data: ${IND || comune}, ${ANNO}
@@ -5504,15 +5595,16 @@ quale Responsabile della Manutenzione della struttura, degli impianti, delle att
 COMPITI E RESPONSABILITA DEL RESPONSABILE DELLA MANUTENZIONE:
 
 1. Predisporre e aggiornare il Piano di Manutenzione ordinaria e straordinaria.
-2. Coordinare gli interventi di manutenzione eseguiti da personale interno e/o da ditte esterne autorizzate.
-3. Verificare e aggiornare l'inventario delle attrezzature.
-4. Garantire il collaudo tecnico di sicurezza ad ogni nuova acquisizione di apparecchiatura biomedica.
-5. Conservare la documentazione tecnica di tutte le attrezzature.
-6. Registrare tutti gli interventi di manutenzione eseguiti.
-7. Segnalare tempestivamente al titolare eventuali anomalie o necessita di intervento straordinario.
-8. Verificare la scadenza dei contratti di manutenzione con ditte esterne.
+1. Coordinare gli interventi di manutenzione eseguiti da personale interno e/o da ditte esterne autorizzate.
+1. Verificare e aggiornare l’inventario delle attrezzature.
+1. Garantire il collaudo tecnico di sicurezza ad ogni nuova acquisizione di apparecchiatura biomedica.
+1. Conservare la documentazione tecnica di tutte le attrezzature.
+1. Registrare tutti gli interventi di manutenzione eseguiti.
+1. Segnalare tempestivamente al titolare eventuali anomalie o necessita di intervento straordinario.
+1. Verificare la scadenza dei contratti di manutenzione con ditte esterne.
 
 ATTREZZATURE E IMPIANTI SOGGETTI A MANUTENZIONE:
+
 - Riuniti odontoiatrici e relativi impianti idraulici/pneumatici.
 - Autoclave e apparecchiature per la sterilizzazione.
 - Apparecchiature radiologiche (OPT, RVG, CBCT).
@@ -5521,7 +5613,7 @@ ATTREZZATURE E IMPIANTI SOGGETTI A MANUTENZIONE:
 - Sistema informatico e gestionale.
 - Arredi e attrezzature di sala.
 
-Il presente incarico ha validita dall'anno ${ANNO} fino a revoca o sostituzione formale.
+Il presente incarico ha validita dall’anno ${ANNO} fino a revoca o sostituzione formale.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Titolare: ${T}
@@ -5530,24 +5622,27 @@ Il Responsabile Manutenzione: ${T}
 Firma: ______________________`],
 
 // ── DOC 10: Inventario attrezzature ──────────────────────────
-[`INVENTARIO DELLE ATTREZZATURE - PROCEDURA PER L'IDENTIFICAZIONE
+[`INVENTARIO DELLE ATTREZZATURE - PROCEDURA PER L’IDENTIFICAZIONE
 ${S} - Aggiornato: ${ANNO}
 
 1. PROCEDURA DI IDENTIFICAZIONE DELLE ATTREZZATURE
-Ogni attrezzatura acquisita dallo studio e identificata con:
-- Codice univoco interno (es. ATT-001, ATT-002...).
+   Ogni attrezzatura acquisita dallo studio e identificata con:
+
+- Codice univoco interno (es. ATT-001, ATT-002…).
 - Scheda tecnica con: denominazione, marca, modello, n. seriale, anno acquisto, fornitore.
 - Collaudo tecnico di sicurezza alla prima messa in uso.
-- Inserimento nell'inventario entro 30 giorni dall'acquisizione.
+- Inserimento nell’inventario entro 30 giorni dall’acquisizione.
 
-2. AGGIORNAMENTO INVENTARIO
-- Verifica annuale dell'inventario entro il 31 gennaio di ogni anno.
+1. AGGIORNAMENTO INVENTARIO
+
+- Verifica annuale dell’inventario entro il 31 gennaio di ogni anno.
 - Aggiornamento immediato in caso di dismissione o sostituzione di attrezzature.
-- Il Responsabile della Manutenzione sottoscrive l'inventario aggiornato.
+- Il Responsabile della Manutenzione sottoscrive l’inventario aggiornato.
 
-3. INVENTARIO ATTREZZATURE PRINCIPALI
+1. INVENTARIO ATTREZZATURE PRINCIPALI
 
 APPARECCHIATURE ODONTOIATRICHE:
+
 - Riuniti odontoiatrici: n. in dotazione, marca/modello (vedi schede tecniche allegate).
 - Autoclave classe B: marca/modello, n. seriale, anno installazione.
 - Apparecchio radiologico endorale (RVG): marca/modello, registrazione presso ARPAS.
@@ -5556,17 +5651,18 @@ APPARECCHIATURE ODONTOIATRICHE:
 - Ablatore ultrasonico, manipoli, micromotori.
 
 ATTREZZATURE GENERALI:
+
 - PC e workstation: n., marca, modello, anno.
 - Sistema di backup: tipo, capacita.
 - Sterilizzatrice a UV/lampade germicide.
 - Frigorifero per farmaci.
 
-4. COLLAUDO NUOVE ACQUISIZIONI
-Per ogni nuova apparecchiatura biomedica:
-a) Richiesta di collaudo tecnico al fornitore prima della messa in uso.
-b) Redazione del verbale di collaudo firmato dal tecnico.
-c) Inserimento verbale nel fascicolo tecnico dell'attrezzatura.
-d) Registrazione nell'inventario.
+1. COLLAUDO NUOVE ACQUISIZIONI
+   Per ogni nuova apparecchiatura biomedica:
+   a) Richiesta di collaudo tecnico al fornitore prima della messa in uso.
+   b) Redazione del verbale di collaudo firmato dal tecnico.
+   c) Inserimento verbale nel fascicolo tecnico dell’attrezzatura.
+   d) Registrazione nell’inventario.
 
 Responsabile: ${T}
 Data aggiornamento: ${ANNO}`],
@@ -5576,44 +5672,48 @@ Data aggiornamento: ${ANNO}`],
 ${S}
 
 1. SCOPO
-Il presente Piano definisce le modalita e la frequenza degli interventi di manutenzione delle strutture, degli impianti, delle attrezzature e delle apparecchiature biomediche dello ${S}.
-
-2. MANUTENZIONE ORDINARIA PROGRAMMATA
+   Il presente Piano definisce le modalita e la frequenza degli interventi di manutenzione delle strutture, degli impianti, delle attrezzature e delle apparecchiature biomediche dello ${S}.
+1. MANUTENZIONE ORDINARIA PROGRAMMATA
 
 AUTOCLAVE:
+
 - Manutenzione preventiva: ogni 6 mesi (ditta autorizzata).
 - Test di tenuta e cicli di Bowie-Dick: settimanale (operatore interno).
 - Ciclo di sterilizzazione vuoto: giornaliero.
 - Pulizia interna: mensile.
 
 RIUNITI ODONTOIATRICI:
+
 - Manutenzione preventiva: annuale (tecnico autorizzato).
 - Controllo tubazioni e raccordi: mensile.
 - Pulizia e lubrificazione manipoli: dopo ogni seduta.
 - Purga delle tubazioni acqua: inizio giornata.
 
 APPARECCHIATURE RADIOLOGICHE:
+
 - Controllo qualita periodico: come da normativa vigente.
 - Manutenzione preventiva: annuale (ditta autorizzata).
 
 IMPIANTI ELETTRICI:
+
 - Verifica periodica da parte di tecnico abilitato: ogni 2 anni.
 
 IMPIANTI CLIMATIZZAZIONE:
+
 - Manutenzione e pulizia filtri: ogni 6 mesi.
 - Controllo refrigerante: annuale.
 
-3. MANUTENZIONE STRAORDINARIA
-Interventi non programmati in caso di guasto o anomalia:
+1. MANUTENZIONE STRAORDINARIA
+   Interventi non programmati in caso di guasto o anomalia:
+
 - Segnalazione al Responsabile Manutenzione.
 - Richiesta di intervento a ditta autorizzata entro 24-48 ore.
-- Registrazione dell'intervento nel log di manutenzione.
+- Registrazione dell’intervento nel log di manutenzione.
 
-4. DOCUMENTAZIONE
-Per ogni intervento di manutenzione e conservato: rapporto di lavoro firmato dal tecnico, data, descrizione dell'intervento, costo (se applicabile).
-
-5. DITTE ESTERNE AUTORIZZATE
-Elenco aggiornato delle ditte con cui sono stipulati contratti di assistenza: (vedi allegato contratti).
+1. DOCUMENTAZIONE
+   Per ogni intervento di manutenzione e conservato: rapporto di lavoro firmato dal tecnico, data, descrizione dell’intervento, costo (se applicabile).
+1. DITTE ESTERNE AUTORIZZATE
+   Elenco aggiornato delle ditte con cui sono stipulati contratti di assistenza: (vedi allegato contratti).
 
 Responsabile: ${T} - Anno: ${ANNO}`],
 
@@ -5622,64 +5722,64 @@ Responsabile: ${T} - Anno: ${ANNO}`],
 ${S}
 
 1. SCOPO
-Il presente documento certifica la disponibilita della documentazione tecnica relativa a tutte le singole attrezzature e apparecchiature in dotazione allo studio.
+   Il presente documento certifica la disponibilita della documentazione tecnica relativa a tutte le singole attrezzature e apparecchiature in dotazione allo studio.
+1. MODALITA DI GESTIONE
+   La documentazione tecnica e organizzata per ogni attrezzatura in un fascicolo individuale contenente:
 
-2. MODALITA DI GESTIONE
-La documentazione tecnica e organizzata per ogni attrezzatura in un fascicolo individuale contenente:
 - Scheda identificativa (marca, modello, n. seriale, anno acquisto).
-- Manuale d'uso e manutenzione (copia cartacea e/o digitale).
+- Manuale d’uso e manutenzione (copia cartacea e/o digitale).
 - Dichiarazione di conformita CE.
 - Certificato di collaudo iniziale.
 - Registro interventi di manutenzione ordinaria e straordinaria.
 - Certificati di calibrazione (ove applicabile).
 
-3. ACCESSIBILITA
+1. ACCESSIBILITA
+
 - La documentazione tecnica e accessibile agli operatori interessati: conservata in apposito raccoglitore nella sala tecnica/sterilizzazione.
 - Copia digitale archiviata su ${SW} o supporto dedicato.
 - La documentazione e disponibile alla funzione preposta alla manutenzione in ogni momento.
 
-4. AGGIORNAMENTO
-- La documentazione e aggiornata ad ogni intervento di manutenzione.
-- In caso di sostituzione di un'attrezzatura, la vecchia documentazione e archiviata per almeno 5 anni.
+1. AGGIORNAMENTO
 
-5. ELENCO FASCICOLI TECNICI DISPONIBILI
-(vedi inventario attrezzature - Documento 10)
-Per ogni voce dell'inventario e disponibile il fascicolo tecnico completo.
+- La documentazione e aggiornata ad ogni intervento di manutenzione.
+- In caso di sostituzione di un’attrezzatura, la vecchia documentazione e archiviata per almeno 5 anni.
+
+1. ELENCO FASCICOLI TECNICI DISPONIBILI
+   (vedi inventario attrezzature - Documento 10)
+   Per ogni voce dell’inventario e disponibile il fascicolo tecnico completo.
 
 Responsabile: ${T}
 Data: ${ANNO}`],
 
 // ── DOCS 13-24: Documentazione tecnica normativa (strutturale) ─
-...[
-  ['caratteristiche ambientali e di accessibilita', '1A.03.05.01', 'accessibilità, caratteristiche microclimatiche, superfici lavabili, illuminazione adeguata, assenza di barriere architettoniche interne'],
-  ['protezione antincendio', '1A.03.05.02', 'CPI (Certificato Prevenzione Incendi) o dichiarazione di esenzione, estintori omologati, segnaletica di sicurezza, vie di fuga libere'],
-  ['protezione acustica', '1A.03.05.03', 'valutazione del rumore negli ambienti di lavoro, conformità D.Lgs. 81/2008 Titolo VIII Capo II, misurazione fonometrica se applicabile'],
-  ['sicurezza elettrica e continuità elettrica', '1A.03.05.04', 'dichiarazione di conformità impianto elettrico (D.M. 37/2008), certificazione impianto di terra, verifica periodica biennale INAIL'],
-  ['sicurezza anti-infortunistica', '1A.03.05.05', 'DVR (Documento di Valutazione dei Rischi), DUVRI se applicabile, formazione sicurezza lavoratori, DPI disponibili'],
-  ['protezione dai rischi di radiazioni ionizzanti', '1A.03.05.06', 'nulla osta ARPAS per apparecchiature radiologiche, sorveglianza fisica della radioprotezione, sorveglianza medica del personale esposto, classificazione zona radiologica'],
-  ['eliminazione delle barriere architettoniche', '1A.03.05.07', 'bagno accessibile a persone con disabilità motoria, rampe o ascensore se necessari, larghezza porte ≥ 80 cm, spazi di manovra adeguati (D.P.R. 503/1996)'],
-  ['smaltimento dei rifiuti', '1A.03.05.08', 'contratto con ditta autorizzata allo smaltimento rifiuti sanitari, registro di carico/scarico rifiuti (CER 18 01 01, 18 01 02, 18 01 03*), formulari di trasporto'],
-  ['condizioni microclimatiche', '1A.03.05.09', 'impianto di climatizzazione/ventilazione presente e certificato, manutenzione semestrale filtri, registro interventi'],
-  ['impianti di distribuzione dei gas', '1A.03.05.10', 'impianto gas medicali (ossigeno, protossido se presente) certificato, collaudo e verifica periodica, formazione operatori'],
-  ['materiali esplodenti', '1A.03.05.11', 'non applicabile per studio odontoiatrico (nessun materiale esplodente in uso)'],
-  ['protezione antisismica', '1A.03.05.12', 'certificato di agibilità sismica dell\'immobile o dichiarazione del proprietario, collaudo statico se richiesto dalla normativa locale'],
+…[
+[‘caratteristiche ambientali e di accessibilita’, ‘1A.03.05.01’, ‘accessibilità, caratteristiche microclimatiche, superfici lavabili, illuminazione adeguata, assenza di barriere architettoniche interne’],
+[‘protezione antincendio’, ‘1A.03.05.02’, ‘CPI (Certificato Prevenzione Incendi) o dichiarazione di esenzione, estintori omologati, segnaletica di sicurezza, vie di fuga libere’],
+[‘protezione acustica’, ‘1A.03.05.03’, ‘valutazione del rumore negli ambienti di lavoro, conformità D.Lgs. 81/2008 Titolo VIII Capo II, misurazione fonometrica se applicabile’],
+[‘sicurezza elettrica e continuità elettrica’, ‘1A.03.05.04’, ‘dichiarazione di conformità impianto elettrico (D.M. 37/2008), certificazione impianto di terra, verifica periodica biennale INAIL’],
+[‘sicurezza anti-infortunistica’, ‘1A.03.05.05’, ‘DVR (Documento di Valutazione dei Rischi), DUVRI se applicabile, formazione sicurezza lavoratori, DPI disponibili’],
+[‘protezione dai rischi di radiazioni ionizzanti’, ‘1A.03.05.06’, ‘nulla osta ARPAS per apparecchiature radiologiche, sorveglianza fisica della radioprotezione, sorveglianza medica del personale esposto, classificazione zona radiologica’],
+[‘eliminazione delle barriere architettoniche’, ‘1A.03.05.07’, ‘bagno accessibile a persone con disabilità motoria, rampe o ascensore se necessari, larghezza porte ≥ 80 cm, spazi di manovra adeguati (D.P.R. 503/1996)’],
+[‘smaltimento dei rifiuti’, ‘1A.03.05.08’, ‘contratto con ditta autorizzata allo smaltimento rifiuti sanitari, registro di carico/scarico rifiuti (CER 18 01 01, 18 01 02, 18 01 03*), formulari di trasporto’],
+[‘condizioni microclimatiche’, ‘1A.03.05.09’, ‘impianto di climatizzazione/ventilazione presente e certificato, manutenzione semestrale filtri, registro interventi’],
+[‘impianti di distribuzione dei gas’, ‘1A.03.05.10’, ‘impianto gas medicali (ossigeno, protossido se presente) certificato, collaudo e verifica periodica, formazione operatori’],
+[‘materiali esplodenti’, ‘1A.03.05.11’, ‘non applicabile per studio odontoiatrico (nessun materiale esplodente in uso)’],
+[‘protezione antisismica’, ‘1A.03.05.12’, ‘certificato di agibilità sismica dell'immobile o dichiarazione del proprietario, collaudo statico se richiesto dalla normativa locale’],
 ].map(([tema, cod, dettagli]) => [`DOCUMENTAZIONE TECNICA - ${tema.toUpperCase()}
 ${S} - ${IND}
 
 1. OGGETTO
-Il presente documento attesta il possesso dei requisiti previsti dalle vigenti leggi in materia di ${tema}.
-
-2. NORMATIVA DI RIFERIMENTO
-Requisito: ${cod}
-La struttura e in possesso della documentazione normativa richiesta in materia di ${tema}.
-
-3. DOCUMENTAZIONE DISPONIBILE
-La documentazione relativa a ${tema} include: ${dettagli}.
+   Il presente documento attesta il possesso dei requisiti previsti dalle vigenti leggi in materia di ${tema}.
+1. NORMATIVA DI RIFERIMENTO
+   Requisito: ${cod}
+   La struttura e in possesso della documentazione normativa richiesta in materia di ${tema}.
+1. DOCUMENTAZIONE DISPONIBILE
+   La documentazione relativa a ${tema} include: ${dettagli}.
 
 Tutta la documentazione e conservata nel fascicolo tecnico dello studio ed e disponibile per la verifica da parte del GdV.
 
-4. DICHIARAZIONE DI CONFORMITA
-Il sottoscritto ${T}, in qualita di Titolare dello ${S}, dichiara che la struttura e in possesso di tutti i requisiti previsti dalla normativa vigente in materia di ${tema} e che la relativa documentazione e disponibile presso lo studio.
+1. DICHIARAZIONE DI CONFORMITA
+   Il sottoscritto ${T}, in qualita di Titolare dello ${S}, dichiara che la struttura e in possesso di tutti i requisiti previsti dalla normativa vigente in materia di ${tema} e che la relativa documentazione e disponibile presso lo studio.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}
@@ -5690,29 +5790,33 @@ Firma: ______________________`]),
 ${S}
 
 1. OGGETTO
-Il presente documento attesta l'adempimento degli obblighi assicurativi e previdenziali previsti dalla normativa applicabile.
+   Il presente documento attesta l’adempimento degli obblighi assicurativi e previdenziali previsti dalla normativa applicabile.
+1. ASSICURAZIONE RESPONSABILITA CIVILE PROFESSIONALE
+   In adempimento agli artt. 10 e 11 della L. 8 marzo 2017, n. 24 (Legge Gelli-Bianco), lo studio e dotato di polizza assicurativa per Responsabilita Civile Professionale.
 
-2. ASSICURAZIONE RESPONSABILITA CIVILE PROFESSIONALE
-In adempimento agli artt. 10 e 11 della L. 8 marzo 2017, n. 24 (Legge Gelli-Bianco), lo studio e dotato di polizza assicurativa per Responsabilita Civile Professionale.
 - Compagnia assicurativa: (vedi polizza allegata)
 - Massimale: come da polizza
 - Scadenza: verificare annualmente
-- Copertura: danni a terzi derivanti dall'esercizio dell'attivita odontoiatrica.
+- Copertura: danni a terzi derivanti dall’esercizio dell’attivita odontoiatrica.
 
-3. INAIL - ASSICURAZIONE CONTRO GLI INFORTUNI
+1. INAIL - ASSICURAZIONE CONTRO GLI INFORTUNI
+
 - Posizione INAIL regolare e aggiornata.
 - Denuncia nominativa assicurati (DNA) trasmessa.
 - Premio assicurativo corrisposto nei termini.
 
-4. INPS - OBBLIGHI PREVIDENZIALI
+1. INPS - OBBLIGHI PREVIDENZIALI
+
 - Iscrizione e versamenti previdenziali regolari per tutti i collaboratori e dipendenti.
 - Gestione separata INPS per collaboratori autonomi (ove applicabile).
 
-5. CASSA DI PREVIDENZA
-- Iscrizione all'ente di previdenza di categoria (ENPAM per medici odontoiatri).
+1. CASSA DI PREVIDENZA
+
+- Iscrizione all’ente di previdenza di categoria (ENPAM per medici odontoiatri).
 - Contributi versati regolarmente.
 
-6. ASSICURAZIONE STRUTTURA
+1. ASSICURAZIONE STRUTTURA
+
 - Polizza per danni alla struttura e alle attrezzature: presente.
 
 Luogo e data: ${IND || comune}, ${ANNO}
@@ -5724,11 +5828,12 @@ ${S}
 ${IND}
 
 1. PRESENTAZIONE DELLO STUDIO
-Lo ${S} e uno studio odontoiatrico privato che eroga prestazioni di odontoiatria generale e specialistica. Il nostro impegno e garantire cure di alta qualita in un ambiente sicuro, confortevole e rispettoso della dignita del paziente.
+   Lo ${S} e uno studio odontoiatrico privato che eroga prestazioni di odontoiatria generale e specialistica. Il nostro impegno e garantire cure di alta qualita in un ambiente sicuro, confortevole e rispettoso della dignita del paziente.
 
 Direttore Tecnico e Responsabile Sanitario: ${T}
 
-2. PRESTAZIONI EROGATE
+1. PRESTAZIONI EROGATE
+
 - Odontoiatria conservativa (otturazioni, endodonzia).
 - Protesi dentaria (fissa, mobile, su impianti).
 - Implantologia.
@@ -5739,30 +5844,32 @@ Direttore Tecnico e Responsabile Sanitario: ${T}
 - Radiologia odontoiatrica (RX endorali, OPT).
 - Prima visita e piano di trattamento.
 
-3. ORARI E CONTATTI
+1. ORARI E CONTATTI
+
 - Orario di apertura: (indicare orari).
 - Telefono: (indicare numero).
 - Email/PEC: (indicare contatti).
 - Prenotazioni: telefoniche, di persona, online (se attivo).
 
-4. TARIFFE
-Le tariffe sono esposte presso la reception e disponibili su richiesta. Prima di ogni trattamento e fornito preventivo scritto.
+1. TARIFFE
+   Le tariffe sono esposte presso la reception e disponibili su richiesta. Prima di ogni trattamento e fornito preventivo scritto.
+1. STANDARD DI QUALITA E IMPEGNI
 
-5. STANDARD DI QUALITA E IMPEGNI
 - Tempi di attesa massimi dalla prenotazione: 15 giorni per prima visita elettiva.
 - Risposta ai reclami entro 30 giorni.
 - Aggiornamento professionale continuo del personale (ECM).
 - Utilizzo di materiali di prima qualita certificati CE.
 - Sterilizzazione certificata di tutti gli strumenti.
 
-6. TUTELA DEI PAZIENTI
-- Diritto all'informazione: il paziente riceve informazioni complete sul suo stato di salute e sulle opzioni di trattamento.
+1. TUTELA DEI PAZIENTI
+
+- Diritto all’informazione: il paziente riceve informazioni complete sul suo stato di salute e sulle opzioni di trattamento.
 - Consenso informato: obbligatorio prima di ogni trattamento invasivo.
 - Privacy: i dati personali e sanitari sono trattati nel rispetto del GDPR.
 - Reclami: il paziente puo presentare reclamo secondo la procedura indicata (Documento 4).
 
-7. MODALITA DI VERIFICA DEL RISPETTO DEGLI STANDARD
-I dati di verifica degli standard sono disponibili presso la reception su richiesta.
+1. MODALITA DI VERIFICA DEL RISPETTO DEGLI STANDARD
+   I dati di verifica degli standard sono disponibili presso la reception su richiesta.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5772,28 +5879,27 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO
-Il presente documento definisce le modalita con cui vengono identificati e gestiti tirocinanti, specializzandi e altri soggetti che intervengono nel percorso assistenziale dei pazienti.
+   Il presente documento definisce le modalita con cui vengono identificati e gestiti tirocinanti, specializzandi e altri soggetti che intervengono nel percorso assistenziale dei pazienti.
+1. TIPOLOGIE DI SOGGETTI INTERESSATI
 
-2. TIPOLOGIE DI SOGGETTI INTERESSATI
 - Tirocinanti universitari (corsi di laurea in Odontoiatria, Igiene dentale, ASO).
 - Specializzandi post-laurea.
 - Personale in affiancamento/formazione on-the-job.
 - Consulenti clinici esterni.
 
-3. MODALITA DI IDENTIFICAZIONE
-Ogni soggetto che partecipa al percorso assistenziale e identificabile attraverso:
-- Cartellino identificativo con nome, qualifica e ruolo (es. "Tirocinante", "Specializzando").
+1. MODALITA DI IDENTIFICAZIONE
+   Ogni soggetto che partecipa al percorso assistenziale e identificabile attraverso:
+
+- Cartellino identificativo con nome, qualifica e ruolo (es. “Tirocinante”, “Specializzando”).
 - Registro presenze firmato.
-- Copia del contratto di tirocinio/convenzione con l'Universita o ente formativo.
+- Copia del contratto di tirocinio/convenzione con l’Universita o ente formativo.
 
-4. COMUNICAZIONE AI PAZIENTI
-I pazienti sono informati della presenza di tirocinanti o specializzandi prima dell'inizio del trattamento. Il paziente ha diritto di rifiutare la presenza di soggetti in formazione senza conseguenze per la propria cura.
-
-5. SUPERVISIONE
-L'attivita dei tirocinanti e specializzandi e sempre svolta sotto la diretta supervisione di un professionista abilitato iscritto all'albo.
-
-6. RESPONSABILITA CLINICA
-La responsabilita clinica di ogni prestazione rimane in capo al professionista abilitato che supervisiona l'attivita.
+1. COMUNICAZIONE AI PAZIENTI
+   I pazienti sono informati della presenza di tirocinanti o specializzandi prima dell’inizio del trattamento. Il paziente ha diritto di rifiutare la presenza di soggetti in formazione senza conseguenze per la propria cura.
+1. SUPERVISIONE
+   L’attivita dei tirocinanti e specializzandi e sempre svolta sotto la diretta supervisione di un professionista abilitato iscritto all’albo.
+1. RESPONSABILITA CLINICA
+   La responsabilita clinica di ogni prestazione rimane in capo al professionista abilitato che supervisiona l’attivita.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5803,21 +5909,23 @@ Il Responsabile: ${T}`],
 ${S} - Anno ${ANNO}
 
 1. SCOPO
-Il presente documento riporta i risultati dell'analisi dei reclami ricevuti e delle indagini di customer satisfaction, e definisce i relativi piani di intervento per il miglioramento.
+   Il presente documento riporta i risultati dell’analisi dei reclami ricevuti e delle indagini di customer satisfaction, e definisce i relativi piani di intervento per il miglioramento.
+1. ANALISI DEI RECLAMI - Anno ${ANNO}
 
-2. ANALISI DEI RECLAMI - Anno ${ANNO}
 - Numero totale reclami ricevuti: (da aggiornare annualmente)
 - Tipologia prevalente: (es. tempi di attesa, comunicazione, fatturazione)
 - Percentuale risolti entro 30 giorni: obiettivo 100%
 - Reclami fondati con azioni correttive: (da aggiornare)
 
-3. RISULTATI CUSTOMER SATISFACTION
-Metodo: questionari anonimi distribuiti semestralmente ai pazienti.
+1. RISULTATI CUSTOMER SATISFACTION
+   Metodo: questionari anonimi distribuiti semestralmente ai pazienti.
+
 - Periodo rilevazione: 1° semestre ${ANNO}
 - Numero questionari compilati: (da aggiornare)
 - Soddisfazione generale media: obiettivo >4/5
 
 Aree valutate:
+
 - Accoglienza e cortesia del personale: _/5
 - Tempi di attesa: _/5
 - Chiarezza delle informazioni ricevute: _/5
@@ -5825,13 +5933,12 @@ Aree valutate:
 - Pulizia e confort degli ambienti: _/5
 - Rapporto qualita/prezzo: _/5
 
-4. CRITICITA RILEVATE E PIANI DI INTERVENTO
-(da compilare dopo ogni ciclo di rilevazione)
-Criticita 1: ___ | Azione correttiva: ___ | Scadenza: ___
-Criticita 2: ___ | Azione correttiva: ___ | Scadenza: ___
-
-5. CONCLUSIONI
-I risultati della customer satisfaction e l'analisi dei reclami sono condivisi con tutto il personale in occasione delle riunioni periodiche. Il piano di miglioramento e monitorato con cadenza semestrale.
+1. CRITICITA RILEVATE E PIANI DI INTERVENTO
+   (da compilare dopo ogni ciclo di rilevazione)
+   Criticita 1: ___ | Azione correttiva: ___ | Scadenza: ___
+   Criticita 2: ___ | Azione correttiva: ___ | Scadenza: ___
+1. CONCLUSIONI
+   I risultati della customer satisfaction e l’analisi dei reclami sono condivisi con tutto il personale in occasione delle riunioni periodiche. Il piano di miglioramento e monitorato con cadenza semestrale.
 
 Responsabile: ${T}
 Data: ${ANNO}`],
@@ -5841,14 +5948,13 @@ Data: ${ANNO}`],
 ${S} - ${IND}
 
 1. SCOPO E CAMPO DI APPLICAZIONE
-Il presente Piano, redatto ai sensi del D.Lgs. 81/2008 e della L. 24/2017, definisce le modalita con cui lo studio gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro.
-
-2. RESPONSABILE DELLA GESTIONE DEL RISCHIO
-Responsabile: ${T}
-
-3. IDENTIFICAZIONE E CLASSIFICAZIONE DEI RISCHI
+   Il presente Piano, redatto ai sensi del D.Lgs. 81/2008 e della L. 24/2017, definisce le modalita con cui lo studio gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro.
+1. RESPONSABILE DELLA GESTIONE DEL RISCHIO
+   Responsabile: ${T}
+1. IDENTIFICAZIONE E CLASSIFICAZIONE DEI RISCHI
 
 RISCHI PER GLI OPERATORI:
+
 - Rischio biologico (contatto con sangue e fluidi corporei): MEDIO - precauzioni universali, DPI.
 - Rischio chimico (disinfettanti, amalgama, resine): BASSO - schede di sicurezza disponibili, DPI.
 - Rischio fisico - radiazioni ionizzanti: BASSO - sorveglianza fisica, dosimetria.
@@ -5857,36 +5963,40 @@ RISCHI PER GLI OPERATORI:
 - Rischio incendio: BASSO - piano di emergenza, estintori.
 
 RISCHI PER I PAZIENTI:
-- Infezioni correlate all'assistenza: MEDIO - sterilizzazione certificata, protocolli igienici.
+
+- Infezioni correlate all’assistenza: MEDIO - sterilizzazione certificata, protocolli igienici.
 - Reazioni avverse a farmaci/materiali: BASSO - anamnesi accurata, consenso informato.
 - Cadute: BASSO - pavimenti antisdrucciolo, illuminazione adeguata.
 - Errori clinici: BASSO - check-list preoperatorie, protocolli clinici.
 
-4. MODALITA DI GESTIONE DEL RISCHIO CLINICO
-4.1 Raccolta Dati Eventi Avversi
+1. MODALITA DI GESTIONE DEL RISCHIO CLINICO
+   4.1 Raccolta Dati Eventi Avversi
+
 - Registro degli incidenti e near miss: tenuto dal responsabile sanitario.
 - Segnalazione volontaria da parte del personale.
 
 4.2 Analisi degli Eventi
 In caso di near miss, eventi avversi o eventi sentinella:
-a) Raccolta delle informazioni sull'evento.
+a) Raccolta delle informazioni sull’evento.
 b) Analisi delle cause (Root Cause Analysis).
 c) Identificazione delle azioni correttive.
-d) Monitoraggio dell'efficacia delle azioni.
+d) Monitoraggio dell’efficacia delle azioni.
 
-5. PREVENZIONE E CONTROLLO DELLE INFEZIONI
+1. PREVENZIONE E CONTROLLO DELLE INFEZIONI
+
 - Protocollo di sterilizzazione certificato (autoclave classe B con cicli validati).
 - Pulizia e sanificazione degli ambienti: procedura dedicata (Doc. 30).
 - Profilassi per il personale: offerta vaccinazione antiepatite B, aggiornamento vaccini.
 - Sorveglianza sanitaria del personale esposto ad agenti biologici.
 
-6. GESTIONE DELLE EMERGENZE SANITARIE
+1. GESTIONE DELLE EMERGENZE SANITARIE
+
 - Piano di emergenza presente (Doc. 6).
 - Kit di emergenza disponibile: farmaci di emergenza, defibrillatore (se presente), ossigeno.
 - Personale formato BLS.
 
-7. AGGIORNAMENTO DEL PIANO
-Il Piano e aggiornato annualmente e ogni volta che si verifichino eventi straordinari o variazioni significative dell'attivita.
+1. AGGIORNAMENTO DEL PIANO
+   Il Piano e aggiornato annualmente e ogni volta che si verifichino eventi straordinari o variazioni significative dell’attivita.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5896,45 +6006,48 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO
-La presente procedura definisce le modalita, la frequenza e i prodotti da utilizzare per la pulizia e la sanificazione degli ambienti dello studio odontoiatrico.
+   La presente procedura definisce le modalita, la frequenza e i prodotti da utilizzare per la pulizia e la sanificazione degli ambienti dello studio odontoiatrico.
+1. RESPONSABILITA
+   Responsabile dell’applicazione: ${T}
+   Esecutori: tutto il personale formato.
+1. PRODOTTI UTILIZZATI
 
-2. RESPONSABILITA
-Responsabile dell'applicazione: ${T}
-Esecutori: tutto il personale formato.
-
-3. PRODOTTI UTILIZZATI
 - Detergente neutro per superfici.
 - Disinfettante per superfici: (specificare prodotto con virucida certificato).
 - Disinfettante per pavimenti.
 - Tutti i prodotti sono corredati di scheda di sicurezza.
 
-4. PROCEDURA DI PULIZIA E DISINFEZIONE
+1. PROCEDURA DI PULIZIA E DISINFEZIONE
 
 INIZIO GIORNATA:
+
 - Arieggiamento dei locali.
 - Disinfezione delle superfici di lavoro (riunito, strumentario, piano di lavoro).
 - Verifica dotazione DPI e materiali.
 
-TRA UN PAZIENTE E L'ALTRO:
+TRA UN PAZIENTE E L’ALTRO:
+
 - Rimozione dei presidi monouso utilizzati.
 - Disinfezione con panno imbevuto di disinfettante di: sputacchiera, manipoli, riflettore, pulsantiera riunito, piano di lavoro.
 - Cambio dei presidi di barriera (copritastiera, copritubo, ecc.).
 - Lavaggio mani e cambio guanti.
 
 FINE GIORNATA:
+
 - Pulizia approfondita con detergente e disinfezione di tutte le superfici della sala trattamento.
-- Pulizia e disinfezione della sala d'attesa.
+- Pulizia e disinfezione della sala d’attesa.
 - Pulizia e disinfezione dei servizi igienici.
 - Pulizia dei pavimenti con soluzione detergente/disinfettante.
 - Smaltimento rifiuti come da procedura.
 - Chiusura impianti (acqua, gas, elettrico).
 
 SETTIMANALE:
+
 - Pulizia approfondita di tutti i locali inclusi archivi e ripostigli.
 - Pulizia esterna delle attrezzature.
 
-5. REGISTRAZIONE
-Le attivita di pulizia e sanificazione sono registrate nel registro di sanificazione con data, operatore e firma.
+1. REGISTRAZIONE
+   Le attivita di pulizia e sanificazione sono registrate nel registro di sanificazione con data, operatore e firma.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
@@ -5944,107 +6057,110 @@ Il Responsabile: ${T}`],
 ${S}
 
 1. SCOPO
-La presente procedura definisce le misure di protezione per il personale in caso di esposizione accidentale a materiale biologico (sangue, liquidi corporei) o altre sostanze pericolose.
+   La presente procedura definisce le misure di protezione per il personale in caso di esposizione accidentale a materiale biologico (sangue, liquidi corporei) o altre sostanze pericolose.
+1. PRECAUZIONI STANDARD - DA ADOTTARE SEMPRE
+   Prima di ogni contatto con il paziente:
 
-2. PRECAUZIONI STANDARD - DA ADOTTARE SEMPRE
-Prima di ogni contatto con il paziente:
-- Indossare guanti monouso (cambio obbligatorio tra un paziente e l'altro).
+- Indossare guanti monouso (cambio obbligatorio tra un paziente e l’altro).
 - Indossare mascherina chirurgica/FFP2.
 - Indossare occhiali protettivi o visiera.
 - Indossare camice.
 
 Dopo ogni prestazione:
+
 - Lavaggio mani con acqua e sapone per almeno 30 secondi.
 - Eventuale igienizzazione con soluzione idroalcolica.
 
-3. GESTIONE DEGLI AGHI E TAGLIENTI
+1. GESTIONE DEGLI AGHI E TAGLIENTI
+
 - Utilizzare sempre il cappuccio di protezione (resheathing) con tecnica a una mano.
 - Smaltire aghi e taglienti nel contenitore rigido per rifiuti a rischio biologico (box giallo).
 - Non reincappucciare gli aghi con due mani.
 
-4. PROCEDURA IN CASO DI PUNTURA ACCIDENTALE / CONTATTO CON SANGUE
-IMMEDIATO:
-a) Non premere la ferita. Lasciare sanguinare.
-b) Lavare con acqua e sapone per almeno 5 minuti.
-c) Applicare disinfettante (es. iodopovidone).
-d) Per contatto con mucose: sciacquare abbondantemente con acqua.
+1. PROCEDURA IN CASO DI PUNTURA ACCIDENTALE / CONTATTO CON SANGUE
+   IMMEDIATO:
+   a) Non premere la ferita. Lasciare sanguinare.
+   b) Lavare con acqua e sapone per almeno 5 minuti.
+   c) Applicare disinfettante (es. iodopovidone).
+   d) Per contatto con mucose: sciacquare abbondantemente con acqua.
 
 NELLE ORE SUCCESSIVE:
 e) Informare immediatamente il Responsabile.
 f) Recarsi al Pronto Soccorso entro 2 ore (entro 4 ore per la profilassi post-esposizione HIV).
 g) Compilare il modulo di denuncia infortunio INAIL entro 48 ore.
 
-5. SORVEGLIANZA SANITARIA
-Il personale esposto ad agenti biologici e soggetto a sorveglianza sanitaria dal medico competente (ove previsto) con vaccinazione antiepatite B obbligatoria offerta.
+1. SORVEGLIANZA SANITARIA
+   Il personale esposto ad agenti biologici e soggetto a sorveglianza sanitaria dal medico competente (ove previsto) con vaccinazione antiepatite B obbligatoria offerta.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
 
 // ── DOC 32: Near miss ed eventi sentinella ────────────────────
-[`SISTEMA PER L'IDENTIFICAZIONE E LA SEGNALAZIONE DI NEAR MISS, EVENTI AVVERSI ED EVENTI SENTINELLA
+[`SISTEMA PER L’IDENTIFICAZIONE E LA SEGNALAZIONE DI NEAR MISS, EVENTI AVVERSI ED EVENTI SENTINELLA
 ${S}
 
 1. SCOPO
-Il presente sistema definisce le modalita per l'identificazione, la segnalazione e la gestione dei near miss, degli eventi avversi e degli eventi sentinella nell'ambito dello studio odontoiatrico.
+   Il presente sistema definisce le modalita per l’identificazione, la segnalazione e la gestione dei near miss, degli eventi avversi e degli eventi sentinella nell’ambito dello studio odontoiatrico.
+1. DEFINIZIONI
 
-2. DEFINIZIONI
-- Near miss (quasi incidente): evento che avrebbe potuto causare un danno ma che non ha causato danni grazie al caso o all'intervento tempestivo.
+- Near miss (quasi incidente): evento che avrebbe potuto causare un danno ma che non ha causato danni grazie al caso o all’intervento tempestivo.
 - Evento avverso: evento inatteso correlato al processo assistenziale che causa danno al paziente.
-- Evento sentinella: evento avverso grave, inatteso, che indica l'esistenza di un problema nel sistema.
+- Evento sentinella: evento avverso grave, inatteso, che indica l’esistenza di un problema nel sistema.
 
-3. MODALITA DI SEGNALAZIONE
-Ogni operatore e tenuto a segnalare al Responsabile:
+1. MODALITA DI SEGNALAZIONE
+   Ogni operatore e tenuto a segnalare al Responsabile:
+
 - Tutti i near miss.
 - Tutti gli eventi avversi.
 - Tutti gli eventi sentinella.
 
 La segnalazione avviene tramite:
+
 - Modulo di segnalazione interna (cartaceo o su ${SW}).
 - Comunicazione verbale immediata in caso di evento grave.
 
 La segnalazione e anonima e volontaria per i near miss. E obbligatoria per eventi avversi con danno al paziente.
 
-4. GESTIONE DEGLI EVENTI
-4.1 Ricezione della Segnalazione
-Il Responsabile raccoglie la segnalazione e la registra nel registro degli eventi.
+1. GESTIONE DEGLI EVENTI
+   4.1 Ricezione della Segnalazione
+   Il Responsabile raccoglie la segnalazione e la registra nel registro degli eventi.
 
 4.2 Analisi delle Cause
-Per ogni evento segnalato e effettuata un'analisi delle cause tramite metodologia RCA (Root Cause Analysis) o Significant Event Audit.
+Per ogni evento segnalato e effettuata un’analisi delle cause tramite metodologia RCA (Root Cause Analysis) o Significant Event Audit.
 
 4.3 Azioni Correttive
-Sulla base dell'analisi:
+Sulla base dell’analisi:
 a) Identificazione delle azioni correttive/preventive.
 b) Assegnazione di responsabilita e scadenze.
-c) Monitoraggio dell'efficacia delle azioni intraprese.
+c) Monitoraggio dell’efficacia delle azioni intraprese.
 
-5. REPORT PERIODICO
-Semestralmente il Responsabile predispone un report con:
+1. REPORT PERIODICO
+   Semestralmente il Responsabile predispone un report con:
+
 - Numero e tipologia degli eventi segnalati.
 - Azioni intraprese.
 - Indicatori di efficacia.
 
 Il report e condiviso con tutto il personale nelle riunioni periodiche.
 
-6. RISERVATEZZA
-Tutti i dati relativi alle segnalazioni sono trattati in forma riservata e utilizzati esclusivamente per il miglioramento della sicurezza.
+1. RISERVATEZZA
+   Tutti i dati relativi alle segnalazioni sono trattati in forma riservata e utilizzati esclusivamente per il miglioramento della sicurezza.
 
 Luogo e data: ${IND || comune}, ${ANNO}
 Il Responsabile: ${T}`],
 
-  ]; // fine return array
+]; // fine return array
 }
-
-
 
 // Testi per i 32 documenti - personalizzati con dati studio
 function getDocTexts(studio, titolare, indirizzo, comune, prov, albo, asp, software) {
-  const s = studio || 'Studio Odontoiatrico';
-  const t = titolare || 'Il Titolare';
-  const ind = indirizzo ? indirizzo + ', ' + comune + ' (' + prov + ')' : comune;
-  const oggi = new Date().toLocaleDateString('it-IT');
-  const anno = new Date().getFullYear();
+const s = studio || ‘Studio Odontoiatrico’;
+const t = titolare || ‘Il Titolare’;
+const ind = indirizzo ? indirizzo + ‘, ’ + comune + ’ (’ + prov + ‘)’ : comune;
+const oggi = new Date().toLocaleDateString(‘it-IT’);
+const anno = new Date().getFullYear();
 
-  return [
+return [
 
 // DOC 1 - Organizzazione e gestione risorse
 [`DOCUMENTO ORGANIZZATIVO E DI GESTIONE DELLE RISORSE
@@ -6052,34 +6168,33 @@ ${s.toUpperCase()}
 Cod. 1A.01.03.01 - Rev. 1/${anno}
 
 1. SCOPO E CAMPO DI APPLICAZIONE
-Il presente documento definisce l'organizzazione interna dello studio odontoiatrico e le politiche adottate per la gestione delle risorse umane, materiali e tecnologiche. Analizza i principali processi operativi per individuare le fasi critiche in cui possono verificarsi disservizi.
+   Il presente documento definisce l’organizzazione interna dello studio odontoiatrico e le politiche adottate per la gestione delle risorse umane, materiali e tecnologiche. Analizza i principali processi operativi per individuare le fasi critiche in cui possono verificarsi disservizi.
+1. STRUTTURA ORGANIZZATIVA
+   Responsabile Sanitario / Titolare: ${t}
+   Attivita principali: esecuzione trattamenti odontoiatrici, gestione paziente, supervisione clinica e gestionale.
+   Collaboratori clinici: esecuzione trattamenti e presa in carico pazienti.
+   Personale di supporto (ASO/igienisti): supporto clinico, sterilizzazione, gestione sala.
+   Personale amministrativo: accoglienza, appuntamenti, fatturazione, archiviazione.
+1. POLITICHE DI GESTIONE DELLE RISORSE
+   3.1 Risorse Umane
 
-2. STRUTTURA ORGANIZZATIVA
-Responsabile Sanitario / Titolare: ${t}
-Attivita principali: esecuzione trattamenti odontoiatrici, gestione paziente, supervisione clinica e gestionale.
-Collaboratori clinici: esecuzione trattamenti e presa in carico pazienti.
-Personale di supporto (ASO/igienisti): supporto clinico, sterilizzazione, gestione sala.
-Personale amministrativo: accoglienza, appuntamenti, fatturazione, archiviazione.
-
-3. POLITICHE DI GESTIONE DELLE RISORSE
-3.1 Risorse Umane
 - Aggiornamento continuo obbligatorio (ECM, formazione specifica).
 - Affiancamento e formazione on-the-job per nuovo personale.
 - Verifica annuale delle competenze e colloqui di feedback.
-3.2 Risorse Materiali e Tecnologiche
+  3.2 Risorse Materiali e Tecnologiche
 - Manutenzione periodica attrezzature secondo calendario prestabilito.
 - Controllo scorte e materiali sanitari con sistema di inventario.
-- Utilizzo del software gestionale ${software || 'dedicato'} per appuntamenti, cartelle cliniche e fatturazione.
-3.3 Sicurezza e Igiene
+- Utilizzo del software gestionale ${software || ‘dedicato’} per appuntamenti, cartelle cliniche e fatturazione.
+  3.3 Sicurezza e Igiene
 - Adozione protocolli di sterilizzazione e sanificazione secondo normative vigenti.
 - Formazione del personale su sicurezza sul lavoro e gestione emergenze.
 - Verifica periodica del rispetto delle normative igienico-sanitarie.
 
-4. ANALISI DEI PROCESSI E FASI CRITICHE
-Processo: Accoglienza paziente
-Fase critica: Prenotazione e accettazione
-Possibile disservizio: Errori agenda, attese prolungate
-Azione preventiva: Software gestionale ${software || 'dedicato'}, promemoria automatici
+1. ANALISI DEI PROCESSI E FASI CRITICHE
+   Processo: Accoglienza paziente
+   Fase critica: Prenotazione e accettazione
+   Possibile disservizio: Errori agenda, attese prolungate
+   Azione preventiva: Software gestionale ${software || ‘dedicato’}, promemoria automatici
 
 Processo: Trattamento clinico
 Fase critica: Diagnosi ed esecuzione terapia
@@ -6096,8 +6211,9 @@ Fase critica: Fatturazione e archiviazione
 Possibile disservizio: Errori documentali, perdita dati
 Azione preventiva: Backup sistematico, formazione amministrativa
 
-5. MONITORAGGIO E MIGLIORAMENTO
-Lo studio si impegna nel miglioramento continuo attraverso:
+1. MONITORAGGIO E MIGLIORAMENTO
+   Lo studio si impegna nel miglioramento continuo attraverso:
+
 - Raccolta periodica del feedback dei pazienti.
 - Audit interni per la verifica del rispetto delle procedure.
 - Aggiornamento dei protocolli in base alle normative vigenti.
@@ -6112,9 +6228,9 @@ ${s.toUpperCase()}
 Cod. 1A.01.04.01 - Rev. 1/${anno}
 
 1. DESCRIZIONE DEL SISTEMA INFORMATIVO
-Lo studio adotta il software gestionale ${software || 'dedicato'} per la gestione integrata di tutte le attivita cliniche e amministrative.
+   Lo studio adotta il software gestionale ${software || ‘dedicato’} per la gestione integrata di tutte le attivita cliniche e amministrative.
+1. FUNZIONALITA PRINCIPALI
 
-2. FUNZIONALITA PRINCIPALI
 - Gestione agenda e prenotazioni online/telefono
 - Cartelle cliniche digitali per ogni paziente
 - Archiviazione documentazione clinica e radiologica
@@ -6122,20 +6238,21 @@ Lo studio adotta il software gestionale ${software || 'dedicato'} per la gestion
 - Reportistica e statistiche di attivita
 - Invio promemoria automatici ai pazienti
 
-3. SICUREZZA DEI DATI
+1. SICUREZZA DEI DATI
+
 - Accesso mediante credenziali personali per ogni operatore
 - Backup automatico giornaliero dei dati
 - Conservazione backup su server esterno certificato
 - Aggiornamenti periodici del software per la sicurezza
 
-4. CONFORMITA NORMATIVA
-Il sistema e conforme al GDPR (Reg. UE 679/2016) e al D.lgs 196/2003 come modificato dal D.lgs 101/2018.
-E' stato redatto il Registro dei Trattamenti ai sensi dell'art. 30 GDPR.
-Il software garantisce la tracciabilita degli accessi ai dati.
+1. CONFORMITA NORMATIVA
+   Il sistema e conforme al GDPR (Reg. UE 679/2016) e al D.lgs 196/2003 come modificato dal D.lgs 101/2018.
+   E’ stato redatto il Registro dei Trattamenti ai sensi dell’art. 30 GDPR.
+   Il software garantisce la tracciabilita degli accessi ai dati.
+1. PROCEDURE DI GESTIONE
 
-5. PROCEDURE DI GESTIONE
 - Accesso riservato esclusivamente al personale autorizzato
-- Divieto di utilizzo per finalita non connesse all'attivita sanitaria
+- Divieto di utilizzo per finalita non connesse all’attivita sanitaria
 - Obbligo di riservatezza per tutto il personale
 - Procedure di gestione in caso di violazione dei dati (data breach)
 
@@ -6148,39 +6265,42 @@ ${s.toUpperCase()}
 Cod. 1A.01.05.01 - Rev. 1/${anno}
 
 1. OBIETTIVO
-Definire le modalita con cui lo studio valuta e migliora la qualita delle prestazioni e dei servizi erogati.
+   Definire le modalita con cui lo studio valuta e migliora la qualita delle prestazioni e dei servizi erogati.
+1. AREE DI VALUTAZIONE
+   2.1 Qualita Clinica
 
-2. AREE DI VALUTAZIONE
-2.1 Qualita Clinica
 - Tasso di successo dei trattamenti
 - Rispetto dei protocolli clinici
 - Gestione complicanze e eventi avversi
-2.2 Qualita Organizzativa
+  2.2 Qualita Organizzativa
 - Rispetto dei tempi di attesa
 - Efficienza nella gestione degli appuntamenti
 - Completezza della documentazione clinica
-2.3 Soddisfazione del Paziente
+  2.3 Soddisfazione del Paziente
 - Questionari di soddisfazione somministrati periodicamente
 - Analisi dei reclami e suggerimenti
 - Tasso di fidelizzazione dei pazienti
 
-3. STRUMENTI DI VALUTAZIONE
+1. STRUMENTI DI VALUTAZIONE
+
 - Questionari di customer satisfaction (cadenza semestrale)
 - Audit interni clinici (cadenza annuale)
-- Analisi degli indicatori di performance estratti dal software ${software || 'gestionale'}
+- Analisi degli indicatori di performance estratti dal software ${software || ‘gestionale’}
 - Riunioni di staff per la revisione delle procedure
 
-4. INDICATORI E STANDARD
+1. INDICATORI E STANDARD
+
 - Soddisfazione paziente: target >= 85% di giudizi positivi
 - Tempi di attesa: massimo 15 minuti oltre appuntamento
 - Completezza cartelle cliniche: 100% dei pazienti attivi
 - Gestione reclami: risposta entro 15 giorni lavorativi
 
-5. AZIONI DI MIGLIORAMENTO
-In caso di scostamento dagli standard, il responsabile attiva:
+1. AZIONI DI MIGLIORAMENTO
+   In caso di scostamento dagli standard, il responsabile attiva:
+
 - Analisi delle cause (root cause analysis)
 - Piano di miglioramento con azioni correttive
-- Monitoraggio dell'efficacia delle azioni intraprese
+- Monitoraggio dell’efficacia delle azioni intraprese
 - Eventuale aggiornamento delle procedure operative
 
 Luogo e data: ${ind}, ${oggi}
@@ -6192,78 +6312,80 @@ ${s.toUpperCase()}
 Cod. 1A.01.06.01 - Rev. 1/${anno}
 
 1. SCOPO
-Definire le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti dei pazienti.
+   Definire le modalita di raccolta, gestione e risposta ai reclami, osservazioni e suggerimenti dei pazienti.
+1. RIFERENTE PER I RAPPORTI CON IL PUBBLICO
+   Responsabile: ${t}
+   Contatti: ${ind}
+   Il referente e responsabile di: ricevere i reclami, gestirli, elaborare i dati e proporre azioni correttive.
+1. MODALITA DI PRESENTAZIONE
+   I pazienti possono presentare reclami/suggerimenti tramite:
 
-2. RIFERENTE PER I RAPPORTI CON IL PUBBLICO
-Responsabile: ${t}
-Contatti: ${ind}
-Il referente e responsabile di: ricevere i reclami, gestirli, elaborare i dati e proporre azioni correttive.
-
-3. MODALITA DI PRESENTAZIONE
-I pazienti possono presentare reclami/suggerimenti tramite:
-- Modulo cartaceo disponibile in sala d'attesa
+- Modulo cartaceo disponibile in sala d’attesa
 - Email dello studio
 - Colloquio diretto con il referente
-- Cassetta dei suggerimenti in sala d'attesa
+- Cassetta dei suggerimenti in sala d’attesa
 
-4. PROCEDURA DI GESTIONE
-FASE 1 - Ricezione: il referente registra il reclamo entro 24 ore dalla ricezione.
-FASE 2 - Analisi: entro 5 giorni lavorativi valuta la fondatezza e individua le cause.
-FASE 3 - Risposta: entro 15 giorni lavorativi dalla ricezione comunica l'esito al paziente.
-FASE 4 - Azioni correttive: implementa le misure necessarie a prevenire la recidiva.
-FASE 5 - Monitoraggio: verifica l'efficacia delle azioni correttive nel tempo.
-
-5. REGISTRAZIONE E REPORTISTICA
-Tutti i reclami vengono registrati in un apposito registro con: data, tipo di reclamo, esito, azioni intraprese.
-Analisi periodica (semestrale) dei dati per identificare trend e aree di miglioramento.
-
-6. TUTELA DEL RECLAMANTE
-Nessuna forma di discriminazione nei confronti del paziente che presenta reclamo.
-Massima riservatezza nel trattamento delle informazioni.
+1. PROCEDURA DI GESTIONE
+   FASE 1 - Ricezione: il referente registra il reclamo entro 24 ore dalla ricezione.
+   FASE 2 - Analisi: entro 5 giorni lavorativi valuta la fondatezza e individua le cause.
+   FASE 3 - Risposta: entro 15 giorni lavorativi dalla ricezione comunica l’esito al paziente.
+   FASE 4 - Azioni correttive: implementa le misure necessarie a prevenire la recidiva.
+   FASE 5 - Monitoraggio: verifica l’efficacia delle azioni correttive nel tempo.
+1. REGISTRAZIONE E REPORTISTICA
+   Tutti i reclami vengono registrati in un apposito registro con: data, tipo di reclamo, esito, azioni intraprese.
+   Analisi periodica (semestrale) dei dati per identificare trend e aree di miglioramento.
+1. TUTELA DEL RECLAMANTE
+   Nessuna forma di discriminazione nei confronti del paziente che presenta reclamo.
+   Massima riservatezza nel trattamento delle informazioni.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
 
 // DOC 5 - Erogazione assistenza
-[`PROCEDURA MODALITA DI EROGAZIONE DELL'ASSISTENZA
+[`PROCEDURA MODALITA DI EROGAZIONE DELL’ASSISTENZA
 ${s.toUpperCase()}
 Cod. 1A.02.02.01 - Rev. 1/${anno}
 
 1. SCOPO
-Descrivere le modalita con cui lo studio eroga le prestazioni odontoiatriche, dalla prenotazione alla conclusione del trattamento.
+   Descrivere le modalita con cui lo studio eroga le prestazioni odontoiatriche, dalla prenotazione alla conclusione del trattamento.
+1. ACCESSO E PRENOTAZIONE
 
-2. ACCESSO E PRENOTAZIONE
 - Prenotazione telefonica, di persona o tramite portale online
 - Prima visita: raccolta anamnesi completa e consenso informato
-- Gestione liste d'attesa con priorita clinica
+- Gestione liste d’attesa con priorita clinica
 - Criteri di eleggibilita: pazienti di qualsiasi eta, con o senza esenzione
 
-3. ACCOGLIENZA E PRESA IN CARICO
-- Il paziente viene accolto dalla segreteria e registrato nel sistema ${software || 'gestionale'}
+1. ACCOGLIENZA E PRESA IN CARICO
+
+- Il paziente viene accolto dalla segreteria e registrato nel sistema ${software || ‘gestionale’}
 - Verifica e aggiornamento dei dati anagrafici e anamnestici
 - Compilazione/aggiornamento cartella clinica digitale
 - Raccolta consenso informato per ogni trattamento
 
-4. MODALITA DI PAGAMENTO
+1. MODALITA DI PAGAMENTO
+
 - Pagamento al termine di ogni seduta o a saldo del piano di cura
 - Modalita accettate: contanti, bonifico, POS
 - Rilascio ricevuta fiscale per ogni prestazione
 - Piani di pagamento rateizzati su richiesta
 
-5. CONTINUITA ASSISTENZIALE
+1. CONTINUITA ASSISTENZIALE
+
 - Coordinamento con MMG/PLS per la continuita delle cure
 - Invio referti e documentazione ai medici curanti su richiesta
 - Gestione delle urgenze anche per pazienti non iscritti
 - Protocollo di emergenza per urgenze durante le sedute
 
-6. GESTIONE URGENZE
-In caso di urgenza durante il trattamento:
+1. GESTIONE URGENZE
+   In caso di urgenza durante il trattamento:
+
 - Interruzione della procedura in corso in sicurezza
 - Attivazione del protocollo di emergenza
 - Allertamento del 118 se necessario
-- Documentazione dell'evento in cartella clinica
+- Documentazione dell’evento in cartella clinica
 
-7. CONTINUITA IN CASO DI GUASTO ATTREZZATURE
+1. CONTINUITA IN CASO DI GUASTO ATTREZZATURE
+
 - Lista fornitori autorizzati per riparazione rapida
 - Attrezzature di backup disponibili per prestazioni essenziali
 - Riprogrammazione appuntamenti con priorita ai casi urgenti
@@ -6277,45 +6399,43 @@ ${s.toUpperCase()}
 Cod. 1A.02.02.02 - Rev. 1/${anno}
 
 1. SCOPO E CAMPO DI APPLICAZIONE
-Il presente piano definisce le procedure da seguire in caso di emergenze sanitarie, tecniche o strutturali presso lo studio odontoiatrico.
+   Il presente piano definisce le procedure da seguire in caso di emergenze sanitarie, tecniche o strutturali presso lo studio odontoiatrico.
+1. TIPI DI EMERGENZA PREVISTI
 
-2. TIPI DI EMERGENZA PREVISTI
 - Emergenze sanitarie (malore paziente, reazione allergica, arresto cardiaco)
 - Emergenze da incendio o evacuazione
 - Guasto attrezzature critiche durante trattamento
 - Emergenze strutturali (allagamento, black-out)
 
-3. NUMERI DI EMERGENZA
-Emergenza sanitaria: 118
-Vigili del Fuoco: 115
-Pronto Soccorso piu vicino: _______________
-Fornitore attrezzature: _______________
-Elettricista di fiducia: _______________
+1. NUMERI DI EMERGENZA
+   Emergenza sanitaria: 118
+   Vigili del Fuoco: 115
+   Pronto Soccorso piu vicino: _______________
+   Fornitore attrezzature: _______________
+   Elettricista di fiducia: _______________
+1. PROCEDURA IN CASO DI EMERGENZA SANITARIA
+   PASSO 1: Interrompere la procedura in corso, posizionare il paziente in sicurezza.
+   PASSO 2: Valutare lo stato di coscienza e i parametri vitali.
+   PASSO 3: Chiamare il 118 se necessario, iniziare le manovre di primo soccorso.
+   PASSO 4: Utilizzare il defibrillatore (DAE) se disponibile e necessario.
+   PASSO 5: Attendere i soccorsi fornendo supporto al paziente.
+   PASSO 6: Documentare l’evento in cartella clinica.
+1. PROCEDURA IN CASO DI INCENDIO
+   PASSO 1: Mantenere la calma, non usare ascensori.
+   PASSO 2: Attivare l’allarme antincendio.
+   PASSO 3: Evacuare i pazienti dai locali seguendo le vie di esercizio indicate.
+   PASSO 4: Chiamare il 115.
+   PASSO 5: Non rientrare fino all’autorizzazione dei Vigili del Fuoco.
+1. DOTAZIONE DI EMERGENZA
 
-4. PROCEDURA IN CASO DI EMERGENZA SANITARIA
-PASSO 1: Interrompere la procedura in corso, posizionare il paziente in sicurezza.
-PASSO 2: Valutare lo stato di coscienza e i parametri vitali.
-PASSO 3: Chiamare il 118 se necessario, iniziare le manovre di primo soccorso.
-PASSO 4: Utilizzare il defibrillatore (DAE) se disponibile e necessario.
-PASSO 5: Attendere i soccorsi fornendo supporto al paziente.
-PASSO 6: Documentare l'evento in cartella clinica.
-
-5. PROCEDURA IN CASO DI INCENDIO
-PASSO 1: Mantenere la calma, non usare ascensori.
-PASSO 2: Attivare l'allarme antincendio.
-PASSO 3: Evacuare i pazienti dai locali seguendo le vie di esercizio indicate.
-PASSO 4: Chiamare il 115.
-PASSO 5: Non rientrare fino all'autorizzazione dei Vigili del Fuoco.
-
-6. DOTAZIONE DI EMERGENZA
 - Kit di primo soccorso sempre rifornito e in posizione accessibile
 - Farmaci per emergenze allergiche (adrenalina, antistaminici)
 - Ossigeno medicale disponibile
 - Defibrillatore (DAE) se presente
 
-7. FORMAZIONE DEL PERSONALE
-Tutto il personale e formato annualmente sulle procedure di emergenza.
-Esercitazioni periodiche di evacuazione.
+1. FORMAZIONE DEL PERSONALE
+   Tutto il personale e formato annualmente sulle procedure di emergenza.
+   Esercitazioni periodiche di evacuazione.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6326,38 +6446,41 @@ ${s.toUpperCase()}
 Cod. 1A.02.02.03 - Rev. 1/${anno}
 
 1. SCOPO
-Definire le misure di isolamento e protezione per la gestione di pazienti con patologie contagiose o potenzialmente tali, al fine di prevenire la trasmissione di agenti infettivi.
+   Definire le misure di isolamento e protezione per la gestione di pazienti con patologie contagiose o potenzialmente tali, al fine di prevenire la trasmissione di agenti infettivi.
+1. IDENTIFICAZIONE DEI PAZIENTI A RISCHIO
+   All’atto della prenotazione e dell’accoglienza, il personale verifica la presenza di:
 
-2. IDENTIFICAZIONE DEI PAZIENTI A RISCHIO
-All'atto della prenotazione e dell'accoglienza, il personale verifica la presenza di:
 - Sintomi respiratori acuti (febbre, tosse, dispnea)
 - Malattie infettive in atto (epatite, HIV, TBC, ecc.)
 - Immunodepressione severa
-- Condizioni a rischio segnalate dall'autorita sanitaria
+- Condizioni a rischio segnalate dall’autorita sanitaria
 
-3. PRECAUZIONI STANDARD (per tutti i pazienti)
+1. PRECAUZIONI STANDARD (per tutti i pazienti)
+
 - Igiene delle mani prima e dopo ogni contatto
 - Utilizzo di guanti monouso per ogni prestazione
 - Mascherina chirurgica per operatore e paziente
-- Protezione oculare (visiera o occhiali) per l'operatore
+- Protezione oculare (visiera o occhiali) per l’operatore
 - Camice monouso o idrorepellente
 
-4. PRECAUZIONI AGGIUNTIVE PER PATOLOGIE CONTAGIOSE
-4.1 Precauzioni per via aerea (TBC, COVID-19, ecc.)
+1. PRECAUZIONI AGGIUNTIVE PER PATOLOGIE CONTAGIOSE
+   4.1 Precauzioni per via aerea (TBC, COVID-19, ecc.)
+
 - Posticipare le cure non urgenti fino alla risoluzione della malattia
-- Se urgente: utilizzare FFP2/FFP3 per l'operatore
+- Se urgente: utilizzare FFP2/FFP3 per l’operatore
 - Aerare la sala per almeno 20 minuti dopo la visita
 - Sanificazione approfondita di tutte le superfici
-4.2 Precauzioni per contatto (epatite B, epatite C, HIV)
+  4.2 Precauzioni per contatto (epatite B, epatite C, HIV)
 - Doppi guanti in caso di procedure invasive
 - Massima attenzione alla gestione degli aghi e strumenti taglienti
 - Sterilizzazione immediata di tutti gli strumenti utilizzati
-4.3 Pazienti con immunodepressione
+  4.3 Pazienti con immunodepressione
 - Prima seduta del giorno per ridurre esposizione a contaminanti ambientali
-- Sanificazione approfondita prima dell'accesso del paziente
+- Sanificazione approfondita prima dell’accesso del paziente
 
-5. GESTIONE POST-ESPOSIZIONE
-In caso di puntura accidentale o esposizione a materiale biologico:
+1. GESTIONE POST-ESPOSIZIONE
+   In caso di puntura accidentale o esposizione a materiale biologico:
+
 - Lavare immediatamente la zona con acqua e sapone
 - Disinfettare con idoneo antisettico
 - Segnalare immediatamente al responsabile
@@ -6373,9 +6496,9 @@ ${s.toUpperCase()}
 Cod. 1A.02.05.01 - Rev. 1/${anno}
 
 1. SCOPO
-Definire i requisiti per la redazione, l'aggiornamento, la conservazione e la verifica della documentazione sanitaria, nel rispetto della normativa vigente.
+   Definire i requisiti per la redazione, l’aggiornamento, la conservazione e la verifica della documentazione sanitaria, nel rispetto della normativa vigente.
+1. TIPOLOGIE DI DOCUMENTAZIONE
 
-2. TIPOLOGIE DI DOCUMENTAZIONE
 - Cartella clinica odontoiatrica (cartacea e/o digitale)
 - Consenso informato per ogni tipologia di trattamento
 - Referti radiologici e immagini diagnostiche
@@ -6383,31 +6506,35 @@ Definire i requisiti per la redazione, l'aggiornamento, la conservazione e la ve
 - Registrazione farmaci somministrati
 - Documentazione di laboratorio odontotecnico
 
-3. REDAZIONE E AGGIORNAMENTO
+1. REDAZIONE E AGGIORNAMENTO
+
 - La cartella clinica viene aperta alla prima visita per ogni nuovo paziente
-- Aggiornata ad ogni seduta con: data, prestazione eseguita, materiali utilizzati, firma dell'operatore
+- Aggiornata ad ogni seduta con: data, prestazione eseguita, materiali utilizzati, firma dell’operatore
 - Le modifiche sono tracciate con data e operatore responsabile
 - I consensi informati vengono firmati prima di ogni trattamento invasivo
 
-4. CONSERVAZIONE
+1. CONSERVAZIONE
+
 - Documentazione cartacea conservata in armadi chiusi a chiave
 - Documentazione digitale su server sicuro con backup giornaliero
 - Periodo minimo di conservazione: 10 anni (cartella clinica)
 - Accesso riservato esclusivamente al personale autorizzato
 
-5. TUTELA DELLA PRIVACY E GDPR
+1. TUTELA DELLA PRIVACY E GDPR
+
 - Trattamento dei dati conforme al GDPR 679/2016 e D.lgs 196/2003
 - Informativa privacy consegnata e firmata da ogni paziente
 - Dati sensibili trattati con misure di sicurezza adeguate
 - Diritto del paziente di accedere alla propria documentazione
 
-6. CONSEGNA DEI REFERTI
+1. CONSEGNA DEI REFERTI
+
 - I referti vengono consegnati al paziente in busta chiusa o tramite email sicura
 - Copia archiviata in cartella clinica
 - Consegna solo al paziente o a delegato con delega scritta
 
-7. IDENTIFICAZIONE DEGLI OPERATORI
-Ogni annotazione in cartella clinica riporta: data, descrizione intervento, firma e timbro dell'operatore.
+1. IDENTIFICAZIONE DEGLI OPERATORI
+   Ogni annotazione in cartella clinica riporta: data, descrizione intervento, firma e timbro dell’operatore.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6430,16 +6557,17 @@ Qualifica: Titolare / Responsabile Sanitario
 Sede: ${ind}
 
 COMPITI E RESPONSABILITA ASSEGNATI:
-1. Pianificazione e supervisione della manutenzione ordinaria e straordinaria di strutture, impianti e attrezzature.
-2. Tenuta e aggiornamento dell'inventario delle attrezzature.
-3. Gestione dei contratti con i fornitori di servizi di manutenzione.
-4. Verifica della documentazione tecnica delle attrezzature (manuali, certificati, collaudi).
-5. Segnalazione tempestiva di guasti o anomalie e attivazione delle procedure di riparazione.
-6. Coordinamento del collaudo tecnico di sicurezza ad ogni nuova acquisizione di apparecchiature biomediche.
-7. Archiviazione di tutta la documentazione relativa agli interventi di manutenzione effettuati.
 
-ACCETTAZIONE DELL'INCARICO
-Il sottoscritto accetta l'incarico e si impegna a svolgere le attivita indicate con diligenza e nel rispetto delle normative vigenti.
+1. Pianificazione e supervisione della manutenzione ordinaria e straordinaria di strutture, impianti e attrezzature.
+1. Tenuta e aggiornamento dell’inventario delle attrezzature.
+1. Gestione dei contratti con i fornitori di servizi di manutenzione.
+1. Verifica della documentazione tecnica delle attrezzature (manuali, certificati, collaudi).
+1. Segnalazione tempestiva di guasti o anomalie e attivazione delle procedure di riparazione.
+1. Coordinamento del collaudo tecnico di sicurezza ad ogni nuova acquisizione di apparecchiature biomediche.
+1. Archiviazione di tutta la documentazione relativa agli interventi di manutenzione effettuati.
+
+ACCETTAZIONE DELL’INCARICO
+Il sottoscritto accetta l’incarico e si impegna a svolgere le attivita indicate con diligenza e nel rispetto delle normative vigenti.
 
 Luogo e data: ${ind}, ${oggi}
 Il Titolare della struttura: ${t}
@@ -6454,16 +6582,15 @@ ${s.toUpperCase()}
 Cod. 1A.03.02.01 - Rev. 1/${anno}
 
 1. SCOPO
-Il presente documento costituisce l'inventario ufficiale delle attrezzature e apparecchiature biomediche dello studio e definisce la procedura per la loro identificazione e gestione.
-
-2. PROCEDURA DI IDENTIFICAZIONE
-Ad ogni attrezzatura e assegnato un codice identificativo univoco (etichetta o targhetta).
-Il codice riporta: numero progressivo, anno di acquisto, tipologia.
-L'inventario viene verificato e aggiornato almeno una volta all'anno.
-
-3. INVENTARIO ATTREZZATURE PRINCIPALI
+   Il presente documento costituisce l’inventario ufficiale delle attrezzature e apparecchiature biomediche dello studio e definisce la procedura per la loro identificazione e gestione.
+1. PROCEDURA DI IDENTIFICAZIONE
+   Ad ogni attrezzatura e assegnato un codice identificativo univoco (etichetta o targhetta).
+   Il codice riporta: numero progressivo, anno di acquisto, tipologia.
+   L’inventario viene verificato e aggiornato almeno una volta all’anno.
+1. INVENTARIO ATTREZZATURE PRINCIPALI
 
 ATTREZZATURE CLINICHE:
+
 - Riuniti odontoiatrici (n. 2) - marca/modello come da schede tecniche
 - Scanner intraorale - marca/modello come da schede tecniche
 - Ortopantomografo (OPT) - marca/modello come da schede tecniche
@@ -6471,28 +6598,32 @@ ATTREZZATURE CLINICHE:
 - Micromotori e manipoli - marca/modello come da schede tecniche
 
 ATTREZZATURE DI STERILIZZAZIONE:
+
 - Autoclave classe B - marca/modello come da schede tecniche
 - Lavaggio e disinfezione strumenti - marca/modello come da schede tecniche
 - Sigillatrice buste - marca/modello come da schede tecniche
 
 ATTREZZATURE DI SUPPORTO:
+
 - Compressore odontoiatrico - marca/modello come da schede tecniche
 - Aspiratore chirurgico - marca/modello come da schede tecniche
 - Frigorifero farmaci - marca/modello come da schede tecniche
 
-4. COLLAUDO NUOVE ACQUISIZIONI
-Ad ogni nuova acquisizione di apparecchiatura biomedica:
+1. COLLAUDO NUOVE ACQUISIZIONI
+   Ad ogni nuova acquisizione di apparecchiatura biomedica:
+
 - Verifica documentazione tecnica (manuale, CE, garanzia)
 - Collaudo tecnico di sicurezza da parte di tecnico abilitato
-- Registrazione sull'inventario con data di acquisto e numero seriale
-- Formazione del personale all'utilizzo
+- Registrazione sull’inventario con data di acquisto e numero seriale
+- Formazione del personale all’utilizzo
 
-5. AGGIORNAMENTO ANNUALE
-Entro il 31 gennaio di ogni anno il Responsabile della Manutenzione verifica:
+1. AGGIORNAMENTO ANNUALE
+   Entro il 31 gennaio di ogni anno il Responsabile della Manutenzione verifica:
+
 - Presenza fisica di ogni attrezzatura inventariata
 - Stato di funzionamento e condizioni generali
 - Aggiornamento delle schede tecniche
-- Programmazione manutenzioni preventive per l'anno in corso
+- Programmazione manutenzioni preventive per l’anno in corso
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6503,11 +6634,11 @@ ${s.toUpperCase()}
 Cod. 1A.03.02.02 - Rev. 1/${anno}
 
 1. SCOPO
-Garantire la funzionalita, la sicurezza e la conformita normativa di strutture, impianti, attrezzature e apparecchiature biomediche attraverso un programma strutturato di manutenzione.
-
-2. MANUTENZIONE ORDINARIA - CALENDARIO ANNUALE
+   Garantire la funzionalita, la sicurezza e la conformita normativa di strutture, impianti, attrezzature e apparecchiature biomediche attraverso un programma strutturato di manutenzione.
+1. MANUTENZIONE ORDINARIA - CALENDARIO ANNUALE
 
 MENSILE:
+
 - Verifica funzionamento riuniti (lubrificazione manipoli, verifica tubazioni)
 - Controllo e pulizia filtri compressore
 - Verifica livelli liquidi autoclave
@@ -6515,6 +6646,7 @@ MENSILE:
 - Verifica funzionamento aspiratori
 
 TRIMESTRALE:
+
 - Revisione programmata riuniti da parte di tecnico autorizzato
 - Controllo impianto radiologico (parametri di esposizione)
 - Verifica e taratura strumentazione diagnostica
@@ -6522,30 +6654,34 @@ TRIMESTRALE:
 - Test cicli autoclave (registrazione parametri)
 
 SEMESTRALE:
+
 - Revisione compressore da parte di tecnico abilitato
 - Controllo impianto di aspirazione
 - Verifica certificati di manutenzione attrezzature
 - Aggiornamento inventario
 
 ANNUALE:
+
 - Revisione completa impianto elettrico da parte di elettricista abilitato
 - Controllo impianto idraulico
 - Verifica conformita strutturale dei locali
 - Rinnovo contratti di manutenzione
 - Aggiornamento piano manutenzione
 
-3. MANUTENZIONE STRAORDINARIA
-In caso di guasto o anomalia:
+1. MANUTENZIONE STRAORDINARIA
+   In caso di guasto o anomalia:
+
 - Segnalazione immediata al Responsabile della Manutenzione
 - Verifica se attrezzatura puo continuare ad essere utilizzata in sicurezza
 - Contatto con il fornitore/tecnico autorizzato entro 24 ore
-- Registrazione dell'intervento nella scheda attrezzatura
+- Registrazione dell’intervento nella scheda attrezzatura
 
-4. DOCUMENTAZIONE
-Per ogni intervento di manutenzione viene registrato:
+1. DOCUMENTAZIONE
+   Per ogni intervento di manutenzione viene registrato:
+
 - Data e tipo di intervento
 - Tecnico/ditta esecutrice
-- Esito dell'intervento
+- Esito dell’intervento
 - Prossima manutenzione programmata
 
 Luogo e data: ${ind}, ${oggi}
@@ -6557,31 +6693,29 @@ ${s.toUpperCase()}
 Cod. 1A.03.02.03 - Rev. 1/${anno}
 
 1. SCOPO
-Garantire la disponibilita e l'accessibilita della documentazione tecnica di tutte le attrezzature e apparecchiature biomediche dello studio.
+   Garantire la disponibilita e l’accessibilita della documentazione tecnica di tutte le attrezzature e apparecchiature biomediche dello studio.
+1. DOCUMENTAZIONE RICHIESTA PER OGNI ATTREZZATURA
+   Per ogni attrezzatura acquisita deve essere disponibile:
 
-2. DOCUMENTAZIONE RICHIESTA PER OGNI ATTREZZATURA
-Per ogni attrezzatura acquisita deve essere disponibile:
-- Manuale d'uso e manutenzione (in italiano)
+- Manuale d’uso e manutenzione (in italiano)
 - Dichiarazione di conformita CE
 - Certificato di collaudo iniziale
 - Registro degli interventi di manutenzione
 - Certificati di calibrazione/taratura (se applicabile)
 - Scheda di sicurezza (per dispositivi con agenti chimici)
 
-3. ARCHIVIAZIONE E ACCESSIBILITA
-La documentazione tecnica e organizzata in fascicoli per ogni attrezzatura.
-Ubicazione archivio: locale tecnico / ufficio del responsabile.
-Accessibilita: disponibile agli operatori interessati e alla funzione preposta alla manutenzione in qualsiasi momento.
-Copia digitale: archiviata su server dello studio per accesso rapido.
-
-4. ATTREZZATURE SOGGETTE A NORMATIVA SPECIFICA
-Apparecchiature radiologiche: soggette a normativa D.lgs 101/2020 (radioprotezione).
-Autoclave: soggetta a verifica periodica come apparecchio a pressione.
-Apparecchi elettromedicali: soggetti a collaudo periodico secondo CEI 62-5.
-
-5. AGGIORNAMENTO
-Ad ogni intervento di manutenzione o modifica tecnica la documentazione viene aggiornata.
-Il Responsabile della Manutenzione e responsabile del mantenimento aggiornato dell'archivio tecnico.
+1. ARCHIVIAZIONE E ACCESSIBILITA
+   La documentazione tecnica e organizzata in fascicoli per ogni attrezzatura.
+   Ubicazione archivio: locale tecnico / ufficio del responsabile.
+   Accessibilita: disponibile agli operatori interessati e alla funzione preposta alla manutenzione in qualsiasi momento.
+   Copia digitale: archiviata su server dello studio per accesso rapido.
+1. ATTREZZATURE SOGGETTE A NORMATIVA SPECIFICA
+   Apparecchiature radiologiche: soggette a normativa D.lgs 101/2020 (radioprotezione).
+   Autoclave: soggetta a verifica periodica come apparecchio a pressione.
+   Apparecchi elettromedicali: soggetti a collaudo periodico secondo CEI 62-5.
+1. AGGIORNAMENTO
+   Ad ogni intervento di manutenzione o modifica tecnica la documentazione viene aggiornata.
+   Il Responsabile della Manutenzione e responsabile del mantenimento aggiornato dell’archivio tecnico.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6595,14 +6729,16 @@ ATTESTAZIONE DI CONFORMITA
 Il sottoscritto ${t}, titolare dello ${s} con sede in ${ind}, attesta che la struttura e in possesso dei requisiti previsti dalle vigenti leggi in materia di caratteristiche ambientali e di accessibilita.
 
 DOCUMENTAZIONE DISPONIBILE:
+
 - Autorizzazione sanitaria rilasciata dal Comune competente
-- Planimetria dei locali con indicazione delle destinazioni d'uso
+- Planimetria dei locali con indicazione delle destinazioni d’uso
 - Dichiarazione di conformita alle norme di accessibilita (L. 13/1989, DPR 503/1996)
 - Certificato di agibilita
 - Relazione tecnica a firma di tecnico abilitato
 
 CARATTERISTICHE DEI LOCALI:
 I locali dello studio sono dotati di:
+
 - Accesso per persone con disabilita motoria (rampa e/o ascensore)
 - Servizio igienico accessibile alle persone con disabilita
 - Adeguata illuminazione naturale e artificiale
@@ -6620,17 +6756,19 @@ ATTESTAZIONE DI CONFORMITA ANTINCENDIO
 Il sottoscritto ${t}, titolare dello ${s} con sede in ${ind}, attesta che la struttura e in possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antincendio.
 
 DOCUMENTAZIONE DISPONIBILE:
-- Certificato di Prevenzione Incendi (CPI) rilasciato dal Comando VV.F. competente, oppure dichiarazione di esenzione dall'obbligo di CPI per strutture sotto soglia (D.M. 19/03/2015)
+
+- Certificato di Prevenzione Incendi (CPI) rilasciato dal Comando VV.F. competente, oppure dichiarazione di esenzione dall’obbligo di CPI per strutture sotto soglia (D.M. 19/03/2015)
 - Piano di emergenza e evacuazione
 - Registro antincendio con verbali delle prove di evacuazione
 - Contratto di manutenzione estintori con verbali di verifica periodica
 
 DOTAZIONI ANTINCENDIO PRESENTI:
+
 - Estintori portatili (n. ___ a polvere/CO2) posizionati in luoghi accessibili
 - Segnaletica di emergenza e vie di esercizio indicate
 - Illuminazione di emergenza funzionante
 - Interruttore generale elettrico accessibile
-- Istruzioni per l'evacuazione affisse in luogo visibile
+- Istruzioni per l’evacuazione affisse in luogo visibile
 
 FORMAZIONE DEL PERSONALE:
 Tutto il personale e formato sulle procedure antincendio e di evacuazione. Esercitazioni periodiche documentate nel registro antincendio.
@@ -6646,8 +6784,9 @@ ATTESTAZIONE DI CONFORMITA ACUSTICA
 Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei requisiti previsti dalle vigenti leggi in materia di protezione acustica (L. 447/1995 e D.P.C.M. 05/12/1997).
 
 DOCUMENTAZIONE DISPONIBILE:
+
 - Dichiarazione del progettista/tecnico abilitato sulla conformita acustica dei locali
-- Classificazione acustica dell'edificio (se disponibile)
+- Classificazione acustica dell’edificio (se disponibile)
 - Eventuale relazione acustica per nuove realizzazioni o ristrutturazioni
 
 NOTE OPERATIVE:
@@ -6664,12 +6803,14 @@ ATTESTAZIONE DI CONFORMITA IMPIANTO ELETTRICO
 Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza elettrica e continuita elettrica (D.M. 37/2008, norme CEI).
 
 DOCUMENTAZIONE DISPONIBILE:
-- Dichiarazione di conformita dell'impianto elettrico (modello ministeriale D.M. 37/2008) a firma di installatore abilitato
-- Progetto dell'impianto elettrico (per impianti soggetti a obbligo)
-- Verbali di verifica periodica dell'impianto (ogni 2 anni per ambienti ad uso medico)
+
+- Dichiarazione di conformita dell’impianto elettrico (modello ministeriale D.M. 37/2008) a firma di installatore abilitato
+- Progetto dell’impianto elettrico (per impianti soggetti a obbligo)
+- Verbali di verifica periodica dell’impianto (ogni 2 anni per ambienti ad uso medico)
 - Certificato di conformita delle apparecchiature elettromedicali (CEI 62-5)
 
 CARATTERISTICHE IMPIANTO:
+
 - Impianto di terra certificato e verificato periodicamente
 - Interruttori differenziali (salvavita) installati
 - Gruppo di continuita (UPS) per apparecchiature critiche (se presente)
@@ -6686,6 +6827,7 @@ ATTESTAZIONE DI CONFORMITA SICUREZZA LAVORO
 Il sottoscritto ${t}, attesta che la struttura e in possesso dei requisiti previsti dal D.lgs 81/2008 (Testo Unico Sicurezza).
 
 DOCUMENTAZIONE DISPONIBILE:
+
 - Documento di Valutazione dei Rischi (DVR) aggiornato
 - Nomina del Responsabile del Servizio di Prevenzione e Protezione (RSPP)
 - Nomina del Medico Competente (se previsto)
@@ -6695,6 +6837,7 @@ DOCUMENTAZIONE DISPONIBILE:
 - Piano di emergenza e procedure di primo soccorso
 
 MISURE DI PREVENZIONE ADOTTATE:
+
 - Formazione e informazione di tutto il personale sui rischi specifici
 - Sorveglianza sanitaria del personale esposto a rischi biologici e chimici
 - Dispositivi di protezione individuale (DPI) disponibili e utilizzati
@@ -6712,8 +6855,9 @@ ATTESTAZIONE DI CONFORMITA RADIOPROTEZIONE
 Il sottoscritto ${t}, attesta che la struttura e in possesso dei requisiti previsti dalla normativa vigente in materia di protezione dalle radiazioni ionizzanti (D.lgs 101/2020 - attuazione Direttiva EURATOM 2013/59).
 
 DOCUMENTAZIONE DISPONIBILE:
-- Nulla Osta dell'ARPAS (Agenzia Regionale Protezione Ambientale) per l'installazione e l'utilizzo delle sorgenti radiogene
-- Nomina dell'Esperto in Fisica Medica / Esperto Qualificato
+
+- Nulla Osta dell’ARPAS (Agenzia Regionale Protezione Ambientale) per l’installazione e l’utilizzo delle sorgenti radiogene
+- Nomina dell’Esperto in Fisica Medica / Esperto Qualificato
 - Nomina del Medico Autorizzato per la sorveglianza medica dei lavoratori esposti
 - Relazione di collaudo degli impianti radiogeni
 - Verbali di verifica periodica dei parametri di esposizione
@@ -6721,7 +6865,7 @@ DOCUMENTAZIONE DISPONIBILE:
 - Procedure operative per la riduzione delle dosi (giustificazione, ottimizzazione)
 
 CLASSIFICAZIONE DEI LAVORATORI:
-Il personale e classificato in base all'esposizione alle radiazioni ionizzanti ai sensi del D.lgs 101/2020.
+Il personale e classificato in base all’esposizione alle radiazioni ionizzanti ai sensi del D.lgs 101/2020.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6731,14 +6875,16 @@ ${s.toUpperCase()} - Cod. 1A.03.05.07 - Rev. 1/${anno}
 
 ATTESTAZIONE ACCESSIBILITA
 
-Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e conforme alle norme sull'eliminazione delle barriere architettoniche (L. 13/1989, D.M. 236/1989, DPR 503/1996).
+Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e conforme alle norme sull’eliminazione delle barriere architettoniche (L. 13/1989, D.M. 236/1989, DPR 503/1996).
 
 DOCUMENTAZIONE DISPONIBILE:
+
 - Dichiarazione di conformita a firma di tecnico abilitato
 - Planimetria con indicazione dei percorsi accessibili
 - Certificazione accessibilita rilasciata dal Comune (se richiesta)
 
 MISURE ADOTTATE:
+
 - Accesso alla struttura privo di barriere architettoniche (rampa, assenza di gradini o presenza di scivolo)
 - Corridoi con larghezza minima di 90 cm per consentire il passaggio di sedia a rotelle
 - Almeno un servizio igienico accessibile alle persone con disabilita motoria (spazio di manovra 150x150 cm, maniglioni di supporto, specchio inclinabile)
@@ -6755,20 +6901,23 @@ GESTIONE E SMALTIMENTO RIFIUTI SANITARI
 Il sottoscritto ${t}, attesta che la struttura adotta le procedure previste dalla normativa vigente per lo smaltimento dei rifiuti sanitari (D.lgs 152/2006, D.P.R. 254/2003).
 
 TIPOLOGIE DI RIFIUTI PRODOTTI:
+
 - Rifiuti sanitari pericolosi a rischio infettivo (CER 18.01.03): aghi, bisturi, garze contaminate
 - Rifiuti sanitari non pericolosi (CER 18.01.04): materiale monouso non contaminato
 - Rifiuti assimilabili agli urbani: materiali di imballaggio, carta, plastica non contaminata
 - Amalgama odontoiatrica (CER 18.01.10): raccolta separata obbligatoria
 
 GESTIONE DEI RIFIUTI:
+
 - Raccolta differenziata in contenitori rigidi a norma (gialli per infettivi, rossi per taglienti)
 - Contenitori etichettati con data di chiusura e tipologia del rifiuto
 - Stoccaggio in locale dedicato, ventilato e accessibile solo al personale autorizzato
 - Smaltimento tramite ditta autorizzata ai sensi del D.lgs 152/2006
 
 DOCUMENTAZIONE:
+
 - Contratto con ditta di smaltimento autorizzata
-- Registro di carico e scarico dei rifiuti (vidimato dall'autorita competente)
+- Registro di carico e scarico dei rifiuti (vidimato dall’autorita competente)
 - Formulari di identificazione rifiuti (FIR) o sistema SISTRI/RENTRI
 
 Luogo e data: ${ind}, ${oggi}
@@ -6779,19 +6928,21 @@ ${s.toUpperCase()} - Cod. 1A.03.05.09 - Rev. 1/${anno}
 
 ATTESTAZIONE CONDIZIONI MICROCLIMATICHE
 
-Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei requisiti previsti dalle vigenti leggi in materia di condizioni microclimatiche e qualita dell'aria interna.
+Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei requisiti previsti dalle vigenti leggi in materia di condizioni microclimatiche e qualita dell’aria interna.
 
 DOCUMENTAZIONE DISPONIBILE:
-- Dichiarazione di conformita dell'impianto di climatizzazione/ventilazione
-- Contratto di manutenzione periodica dell'impianto HVAC
+
+- Dichiarazione di conformita dell’impianto di climatizzazione/ventilazione
+- Contratto di manutenzione periodica dell’impianto HVAC
 - Verbali di verifica e pulizia dei filtri (semestrale)
 - Misurazione parametri ambientali (temperatura, umidita) se effettuata
 
 PARAMETRI AMBIENTALI MONITORATI:
+
 - Temperatura: 20-26 C nelle stagioni intermediate, adattata al benessere di operatori e pazienti
 - Umidita relativa: 40-60%
-- Ricambio d'aria: garantito tramite impianto di ventilazione meccanica e/o apertura finestre
-- Qualita dell'aria: privo di agenti inquinanti e di odori sgradevoli
+- Ricambio d’aria: garantito tramite impianto di ventilazione meccanica e/o apertura finestre
+- Qualita dell’aria: privo di agenti inquinanti e di odori sgradevoli
 
 NOTE PER STUDI ODONTOIATRICI:
 Particolare attenzione alla ventilazione delle sale trattamento per la diluizione degli aerosol prodotti durante le procedure. Presenza di aspiratori ad alta velocita come misura aggiuntiva di controllo degli aerosol.
@@ -6808,18 +6959,20 @@ Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei 
 
 SITUAZIONE ATTUALE:
 [ ] Lo studio NON dispone di impianto centralizzato di gas medicali.
-    Utilizzo di bombole portatili di ossigeno medicale per emergenze.
+Utilizzo di bombole portatili di ossigeno medicale per emergenze.
 [ ] Lo studio dispone di impianto centralizzato (compilare di seguito).
 
 IN CASO DI IMPIANTO CENTRALIZZATO:
 DOCUMENTAZIONE DISPONIBILE:
-- Progetto dell'impianto approvato
+
+- Progetto dell’impianto approvato
 - Dichiarazione di conformita a firma di installatore abilitato (D.M. 37/2008)
 - Collaudo iniziale e verifiche periodiche
 - Contratto di manutenzione con ditta specializzata
 - Registro delle verifiche periodiche
 
 GAS PRESENTI:
+
 - Ossigeno medicale O2
 - Protossido di azoto N2O (se utilizzato)
 - Aria compressa medicale
@@ -6841,6 +6994,7 @@ SOSTANZE INFIAMMABILI E A RISCHIO CHIMICO:
 Lo studio utilizza sostanze chimiche per uso clinico (disinfettanti, anestetici locali, materiali da impronta) che sono gestite secondo le schede di sicurezza (SDS) dei produttori e nel rispetto del D.lgs 81/2008 (Titolo IX - Agenti Chimici).
 
 DOCUMENTAZIONE DISPONIBILE:
+
 - Schede di sicurezza (SDS) di tutti i prodotti chimici utilizzati
 - Valutazione del rischio chimico nel DVR
 - Armadio/locale di stoccaggio dei prodotti chimici con adeguata ventilazione
@@ -6857,14 +7011,15 @@ ATTESTAZIONE CONFORMITA ANTISISMICA
 Il sottoscritto ${t}, attesta che la struttura sita in ${ind} e in possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antisismica (D.M. 17/01/2018 - NTC 2018, L. 64/1974).
 
 DOCUMENTAZIONE DISPONIBILE:
-- Licenza edilizia / permesso di costruire dell'immobile
-- Certificato di agibilita dell'immobile
+
+- Licenza edilizia / permesso di costruire dell’immobile
+- Certificato di agibilita dell’immobile
 - Eventuale collaudo statico (per edifici soggetti a obbligo)
-- Dichiarazione del progettista/tecnico sulla classificazione sismica dell'immobile
+- Dichiarazione del progettista/tecnico sulla classificazione sismica dell’immobile
 - Eventuali relazioni su vulnerabilita sismica (per edifici in zona sismica 1 e 2)
 
 ZONA SISMICA:
-L'immobile e ubicato in zona sismica classificata ai sensi dell'O.P.C.M. 3274/2003 e successive modifiche. La classificazione sismica del Comune di ${comune} e verificabile presso il portale della Protezione Civile.
+L’immobile e ubicato in zona sismica classificata ai sensi dell’O.P.C.M. 3274/2003 e successive modifiche. La classificazione sismica del Comune di ${comune} e verificabile presso il portale della Protezione Civile.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6875,30 +7030,34 @@ ${s.toUpperCase()} - Cod. 1A.04.12.04 - Rev. 1/${anno}
 
 ATTESTAZIONE ADEMPIMENTO OBBLIGHI ASSICURATIVI
 
-Il sottoscritto ${t}, titolare dello ${s} con sede in ${ind}, attesta l'adempimento di tutti gli obblighi assicurativi e previdenziali previsti dalla normativa vigente.
+Il sottoscritto ${t}, titolare dello ${s} con sede in ${ind}, attesta l’adempimento di tutti gli obblighi assicurativi e previdenziali previsti dalla normativa vigente.
 
 1. ASSICURAZIONE RESPONSABILITA CIVILE PROFESSIONALE
-In ottemperanza alla L. 8 marzo 2017, n. 24 (Legge Gelli-Bianco), artt. 10 e 11, e stipulata polizza assicurativa per:
-- Responsabilita civile verso terzi per danni derivanti dall'attivita sanitaria
+   In ottemperanza alla L. 8 marzo 2017, n. 24 (Legge Gelli-Bianco), artt. 10 e 11, e stipulata polizza assicurativa per:
+
+- Responsabilita civile verso terzi per danni derivanti dall’attivita sanitaria
 - Copertura per richieste di risarcimento danni a pazienti
 - Massimale adeguato alla tipologia e volume delle prestazioni erogate
-Compagnia assicurativa: _______________
-N. polizza: _______________
-Scadenza: _______________
+  Compagnia assicurativa: _______________
+  N. polizza: _______________
+  Scadenza: _______________
 
-2. ASSICURAZIONE INFORTUNI SUL LAVORO (INAIL)
+1. ASSICURAZIONE INFORTUNI SUL LAVORO (INAIL)
+
 - Posizione INAIL regolarmente aperta e aggiornata
 - Premi assicurativi versati nei termini di legge
 - Denuncia degli infortuni sul lavoro effettuata nei termini previsti
 
-3. OBBLIGHI PREVIDENZIALI
+1. OBBLIGHI PREVIDENZIALI
+
 - Iscrizione alla Cassa di Previdenza degli Odontoiatri (ENPAM) o equivalente
 - Versamento regolare dei contributi previdenziali
 - Contributi INPS per i dipendenti versati nei termini
 
-4. ALTRI OBBLIGHI ASSICURATIVI
-- Polizza incendio e furto sull'immobile e sui beni strumentali
-- Assicurazione responsabilita civile verso terzi per l'immobile
+1. ALTRI OBBLIGHI ASSICURATIVI
+
+- Polizza incendio e furto sull’immobile e sui beni strumentali
+- Assicurazione responsabilita civile verso terzi per l’immobile
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6907,13 +7066,14 @@ Il Responsabile della struttura: ${t}`],
 [`CARTA DEI SERVIZI
 ${s.toUpperCase()}
 ${ind}
-Tel: ${albo ? 'Albo n. ' + albo : ''}
+Tel: ${albo ? ’Albo n. ’ + albo : ‘’}
 Cod. 1A.05.03.01 - Rev. 1/${anno}
 
 PRESENTAZIONE DELLO STUDIO
-Lo ${s}, guidato dal ${t}, iscritto all'Ordine degli Odontoiatri, offre prestazioni odontoiatriche di alta qualita in un ambiente moderno, sicuro e accogliente. La nostra missione e garantire la salute orale dei pazienti attraverso cure personalizzate, tecnologie avanzate e un approccio umano e professionale.
+Lo ${s}, guidato dal ${t}, iscritto all’Ordine degli Odontoiatri, offre prestazioni odontoiatriche di alta qualita in un ambiente moderno, sicuro e accogliente. La nostra missione e garantire la salute orale dei pazienti attraverso cure personalizzate, tecnologie avanzate e un approccio umano e professionale.
 
 PRESTAZIONI EROGATE
+
 - Visita odontoiatrica e piano di cura
 - Igiene orale professionale e prevenzione
 - Odontoiatria conservativa (otturazioni, intarsi)
@@ -6936,6 +7096,7 @@ Viene sempre fornito preventivo scritto prima di ogni piano di cura.
 Modalita di pagamento: contanti, bancomat, carta di credito, bonifico.
 
 STANDARD DI QUALITA E IMPEGNI
+
 - Rispetto degli appuntamenti con puntualita (max 15 minuti di attesa)
 - Informazione chiara e completa sui trattamenti proposti
 - Rispetto della privacy e della dignita del paziente
@@ -6958,29 +7119,31 @@ ${s.toUpperCase()} - Cod. 1A.05.03.03 - Rev. 1/${anno}
 PROCEDURA DI IDENTIFICAZIONE DEI SOGGETTI IN FORMAZIONE
 
 1. SCOPO
-Definire le modalita con cui vengono identificati e gestiti i tirocinanti, specializzandi e altri soggetti che, a vario titolo, partecipano al percorso assistenziale dello studio.
+   Definire le modalita con cui vengono identificati e gestiti i tirocinanti, specializzandi e altri soggetti che, a vario titolo, partecipano al percorso assistenziale dello studio.
+1. TIPOLOGIE DI SOGGETTI INTERESSATI
 
-2. TIPOLOGIE DI SOGGETTI INTERESSATI
 - Tirocinanti universitari (studenti di odontoiatria, igiene dentale, ASO)
 - Specializzandi post-laurea
 - Personale in affiancamento/formazione
 - Osservatori autorizzati
 
-3. PROCEDURA DI ACCREDITAMENTO
-Prima dell'inizio del tirocinio/affiancamento:
-- Verifica e acquisizione della convenzione di tirocinio con l'ente formativo
+1. PROCEDURA DI ACCREDITAMENTO
+   Prima dell’inizio del tirocinio/affiancamento:
+
+- Verifica e acquisizione della convenzione di tirocinio con l’ente formativo
 - Raccolta dei dati personali e del documento di identita
-- Acquisizione dell'assicurazione per responsabilita civile (a carico dell'ente formativo o del tirocinante)
+- Acquisizione dell’assicurazione per responsabilita civile (a carico dell’ente formativo o del tirocinante)
 - Informativa privacy firmata dal tirocinante
 - Formazione sui protocolli igienico-sanitari e di sicurezza dello studio
 
-4. IDENTIFICAZIONE DURANTE L'ATTIVITA
+1. IDENTIFICAZIONE DURANTE L’ATTIVITA
+
 - I tirocinanti indossano camice/divisa con targhetta identificativa riportante: nome, cognome, ruolo (TIROCINANTE/SPECIALIZZANDO), ente formativo
 - Sono sempre affiancati da un professionista abituato dello studio
 - Non eseguono mai prestazioni in autonomia senza supervisione diretta
 
-5. REGISTRO DEI TIROCINANTI
-Viene tenuto un registro aggiornato con: nome, cognome, ente formativo, periodo di tirocinio, tutor assegnato.
+1. REGISTRO DEI TIROCINANTI
+   Viene tenuto un registro aggiornato con: nome, cognome, ente formativo, periodo di tirocinio, tutor assegnato.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -6993,37 +7156,37 @@ RELAZIONE ANNUALE SULLA SODDISFAZIONE DEI PAZIENTI E GESTIONE DEI RECLAMI
 Anno ${anno}
 
 1. STRUMENTI DI RILEVAZIONE UTILIZZATI
+
 - Questionario di soddisfazione cartaceo somministrato al termine del piano di cura (scala 1-5 su: accoglienza, tempi di attesa, qualita delle cure, pulizia, informazioni ricevute, costo percepito)
 - Registro reclami e segnalazioni
 - Colloqui informali registrati dalla segreteria
 
-2. RISULTATI DELLA CUSTOMER SATISFACTION
-Pazienti coinvolti nel periodo: ___
-Tasso di risposta: ___%
-Giudizio complessivo medio: ___ / 5
+1. RISULTATI DELLA CUSTOMER SATISFACTION
+   Pazienti coinvolti nel periodo: ___
+   Tasso di risposta: ___%
+   Giudizio complessivo medio: ___ / 5
+
 - Accoglienza e cortesia del personale: ___ / 5
 - Tempi di attesa: ___ / 5
 - Qualita delle cure ricevute: ___ / 5
 - Pulizia e igiene dei locali: ___ / 5
 - Chiarezza delle informazioni: ___ / 5
-Percentuale di pazienti soddisfatti o molto soddisfatti: ___%
+  Percentuale di pazienti soddisfatti o molto soddisfatti: ___%
 
-3. RECLAMI E SEGNALAZIONI RICEVUTI
-Numero totale reclami nel periodo: ___
-Tipologie principali: ___
-Reclami risolti positivamente: ___%
-Tempo medio di risposta: ___ giorni
-
-4. CRITICITA RISCONTRATE E AZIONI CORRETTIVE
-Criticita 1: ___
-Causa identificata: ___
-Azione correttiva: ___
-Responsabile: ${t}
-Scadenza: ___
-Stato: ___
-
-5. PIANO DI MIGLIORAMENTO ${anno + 1}
-Sulla base dei risultati, per il prossimo anno si prevedono le seguenti azioni di miglioramento: ___
+1. RECLAMI E SEGNALAZIONI RICEVUTI
+   Numero totale reclami nel periodo: ___
+   Tipologie principali: ___
+   Reclami risolti positivamente: ___%
+   Tempo medio di risposta: ___ giorni
+1. CRITICITA RISCONTRATE E AZIONI CORRETTIVE
+   Criticita 1: ___
+   Causa identificata: ___
+   Azione correttiva: ___
+   Responsabile: ${t}
+   Scadenza: ___
+   Stato: ___
+1. PIANO DI MIGLIORAMENTO ${anno + 1}
+   Sulla base dei risultati, per il prossimo anno si prevedono le seguenti azioni di miglioramento: ___
 
 Luogo e data: ${ind}, ${oggi}
 Redatto da: ${t}`],
@@ -7033,50 +7196,52 @@ Redatto da: ${t}`],
 ${s.toUpperCase()} - Cod. 1A.06.02.01 - Rev. 1/${anno}
 
 1. SCOPO E RIFERIMENTI NORMATIVI
-Il presente piano, redatto in conformita al D.lgs 81/2008 e alla L. 24/2017 (Legge Gelli-Bianco), definisce le modalita con cui lo studio individua, valuta e gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro.
+   Il presente piano, redatto in conformita al D.lgs 81/2008 e alla L. 24/2017 (Legge Gelli-Bianco), definisce le modalita con cui lo studio individua, valuta e gestisce i rischi per la sicurezza di operatori, pazienti e ambiente di lavoro.
+1. RISCHI PER GLI OPERATORI
+   2.1 Rischio biologico
 
-2. RISCHI PER GLI OPERATORI
-2.1 Rischio biologico
 - Esposizione a sangue e fluidi corporei durante le procedure
 - Misure: DPI (guanti, mascherina, occhiali/visiera), vaccinazione HBV, protocollo post-esposizione
-2.2 Rischio chimico
+  2.2 Rischio chimico
 - Esposizione a disinfettanti, anestetici, materiali da impronta, amalgama
 - Misure: schede di sicurezza disponibili, ventilazione adeguata, DPI specifici
-2.3 Rischio da radiazioni ionizzanti
+  2.3 Rischio da radiazioni ionizzanti
 - Esposizione a radiazioni RX durante procedure radiologiche
 - Misure: sorveglianza fisica (Esperto Qualificato), sorveglianza medica, dosimetria
-2.4 Rischio ergonomico/posturale
+  2.4 Rischio ergonomico/posturale
 - Posture scorrette durante le sedute operative
 - Misure: attrezzature ergonomiche, formazione, pause regolari
-2.5 Rischio da stress lavoro-correlato
+  2.5 Rischio da stress lavoro-correlato
 - Misure: organizzazione razionale del lavoro, comunicazione interna efficace
 
-3. RISCHI PER I PAZIENTI
-3.1 Rischio infettivo
-- Trasmissione di infezioni correlate all'assistenza
+1. RISCHI PER I PAZIENTI
+   3.1 Rischio infettivo
+
+- Trasmissione di infezioni correlate all’assistenza
 - Misure: protocolli di sterilizzazione, precauzioni standard, isolamento se necessario
-3.2 Rischio da farmaci
+  3.2 Rischio da farmaci
 - Reazioni avverse ad anestesia locale, FANS, antibiotici
 - Misure: anamnesi farmacologica, kit di emergenza, formazione sulle emergenze
-3.3 Rischio da caduta
-- Cadute in sala d'attesa o sala trattamento
+  3.3 Rischio da caduta
+- Cadute in sala d’attesa o sala trattamento
 - Misure: pavimenti antiscivolo, illuminazione adeguata, assistenza ai pazienti anziani
-3.4 Rischio da errore clinico
+  3.4 Rischio da errore clinico
 - Misure: linee guida cliniche aggiornate, doppio controllo nelle procedure complesse, documentazione accurata
 
-4. PROFILASSI PER IL PERSONALE ESPOSTO
-Tutto il personale sanitario riceve vaccinazione contro l'epatite B e viene sottoposto a sorveglianza sanitaria periodica dal medico competente.
+1. PROFILASSI PER IL PERSONALE ESPOSTO
+   Tutto il personale sanitario riceve vaccinazione contro l’epatite B e viene sottoposto a sorveglianza sanitaria periodica dal medico competente.
+1. GESTIONE DEGLI EVENTI AVVERSI E NEAR MISS
+   Tutti gli eventi avversi, quasi-errori (near miss) e eventi sentinella vengono:
 
-5. GESTIONE DEGLI EVENTI AVVERSI E NEAR MISS
-Tutti gli eventi avversi, quasi-errori (near miss) e eventi sentinella vengono:
 - Registrati in apposito registro
 - Analizzati per individuare le cause (root cause analysis)
 - Utilizzati per implementare azioni correttive e preventive
 
-6. PREVENZIONE E CONTROLLO DELLE INFEZIONI CORRELATE ALL'ASSISTENZA
+1. PREVENZIONE E CONTROLLO DELLE INFEZIONI CORRELATE ALL’ASSISTENZA
+
 - Protocolli di sterilizzazione e disinfezione validati e applicati
 - Monitoraggio della corretta applicazione dei protocolli
-- Formazione periodica del personale sull'igiene delle mani e le precauzioni standard
+- Formazione periodica del personale sull’igiene delle mani e le precauzioni standard
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -7086,27 +7251,28 @@ Il Responsabile della struttura: ${t}`],
 ${s.toUpperCase()} - Cod. 1A.06.02.02 - Rev. 1/${anno}
 
 1. SCOPO
-Definire le procedure operative per la pulizia, la disinfezione e la sanificazione di tutti i locali e le superfici dello studio odontoiatrico.
+   Definire le procedure operative per la pulizia, la disinfezione e la sanificazione di tutti i locali e le superfici dello studio odontoiatrico.
+1. PERSONALE RESPONSABILE
+   La corretta applicazione della procedura e responsabilita di tutto il personale dello studio. La supervisione spetta a: ${t}
+1. PRODOTTI E ATTREZZATURE
 
-2. PERSONALE RESPONSABILE
-La corretta applicazione della procedura e responsabilita di tutto il personale dello studio. La supervisione spetta a: ${t}
-
-3. PRODOTTI E ATTREZZATURE
 - Detergenti-disinfettanti a base di ipoclorito di sodio, quaternari di ammonio o aldeidi (come da schede tecniche)
 - Panni monouso per superfici cliniche
 - MOP dedicato per pavimenti delle zone cliniche
 - Guanti monouso e mascherina durante le operazioni di pulizia
 - Schede tecniche e di sicurezza di tutti i prodotti disponibili
 
-4. FREQUENZA E MODALITA DI INTERVENTO
+1. FREQUENZA E MODALITA DI INTERVENTO
 
 DOPO OGNI PAZIENTE (sala trattamento):
+
 - Rimozione rifiuti e materiali monouso utilizzati
 - Disinfezione di tutte le superfici toccate (riunito, bracciolo, poggiatesta, tastiera, maniglie)
 - Cambio bavaglio e coperture monouso del riunito
-- Igiene delle mani dell'operatore
+- Igiene delle mani dell’operatore
 
 A FINE SEDUTA / FINE GIORNATA:
+
 - Pulizia e disinfezione approfondita di tutte le superfici cliniche
 - Pulizia pavimenti con detergente-disinfettante
 - Svuotamento e disinfezione sputacchiera
@@ -7115,19 +7281,20 @@ A FINE SEDUTA / FINE GIORNATA:
 - Aerazione dei locali
 
 SETTIMANALE:
+
 - Pulizia approfondita di arredi, scaffali, vetri
 - Pulizia e disinfezione delle poltrone e sedute
 - Pulizia e disinfezione del frigorifero farmaci
 
-5. STERILIZZAZIONE STRUMENTI
-La sterilizzazione degli strumenti segue un processo separato e documentato:
-FASE 1 - Decontaminazione iniziale (strumenti in soluzione disinfettante per 30 minuti)
-FASE 2 - Lavaggio (lavaggio ultrasoni o manuale con spazzola dedicata)
-FASE 3 - Risciacquo e asciugatura
-FASE 4 - Imbustamento in buste sigillate con indicatori chimici
-FASE 5 - Sterilizzazione in autoclave classe B (134 C, 18 minuti)
-FASE 6 - Controllo dell'esito (indicatori fisici, chimici e biologici periodici)
-FASE 7 - Archiviazione con data e numero di ciclo su ogni busta
+1. STERILIZZAZIONE STRUMENTI
+   La sterilizzazione degli strumenti segue un processo separato e documentato:
+   FASE 1 - Decontaminazione iniziale (strumenti in soluzione disinfettante per 30 minuti)
+   FASE 2 - Lavaggio (lavaggio ultrasoni o manuale con spazzola dedicata)
+   FASE 3 - Risciacquo e asciugatura
+   FASE 4 - Imbustamento in buste sigillate con indicatori chimici
+   FASE 5 - Sterilizzazione in autoclave classe B (134 C, 18 minuti)
+   FASE 6 - Controllo dell’esito (indicatori fisici, chimici e biologici periodici)
+   FASE 7 - Archiviazione con data e numero di ciclo su ogni busta
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
@@ -7137,759 +7304,783 @@ Il Responsabile della struttura: ${t}`],
 ${s.toUpperCase()} - Cod. 1A.06.02.03 - Rev. 1/${anno}
 
 1. SCOPO
-Definire le misure di protezione e le procedure da seguire in caso di incidente con esposizione a materiale biologico (sangue, saliva, fluidi corporei).
+   Definire le misure di protezione e le procedure da seguire in caso di incidente con esposizione a materiale biologico (sangue, saliva, fluidi corporei).
+1. MISURE DI PREVENZIONE
+   2.1 Dispositivi di Protezione Individuale (DPI) obbligatori:
 
-2. MISURE DI PREVENZIONE
-2.1 Dispositivi di Protezione Individuale (DPI) obbligatori:
 - Guanti monouso in nitrile per ogni procedura (doppi guanti per procedure ad alto rischio)
 - Mascherina chirurgica FFP2/FFP3 per procedure aerosol-generating
 - Occhiali protettivi o visiera
 - Camice impermeabile per procedure invasive
-2.2 Gestione sicura degli aghi e taglienti:
+  2.2 Gestione sicura degli aghi e taglienti:
 - Utilizzo di siringhe con dispositivi di sicurezza
 - DIVIETO assoluto di reincappucciamento degli aghi
 - Smaltimento immediato in contenitori rigidi per taglienti (RifiutiTaglienti/Pungenti)
-- Contenitori posizionati al punto d'uso, sostituiti quando 3/4 pieni
+- Contenitori posizionati al punto d’uso, sostituiti quando 3/4 pieni
 
-3. PROCEDURA IN CASO DI INCIDENTE (PUNTURA/TAGLIO)
-PASSO 1 - ENTRO 1 MINUTO:
+1. PROCEDURA IN CASO DI INCIDENTE (PUNTURA/TAGLIO)
+   PASSO 1 - ENTRO 1 MINUTO:
+
 - Rimuovere i guanti e lasciar defluire il sangue dalla ferita senza spremer
 - Lavare abbondantemente con acqua corrente e sapone per almeno 5 minuti
 - Disinfettare con idoneo antisettico (clorexidina o iodopovidone)
-PASSO 2 - ENTRO 2 ORE:
+  PASSO 2 - ENTRO 2 ORE:
 - Informare immediatamente il responsabile della struttura: ${t}
 - Recarsi al Pronto Soccorso o al Centro di riferimento per la profilassi post-esposizione
-- Riferire le circostanze dell'incidente e le caratteristiche del paziente-fonte
-PASSO 3 - ENTRO 24 ORE:
+- Riferire le circostanze dell’incidente e le caratteristiche del paziente-fonte
+  PASSO 3 - ENTRO 24 ORE:
 - Compilare la denuncia di infortunio (se la prognosi e > 3 giorni)
-- Registrare l'evento nel registro degli infortuni
+- Registrare l’evento nel registro degli infortuni
 - Avviare la sorveglianza sierologica secondo protocollo del medico competente
-PASSO 4 - FOLLOW UP:
-- Controlli sierologici a 45 giorni, 3 mesi e 6 mesi dall'esposizione
+  PASSO 4 - FOLLOW UP:
+- Controlli sierologici a 45 giorni, 3 mesi e 6 mesi dall’esposizione
 
-4. PROCEDURA IN CASO DI SCHIZZI (MUCOSE/CONGIUNTIVE)
+1. PROCEDURA IN CASO DI SCHIZZI (MUCOSE/CONGIUNTIVE)
+
 - Lavare immediatamente e abbondantemente con acqua sterile o soluzione fisiologica
 - Per contaminazione oculare: lavaggio continuo per 10-15 minuti
 - Procedere come per la puntura accidentale (passi 2-4)
 
-5. FORMAZIONE
-Tutto il personale riceve formazione annuale su questa procedura. Attestati di formazione conservati in fascicolo personale.
+1. FORMAZIONE
+   Tutto il personale riceve formazione annuale su questa procedura. Attestati di formazione conservati in fascicolo personale.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`],
 
 // DOC 32 - Near miss
-[`SISTEMA PER L'IDENTIFICAZIONE E SEGNALAZIONE DI NEAR MISS ED EVENTI AVVERSI
+[`SISTEMA PER L’IDENTIFICAZIONE E SEGNALAZIONE DI NEAR MISS ED EVENTI AVVERSI
 ${s.toUpperCase()} - Cod. 1A.06.02.04 - Rev. 1/${anno}
 
 1. SCOPO E DEFINIZIONI
-Il presente sistema definisce le modalita per l'identificazione, la segnalazione e l'analisi di near miss, eventi avversi ed eventi sentinella, al fine di migliorare la sicurezza dei pazienti e degli operatori.
+   Il presente sistema definisce le modalita per l’identificazione, la segnalazione e l’analisi di near miss, eventi avversi ed eventi sentinella, al fine di migliorare la sicurezza dei pazienti e degli operatori.
 
 DEFINIZIONI:
+
 - Near miss (quasi-errore): evento che avrebbe potuto causare un danno ma che non lo ha causato per intervento tempestivo o per caso fortuito.
 - Evento avverso: evento inatteso correlato al processo assistenziale che causa danno al paziente.
 - Evento sentinella: evento avverso di particolare gravita, indicativo di un malfunzionamento del sistema.
 
-2. CULTURA DELLA SICUREZZA
-Lo studio promuove una cultura della sicurezza non punitiva: la segnalazione di near miss ed eventi avversi e considerata un atto responsabile e professionale, non un'ammissione di colpa.
+1. CULTURA DELLA SICUREZZA
+   Lo studio promuove una cultura della sicurezza non punitiva: la segnalazione di near miss ed eventi avversi e considerata un atto responsabile e professionale, non un’ammissione di colpa.
+1. SISTEMA DI SEGNALAZIONE
+   3.1 Chi segnala: tutto il personale dello studio (clinici, ASO, personale amministrativo)
+   3.2 Cosa segnalare:
 
-3. SISTEMA DI SEGNALAZIONE
-3.1 Chi segnala: tutto il personale dello studio (clinici, ASO, personale amministrativo)
-3.2 Cosa segnalare:
 - Punture accidentali con aghi o taglienti
 - Errata somministrazione di farmaci o materiali
 - Reazioni avverse a farmaci o materiali
 - Cadute di pazienti in studio
 - Malfunzionamenti di attrezzature durante le procedure
 - Qualsiasi evento che avrebbe potuto causare danno
-3.3 Come segnalare: modulo di segnalazione cartaceo (disponibile in studio) consegnato al responsabile entro 24 ore dall'evento.
-3.4 Responsabile della raccolta e analisi: ${t}
+  3.3 Come segnalare: modulo di segnalazione cartaceo (disponibile in studio) consegnato al responsabile entro 24 ore dall’evento.
+  3.4 Responsabile della raccolta e analisi: ${t}
 
-4. ANALISI DEGLI EVENTI
-Per ogni segnalazione il responsabile:
-- Registra l'evento nel registro dedicato
+1. ANALISI DEGLI EVENTI
+   Per ogni segnalazione il responsabile:
+
+- Registra l’evento nel registro dedicato
 - Analizza le cause (root cause analysis per gli eventi piu gravi)
 - Individua le azioni correttive e/o preventive
-- Verifica l'efficacia delle azioni implementate
-- Informa il personale sugli esiti dell'analisi
+- Verifica l’efficacia delle azioni implementate
+- Informa il personale sugli esiti dell’analisi
 
-5. REPORTISTICA
-Con cadenza semestrale viene redatto un report riassuntivo degli eventi segnalati, delle analisi effettuate e delle azioni implementate. Il report e condiviso con tutto il personale nelle riunioni di staff.
-
-6. COLLEGAMENTO CON IL SISTEMA NAZIONALE
-Gli eventi sentinella vengono segnalati all'Osservatorio Nazionale degli Eventi Sentinella (SIMES) del Ministero della Salute, secondo le procedure vigenti.
+1. REPORTISTICA
+   Con cadenza semestrale viene redatto un report riassuntivo degli eventi segnalati, delle analisi effettuate e delle azioni implementate. Il report e condiviso con tutto il personale nelle riunioni di staff.
+1. COLLEGAMENTO CON IL SISTEMA NAZIONALE
+   Gli eventi sentinella vengono segnalati all’Osservatorio Nazionale degli Eventi Sentinella (SIMES) del Ministero della Salute, secondo le procedure vigenti.
 
 Luogo e data: ${ind}, ${oggi}
 Il Responsabile della struttura: ${t}`]
 
-  ];
+];
 }
 
-
 function buildPDF() {
-  // ── A4 in punti (1pt = 1/72 inch) ──
-  const PW = 595.28, PH = 841.89;
-  const ML = 42, MR = 42, MT = 50, MB = 45;
-  const CW = PW - ML - MR;   // ~511 pt larghezza contenuto
+// ── A4 in punti (1pt = 1/72 inch) ──
+const PW = 595.28, PH = 841.89;
+const ML = 42, MR = 42, MT = 50, MB = 45;
+const CW = PW - ML - MR;   // ~511 pt larghezza contenuto
 
-  // Colonne tabella (misure dall'originale)
-  const COL_NUM  = ML;            // numero: 42
-  const COL_DOC  = ML + 18;       // testo documento: 60
-  const COL_SEP  = ML + CW - 95; // separatore verticale
-  const COL_COD  = COL_SEP + 5;  // codice requisito
-  const W_DOC    = COL_SEP - COL_DOC - 4;
-  const W_NUM    = 16;
+// Colonne tabella (misure dall’originale)
+const COL_NUM  = ML;            // numero: 42
+const COL_DOC  = ML + 18;       // testo documento: 60
+const COL_SEP  = ML + CW - 95; // separatore verticale
+const COL_COD  = COL_SEP + 5;  // codice requisito
+const W_DOC    = COL_SEP - COL_DOC - 4;
+const W_NUM    = 16;
 
-  // Font: Times-Roman / Times-Bold / Times-Italic
-  const F_NORM = 'F1';  // Times-Roman
-  const F_BOLD = 'F2';  // Times-Bold
-  const F_ITAL = 'F3';  // Times-Italic
+// Font: Times-Roman / Times-Bold / Times-Italic
+const F_NORM = ‘F1’;  // Times-Roman
+const F_BOLD = ‘F2’;  // Times-Bold
+const F_ITAL = ‘F3’;  // Times-Italic
 
-  // ── 32 documenti ufficiali ALL.A1 ──
-  const DOCS = [
-    ["Documento che definisce ed esplicita l'organizzazione e le politiche di gestione delle risorse (analisi dei principali processi per l'individuazione delle fasi nelle quali e possibile che si verifichino disservizi)", "1A.01.03.01"],
-    ["Documentazione inerente il sistema informativo", "1A.01.04.01"],
-    ["Documento/programma che descrive le modalita per la valutazione e il miglioramento della qualita delle prestazioni e dei servizi erogati", "1A.01.05.01"],
-    ["Procedura per la presentazione e gestione di reclami, osservazioni e suggerimenti.", "1A.01.06.01"],
-    ["Documento/procedura che descrive le modalita di erogazione dell'assistenza", "1A.02.02.01"],
-    ["Piano per la gestione delle emergenze", "1A.02.02.02"],
-    ["Protocollo per l'isolamento di pazienti con patologie contagiose o potenzialmente tali", "1A.02.02.03"],
-    ["Procedura che definisce i requisiti per la redazione, l'aggiornamento, la conservazione e la verifica della documentazione sanitaria nonche le modalita di controllo.", "1A.02.05.01"],
-    ["Documento formale di incarico del responsabile della Manutenzione", "1A.03.01.01"],
-    ["Inventario delle attrezzature aggiornato e verificato annualmente e procedura per l'identificazione delle attrezzature", "1A.03.02.01"],
-    ["Piano per la gestione e la manutenzione (ordinaria e straordinaria) delle strutture, impianti, attrezzature e apparecchiature biomediche.", "1A.03.02.02"],
-    ["Documentazione tecnica relativa alle singole attrezzature e apparecchiature immediatamente disponibile agli operatori interessati e alla funzione preposta alla manutenzione", "1A.03.02.03"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di caratteristiche ambientali e di accessibilita", "1A.03.05.01"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antincendio", "1A.03.05.02"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione acustica", "1A.03.05.03"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza elettrica e continuita elettrica", "1A.03.05.04"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza anti-infortunistica", "1A.03.05.05"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione dai rischi di radiazioni ionizzanti", "1A.03.05.06"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di eliminazione della barriere architettoniche", "1A.03.05.07"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di smaltimento dei rifiuti", "1A.03.05.08"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di condizioni microclimatiche", "1A.03.05.09"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di impianti di distribuzione dei gas", "1A.03.05.10"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di materiali esplodenti", "1A.03.05.11"],
-    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antisismica", "1A.03.05.12"],
-    ["Obblighi assicurativi definiti dalla normativa applicabile", "1A.04.12.04"],
-    ["Carta dei servizi", "1A.05.03.01"],
-    ["Modalita identificazione di tirocinanti, specializzandi e altri soggetti che intervengono nel percorso assistenziale.", "1A.05.03.03"],
-    ["Report criticita riscontrate dall'analisi dei reclami e dei risultati delle indagini di customer satisfaction e relativi Piani di intervento", "1A.05.03.05"],
-    ["Piano aziendale per la gestione del rischio", "1A.06.02.01"],
-    ["Procedura per la pulizia e sanificazione degli ambienti", "1A.06.02.02"],
-    ["Procedura per la protezione dagli incidenti per esposizione a materiale biologico o altre sostanze pericolose", "1A.06.02.03"],
-    ["Sistema (Piani di intervento/report) per l'identificazione e la segnalazione di \"near miss\", eventi avversi ed eventi sentinella", "1A.06.02.04"],
-  ];
+// ── 32 documenti ufficiali ALL.A1 ──
+const DOCS = [
+[“Documento che definisce ed esplicita l’organizzazione e le politiche di gestione delle risorse (analisi dei principali processi per l’individuazione delle fasi nelle quali e possibile che si verifichino disservizi)”, “1A.01.03.01”],
+[“Documentazione inerente il sistema informativo”, “1A.01.04.01”],
+[“Documento/programma che descrive le modalita per la valutazione e il miglioramento della qualita delle prestazioni e dei servizi erogati”, “1A.01.05.01”],
+[“Procedura per la presentazione e gestione di reclami, osservazioni e suggerimenti.”, “1A.01.06.01”],
+[“Documento/procedura che descrive le modalita di erogazione dell’assistenza”, “1A.02.02.01”],
+[“Piano per la gestione delle emergenze”, “1A.02.02.02”],
+[“Protocollo per l’isolamento di pazienti con patologie contagiose o potenzialmente tali”, “1A.02.02.03”],
+[“Procedura che definisce i requisiti per la redazione, l’aggiornamento, la conservazione e la verifica della documentazione sanitaria nonche le modalita di controllo.”, “1A.02.05.01”],
+[“Documento formale di incarico del responsabile della Manutenzione”, “1A.03.01.01”],
+[“Inventario delle attrezzature aggiornato e verificato annualmente e procedura per l’identificazione delle attrezzature”, “1A.03.02.01”],
+[“Piano per la gestione e la manutenzione (ordinaria e straordinaria) delle strutture, impianti, attrezzature e apparecchiature biomediche.”, “1A.03.02.02”],
+[“Documentazione tecnica relativa alle singole attrezzature e apparecchiature immediatamente disponibile agli operatori interessati e alla funzione preposta alla manutenzione”, “1A.03.02.03”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di caratteristiche ambientali e di accessibilita”, “1A.03.05.01”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antincendio”, “1A.03.05.02”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione acustica”, “1A.03.05.03”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza elettrica e continuita elettrica”, “1A.03.05.04”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza anti-infortunistica”, “1A.03.05.05”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione dai rischi di radiazioni ionizzanti”, “1A.03.05.06”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di eliminazione della barriere architettoniche”, “1A.03.05.07”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di smaltimento dei rifiuti”, “1A.03.05.08”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di condizioni microclimatiche”, “1A.03.05.09”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di impianti di distribuzione dei gas”, “1A.03.05.10”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di materiali esplodenti”, “1A.03.05.11”],
+[“Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antisismica”, “1A.03.05.12”],
+[“Obblighi assicurativi definiti dalla normativa applicabile”, “1A.04.12.04”],
+[“Carta dei servizi”, “1A.05.03.01”],
+[“Modalita identificazione di tirocinanti, specializzandi e altri soggetti che intervengono nel percorso assistenziale.”, “1A.05.03.03”],
+[“Report criticita riscontrate dall’analisi dei reclami e dei risultati delle indagini di customer satisfaction e relativi Piani di intervento”, “1A.05.03.05”],
+[“Piano aziendale per la gestione del rischio”, “1A.06.02.01”],
+[“Procedura per la pulizia e sanificazione degli ambienti”, “1A.06.02.02”],
+[“Procedura per la protezione dagli incidenti per esposizione a materiale biologico o altre sostanze pericolose”, “1A.06.02.03”],
+[“Sistema (Piani di intervento/report) per l’identificazione e la segnalazione di "near miss", eventi avversi ed eventi sentinella”, “1A.06.02.04”],
+];
 
-  // ── Stato presente/assente per riga ──
-  const rowState = new Array(32).fill(false);
-  rowState[0]  = checked('gdpr') || val('qualita').length > 2;
-  rowState[1]  = checked('gdpr') || checked('backup') || checked('tracciamento');
-  rowState[2]  = checked('gdpr') || val('qualita').length > 2;
-  rowState[3]  = checked('reclami');
-  rowState[4]  = checked('proc_ero');
-  rowState[5]  = checked('piano_emerg');
-  rowState[6]  = checked('isolamento');
-  rowState[7]  = checked('doc_san');
-  rowState[8]  = checked('resp_man');
-  rowState[9]  = checked('inventario');
-  rowState[10] = checked('piano_man');
-  rowState[11] = checked('doc_tec');
-  rowState[12] = checked('n1');
-  rowState[13] = checked('n2');
-  rowState[14] = checked('n3');
-  rowState[15] = checked('n4');
-  rowState[16] = checked('n5');
-  rowState[17] = checked('n6');
-  rowState[18] = checked('n7');
-  rowState[19] = checked('n8');
-  rowState[20] = checked('n9');
-  rowState[21] = checked('n10');
-  rowState[22] = false; // materiali esplodenti – N/A studio odontoiatrico
-  rowState[23] = checked('n11');
-  rowState[24] = checked('assicurativi');
-  rowState[25] = checked('carta');
-  rowState[26] = false;
-  rowState[27] = checked('customer') || checked('piani_miglio');
-  rowState[28] = checked('dvr');
-  rowState[29] = checked('proc_bio');
-  rowState[30] = checked('proc_bio');
-  rowState[31] = checked('rischio_clinico');
+// ── Stato presente/assente per riga ──
+const rowState = new Array(32).fill(false);
+rowState[0]  = checked(‘gdpr’) || val(‘qualita’).length > 2;
+rowState[1]  = checked(‘gdpr’) || checked(‘backup’) || checked(‘tracciamento’);
+rowState[2]  = checked(‘gdpr’) || val(‘qualita’).length > 2;
+rowState[3]  = checked(‘reclami’);
+rowState[4]  = checked(‘proc_ero’);
+rowState[5]  = checked(‘piano_emerg’);
+rowState[6]  = checked(‘isolamento’);
+rowState[7]  = checked(‘doc_san’);
+rowState[8]  = checked(‘resp_man’);
+rowState[9]  = checked(‘inventario’);
+rowState[10] = checked(‘piano_man’);
+rowState[11] = checked(‘doc_tec’);
+rowState[12] = checked(‘n1’);
+rowState[13] = checked(‘n2’);
+rowState[14] = checked(‘n3’);
+rowState[15] = checked(‘n4’);
+rowState[16] = checked(‘n5’);
+rowState[17] = checked(‘n6’);
+rowState[18] = checked(‘n7’);
+rowState[19] = checked(‘n8’);
+rowState[20] = checked(‘n9’);
+rowState[21] = checked(‘n10’);
+rowState[22] = false; // materiali esplodenti – N/A studio odontoiatrico
+rowState[23] = checked(‘n11’);
+rowState[24] = checked(‘assicurativi’);
+rowState[25] = checked(‘carta’);
+rowState[26] = false;
+rowState[27] = checked(‘customer’) || checked(‘piani_miglio’);
+rowState[28] = checked(‘dvr’);
+rowState[29] = checked(‘proc_bio’);
+rowState[30] = checked(‘proc_bio’);
+rowState[31] = checked(‘rischio_clinico’);
 
-  // ── Encoder testo per PDF ──
-  function esc(s) {
-    return String(s||'')
-      .replace(/à/g,'a').replace(/á/g,'a').replace(/â/g,'a').replace(/ã/g,'a')
-      .replace(/è/g,'e').replace(/é/g,'e').replace(/ê/g,'e').replace(/ë/g,'e')
-      .replace(/ì/g,'i').replace(/í/g,'i').replace(/î/g,'i').replace(/ï/g,'i')
-      .replace(/ò/g,'o').replace(/ó/g,'o').replace(/ô/g,'o').replace(/õ/g,'o')
-      .replace(/ù/g,'u').replace(/ú/g,'u').replace(/û/g,'u').replace(/ü/g,'u')
-      .replace(/À/g,'A').replace(/È/g,'E').replace(/É/g,'E').replace(/Ì/g,'I')
-      .replace(/Ò/g,'O').replace(/Ù/g,'U').replace(/ç/g,'c').replace(/ñ/g,'n')
-      .replace(/°/g,'').replace(/€/g,'EUR')
-      .replace(/[–—]/g,'-').replace(/[\u201C\u201D]/g,'"').replace(/[\u2018\u2019]/g,"'")
-      .replace(/\u2026/g,'...').replace(/\u00AB/g,'"').replace(/\u00BB/g,'"')
-      .replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)')
-      .replace(/[^\x20-\x7E]/g,'?');
-  }
+// ── Encoder testo per PDF ──
+function esc(s) {
+return String(s||’’)
+.replace(/à/g,‘a’).replace(/á/g,‘a’).replace(/â/g,‘a’).replace(/ã/g,‘a’)
+.replace(/è/g,‘e’).replace(/é/g,‘e’).replace(/ê/g,‘e’).replace(/ë/g,‘e’)
+.replace(/ì/g,‘i’).replace(/í/g,‘i’).replace(/î/g,‘i’).replace(/ï/g,‘i’)
+.replace(/ò/g,‘o’).replace(/ó/g,‘o’).replace(/ô/g,‘o’).replace(/õ/g,‘o’)
+.replace(/ù/g,‘u’).replace(/ú/g,‘u’).replace(/û/g,‘u’).replace(/ü/g,‘u’)
+.replace(/À/g,‘A’).replace(/È/g,‘E’).replace(/É/g,‘E’).replace(/Ì/g,‘I’)
+.replace(/Ò/g,‘O’).replace(/Ù/g,‘U’).replace(/ç/g,‘c’).replace(/ñ/g,‘n’)
+.replace(/°/g,’’).replace(/€/g,‘EUR’)
+.replace(/[–—]/g,’-’).replace(/[\u201C\u201D]/g,’”’).replace(/[\u2018\u2019]/g,”’”)
+.replace(/\u2026/g,’…’).replace(/\u00AB/g,’”’).replace(/\u00BB/g,’”’)
+.replace(/\/g,’\\’).replace(/(/g,’\(’).replace(/)/g,’\)’)
+.replace(/[^\x20-\x7E]/g,’?’);
+}
 
-  // Testi precompilati per ogni documento
-  const DOC_TEXTS_TPL = getDocTemplates(
-    val('denominazione'), val('titolare'),
-    val('indirizzo'), val('comune'), val('provincia'),
-    val('software'), val('nMedici'), val('nAso')
-  );
+// Testi precompilati per ogni documento
+const DOC_TEXTS_TPL = getDocTemplates(
+val(‘denominazione’), val(‘titolare’),
+val(‘indirizzo’), val(‘comune’), val(‘provincia’),
+val(‘software’), val(‘nMedici’), val(‘nAso’)
+);
 
-  // wrap testo in linee
-  function wrap(text, maxCh) {
-    const words = esc(text).split(' ');
-    const lines = []; let cur = '';
-    words.forEach(w => {
-      const cand = cur ? cur + ' ' + w : w;
-      if (cand.length <= maxCh) { cur = cand; }
-      else { if (cur) lines.push(cur); cur = w; }
-    });
-    if (cur) lines.push(cur);
-    return lines;
-  }
+// wrap testo in linee
+function wrap(text, maxCh) {
+const words = esc(text).split(’ ’);
+const lines = []; let cur = ‘’;
+words.forEach(w => {
+const cand = cur ? cur + ’ ’ + w : w;
+if (cand.length <= maxCh) { cur = cand; }
+else { if (cur) lines.push(cur); cur = w; }
+});
+if (cur) lines.push(cur);
+return lines;
+}
 
-  // ── Page stream builder ──
-  function makePage() {
-    const cmds = [];
-    const p = {
-      raw(s)             { cmds.push(s); },
-      setFill(r,g,b)     { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} rg`); },
-      setStroke(r,g,b)   { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} RG`); },
-      setLW(w)           { cmds.push(`${w} w`); },
-      fillRect(x,y,w,h)  { cmds.push(`${x} ${y} ${w} ${h} re f`); },
-      strokeRect(x,y,w,h){ cmds.push(`${x} ${y} ${w} ${h} re S`); },
-      line(x1,y1,x2,y2)  { cmds.push(`${x1} ${y1} m ${x2} ${y2} l S`); },
-      text(s,x,y,font,sz,r,g,b) {
-        const ri = (r||0).toFixed(3), gi = (g||0).toFixed(3), bi = (b||0).toFixed(3);
-        cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${esc(s)}) Tj ET`);
-      },
-      // testo già pre-escaped
-      textRaw(s,x,y,font,sz,r,g,b) {
-        const ri=(r||0).toFixed(3),gi=(g||0).toFixed(3),bi=(b||0).toFixed(3);
-        cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${s}) Tj ET`);
-      },
-      stream() { return cmds.join('\n'); }
-    };
-    return p;
-  }
+// ── Page stream builder ──
+function makePage() {
+const cmds = [];
+const p = {
+raw(s)             { cmds.push(s); },
+setFill(r,g,b)     { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} rg`); },
+setStroke(r,g,b)   { cmds.push(`${r.toFixed(3)} ${g.toFixed(3)} ${b.toFixed(3)} RG`); },
+setLW(w)           { cmds.push(`${w} w`); },
+fillRect(x,y,w,h)  { cmds.push(`${x} ${y} ${w} ${h} re f`); },
+strokeRect(x,y,w,h){ cmds.push(`${x} ${y} ${w} ${h} re S`); },
+line(x1,y1,x2,y2)  { cmds.push(`${x1} ${y1} m ${x2} ${y2} l S`); },
+text(s,x,y,font,sz,r,g,b) {
+const ri = (r||0).toFixed(3), gi = (g||0).toFixed(3), bi = (b||0).toFixed(3);
+cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${esc(s)}) Tj ET`);
+},
+// testo già pre-escaped
+textRaw(s,x,y,font,sz,r,g,b) {
+const ri=(r||0).toFixed(3),gi=(g||0).toFixed(3),bi=(b||0).toFixed(3);
+cmds.push(`BT /${font} ${sz} Tf ${ri} ${gi} ${bi} rg ${x} ${y} Td (${s}) Tj ET`);
+},
+stream() { return cmds.join(’\n’); }
+};
+return p;
+}
 
-  // ── Gestione multi-pagina ──
-  const pageStreams = [];
-  let pg = makePage();
-  let curY = PH - 50;
+// ── Gestione multi-pagina ──
+const pageStreams = [];
+let pg = makePage();
+let curY = PH - 50;
 
-  function footerPage() {
-    const pn = pageStreams.length + 1;
-    pg.setStroke(0,0,0); pg.setLW(0.5);
-    pg.line(ML, 35, PW-MR, 35);
-    pg.text(`${pn}`, PW-MR, 22, F_NORM, 9, 0,0,0);
-  }
+function footerPage() {
+const pn = pageStreams.length + 1;
+pg.setStroke(0,0,0); pg.setLW(0.5);
+pg.line(ML, 35, PW-MR, 35);
+pg.text(`${pn}`, PW-MR, 22, F_NORM, 9, 0,0,0);
+}
 
-  function newPage() {
-    footerPage();
-    pageStreams.push(pg.stream());
-    pg = makePage();
-    curY = PH - 40;
-  }
+function newPage() {
+footerPage();
+pageStreams.push(pg.stream());
+pg = makePage();
+curY = PH - 40;
+}
 
-  function need(h) {
-    if (curY - h < 50) newPage();
-  }
+function need(h) {
+if (curY - h < 50) newPage();
+}
 
-  // ══════════════════════════════════════════
-  // PAGINA 1 – Intestazione ufficiale
-  // ══════════════════════════════════════════
+// ══════════════════════════════════════════
+// PAGINA 1 – Intestazione ufficiale
+// ══════════════════════════════════════════
 
-  // Box "ALL. A1" – bordo nero, testo grassetto
+// Box “ALL. A1” – bordo nero, testo grassetto
+pg.setStroke(0,0,0); pg.setLW(1);
+pg.strokeRect(ML, PH-70, 52, 22);
+pg.text(‘ALL. A1’, ML+5, PH-62, F_BOLD, 11, 0,0,0);
+
+// Titolo centrato sottolineato
+const tx1 = ‘Per struttura non residenziale semplici monopresidio’;
+const tx1x = ML + 60;
+pg.text(tx1, tx1x, PH-58, F_BOLD, 10.5, 0,0,0);
+// sottolineatura
+const tx1w = tx1.length * 5.5; // approssimazione larghezza
+pg.setStroke(0,0,0); pg.setLW(0.5);
+pg.line(tx1x, PH-60, tx1x + tx1w, PH-60);
+
+const tx2 = ‘(vedi definizioni art. 2 e classificazione art. 3 del D.A. 9 gennaio 2024 n. 20).’;
+pg.text(tx2, tx1x, PH-70, F_NORM, 9, 0,0,0);
+
+curY = PH - 86;
+
+// Testo istruzione subcodici (grassetto, giustificato su 2 righe)
+const istr1 = “Per una puntuale applicazione di ciascun requisito fare riferimento ai subcodici riportati nell’allegato”;
+const istr2 = “A1 del D.A. 9 gennaio 2024 n. 20.”;
+pg.text(istr1, ML, curY, F_BOLD, 9.5, 0,0,0);
+pg.text(istr2, ML, curY-12, F_BOLD, 9.5, 0,0,0);
+curY -= 28;
+
+// Box GdV con bordo
+const gdvText = “Il Responsabile della struttura mettera a disposizione del GdV prima della visita i seguenti documenti previsti dai requisiti generali per l’autorizzazione di cui all’allegato A1 al decreto assessoriale 09 gennaio 2024 n. 20 (G.U.R.S. 26 gennaio 2024, n. 5, S.O. n. 4)”;
+const gdvLines = wrap(gdvText, 88);
+const gdvH = gdvLines.length * 11 + 12;
+pg.setStroke(0,0,0); pg.setLW(0.8);
+pg.strokeRect(ML, curY - gdvH, CW, gdvH);
+let gy = curY - 9;
+gdvLines.forEach(l => {
+pg.textRaw(l, ML+5, gy, F_BOLD, 9, 0,0,0);
+gy -= 11;
+});
+curY -= gdvH + 6;
+
+// ── Header tabella ──
+// Riga header nera con testo bianco
+const HDR_H = 17;
+pg.setFill(0,0,0);
+pg.fillRect(ML, curY - HDR_H, CW, HDR_H);
+
+// “DOCUMENTO” centrato nella colonna sinistra
+const docColMid = ML + (COL_SEP - ML) / 2 - 30;
+pg.text(‘DOCUMENTO’, docColMid, curY - 12, F_BOLD, 10, 1,1,1);
+
+// “Cod. Requisito” nella colonna destra
+pg.text(‘Cod. Requisito’, COL_COD, curY - 12, F_BOLD, 10, 1,1,1);
+
+curY -= HDR_H;
+
+// ── Righe documenti ──
+const FONT_SZ  = 9;
+const LINE_H   = 10.5;
+const MAX_CHARS = 62; // caratteri per riga colonna documento
+
+DOCS.forEach((doc, i) => {
+const num    = i + 1;
+const testo  = doc[0];
+const codice = doc[1];
+const present = rowState[i];
+
+```
+const lines = wrap(testo, MAX_CHARS);
+const ROW_H = Math.max(15, lines.length * LINE_H + 6);
+
+need(ROW_H);
+
+// Sfondo alternato leggerissimo (come originale)
+if (i % 2 === 0) {
+  pg.setFill(1,1,1);
+} else {
+  pg.setFill(0.97,0.97,0.97);
+}
+pg.fillRect(ML, curY - ROW_H, CW, ROW_H);
+
+// Bordo riga (grigio sottile)
+pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
+pg.strokeRect(ML, curY - ROW_H, CW, ROW_H);
+
+// Separatore verticale colonna codice
+pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
+pg.line(COL_SEP, curY, COL_SEP, curY - ROW_H);
+
+// Numero riga
+const textTopY = curY - LINE_H + 2;
+pg.text(`${num}.`, COL_NUM + 1, textTopY, F_NORM, FONT_SZ, 0,0,0);
+
+// Testo documento (wrappato, rientro seconda riga come originale)
+let ty = textTopY;
+lines.forEach((l, li) => {
+  const lx = li === 0 ? COL_DOC : COL_DOC + 3;
+  pg.textRaw(l, lx, ty, F_NORM, FONT_SZ, 0,0,0);
+  ty -= LINE_H;
+});
+
+// Codice requisito in corsivo, centrato verticalmente nella riga
+const codY = curY - ROW_H / 2 - 3;
+pg.text(codice, COL_COD + 3, codY, F_ITAL, FONT_SZ, 0,0,0);
+
+// Indicatore presente (checkbox stile originale) – colonna aggiuntiva destra
+const chkX = PW - MR - 12;
+const chkY = curY - ROW_H/2 - 4;
+pg.setStroke(0,0,0); pg.setLW(0.5);
+pg.strokeRect(chkX, chkY, 9, 9);
+if (present) {
+  // Segno di spunta: due linee diagonali
   pg.setStroke(0,0,0); pg.setLW(1);
-  pg.strokeRect(ML, PH-70, 52, 22);
-  pg.text('ALL. A1', ML+5, PH-62, F_BOLD, 11, 0,0,0);
+  pg.line(chkX+1, chkY+4, chkX+3.5, chkY+1.5);
+  pg.line(chkX+3.5, chkY+1.5, chkX+8, chkY+7.5);
+}
 
-  // Titolo centrato sottolineato
-  const tx1 = 'Per struttura non residenziale semplici monopresidio';
-  const tx1x = ML + 60;
-  pg.text(tx1, tx1x, PH-58, F_BOLD, 10.5, 0,0,0);
-  // sottolineatura
-  const tx1w = tx1.length * 5.5; // approssimazione larghezza
-  pg.setStroke(0,0,0); pg.setLW(0.5);
-  pg.line(tx1x, PH-60, tx1x + tx1w, PH-60);
+curY -= ROW_H;
+```
 
-  const tx2 = '(vedi definizioni art. 2 e classificazione art. 3 del D.A. 9 gennaio 2024 n. 20).';
-  pg.text(tx2, tx1x, PH-70, F_NORM, 9, 0,0,0);
+});
 
-  curY = PH - 86;
+// ── Fine tabella ──
+// Bordo inferiore tabella
+pg.setStroke(0,0,0); pg.setLW(0.8);
+pg.line(ML, curY, ML+CW, curY);
 
-  // Testo istruzione subcodici (grassetto, giustificato su 2 righe)
-  const istr1 = "Per una puntuale applicazione di ciascun requisito fare riferimento ai subcodici riportati nell'allegato";
-  const istr2 = "A1 del D.A. 9 gennaio 2024 n. 20.";
-  pg.text(istr1, ML, curY, F_BOLD, 9.5, 0,0,0);
-  pg.text(istr2, ML, curY-12, F_BOLD, 9.5, 0,0,0);
-  curY -= 28;
+// Footer ultima pagina tabella
+footerPage();
+pageStreams.push(pg.stream());
+pg = makePage();
+curY = PH - 40;
 
-  // Box GdV con bordo
-  const gdvText = "Il Responsabile della struttura mettera a disposizione del GdV prima della visita i seguenti documenti previsti dai requisiti generali per l'autorizzazione di cui all'allegato A1 al decreto assessoriale 09 gennaio 2024 n. 20 (G.U.R.S. 26 gennaio 2024, n. 5, S.O. n. 4)";
-  const gdvLines = wrap(gdvText, 88);
-  const gdvH = gdvLines.length * 11 + 12;
-  pg.setStroke(0,0,0); pg.setLW(0.8);
-  pg.strokeRect(ML, curY - gdvH, CW, gdvH);
-  let gy = curY - 9;
-  gdvLines.forEach(l => {
-    pg.textRaw(l, ML+5, gy, F_BOLD, 9, 0,0,0);
-    gy -= 11;
+// ══════════════════════════════════════════
+// SEZIONE DATI STUDIO (come nel PDF Teresi)
+// ══════════════════════════════════════════
+need(120);
+
+// Intestazione studio
+const studioName = val(‘denominazione’) || ‘’;
+const titolare   = val(‘titolare’) || ‘’;
+const indirizzo  = val(‘indirizzo’) || ‘’;
+const comune     = val(‘comune’) || ‘’;
+const prov       = val(‘provincia’) || ‘’;
+const albo       = val(‘albo’) || ‘’;
+const asp        = val(‘asp’) || ‘’;
+
+if (studioName || titolare) {
+pg.setStroke(0,0,0); pg.setLW(0.8);
+pg.strokeRect(ML, curY - 75, 160, 75);
+
+```
+pg.text(studioName.toUpperCase(), ML+5, curY-12, F_BOLD, 9, 0,0,0);
+if (titolare) pg.text(titolare, ML+5, curY-24, F_BOLD, 9, 0,0,0);
+if (indirizzo) {
+  const adr = (indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : ''));
+  const adrLines = wrap(adr, 26);
+  adrLines.forEach((l,i) => pg.textRaw(l, ML+5, curY-36-i*11, F_NORM, 8.5, 0,0,0));
+}
+if (asp)  pg.text('ASP: ' + asp,  ML+5, curY-58, F_NORM, 8.5, 0,0,0);
+if (albo) pg.text('Albo n.: ' + albo, ML+5, curY-69, F_NORM, 8.5, 0,0,0);
+```
+
+}
+
+// Data e firma a destra
+const oggi = new Date().toLocaleDateString(‘it-IT’,{day:‘2-digit’,month:‘2-digit’,year:‘numeric’});
+pg.text(’Data compilazione: ’ + oggi, ML + 170, curY - 20, F_NORM, 9, 0,0,0);
+
+pg.setStroke(0,0,0); pg.setLW(0.5);
+pg.line(ML+170, curY-55, PW-MR, curY-55);
+pg.text(‘Il Responsabile della struttura’, ML+170, curY-64, F_NORM, 8.5, 0,0,0);
+if (titolare) pg.text(esc(titolare), ML+170, curY-75, F_ITAL, 8.5, 0,0,0);
+
+// Footer ultima pagina
+footerPage();
+pageStreams.push(pg.stream());
+
+// ══════════════════════════════════════════════════════
+// SEZIONE 2: Schede individuali per ogni documento
+// Struttura: copertina blu + pagine contenuto
+// ══════════════════════════════════════════════════════
+
+// Dati studio per sostituzione placeholder
+const studioName2 = val(‘denominazione’)  || ‘Studio Odontoiatrico’;
+const titolareVal = val(‘titolare’)        || ‘’;
+const indirizzoVal= val(‘indirizzo’)       || ‘’;
+const comuneVal   = val(‘comune’)          || ‘’;
+const provVal     = val(‘provincia’)       || ‘’;
+const fullAddr    = [indirizzoVal, comuneVal ? comuneVal + (provVal ? ’ (’ + provVal + ‘)’ : ‘’) : ‘’].filter(Boolean).join(’, ’);
+
+// Sostituisce DOC_TEXTS con testi personalizzati usando i dati del wizard
+const _liveTexts = getDocTexts(
+studioName2, titolareVal, indirizzoVal,
+comuneVal, provVal, val(‘albo’), val(‘asp’), val(‘software’)
+);
+const DOC_TEXTS = _liveTexts.map(function(t){ return t[0]; });
+
+function fillTemplate(text) {
+return text
+.replace(/[TITOLARE]/g, esc(titolareVal) || ‘Il Titolare’)
+.replace(/[STUDIO]/g,   esc(studioName2))
+.replace(/[INDIRIZZO]/g, esc(fullAddr) || ‘sede dello studio’);
+}
+
+// Pagina copertina blu per ogni documento
+function drawCoverPage(docNum, docTitle, codReq) {
+// Nuova pagina
+footerPage();
+pageStreams.push(pg.stream());
+pg = makePage();
+curY = PH;
+
+```
+// Sfondo azzurro chiaro (come originale)
+pg.setFill(0.702, 0.761, 0.820);  // #B3C2D1 azzurro chiaro
+pg.fillRect(0, 0, PW, PH);
+
+// Box bianco centrale (come originale)
+const BX = ML + 60, BY = PH/2 - 120, BW = PW - BX - 40, BH = 240;
+pg.setFill(1, 1, 1);
+pg.fillRect(BX, BY, BW, BH);
+pg.setStroke(0.4, 0.5, 0.65); pg.setLW(1.5);
+pg.strokeRect(BX, BY, BW, BH);
+
+// Barra superiore blu scuro dentro il box
+pg.setFill(0.133, 0.239, 0.412);  // #223D69
+pg.fillRect(BX, BY + BH - 90, BW, 90);
+
+// Nome studio nel box blu
+const studioLines = esc(studioName2).toUpperCase();
+const sLines = wrap(studioLines, 28);
+let sy = BY + BH - 18;
+sLines.forEach(l => {
+  pg.text(l, BX + BW/2 - l.length * 3.3, sy, F_BOLD, 10, 1,1,1);
+  sy -= 13;
+});
+if (fullAddr) {
+  const addrLines = wrap(esc(fullAddr), 32);
+  addrLines.forEach(l => {
+    pg.text(l, BX + BW/2 - l.length * 2.8, sy, F_NORM, 9, 0.8,0.9,1);
+    sy -= 11;
   });
-  curY -= gdvH + 6;
+}
 
-  // ── Header tabella ──
-  // Riga header nera con testo bianco
-  const HDR_H = 17;
-  pg.setFill(0,0,0);
-  pg.fillRect(ML, curY - HDR_H, CW, HDR_H);
+// Numero documento
+const docLabel = 'DOCUMENTO ' + docNum + ':';
+pg.text(docLabel, BX + 12, BY + BH - 105, F_BOLD, 11, 0,0,0);
 
-  // "DOCUMENTO" centrato nella colonna sinistra
-  const docColMid = ML + (COL_SEP - ML) / 2 - 30;
-  pg.text('DOCUMENTO', docColMid, curY - 12, F_BOLD, 10, 1,1,1);
+// Titolo documento (wrappato)
+const titleLines = wrap(esc(docTitle), 30);
+let ty2 = BY + BH - 120;
+titleLines.forEach(l => {
+  pg.text(l, BX + 12, ty2, F_NORM, 9.5, 0,0,0);
+  ty2 -= 12;
+});
 
-  // "Cod. Requisito" nella colonna destra
-  pg.text('Cod. Requisito', COL_COD, curY - 12, F_BOLD, 10, 1,1,1);
+// Codice requisito
+pg.text('Cod. Requisito', BX + 12, BY + 30, F_BOLD, 9.5, 0,0,0);
+pg.text(codReq, BX + 12, BY + 18, F_BOLD, 10, 0,0,0);
 
-  curY -= HDR_H;
+// Nome titolare in fondo al box
+if (titolareVal) {
+  pg.setFill(0.9, 0.93, 0.97);
+  pg.fillRect(BX, BY, BW, 12);
+  pg.text(esc(titolareVal).toUpperCase(), BX + 8, BY + 4, F_NORM, 7.5, 0.2,0.3,0.5);
+}
 
-  // ── Righe documenti ──
-  const FONT_SZ  = 9;
-  const LINE_H   = 10.5;
-  const MAX_CHARS = 62; // caratteri per riga colonna documento
+// Barra dorata in fondo al box
+pg.setFill(0.45, 0.55, 0.72);
+pg.fillRect(BX, BY - 4, BW, 4);
 
-  DOCS.forEach((doc, i) => {
-    const num    = i + 1;
-    const testo  = doc[0];
-    const codice = doc[1];
-    const present = rowState[i];
+// Prepara nuova pagina per il contenuto
+footerPage();
+pageStreams.push(pg.stream());
+pg = makePage();
+curY = PH - 40;
+```
 
-    const lines = wrap(testo, MAX_CHARS);
-    const ROW_H = Math.max(15, lines.length * LINE_H + 6);
+}
 
-    need(ROW_H);
+// Pagina contenuto documento (testo libero wrappato)
+function drawDocContent(docNum, docTitle, bodyText) {
+if (!bodyText) return;
 
-    // Sfondo alternato leggerissimo (come originale)
-    if (i % 2 === 0) {
-      pg.setFill(1,1,1);
-    } else {
-      pg.setFill(0.97,0.97,0.97);
-    }
-    pg.fillRect(ML, curY - ROW_H, CW, ROW_H);
+```
+// Intestazione pagina contenuto
+function drawContentHeader() {
+  pg.setFill(0.133, 0.239, 0.412);
+  pg.fillRect(ML, PH - 35, CW, 18);
+  const hdr = esc(studioName2).toUpperCase() + '  |  Documento ' + docNum + ' – ' + esc(docTitle).slice(0,50);
+  pg.text(hdr.slice(0, 85), ML + 5, PH - 25, F_BOLD, 7.5, 1,1,1);
+  pg.setLW(0.5); pg.setStroke(0.4,0.5,0.65);
+  pg.line(ML, PH - 37, ML + CW, PH - 37);
+  curY = PH - 48;
+}
 
-    // Bordo riga (grigio sottile)
-    pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
-    pg.strokeRect(ML, curY - ROW_H, CW, ROW_H);
+drawContentHeader();
 
-    // Separatore verticale colonna codice
-    pg.setStroke(0.5,0.5,0.5); pg.setLW(0.3);
-    pg.line(COL_SEP, curY, COL_SEP, curY - ROW_H);
+// Suddividi il testo in paragrafi e scrivi
+const paragraphs = bodyText.split('\n\n');
+const FONT_BODY = 8.5;
+const FONT_HEAD = 9.5;
+const LH_BODY = 11;
+const LH_HEAD = 13;
+const MAX_LINE = 90;
 
-    // Numero riga
-    const textTopY = curY - LINE_H + 2;
-    pg.text(`${num}.`, COL_NUM + 1, textTopY, F_NORM, FONT_SZ, 0,0,0);
+paragraphs.forEach(para => {
+  if (!para.trim()) return;
+  const trimmed = para.trim();
 
-    // Testo documento (wrappato, rientro seconda riga come originale)
-    let ty = textTopY;
-    lines.forEach((l, li) => {
-      const lx = li === 0 ? COL_DOC : COL_DOC + 3;
-      pg.textRaw(l, lx, ty, F_NORM, FONT_SZ, 0,0,0);
-      ty -= LINE_H;
-    });
-
-    // Codice requisito in corsivo, centrato verticalmente nella riga
-    const codY = curY - ROW_H / 2 - 3;
-    pg.text(codice, COL_COD + 3, codY, F_ITAL, FONT_SZ, 0,0,0);
-
-    // Indicatore presente (checkbox stile originale) – colonna aggiuntiva destra
-    const chkX = PW - MR - 12;
-    const chkY = curY - ROW_H/2 - 4;
-    pg.setStroke(0,0,0); pg.setLW(0.5);
-    pg.strokeRect(chkX, chkY, 9, 9);
-    if (present) {
-      // Segno di spunta: due linee diagonali
-      pg.setStroke(0,0,0); pg.setLW(1);
-      pg.line(chkX+1, chkY+4, chkX+3.5, chkY+1.5);
-      pg.line(chkX+3.5, chkY+1.5, chkX+8, chkY+7.5);
-    }
-
-    curY -= ROW_H;
-  });
-
-  // ── Fine tabella ──
-  // Bordo inferiore tabella
-  pg.setStroke(0,0,0); pg.setLW(0.8);
-  pg.line(ML, curY, ML+CW, curY);
-
-  // Footer ultima pagina tabella
-  footerPage();
-  pageStreams.push(pg.stream());
-  pg = makePage();
-  curY = PH - 40;
-
-
-  // ══════════════════════════════════════════
-  // SEZIONE DATI STUDIO (come nel PDF Teresi)
-  // ══════════════════════════════════════════
-  need(120);
-
-  // Intestazione studio
-  const studioName = val('denominazione') || '';
-  const titolare   = val('titolare') || '';
-  const indirizzo  = val('indirizzo') || '';
-  const comune     = val('comune') || '';
-  const prov       = val('provincia') || '';
-  const albo       = val('albo') || '';
-  const asp        = val('asp') || '';
-
-  if (studioName || titolare) {
-    pg.setStroke(0,0,0); pg.setLW(0.8);
-    pg.strokeRect(ML, curY - 75, 160, 75);
-
-    pg.text(studioName.toUpperCase(), ML+5, curY-12, F_BOLD, 9, 0,0,0);
-    if (titolare) pg.text(titolare, ML+5, curY-24, F_BOLD, 9, 0,0,0);
-    if (indirizzo) {
-      const adr = (indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : ''));
-      const adrLines = wrap(adr, 26);
-      adrLines.forEach((l,i) => pg.textRaw(l, ML+5, curY-36-i*11, F_NORM, 8.5, 0,0,0));
-    }
-    if (asp)  pg.text('ASP: ' + asp,  ML+5, curY-58, F_NORM, 8.5, 0,0,0);
-    if (albo) pg.text('Albo n.: ' + albo, ML+5, curY-69, F_NORM, 8.5, 0,0,0);
-  }
-
-  // Data e firma a destra
-  const oggi = new Date().toLocaleDateString('it-IT',{day:'2-digit',month:'2-digit',year:'numeric'});
-  pg.text('Data compilazione: ' + oggi, ML + 170, curY - 20, F_NORM, 9, 0,0,0);
-
-  pg.setStroke(0,0,0); pg.setLW(0.5);
-  pg.line(ML+170, curY-55, PW-MR, curY-55);
-  pg.text('Il Responsabile della struttura', ML+170, curY-64, F_NORM, 8.5, 0,0,0);
-  if (titolare) pg.text(esc(titolare), ML+170, curY-75, F_ITAL, 8.5, 0,0,0);
-
-  // Footer ultima pagina
-  footerPage();
-  pageStreams.push(pg.stream());
-
-  // ══════════════════════════════════════════════════════
-  // SEZIONE 2: Schede individuali per ogni documento
-  // Struttura: copertina blu + pagine contenuto
-  // ══════════════════════════════════════════════════════
-
-  // Dati studio per sostituzione placeholder
-  const studioName2 = val('denominazione')  || 'Studio Odontoiatrico';
-  const titolareVal = val('titolare')        || '';
-  const indirizzoVal= val('indirizzo')       || '';
-  const comuneVal   = val('comune')          || '';
-  const provVal     = val('provincia')       || '';
-  const fullAddr    = [indirizzoVal, comuneVal ? comuneVal + (provVal ? ' (' + provVal + ')' : '') : ''].filter(Boolean).join(', ');
-
-  // Sostituisce DOC_TEXTS con testi personalizzati usando i dati del wizard
-  const _liveTexts = getDocTexts(
-    studioName2, titolareVal, indirizzoVal,
-    comuneVal, provVal, val('albo'), val('asp'), val('software')
+  // Riconosci se è un titolo (breve, tutto maiuscolo o termina con ':')
+  const isHeading = trimmed.length < 80 && (
+    trimmed === trimmed.toUpperCase() ||
+    trimmed.endsWith(':') ||
+    /^\d+\.\s+[A-Z]/.test(trimmed) ||
+    /^\d+\.\d+\s+/.test(trimmed)
   );
-  const DOC_TEXTS = _liveTexts.map(function(t){ return t[0]; });
 
-  function fillTemplate(text) {
-    return text
-      .replace(/\[TITOLARE\]/g, esc(titolareVal) || 'Il Titolare')
-      .replace(/\[STUDIO\]/g,   esc(studioName2))
-      .replace(/\[INDIRIZZO\]/g, esc(fullAddr) || 'sede dello studio');
+  const fontSize = isHeading ? FONT_HEAD : FONT_BODY;
+  const fontName = isHeading ? F_BOLD : F_NORM;
+  const lineH    = isHeading ? LH_HEAD : LH_BODY;
+  const indent   = 0;
+
+  const lines = wrap(fillTemplate(trimmed), MAX_LINE);
+  const blockH = lines.length * lineH + (isHeading ? 4 : 2);
+
+  need(blockH + 4);
+  if (curY > PH - 80 && isHeading) {
+    // Ridisegna header se nuova pagina
   }
 
-  // Pagina copertina blu per ogni documento
-  function drawCoverPage(docNum, docTitle, codReq) {
-    // Nuova pagina
-    footerPage();
-    pageStreams.push(pg.stream());
-    pg = makePage();
-    curY = PH;
-
-    // Sfondo azzurro chiaro (come originale)
-    pg.setFill(0.702, 0.761, 0.820);  // #B3C2D1 azzurro chiaro
-    pg.fillRect(0, 0, PW, PH);
-
-    // Box bianco centrale (come originale)
-    const BX = ML + 60, BY = PH/2 - 120, BW = PW - BX - 40, BH = 240;
-    pg.setFill(1, 1, 1);
-    pg.fillRect(BX, BY, BW, BH);
-    pg.setStroke(0.4, 0.5, 0.65); pg.setLW(1.5);
-    pg.strokeRect(BX, BY, BW, BH);
-
-    // Barra superiore blu scuro dentro il box
-    pg.setFill(0.133, 0.239, 0.412);  // #223D69
-    pg.fillRect(BX, BY + BH - 90, BW, 90);
-
-    // Nome studio nel box blu
-    const studioLines = esc(studioName2).toUpperCase();
-    const sLines = wrap(studioLines, 28);
-    let sy = BY + BH - 18;
-    sLines.forEach(l => {
-      pg.text(l, BX + BW/2 - l.length * 3.3, sy, F_BOLD, 10, 1,1,1);
-      sy -= 13;
-    });
-    if (fullAddr) {
-      const addrLines = wrap(esc(fullAddr), 32);
-      addrLines.forEach(l => {
-        pg.text(l, BX + BW/2 - l.length * 2.8, sy, F_NORM, 9, 0.8,0.9,1);
-        sy -= 11;
-      });
-    }
-
-    // Numero documento
-    const docLabel = 'DOCUMENTO ' + docNum + ':';
-    pg.text(docLabel, BX + 12, BY + BH - 105, F_BOLD, 11, 0,0,0);
-
-    // Titolo documento (wrappato)
-    const titleLines = wrap(esc(docTitle), 30);
-    let ty2 = BY + BH - 120;
-    titleLines.forEach(l => {
-      pg.text(l, BX + 12, ty2, F_NORM, 9.5, 0,0,0);
-      ty2 -= 12;
-    });
-
-    // Codice requisito
-    pg.text('Cod. Requisito', BX + 12, BY + 30, F_BOLD, 9.5, 0,0,0);
-    pg.text(codReq, BX + 12, BY + 18, F_BOLD, 10, 0,0,0);
-
-    // Nome titolare in fondo al box
-    if (titolareVal) {
-      pg.setFill(0.9, 0.93, 0.97);
-      pg.fillRect(BX, BY, BW, 12);
-      pg.text(esc(titolareVal).toUpperCase(), BX + 8, BY + 4, F_NORM, 7.5, 0.2,0.3,0.5);
-    }
-
-    // Barra dorata in fondo al box
-    pg.setFill(0.45, 0.55, 0.72);
-    pg.fillRect(BX, BY - 4, BW, 4);
-
-    // Prepara nuova pagina per il contenuto
-    footerPage();
-    pageStreams.push(pg.stream());
-    pg = makePage();
-    curY = PH - 40;
-  }
-
-  // Pagina contenuto documento (testo libero wrappato)
-  function drawDocContent(docNum, docTitle, bodyText) {
-    if (!bodyText) return;
-
-    // Intestazione pagina contenuto
-    function drawContentHeader() {
-      pg.setFill(0.133, 0.239, 0.412);
-      pg.fillRect(ML, PH - 35, CW, 18);
-      const hdr = esc(studioName2).toUpperCase() + '  |  Documento ' + docNum + ' – ' + esc(docTitle).slice(0,50);
-      pg.text(hdr.slice(0, 85), ML + 5, PH - 25, F_BOLD, 7.5, 1,1,1);
-      pg.setLW(0.5); pg.setStroke(0.4,0.5,0.65);
-      pg.line(ML, PH - 37, ML + CW, PH - 37);
-      curY = PH - 48;
-    }
-
-    drawContentHeader();
-
-    // Suddividi il testo in paragrafi e scrivi
-    const paragraphs = bodyText.split('\n\n');
-    const FONT_BODY = 8.5;
-    const FONT_HEAD = 9.5;
-    const LH_BODY = 11;
-    const LH_HEAD = 13;
-    const MAX_LINE = 90;
-
-    paragraphs.forEach(para => {
-      if (!para.trim()) return;
-      const trimmed = para.trim();
-
-      // Riconosci se è un titolo (breve, tutto maiuscolo o termina con ':')
-      const isHeading = trimmed.length < 80 && (
-        trimmed === trimmed.toUpperCase() ||
-        trimmed.endsWith(':') ||
-        /^\d+\.\s+[A-Z]/.test(trimmed) ||
-        /^\d+\.\d+\s+/.test(trimmed)
-      );
-
-      const fontSize = isHeading ? FONT_HEAD : FONT_BODY;
-      const fontName = isHeading ? F_BOLD : F_NORM;
-      const lineH    = isHeading ? LH_HEAD : LH_BODY;
-      const indent   = 0;
-
-      const lines = wrap(fillTemplate(trimmed), MAX_LINE);
-      const blockH = lines.length * lineH + (isHeading ? 4 : 2);
-
-      need(blockH + 4);
-      if (curY > PH - 80 && isHeading) {
-        // Ridisegna header se nuova pagina
-      }
-
-      if (isHeading) curY -= 3;
-      lines.forEach(l => {
-        pg.text(l, ML + indent, curY, fontName, fontSize, 0,0,0);
-        curY -= lineH;
-      });
-      if (isHeading) curY -= 3;
-      else curY -= 2;
-    });
-  }
-
-  // ── Genera tutte le schede ──
-  const DOC_META = [
-    [1,  "Documento che definisce ed esplicita l'organizzazione e le politiche di gestione delle risorse", "1A.01.03.01"],
-    [2,  "Documentazione inerente il sistema informativo", "1A.01.04.01"],
-    [3,  "Documento/programma per la valutazione e il miglioramento della qualita delle prestazioni", "1A.01.05.01"],
-    [4,  "Procedura per la presentazione e gestione di reclami, osservazioni e suggerimenti", "1A.01.06.01"],
-    [5,  "Documento/procedura che descrive le modalita di erogazione dell'assistenza", "1A.02.02.01"],
-    [6,  "Piano per la gestione delle emergenze", "1A.02.02.02"],
-    [7,  "Protocollo per l'isolamento di pazienti con patologie contagiose o potenzialmente tali", "1A.02.02.03"],
-    [8,  "Procedura per la redazione, aggiornamento, conservazione e verifica della documentazione sanitaria", "1A.02.05.01"],
-    [9,  "Documento formale di incarico del responsabile della Manutenzione", "1A.03.01.01"],
-    [10, "Inventario delle attrezzature aggiornato e verificato annualmente", "1A.03.02.01"],
-    [11, "Piano per la gestione e la manutenzione delle strutture, impianti, attrezzature", "1A.03.02.02"],
-    [12, "Documentazione tecnica relativa alle singole attrezzature e apparecchiature", "1A.03.02.03"],
-    [13, "Documentazione tecnica – caratteristiche ambientali e di accessibilita", "1A.03.05.01"],
-    [14, "Documentazione tecnica – protezione antincendio", "1A.03.05.02"],
-    [15, "Documentazione tecnica – protezione acustica", "1A.03.05.03"],
-    [16, "Documentazione tecnica – sicurezza elettrica e continuita elettrica", "1A.03.05.04"],
-    [17, "Documentazione tecnica – sicurezza anti-infortunistica", "1A.03.05.05"],
-    [18, "Documentazione tecnica – protezione dai rischi di radiazioni ionizzanti", "1A.03.05.06"],
-    [19, "Documentazione tecnica – eliminazione delle barriere architettoniche", "1A.03.05.07"],
-    [20, "Documentazione tecnica – smaltimento dei rifiuti", "1A.03.05.08"],
-    [21, "Documentazione tecnica – condizioni microclimatiche", "1A.03.05.09"],
-    [22, "Documentazione tecnica – impianti di distribuzione dei gas", "1A.03.05.10"],
-    [23, "Documentazione tecnica – materiali esplodenti", "1A.03.05.11"],
-    [24, "Documentazione tecnica – protezione antisismica", "1A.03.05.12"],
-    [25, "Obblighi assicurativi definiti dalla normativa applicabile", "1A.04.12.04"],
-    [26, "Carta dei servizi", "1A.05.03.01"],
-    [27, "Modalita identificazione di tirocinanti, specializzandi e altri soggetti", "1A.05.03.03"],
-    [28, "Report criticita riscontrate dall'analisi dei reclami e customer satisfaction", "1A.05.03.05"],
-    [29, "Piano aziendale per la gestione del rischio", "1A.06.02.01"],
-    [30, "Procedura per la pulizia e sanificazione degli ambienti", "1A.06.02.02"],
-    [31, "Procedura per la protezione dagli incidenti per esposizione a materiale biologico", "1A.06.02.03"],
-    [32, "Sistema per l'identificazione e la segnalazione di near miss ed eventi avversi", "1A.06.02.04"],
-  ];
-
-  // Mappa doc num → template estratto (presenti solo quelli con testo nel PDF originale)
-  const TEMPLATE_MAP = {
-    1: DOC_TEXTS[0],
-    2: DOC_TEXTS[1],
-    3: DOC_TEXTS[2],
-    4: DOC_TEXTS[3],
-    5: DOC_TEXTS[4],
-    6: DOC_TEXTS[5],
-    7: DOC_TEXTS[6],
-    8: DOC_TEXTS[7],
-    9: DOC_TEXTS[8],
-    10: DOC_TEXTS[9],
-    11: DOC_TEXTS[10],
-    12: DOC_TEXTS[11],
-    13: DOC_TEXTS[12],
-    14: DOC_TEXTS[13],
-    15: DOC_TEXTS[14],
-    16: DOC_TEXTS[15],
-    17: DOC_TEXTS[16],
-    18: DOC_TEXTS[17],
-    19: DOC_TEXTS[18],
-    20: DOC_TEXTS[19],
-    21: DOC_TEXTS[20],
-    22: DOC_TEXTS[21],
-    23: DOC_TEXTS[22],
-    24: DOC_TEXTS[23],
-    25: DOC_TEXTS[24],
-    26: DOC_TEXTS[25],
-    27: DOC_TEXTS[26],
-    28: DOC_TEXTS[27],
-    29: DOC_TEXTS[28],
-    30: DOC_TEXTS[29],
-    31: DOC_TEXTS[30],
-    32: DOC_TEXTS[31],
-  };
-
-  // Testi per documenti senza template (generici)
-  function genericText(num, title, code) {
-    return `Il presente documento e stato predisposto ai sensi del D.A. 9 gennaio 2024 n. 20 e del MAMB 3.0 (giugno 2025) per attestare la conformita ai requisiti generali per l'autorizzazione all'esercizio di attivita sanitarie delle strutture non residenziali semplici monopresidio.\n\nCodice requisito: ${code}\n\nOggetto: ${title}\n\nLo studio [STUDIO], con sede in [INDIRIZZO], nella persona del Titolare/Direttore Tecnico [TITOLARE], dichiara di soddisfare il presente requisito e di disporre della relativa documentazione probatoria disponibile presso la sede della struttura.\n\nData: ${new Date().toLocaleDateString('it-IT')}`;
-  }
-
-  DOC_META.forEach(([num, title, code]) => {
-    const bodyText = TEMPLATE_MAP[num] || genericText(num, title, code);
-
-    // ── Copertina ──
-    drawCoverPage(num, title, code);
-    // drawCoverPage termina con pageStreams.push della copertina
-    // e prepara una nuova pg per il contenuto
-
-    // ── Contenuto ──
-    drawDocContent(num, title, bodyText);
-
-    // ── Salva la pagina contenuto (l'ultima del documento) ──
-    footerPage();
-    pageStreams.push(pg.stream());
-    pg = makePage();
-    curY = PH - 40;
+  if (isHeading) curY -= 3;
+  lines.forEach(l => {
+    pg.text(l, ML + indent, curY, fontName, fontSize, 0,0,0);
+    curY -= lineH;
   });
+  if (isHeading) curY -= 3;
+  else curY -= 2;
+});
+```
 
+}
 
+// ── Genera tutte le schede ──
+const DOC_META = [
+[1,  “Documento che definisce ed esplicita l’organizzazione e le politiche di gestione delle risorse”, “1A.01.03.01”],
+[2,  “Documentazione inerente il sistema informativo”, “1A.01.04.01”],
+[3,  “Documento/programma per la valutazione e il miglioramento della qualita delle prestazioni”, “1A.01.05.01”],
+[4,  “Procedura per la presentazione e gestione di reclami, osservazioni e suggerimenti”, “1A.01.06.01”],
+[5,  “Documento/procedura che descrive le modalita di erogazione dell’assistenza”, “1A.02.02.01”],
+[6,  “Piano per la gestione delle emergenze”, “1A.02.02.02”],
+[7,  “Protocollo per l’isolamento di pazienti con patologie contagiose o potenzialmente tali”, “1A.02.02.03”],
+[8,  “Procedura per la redazione, aggiornamento, conservazione e verifica della documentazione sanitaria”, “1A.02.05.01”],
+[9,  “Documento formale di incarico del responsabile della Manutenzione”, “1A.03.01.01”],
+[10, “Inventario delle attrezzature aggiornato e verificato annualmente”, “1A.03.02.01”],
+[11, “Piano per la gestione e la manutenzione delle strutture, impianti, attrezzature”, “1A.03.02.02”],
+[12, “Documentazione tecnica relativa alle singole attrezzature e apparecchiature”, “1A.03.02.03”],
+[13, “Documentazione tecnica – caratteristiche ambientali e di accessibilita”, “1A.03.05.01”],
+[14, “Documentazione tecnica – protezione antincendio”, “1A.03.05.02”],
+[15, “Documentazione tecnica – protezione acustica”, “1A.03.05.03”],
+[16, “Documentazione tecnica – sicurezza elettrica e continuita elettrica”, “1A.03.05.04”],
+[17, “Documentazione tecnica – sicurezza anti-infortunistica”, “1A.03.05.05”],
+[18, “Documentazione tecnica – protezione dai rischi di radiazioni ionizzanti”, “1A.03.05.06”],
+[19, “Documentazione tecnica – eliminazione delle barriere architettoniche”, “1A.03.05.07”],
+[20, “Documentazione tecnica – smaltimento dei rifiuti”, “1A.03.05.08”],
+[21, “Documentazione tecnica – condizioni microclimatiche”, “1A.03.05.09”],
+[22, “Documentazione tecnica – impianti di distribuzione dei gas”, “1A.03.05.10”],
+[23, “Documentazione tecnica – materiali esplodenti”, “1A.03.05.11”],
+[24, “Documentazione tecnica – protezione antisismica”, “1A.03.05.12”],
+[25, “Obblighi assicurativi definiti dalla normativa applicabile”, “1A.04.12.04”],
+[26, “Carta dei servizi”, “1A.05.03.01”],
+[27, “Modalita identificazione di tirocinanti, specializzandi e altri soggetti”, “1A.05.03.03”],
+[28, “Report criticita riscontrate dall’analisi dei reclami e customer satisfaction”, “1A.05.03.05”],
+[29, “Piano aziendale per la gestione del rischio”, “1A.06.02.01”],
+[30, “Procedura per la pulizia e sanificazione degli ambienti”, “1A.06.02.02”],
+[31, “Procedura per la protezione dagli incidenti per esposizione a materiale biologico”, “1A.06.02.03”],
+[32, “Sistema per l’identificazione e la segnalazione di near miss ed eventi avversi”, “1A.06.02.04”],
+];
 
-  // ══════════════════════════════════════════
-  // ASSEMBLAGGIO PDF
-  // ══════════════════════════════════════════
-  const objs = [];
-  let objIdx = 0;
-  function addObj(c) { objIdx++; objs.push({id:objIdx, content:c}); return objIdx; }
+// Mappa doc num → template estratto (presenti solo quelli con testo nel PDF originale)
+const TEMPLATE_MAP = {
+1: DOC_TEXTS[0],
+2: DOC_TEXTS[1],
+3: DOC_TEXTS[2],
+4: DOC_TEXTS[3],
+5: DOC_TEXTS[4],
+6: DOC_TEXTS[5],
+7: DOC_TEXTS[6],
+8: DOC_TEXTS[7],
+9: DOC_TEXTS[8],
+10: DOC_TEXTS[9],
+11: DOC_TEXTS[10],
+12: DOC_TEXTS[11],
+13: DOC_TEXTS[12],
+14: DOC_TEXTS[13],
+15: DOC_TEXTS[14],
+16: DOC_TEXTS[15],
+17: DOC_TEXTS[16],
+18: DOC_TEXTS[17],
+19: DOC_TEXTS[18],
+20: DOC_TEXTS[19],
+21: DOC_TEXTS[20],
+22: DOC_TEXTS[21],
+23: DOC_TEXTS[22],
+24: DOC_TEXTS[23],
+25: DOC_TEXTS[24],
+26: DOC_TEXTS[25],
+27: DOC_TEXTS[26],
+28: DOC_TEXTS[27],
+29: DOC_TEXTS[28],
+30: DOC_TEXTS[29],
+31: DOC_TEXTS[30],
+32: DOC_TEXTS[31],
+};
 
-  const fNorm = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman   /Encoding /WinAnsiEncoding >>');
-  const fBold = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold    /Encoding /WinAnsiEncoding >>');
-  const fItal = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic  /Encoding /WinAnsiEncoding >>');
+// Testi per documenti senza template (generici)
+function genericText(num, title, code) {
+return `Il presente documento e stato predisposto ai sensi del D.A. 9 gennaio 2024 n. 20 e del MAMB 3.0 (giugno 2025) per attestare la conformita ai requisiti generali per l'autorizzazione all'esercizio di attivita sanitarie delle strutture non residenziali semplici monopresidio.\n\nCodice requisito: ${code}\n\nOggetto: ${title}\n\nLo studio [STUDIO], con sede in [INDIRIZZO], nella persona del Titolare/Direttore Tecnico [TITOLARE], dichiara di soddisfare il presente requisito e di disporre della relativa documentazione probatoria disponibile presso la sede della struttura.\n\nData: ${new Date().toLocaleDateString('it-IT')}`;
+}
 
-  const pageIds = [];
-  pageStreams.forEach(stream => {
-    const sId = addObj(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`);
-    const pId = addObj(`<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${sId} 0 R /Resources << /Font << /F1 ${fNorm} 0 R /F2 ${fBold} 0 R /F3 ${fItal} 0 R >> >> >>`);
-    pageIds.push(pId);
-  });
+DOC_META.forEach(([num, title, code]) => {
+const bodyText = TEMPLATE_MAP[num] || genericText(num, title, code);
 
-  const pagesId = objIdx + 1;
-  addObj(`<< /Type /Pages /Kids [${pageIds.map(id=>id+' 0 R').join(' ')}] /Count ${pageIds.length} >>`);
-  pageIds.forEach(id => {
-    objs[id-1].content = objs[id-1].content.replace('999 0 R', `${pagesId} 0 R`);
-  });
+```
+// ── Copertina ──
+drawCoverPage(num, title, code);
+// drawCoverPage termina con pageStreams.push della copertina
+// e prepara una nuova pg per il contenuto
 
-  const studioEsc = esc(studioName2 || 'Studio Odontoiatrico');
-  const catId  = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
-  const infoId = addObj(`<< /Title (Allegato A1 - ${studioEsc}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu - AIO Palermo) >>`);
+// ── Contenuto ──
+drawDocContent(num, title, bodyText);
 
-  let pdf = '%PDF-1.4\n';
-  const offs = [];
-  objs.forEach(o => { offs.push(pdf.length); pdf += `${o.id} 0 obj\n${o.content}\nendobj\n`; });
-  const xp = pdf.length;
-  pdf += `xref\n0 ${objs.length+1}\n0000000000 65535 f \n`;
-  offs.forEach(o => { pdf += `${String(o).padStart(10,'0')} 00000 n \n`; });
-  pdf += `trailer\n<< /Size ${objs.length+1} /Root ${catId} 0 R /Info ${infoId} 0 R >>\nstartxref\n${xp}\n%%EOF`;
-  return pdf;
+// ── Salva la pagina contenuto (l'ultima del documento) ──
+footerPage();
+pageStreams.push(pg.stream());
+pg = makePage();
+curY = PH - 40;
+```
+
+});
+
+// ══════════════════════════════════════════
+// ASSEMBLAGGIO PDF
+// ══════════════════════════════════════════
+const objs = [];
+let objIdx = 0;
+function addObj(c) { objIdx++; objs.push({id:objIdx, content:c}); return objIdx; }
+
+const fNorm = addObj(’<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman   /Encoding /WinAnsiEncoding >>’);
+const fBold = addObj(’<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold    /Encoding /WinAnsiEncoding >>’);
+const fItal = addObj(’<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic  /Encoding /WinAnsiEncoding >>’);
+
+const pageIds = [];
+pageStreams.forEach(stream => {
+const sId = addObj(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`);
+const pId = addObj(`<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${sId} 0 R /Resources << /Font << /F1 ${fNorm} 0 R /F2 ${fBold} 0 R /F3 ${fItal} 0 R >> >> >>`);
+pageIds.push(pId);
+});
+
+const pagesId = objIdx + 1;
+addObj(`<< /Type /Pages /Kids [${pageIds.map(id=>id+' 0 R').join(' ')}] /Count ${pageIds.length} >>`);
+pageIds.forEach(id => {
+objs[id-1].content = objs[id-1].content.replace(‘999 0 R’, `${pagesId} 0 R`);
+});
+
+const studioEsc = esc(studioName2 || ‘Studio Odontoiatrico’);
+const catId  = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
+const infoId = addObj(`<< /Title (Allegato A1 - ${studioEsc}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu - AIO Palermo) >>`);
+
+let pdf = ‘%PDF-1.4\n’;
+const offs = [];
+objs.forEach(o => { offs.push(pdf.length); pdf += `${o.id} 0 obj\n${o.content}\nendobj\n`; });
+const xp = pdf.length;
+pdf += `xref\n0 ${objs.length+1}\n0000000000 65535 f \n`;
+offs.forEach(o => { pdf += `${String(o).padStart(10,'0')} 00000 n \n`; });
+pdf += `trailer\n<< /Size ${objs.length+1} /Root ${catId} 0 R /Info ${infoId} 0 R >>\nstartxref\n${xp}\n%%EOF`;
+return pdf;
 }
 
 function encode(s) { return s; } // placeholder per compatibilità
 
-
 // ── INIT ──
-document.getElementById('btnBack').style.visibility = 'hidden';
+
+// Cattura errori globali e li mostra visivamente
+window.onerror = function(msg, src, line, col, err) {
+var d = document.createElement(‘div’);
+d.style.cssText = ‘position:fixed;top:0;left:0;right:0;background:#c0392b;color:#fff;padding:12px 16px;font-size:13px;z-index:9999;font-family:monospace;’;
+d.textContent = ’⚠ ERRORE: ’ + msg + ’ (riga ’ + line + ‘)’;
+document.body.appendChild(d);
+setTimeout(function(){ if(d.parentNode) d.parentNode.removeChild(d); }, 8000);
+return false;
+};
+
+document.getElementById(‘btnBack’).style.visibility = ‘hidden’;
 
 // Fix Safari iOS: touch-action manipulation elimina il delay 300ms
-// Usiamo 'click' standard che su iOS con touch-action:manipulation
+// Usiamo ‘click’ standard che su iOS con touch-action:manipulation
 // viene sparato senza ritardo
 function bindBtn(id, fn) {
-  var el = document.getElementById(id);
-  if (!el) return;
-  el.addEventListener('click', fn);
+var el = document.getElementById(id);
+if (!el) return;
+el.addEventListener(‘click’, fn);
 }
 
-bindBtn('btnBack', function(){ navigate(-1); });
-bindBtn('btnNext', function(){ navigate(1); });
-bindBtn('btnPdf',  function(){ exportPDF(); });
+bindBtn(‘btnBack’, function(){ navigate(-1); });
+bindBtn(‘btnNext’, function(){ navigate(1); });
+bindBtn(‘btnPdf’,  function(){ exportPDF(); });
 
-document.querySelectorAll('.copy-btn').forEach(function(b){
-  b.addEventListener('click', copyOutput);
+document.querySelectorAll(’.copy-btn’).forEach(function(b){
+b.addEventListener(‘click’, copyOutput);
 });
