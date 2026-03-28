@@ -4535,7 +4535,7 @@ principali passaggi:
 function buildPDF() {
   // ── A4 in punti (1pt = 1/72 inch) ──
   const PW = 595.28, PH = 841.89;
-  const ML = 42, MR = 42;
+  const ML = 42, MR = 42, MT = 50, MB = 45;
   const CW = PW - ML - MR;   // ~511 pt larghezza contenuto
 
   // Colonne tabella (misure dall'originale)
