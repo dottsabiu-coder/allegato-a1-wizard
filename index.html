@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
 <meta charset="UTF-8">
@@ -8,367 +9,379 @@
 <style>
   /* Font di sistema – zero dipendenze esterne */
 
-  :root {
-    --navy: #0d1f2d;
-    --gold: #c8963e;
-    --gold-light: #e8b96a;
-    --cream: #f5f0e8;
-    --cream-dark: #ede5d4;
-    --white: #ffffff;
-    --red: #c0392b;
-    --green: #1a7a4a;
-    --text: #1a1a2e;
-    --muted: #6b7280;
-    --border: #d5cfc4;
-    --shadow: 0 4px 24px rgba(13,31,45,0.10);
-  }
+:root {
+–navy: #0d1f2d;
+–gold: #c8963e;
+–gold-light: #e8b96a;
+–cream: #f5f0e8;
+–cream-dark: #ede5d4;
+–white: #ffffff;
+–red: #c0392b;
+–green: #1a7a4a;
+–text: #1a1a2e;
+–muted: #6b7280;
+–border: #d5cfc4;
+–shadow: 0 4px 24px rgba(13,31,45,0.10);
+}
 
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+- { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {
-    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
-    background: var(--cream);
-    color: var(--text);
-    min-height: 100vh;
-  }
+body {
+font-family: -apple-system, ‘Segoe UI’, system-ui, sans-serif;
+background: var(–cream);
+color: var(–text);
+min-height: 100vh;
+}
 
-  /* ── HEADER ── */
-  header {
-    background: var(--navy);
-    color: var(--white);
-    padding: 0 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 72px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-  }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .header-badge {
-    background: var(--gold);
-    color: var(--navy);
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 4px 10px;
-    border-radius: 3px;
-  }
-  header h1 {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 20px;
-    letter-spacing: 0.3px;
-  }
-  .header-sub { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 1px; }
+/* ── HEADER ── */
+header {
+background: var(–navy);
+color: var(–white);
+padding: 0 48px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 72px;
+position: sticky;
+top: 0;
+z-index: 100;
+box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+.header-left { display: flex; align-items: center; gap: 16px; }
+.header-badge {
+background: var(–gold);
+color: var(–navy);
+font-size: 10px;
+font-weight: 600;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+padding: 4px 10px;
+border-radius: 3px;
+}
+header h1 {
+font-family: Georgia, ‘Times New Roman’, serif;
+font-size: 20px;
+letter-spacing: 0.3px;
+}
+.header-sub { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 1px; }
 
-  /* ── PROGRESS BAR ── */
-  .progress-wrap {
-    background: var(--navy);
-    padding: 0 48px 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-  }
-  .steps-row {
-    display: flex;
-    gap: 0;
-    max-width: 900px;
-  }
-  .step-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex: 1;
-    cursor: pointer;
-    padding: 8px 0;
-    border-bottom: 2px solid transparent;
-    transition: all 0.2s;
-    opacity: 0.45;
-  }
-  .step-item.active { opacity: 1; border-bottom-color: var(--gold); }
-  .step-item.done { opacity: 0.75; }
-  .step-num {
-    width: 24px; height: 24px;
-    border-radius: 50%;
-    border: 1.5px solid rgba(255,255,255,0.3);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 11px; font-weight: 600; color: var(--white);
-    flex-shrink: 0;
-  }
-  .step-item.active .step-num { background: var(--gold); border-color: var(--gold); color: var(--navy); }
-  .step-item.done .step-num { background: var(--green); border-color: var(--green); }
-  .step-label { font-size: 11px; color: var(--white); line-height: 1.3; }
+/* ── PROGRESS BAR ── */
+.progress-wrap {
+background: var(–navy);
+padding: 0 48px 20px;
+border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.steps-row {
+display: flex;
+gap: 0;
+max-width: 900px;
+}
+.step-item {
+display: flex;
+align-items: center;
+gap: 8px;
+flex: 1;
+cursor: pointer;
+padding: 8px 0;
+border-bottom: 2px solid transparent;
+transition: all 0.2s;
+opacity: 0.45;
+}
+.step-item.active { opacity: 1; border-bottom-color: var(–gold); }
+.step-item.done { opacity: 0.75; }
+.step-num {
+width: 24px; height: 24px;
+border-radius: 50%;
+border: 1.5px solid rgba(255,255,255,0.3);
+display: flex; align-items: center; justify-content: center;
+font-size: 11px; font-weight: 600; color: var(–white);
+flex-shrink: 0;
+}
+.step-item.active .step-num { background: var(–gold); border-color: var(–gold); color: var(–navy); }
+.step-item.done .step-num { background: var(–green); border-color: var(–green); }
+.step-label { font-size: 11px; color: var(–white); line-height: 1.3; }
 
-  /* ── LAYOUT ── */
-  .main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 24px 100px;
-  }
+/* ── LAYOUT ── */
+.main {
+max-width: 900px;
+margin: 0 auto;
+padding: 40px 24px 100px;
+}
 
-  /* ── SECTION ── */
-  .section { display: none; }
-  .section.active { display: block; animation: fadeIn 0.3s ease; }
-  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+/* ── SECTION ── */
+.section { display: none; }
+.section.active { display: block; animation: fadeIn 0.3s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-  .section-header { margin-bottom: 32px; }
-  .section-tag {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 8px;
-  }
-  .section-title {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 30px;
-    color: var(--navy);
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  .section-desc { font-size: 14px; color: var(--muted); line-height: 1.6; max-width: 620px; }
+.section-header { margin-bottom: 32px; }
+.section-tag {
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: var(–gold);
+margin-bottom: 8px;
+}
+.section-title {
+font-family: Georgia, ‘Times New Roman’, serif;
+font-size: 30px;
+color: var(–navy);
+line-height: 1.2;
+margin-bottom: 10px;
+}
+.section-desc { font-size: 14px; color: var(–muted); line-height: 1.6; max-width: 620px; }
 
-  /* ── CARD ── */
-  .card {
-    background: var(--white);
-    border-radius: 12px;
-    padding: 28px 32px;
-    margin-bottom: 20px;
-    box-shadow: var(--shadow);
-    border: 1px solid var(--border);
-  }
-  .card-title {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    color: var(--navy);
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--cream-dark);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .card-title-icon {
-    width: 28px; height: 28px;
-    background: var(--cream);
-    border-radius: 6px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 14px;
-  }
+/* ── CARD ── */
+.card {
+background: var(–white);
+border-radius: 12px;
+padding: 28px 32px;
+margin-bottom: 20px;
+box-shadow: var(–shadow);
+border: 1px solid var(–border);
+}
+.card-title {
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+color: var(–navy);
+margin-bottom: 20px;
+padding-bottom: 12px;
+border-bottom: 1px solid var(–cream-dark);
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.card-title-icon {
+width: 28px; height: 28px;
+background: var(–cream);
+border-radius: 6px;
+display: flex; align-items: center; justify-content: center;
+font-size: 14px;
+}
 
-  /* ── FORM ELEMENTS ── */
-  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-  .field-row.triple { grid-template-columns: 1fr 1fr 1fr; }
-  .field-row.full { grid-template-columns: 1fr; }
-  .field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 0; }
-  .field label {
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--navy);
-    letter-spacing: 0.3px;
-  }
-  .field label .req { color: var(--red); margin-left: 3px; }
-  .field input, .field select, .field textarea {
-    padding: 10px 14px;
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    font-size: 14px;
-    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
-    color: var(--text);
-    background: var(--cream);
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none;
-  }
-  .field input:focus, .field select:focus, .field textarea:focus {
-    border-color: var(--gold);
-    box-shadow: 0 0 0 3px rgba(200,150,62,0.12);
-    background: var(--white);
-  }
-  .field textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
-  .field-hint { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+/* ── FORM ELEMENTS ── */
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.field-row.triple { grid-template-columns: 1fr 1fr 1fr; }
+.field-row.full { grid-template-columns: 1fr; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 0; }
+.field label {
+font-size: 12px;
+font-weight: 500;
+color: var(–navy);
+letter-spacing: 0.3px;
+}
+.field label .req { color: var(–red); margin-left: 3px; }
+.field input, .field select, .field textarea {
+padding: 10px 14px;
+border: 1.5px solid var(–border);
+border-radius: 8px;
+font-size: 14px;
+font-family: -apple-system, ‘Segoe UI’, system-ui, sans-serif;
+color: var(–text);
+background: var(–cream);
+transition: border-color 0.2s, box-shadow 0.2s;
+outline: none;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
+border-color: var(–gold);
+box-shadow: 0 0 0 3px rgba(200,150,62,0.12);
+background: var(–white);
+}
+.field textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
+.field-hint { font-size: 11px; color: var(–muted); margin-top: 2px; line-height: 1.4; }
 
-  /* ── TOGGLE / CHECKBOX GROUP ── */
-  .toggle-group { display: flex; flex-direction: column; gap: 10px; }
-  .toggle-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 12px 16px;
-    border-radius: 8px;
-    border: 1.5px solid var(--border);
-    background: var(--cream);
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .toggle-item:hover { border-color: var(--gold-light); background: #fdf8ef; }
-  .toggle-item input[type="checkbox"] { margin-top: 2px; accent-color: var(--gold); width: 16px; height: 16px; flex-shrink: 0; cursor: pointer; }
-  .toggle-item.checked { border-color: var(--gold); background: #fdf4e3; }
-  .toggle-label { font-size: 13px; line-height: 1.5; color: var(--text); }
-  .toggle-label strong { display: block; font-weight: 600; margin-bottom: 2px; }
-  .toggle-label span { color: var(--muted); font-size: 12px; }
+/* ── TOGGLE / CHECKBOX GROUP ── */
+.toggle-group { display: flex; flex-direction: column; gap: 10px; }
+.toggle-item {
+display: flex;
+align-items: flex-start;
+gap: 12px;
+padding: 12px 16px;
+border-radius: 8px;
+border: 1.5px solid var(–border);
+background: var(–cream);
+cursor: pointer;
+transition: all 0.2s;
+}
+.toggle-item:hover { border-color: var(–gold-light); background: #fdf8ef; }
+.toggle-item input[type=“checkbox”] { margin-top: 2px; accent-color: var(–gold); width: 16px; height: 16px; flex-shrink: 0; cursor: pointer; }
+.toggle-item.checked { border-color: var(–gold); background: #fdf4e3; }
+.toggle-label { font-size: 13px; line-height: 1.5; color: var(–text); }
+.toggle-label strong { display: block; font-weight: 600; margin-bottom: 2px; }
+.toggle-label span { color: var(–muted); font-size: 12px; }
 
-  /* ── RADIO GROUP ── */
-  .radio-group { display: flex; gap: 12px; flex-wrap: wrap; }
-  .radio-item {
-    display: flex; align-items: center; gap: 8px;
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 1.5px solid var(--border);
-    background: var(--cream);
-    cursor: pointer;
-    font-size: 13px;
-    transition: all 0.2s;
-  }
-  .radio-item input { accent-color: var(--gold); }
-  .radio-item:has(input:checked) { border-color: var(--gold); background: #fdf4e3; font-weight: 500; }
+/* ── RADIO GROUP ── */
+.radio-group { display: flex; gap: 12px; flex-wrap: wrap; }
+.radio-item {
+display: flex; align-items: center; gap: 8px;
+padding: 8px 16px;
+border-radius: 8px;
+border: 1.5px solid var(–border);
+background: var(–cream);
+cursor: pointer;
+font-size: 13px;
+transition: all 0.2s;
+}
+.radio-item input { accent-color: var(–gold); }
+.radio-item:has(input:checked) { border-color: var(–gold); background: #fdf4e3; font-weight: 500; }
 
-  /* ── INFO BOX ── */
-  .info-box {
-    background: #eef4fb;
-    border-left: 3px solid #3b82f6;
-    border-radius: 0 8px 8px 0;
-    padding: 12px 16px;
-    font-size: 13px;
-    color: #1e40af;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
-  .warn-box {
-    background: #fef9ed;
-    border-left: 3px solid var(--gold);
-    border-radius: 0 8px 8px 0;
-    padding: 12px 16px;
-    font-size: 13px;
-    color: #92400e;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
+/* ── INFO BOX ── */
+.info-box {
+background: #eef4fb;
+border-left: 3px solid #3b82f6;
+border-radius: 0 8px 8px 0;
+padding: 12px 16px;
+font-size: 13px;
+color: #1e40af;
+margin-bottom: 20px;
+line-height: 1.5;
+}
+.warn-box {
+background: #fef9ed;
+border-left: 3px solid var(–gold);
+border-radius: 0 8px 8px 0;
+padding: 12px 16px;
+font-size: 13px;
+color: #92400e;
+margin-bottom: 20px;
+line-height: 1.5;
+}
 
-  /* ── NAVIGATION ── */
-  .nav-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0; right: 0;
-    background: var(--white);
-    border-top: 1px solid var(--border);
-    padding: 16px 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.06);
-  }
-  .nav-left { display: flex; gap: 12px; align-items: center; }
-  .btn {
-    padding: 10px 24px;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
-    cursor: pointer;
-    border: none;
-    transition: all 0.2s;
-  }
-  .btn-primary {
-    background: var(--navy);
-    color: var(--white);
-  }
-  .btn-primary:hover { background: #1a3550; transform: translateY(-1px); }
-  .btn-secondary {
-    background: transparent;
-    color: var(--navy);
-    border: 1.5px solid var(--border);
-  }
-  .btn-secondary:hover { border-color: var(--navy); background: var(--cream); }
-  .btn-gold {
-    background: var(--gold);
-    color: var(--navy);
-    font-weight: 600;
-  }
-  .btn-gold:hover { background: var(--gold-light); transform: translateY(-1px); }
-  .btn-danger {
-    background: #fee2e2;
-    color: var(--red);
-    border: 1.5px solid #fecaca;
-  }
-  .nav-progress-text { font-size: 12px; color: var(--muted); }
+/* ── NAVIGATION ── */
+.nav-bar {
+position: fixed;
+bottom: 0;
+left: 0; right: 0;
+background: var(–white);
+border-top: 1px solid var(–border);
+padding: 16px 48px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 99;
+box-shadow: 0 -4px 20px rgba(0,0,0,0.06);
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+.nav-left { display: flex; gap: 12px; align-items: center; }
+.btn {
+padding: 10px 24px;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 500;
+font-family: -apple-system, ‘Segoe UI’, system-ui, sans-serif;
+cursor: pointer;
+border: none;
+transition: all 0.2s;
+touch-action: manipulation;
+-webkit-tap-highlight-color: transparent;
+user-select: none;
+-webkit-user-select: none;
+}
+.btn-primary {
+background: var(–navy);
+color: var(–white);
+}
+.btn-primary:hover { background: #1a3550; transform: translateY(-1px); }
+.btn-secondary {
+background: transparent;
+color: var(–navy);
+border: 1.5px solid var(–border);
+}
+.btn-secondary:hover { border-color: var(–navy); background: var(–cream); }
+.btn-gold {
+background: var(–gold);
+color: var(–navy);
+font-weight: 600;
+}
+.btn-gold:hover { background: var(–gold-light); transform: translateY(-1px); }
+.btn-danger {
+background: #fee2e2;
+color: var(–red);
+border: 1.5px solid #fecaca;
+}
+.nav-progress-text { font-size: 12px; color: var(–muted); }
 
-  /* ── OUTPUT ── */
-  .output-wrap {
-    background: var(--navy);
-    border-radius: 12px;
-    padding: 32px;
-    color: var(--white);
-    font-size: 13px;
-    line-height: 1.8;
-    white-space: pre-wrap;
-    font-family: 'DM Sans', sans-serif;
-    max-height: 600px;
-    overflow-y: auto;
-    margin-bottom: 20px;
-  }
-  .output-wrap h3 { color: var(--gold); margin-bottom: 8px; font-family: 'DM Serif Display', serif; font-size: 16px; }
-  .output-section { margin-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px; }
-  .output-row { display: grid; grid-template-columns: 200px 1fr; gap: 8px; margin-bottom: 6px; }
-  .output-key { color: rgba(255,255,255,0.55); font-size: 12px; }
-  .output-val { color: var(--white); font-weight: 500; }
-  .checklist-row { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; font-size: 12px; }
-  .check-ok { color: var(--green); flex-shrink: 0; }
-  .check-no { color: var(--red); flex-shrink: 0; }
+/* ── OUTPUT ── */
+.output-wrap {
+background: var(–navy);
+border-radius: 12px;
+padding: 32px;
+color: var(–white);
+font-size: 13px;
+line-height: 1.8;
+white-space: pre-wrap;
+font-family: ‘DM Sans’, sans-serif;
+max-height: 600px;
+overflow-y: auto;
+margin-bottom: 20px;
+}
+.output-wrap h3 { color: var(–gold); margin-bottom: 8px; font-family: ‘DM Serif Display’, serif; font-size: 16px; }
+.output-section { margin-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px; }
+.output-row { display: grid; grid-template-columns: 200px 1fr; gap: 8px; margin-bottom: 6px; }
+.output-key { color: rgba(255,255,255,0.55); font-size: 12px; }
+.output-val { color: var(–white); font-weight: 500; }
+.checklist-row { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; font-size: 12px; }
+.check-ok { color: var(–green); flex-shrink: 0; }
+.check-no { color: var(–red); flex-shrink: 0; }
 
-  .action-btns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 20px;
-  }
-  .copy-btn, .pdf-btn {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .copy-btn {
-    background: var(--navy);
-    color: var(--white);
-  }
-  .copy-btn:hover { background: #1a3550; transform: translateY(-1px); }
-  .pdf-btn {
-    background: var(--gold);
-    color: var(--navy);
-    font-size: 15px;
-  }
-  .pdf-btn:hover { background: var(--gold-light); transform: translateY(-1px); }
-  .pdf-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
-  @media (max-width: 640px) {
-    .action-btns { grid-template-columns: 1fr; }
-  }
+.action-btns {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 12px;
+margin-bottom: 20px;
+}
+.copy-btn, .pdf-btn {
+width: 100%;
+padding: 14px;
+border: none;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 600;
+font-family: -apple-system, ‘Segoe UI’, system-ui, sans-serif;
+cursor: pointer;
+transition: all 0.2s;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+touch-action: manipulation;
+-webkit-tap-highlight-color: transparent;
+user-select: none;
+-webkit-user-select: none;
+}
+.copy-btn {
+background: var(–navy);
+color: var(–white);
+}
+.copy-btn:hover { background: #1a3550; transform: translateY(-1px); }
+.pdf-btn {
+background: var(–gold);
+color: var(–navy);
+font-size: 15px;
+}
+.pdf-btn:hover { background: var(–gold-light); transform: translateY(-1px); }
+.pdf-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+@media (max-width: 640px) {
+.action-btns { grid-template-columns: 1fr; }
+}
 
-  /* ── RESPONSIVE ── */
-  @media (max-width: 640px) {
-    header { padding: 0 16px; }
-    .progress-wrap { padding: 0 16px 16px; }
-    .step-label { display: none; }
-    .main { padding: 24px 12px 100px; }
-    .card { padding: 20px 16px; }
-    .field-row { grid-template-columns: 1fr; }
-    .field-row.triple { grid-template-columns: 1fr; }
-    .nav-bar { padding: 12px 16px; }
-  }
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+header { padding: 0 16px; }
+.progress-wrap { padding: 0 16px 16px; }
+.step-label { display: none; }
+.main { padding: 24px 12px 100px; }
+.card { padding: 20px 16px; }
+.field-row { grid-template-columns: 1fr; }
+.field-row.triple { grid-template-columns: 1fr; }
+.nav-bar { padding: 12px 16px; }
+}
 </style>
+
 </head>
 <body>
 
@@ -397,6 +410,7 @@
 <div class="main">
 
   <!-- ══ STEP 1: ANAGRAFICA ══ -->
+
   <div class="section active" id="s1">
     <div class="section-header">
       <div class="section-tag">Step 1 di 6</div>
@@ -404,100 +418,104 @@
       <div class="section-desc">Inserisci le informazioni identificative dello studio. Questi dati compariranno nell'intestazione del documento ufficiale.</div>
     </div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🏥</span> Titolare e Struttura</div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Denominazione / Ragione Sociale <span class="req">*</span></label>
-          <input type="text" id="denominazione" placeholder="es. Studio Odontoiatrico Rossi S.r.l." />
-        </div>
-      </div>
-      <div class="field-row">
-        <div class="field">
-          <label>Nome e Cognome Titolare / Legale Rappresentante <span class="req">*</span></label>
-          <input type="text" id="titolare" placeholder="es. Mario Rossi" />
-        </div>
-        <div class="field">
-          <label>Codice Fiscale / P.IVA <span class="req">*</span></label>
-          <input type="text" id="piva" placeholder="es. 01234567890" />
-        </div>
-      </div>
-      <div class="field-row">
-        <div class="field">
-          <label>Indirizzo sede <span class="req">*</span></label>
-          <input type="text" id="indirizzo" placeholder="Via/Piazza, numero civico" />
-        </div>
-        <div class="field">
-          <label>Comune <span class="req">*</span></label>
-          <input type="text" id="comune" placeholder="es. Palermo" />
-        </div>
-      </div>
-      <div class="field-row triple">
-        <div class="field">
-          <label>CAP</label>
-          <input type="text" id="cap" placeholder="es. 90100" maxlength="5" />
-        </div>
-        <div class="field">
-          <label>Provincia</label>
-          <select id="provincia">
-            <option value="">Seleziona</option>
-            <option>AG</option><option>CL</option><option>CT</option><option>EN</option>
-            <option>ME</option><option>PA</option><option>RG</option><option>SR</option><option>TP</option>
-          </select>
-        </div>
-        <div class="field">
-          <label>ASP di riferimento <span class="req">*</span></label>
-          <select id="asp">
-            <option value="">Seleziona</option>
-            <option>ASP Agrigento</option><option>ASP Caltanissetta</option>
-            <option>ASP Catania</option><option>ASP Enna</option>
-            <option>ASP Messina</option><option>ASP Palermo</option>
-            <option>ASP Ragusa</option><option>ASP Siracusa</option><option>ASP Trapani</option>
-          </select>
-        </div>
-      </div>
-      <div class="field-row">
-        <div class="field">
-          <label>Telefono</label>
-          <input type="text" id="telefono" placeholder="es. 091 123456" />
-        </div>
-        <div class="field">
-          <label>PEC / E-mail ufficiale</label>
-          <input type="email" id="email" placeholder="studio@pec.it" />
-        </div>
-      </div>
+```
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🏥</span> Titolare e Struttura</div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Denominazione / Ragione Sociale <span class="req">*</span></label>
+      <input type="text" id="denominazione" placeholder="es. Studio Odontoiatrico Rossi S.r.l." />
     </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label>Nome e Cognome Titolare / Legale Rappresentante <span class="req">*</span></label>
+      <input type="text" id="titolare" placeholder="es. Mario Rossi" />
+    </div>
+    <div class="field">
+      <label>Codice Fiscale / P.IVA <span class="req">*</span></label>
+      <input type="text" id="piva" placeholder="es. 01234567890" />
+    </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label>Indirizzo sede <span class="req">*</span></label>
+      <input type="text" id="indirizzo" placeholder="Via/Piazza, numero civico" />
+    </div>
+    <div class="field">
+      <label>Comune <span class="req">*</span></label>
+      <input type="text" id="comune" placeholder="es. Palermo" />
+    </div>
+  </div>
+  <div class="field-row triple">
+    <div class="field">
+      <label>CAP</label>
+      <input type="text" id="cap" placeholder="es. 90100" maxlength="5" />
+    </div>
+    <div class="field">
+      <label>Provincia</label>
+      <select id="provincia">
+        <option value="">Seleziona</option>
+        <option>AG</option><option>CL</option><option>CT</option><option>EN</option>
+        <option>ME</option><option>PA</option><option>RG</option><option>SR</option><option>TP</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>ASP di riferimento <span class="req">*</span></label>
+      <select id="asp">
+        <option value="">Seleziona</option>
+        <option>ASP Agrigento</option><option>ASP Caltanissetta</option>
+        <option>ASP Catania</option><option>ASP Enna</option>
+        <option>ASP Messina</option><option>ASP Palermo</option>
+        <option>ASP Ragusa</option><option>ASP Siracusa</option><option>ASP Trapani</option>
+      </select>
+    </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label>Telefono</label>
+      <input type="text" id="telefono" placeholder="es. 091 123456" />
+    </div>
+    <div class="field">
+      <label>PEC / E-mail ufficiale</label>
+      <input type="email" id="email" placeholder="studio@pec.it" />
+    </div>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">⚕️</span> Direttore Tecnico</div>
-      <div class="info-box">Il Direttore Tecnico è il professionista responsabile clinico della struttura. Per uno studio odontoiatrico semplice monopresidio coincide spesso con il titolare.</div>
-      <div class="field-row">
-        <div class="field">
-          <label>Nome e Cognome Direttore Tecnico <span class="req">*</span></label>
-          <input type="text" id="direttore" placeholder="es. Mario Rossi" />
-        </div>
-        <div class="field">
-          <label>Numero iscrizione Albo Odontoiatri <span class="req">*</span></label>
-          <input type="text" id="albo" placeholder="es. PA/1234" />
-        </div>
-      </div>
-      <div class="field-row">
-        <div class="field">
-          <label>Ordine provinciale</label>
-          <input type="text" id="ordine" placeholder="es. Ordine Odontoiatri di Palermo" />
-        </div>
-        <div class="field">
-          <label>Il Direttore Tecnico coincide con il titolare?</label>
-          <div class="radio-group" style="margin-top:6px">
-            <label class="radio-item"><input type="radio" name="dtCoincide" value="si"> Sì</label>
-            <label class="radio-item"><input type="radio" name="dtCoincide" value="no"> No</label>
-          </div>
-        </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">⚕️</span> Direttore Tecnico</div>
+  <div class="info-box">Il Direttore Tecnico è il professionista responsabile clinico della struttura. Per uno studio odontoiatrico semplice monopresidio coincide spesso con il titolare.</div>
+  <div class="field-row">
+    <div class="field">
+      <label>Nome e Cognome Direttore Tecnico <span class="req">*</span></label>
+      <input type="text" id="direttore" placeholder="es. Mario Rossi" />
+    </div>
+    <div class="field">
+      <label>Numero iscrizione Albo Odontoiatri <span class="req">*</span></label>
+      <input type="text" id="albo" placeholder="es. PA/1234" />
+    </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label>Ordine provinciale</label>
+      <input type="text" id="ordine" placeholder="es. Ordine Odontoiatri di Palermo" />
+    </div>
+    <div class="field">
+      <label>Il Direttore Tecnico coincide con il titolare?</label>
+      <div class="radio-group" style="margin-top:6px">
+        <label class="radio-item"><input type="radio" name="dtCoincide" value="si"> Sì</label>
+        <label class="radio-item"><input type="radio" name="dtCoincide" value="no"> No</label>
       </div>
     </div>
   </div>
+</div>
+```
+
+  </div>
 
   <!-- ══ STEP 2: SISTEMA INFORMATIVO E GESTIONE ══ -->
+
   <div class="section" id="s2">
     <div class="section-header">
       <div class="section-tag">Step 2 di 6</div>
@@ -505,75 +523,79 @@
       <div class="section-desc">Requisiti del Criterio A – Criterio 1A.01: Attuazione di un sistema di gestione della struttura sanitaria (Allegato A1 MAMB).</div>
     </div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">💻</span> Sistema Informativo (1A.01.02.01)</div>
-      <div class="warn-box">Evidenza richiesta: sistema informatico per gestione dati paziente, appuntamenti, fatturazione. Specificare il software in uso.</div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Software gestionale in uso <span class="req">*</span></label>
-          <input type="text" id="software" placeholder="es. Ari Studio, Dental Pro, Athena, ecc." />
-        </div>
-      </div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_gdpr">
-          <input type="checkbox" id="gdpr" onchange="toggleCheck('ti_gdpr')">
-          <div class="toggle-label">
-            <strong>Procedure GDPR formalmente adottate</strong>
-            <span>Procedure per integrità e sicurezza dei dati – conformità al D.lgs 196/2003 e GDPR 679/2016</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_backup">
-          <input type="checkbox" id="backup" onchange="toggleCheck('ti_backup')">
-          <div class="toggle-label">
-            <strong>Sistema di backup dati attivo</strong>
-            <span>Backup periodico dei dati clinici e amministrativi con modalità definite</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_tracciamento">
-          <input type="checkbox" id="tracciamento" onchange="toggleCheck('ti_tracciamento')">
-          <div class="toggle-label">
-            <strong>Procedure di raccolta, conservazione e tracciamento dati</strong>
-            <span>Modalità documentate per raccolta e conservazione dati sanitari</span>
-          </div>
-        </label>
-      </div>
+```
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">💻</span> Sistema Informativo (1A.01.02.01)</div>
+  <div class="warn-box">Evidenza richiesta: sistema informatico per gestione dati paziente, appuntamenti, fatturazione. Specificare il software in uso.</div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Software gestionale in uso <span class="req">*</span></label>
+      <input type="text" id="software" placeholder="es. Ari Studio, Dental Pro, Athena, ecc." />
     </div>
+  </div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_gdpr">
+      <input type="checkbox" id="gdpr" onchange="toggleCheck('ti_gdpr')">
+      <div class="toggle-label">
+        <strong>Procedure GDPR formalmente adottate</strong>
+        <span>Procedure per integrità e sicurezza dei dati – conformità al D.lgs 196/2003 e GDPR 679/2016</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_backup">
+      <input type="checkbox" id="backup" onchange="toggleCheck('ti_backup')">
+      <div class="toggle-label">
+        <strong>Sistema di backup dati attivo</strong>
+        <span>Backup periodico dei dati clinici e amministrativi con modalità definite</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_tracciamento">
+      <input type="checkbox" id="tracciamento" onchange="toggleCheck('ti_tracciamento')">
+      <div class="toggle-label">
+        <strong>Procedure di raccolta, conservazione e tracciamento dati</strong>
+        <span>Modalità documentate per raccolta e conservazione dati sanitari</span>
+      </div>
+    </label>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">📋</span> Modalità e Strumenti di Valutazione della Qualità (1A.01.05.01)</div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Documento/programma per valutazione e miglioramento qualità</label>
-          <textarea id="qualita" placeholder="Descrivere brevemente: es. è adottato un programma annuale per la valutazione della qualità dei servizi con indicatori su: tempi di attesa, soddisfazione paziente, gestione reclami, revisione procedure cliniche..."></textarea>
-        </div>
-      </div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_reclami">
-          <input type="checkbox" id="reclami" onchange="toggleCheck('ti_reclami')">
-          <div class="toggle-label">
-            <strong>Procedura reclami e suggerimenti formalmente adottata</strong>
-            <span>Con referente designato per rapporti col pubblico (1A.01.06.02)</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_piani_miglio">
-          <input type="checkbox" id="piani_miglio" onchange="toggleCheck('ti_piani_miglio')">
-          <div class="toggle-label">
-            <strong>Piani di miglioramento implementati sulla base dei disservizi</strong>
-            <span>Con indicatori di monitoraggio documentati</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_carta">
-          <input type="checkbox" id="carta" onchange="toggleCheck('ti_carta')">
-          <div class="toggle-label">
-            <strong>Carta dei Servizi adottata e accessibile</strong>
-            <span>Con standard di qualità, tariffe, orari, modalità di accesso e soddisfazione utenti</span>
-          </div>
-        </label>
-      </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">📋</span> Modalità e Strumenti di Valutazione della Qualità (1A.01.05.01)</div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Documento/programma per valutazione e miglioramento qualità</label>
+      <textarea id="qualita" placeholder="Descrivere brevemente: es. è adottato un programma annuale per la valutazione della qualità dei servizi con indicatori su: tempi di attesa, soddisfazione paziente, gestione reclami, revisione procedure cliniche..."></textarea>
     </div>
+  </div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_reclami">
+      <input type="checkbox" id="reclami" onchange="toggleCheck('ti_reclami')">
+      <div class="toggle-label">
+        <strong>Procedura reclami e suggerimenti formalmente adottata</strong>
+        <span>Con referente designato per rapporti col pubblico (1A.01.06.02)</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_piani_miglio">
+      <input type="checkbox" id="piani_miglio" onchange="toggleCheck('ti_piani_miglio')">
+      <div class="toggle-label">
+        <strong>Piani di miglioramento implementati sulla base dei disservizi</strong>
+        <span>Con indicatori di monitoraggio documentati</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_carta">
+      <input type="checkbox" id="carta" onchange="toggleCheck('ti_carta')">
+      <div class="toggle-label">
+        <strong>Carta dei Servizi adottata e accessibile</strong>
+        <span>Con standard di qualità, tariffe, orari, modalità di accesso e soddisfazione utenti</span>
+      </div>
+    </label>
+  </div>
+</div>
+```
+
   </div>
 
   <!-- ══ STEP 3: PRESTAZIONI E SICUREZZA ══ -->
+
   <div class="section" id="s3">
     <div class="section-header">
       <div class="section-tag">Step 3 di 6</div>
@@ -581,95 +603,99 @@
       <div class="section-desc">Criteri 1A.02 (Prestazioni e servizi) e 1A.06 (Appropriatezza clinica e sicurezza).</div>
     </div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🔄</span> Continuità Assistenziale e Percorso Paziente (1A.02.01)</div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_proc_ero">
-          <input type="checkbox" id="proc_ero" onchange="toggleCheck('ti_proc_ero')">
-          <div class="toggle-label">
-            <strong>Procedura per modalità di erogazione dell'assistenza adottata</strong>
-            <span>Definisce prenotazione, accesso, pagamento, criteri di eleggibilità, continuità assistenziale</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_urgenze_proc">
-          <input type="checkbox" id="urgenze_proc" onchange="toggleCheck('ti_urgenze_proc')">
-          <div class="toggle-label">
-            <strong>Procedura gestione urgenze cliniche e tecnico-organizzative</strong>
-            <span>Inclusa rottura improvvisa attrezzatura durante trattamento</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_continuita">
-          <input type="checkbox" id="continuita" onchange="toggleCheck('ti_continuita')">
-          <div class="toggle-label">
-            <strong>Protocolli/linee guida per percorso assistenziale paziente</strong>
-            <span>Nelle diverse fasi della malattia e nei diversi setting assistenziali</span>
-          </div>
-        </label>
+```
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🔄</span> Continuità Assistenziale e Percorso Paziente (1A.02.01)</div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_proc_ero">
+      <input type="checkbox" id="proc_ero" onchange="toggleCheck('ti_proc_ero')">
+      <div class="toggle-label">
+        <strong>Procedura per modalità di erogazione dell'assistenza adottata</strong>
+        <span>Definisce prenotazione, accesso, pagamento, criteri di eleggibilità, continuità assistenziale</span>
       </div>
-    </div>
+    </label>
+    <label class="toggle-item" id="ti_urgenze_proc">
+      <input type="checkbox" id="urgenze_proc" onchange="toggleCheck('ti_urgenze_proc')">
+      <div class="toggle-label">
+        <strong>Procedura gestione urgenze cliniche e tecnico-organizzative</strong>
+        <span>Inclusa rottura improvvisa attrezzatura durante trattamento</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_continuita">
+      <input type="checkbox" id="continuita" onchange="toggleCheck('ti_continuita')">
+      <div class="toggle-label">
+        <strong>Protocolli/linee guida per percorso assistenziale paziente</strong>
+        <span>Nelle diverse fasi della malattia e nei diversi setting assistenziali</span>
+      </div>
+    </label>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🚨</span> Emergenze e Documentazione Sanitaria (1A.02.02 / 1A.02.04)</div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_piano_emerg">
-          <input type="checkbox" id="piano_emerg" onchange="toggleCheck('ti_piano_emerg')">
-          <div class="toggle-label">
-            <strong>Piano per la gestione delle emergenze adottato e noto al personale</strong>
-            <span>Formalmente adottato e immediatamente reperibile</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_isolamento">
-          <input type="checkbox" id="isolamento" onchange="toggleCheck('ti_isolamento')">
-          <div class="toggle-label">
-            <strong>Protocollo isolamento pazienti con patologie contagiose</strong>
-            <span>Anche in forma modulare, noto al personale</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_doc_san">
-          <input type="checkbox" id="doc_san" onchange="toggleCheck('ti_doc_san')">
-          <div class="toggle-label">
-            <strong>Procedura per gestione documentazione sanitaria</strong>
-            <span>Redazione, aggiornamento, conservazione, verifica, accesso – con tutela GDPR e modalità consegna referti</span>
-          </div>
-        </label>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🚨</span> Emergenze e Documentazione Sanitaria (1A.02.02 / 1A.02.04)</div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_piano_emerg">
+      <input type="checkbox" id="piano_emerg" onchange="toggleCheck('ti_piano_emerg')">
+      <div class="toggle-label">
+        <strong>Piano per la gestione delle emergenze adottato e noto al personale</strong>
+        <span>Formalmente adottato e immediatamente reperibile</span>
       </div>
-    </div>
+    </label>
+    <label class="toggle-item" id="ti_isolamento">
+      <input type="checkbox" id="isolamento" onchange="toggleCheck('ti_isolamento')">
+      <div class="toggle-label">
+        <strong>Protocollo isolamento pazienti con patologie contagiose</strong>
+        <span>Anche in forma modulare, noto al personale</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_doc_san">
+      <input type="checkbox" id="doc_san" onchange="toggleCheck('ti_doc_san')">
+      <div class="toggle-label">
+        <strong>Procedura per gestione documentazione sanitaria</strong>
+        <span>Redazione, aggiornamento, conservazione, verifica, accesso – con tutela GDPR e modalità consegna referti</span>
+      </div>
+    </label>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🛡️</span> Gestione del Rischio Clinico (1A.06.02)</div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Piano aziendale per la gestione del rischio – note descrittive</label>
-          <textarea id="rischio" placeholder="es. È adottato un Piano aziendale per la gestione del rischio (DVR ai sensi D.lgs 81/2008) orientato alla sicurezza di operatori, pazienti e ambiente di lavoro. Include: individuazione rischi biologici, chimici, radiologici; prevenzione infezioni correlate all'assistenza; profilassi per personale esposto; gestione near miss..."></textarea>
-        </div>
-      </div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_dvr">
-          <input type="checkbox" id="dvr" onchange="toggleCheck('ti_dvr')">
-          <div class="toggle-label">
-            <strong>DVR (D.lgs 81/2008) adottato e aggiornato</strong>
-            <span>Documento di Valutazione dei Rischi valido ai fini del requisito 1A.06.02.01</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_proc_bio">
-          <input type="checkbox" id="proc_bio" onchange="toggleCheck('ti_proc_bio')">
-          <div class="toggle-label">
-            <strong>Procedure protezione da incidenti con materiale biologico</strong>
-            <span>E procedure per pulizia/sanificazione ambienti</span>
-          </div>
-        </label>
-        <label class="toggle-item" id="ti_rischio_clinico">
-          <input type="checkbox" id="rischio_clinico" onchange="toggleCheck('ti_rischio_clinico')">
-          <div class="toggle-label">
-            <strong>Sistema per gestione rischio clinico con linee guida e checklist</strong>
-            <span>Applicazione buone pratiche raccomandate, raccolta dati eventi avversi/near miss</span>
-          </div>
-        </label>
-      </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🛡️</span> Gestione del Rischio Clinico (1A.06.02)</div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Piano aziendale per la gestione del rischio – note descrittive</label>
+      <textarea id="rischio" placeholder="es. È adottato un Piano aziendale per la gestione del rischio (DVR ai sensi D.lgs 81/2008) orientato alla sicurezza di operatori, pazienti e ambiente di lavoro. Include: individuazione rischi biologici, chimici, radiologici; prevenzione infezioni correlate all'assistenza; profilassi per personale esposto; gestione near miss..."></textarea>
     </div>
+  </div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_dvr">
+      <input type="checkbox" id="dvr" onchange="toggleCheck('ti_dvr')">
+      <div class="toggle-label">
+        <strong>DVR (D.lgs 81/2008) adottato e aggiornato</strong>
+        <span>Documento di Valutazione dei Rischi valido ai fini del requisito 1A.06.02.01</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_proc_bio">
+      <input type="checkbox" id="proc_bio" onchange="toggleCheck('ti_proc_bio')">
+      <div class="toggle-label">
+        <strong>Procedure protezione da incidenti con materiale biologico</strong>
+        <span>E procedure per pulizia/sanificazione ambienti</span>
+      </div>
+    </label>
+    <label class="toggle-item" id="ti_rischio_clinico">
+      <input type="checkbox" id="rischio_clinico" onchange="toggleCheck('ti_rischio_clinico')">
+      <div class="toggle-label">
+        <strong>Sistema per gestione rischio clinico con linee guida e checklist</strong>
+        <span>Applicazione buone pratiche raccomandate, raccolta dati eventi avversi/near miss</span>
+      </div>
+    </label>
+  </div>
+</div>
+```
+
   </div>
 
   <!-- ══ STEP 4: STRUTTURA E ATTREZZATURE ══ -->
+
   <div class="section" id="s4">
     <div class="section-header">
       <div class="section-tag">Step 4 di 6</div>
@@ -677,62 +703,66 @@
       <div class="section-desc">Criterio 1A.03 (Aspetti strutturali) – conformità normativa locali, impianti e attrezzature biomediche.</div>
     </div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🏗️</span> Caratteristiche dei Locali</div>
-      <div class="field-row">
-        <div class="field">
-          <label>N° locali totali della struttura</label>
-          <input type="number" id="nLocali" placeholder="es. 4" min="1" />
-        </div>
-        <div class="field">
-          <label>N° riuniti / sale trattamento</label>
-          <input type="number" id="nRiuniti" placeholder="es. 2" min="1" />
-        </div>
-      </div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Descrizione locali principali</label>
-          <textarea id="locali" placeholder="es. Sala d'attesa (mq 12), sala trattamento 1 con riunito (mq 18), sala trattamento 2 con riunito (mq 16), locale sterilizzazione (mq 8), bagno personale, bagno pazienti (con accesso disabili), locale archivio..."></textarea>
-        </div>
-      </div>
+```
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🏗️</span> Caratteristiche dei Locali</div>
+  <div class="field-row">
+    <div class="field">
+      <label>N° locali totali della struttura</label>
+      <input type="number" id="nLocali" placeholder="es. 4" min="1" />
     </div>
+    <div class="field">
+      <label>N° riuniti / sale trattamento</label>
+      <input type="number" id="nRiuniti" placeholder="es. 2" min="1" />
+    </div>
+  </div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Descrizione locali principali</label>
+      <textarea id="locali" placeholder="es. Sala d'attesa (mq 12), sala trattamento 1 con riunito (mq 18), sala trattamento 2 con riunito (mq 16), locale sterilizzazione (mq 8), bagno personale, bagno pazienti (con accesso disabili), locale archivio..."></textarea>
+    </div>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">✅</span> Conformità Normativa Strutturale</div>
-      <div class="info-box">Seleziona le conformità documentate. Per ognuna deve essere disponibile la documentazione normativa (titoli edilizi, collaudi, certificazioni).</div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_n1"><input type="checkbox" id="n1" onchange="toggleCheck('ti_n1')"><div class="toggle-label"><strong>Caratteristiche ambientali e accessibilità</strong><span>Norma 1A.03.02.01 – documentazione disponibile</span></div></label>
-        <label class="toggle-item" id="ti_n2"><input type="checkbox" id="n2" onchange="toggleCheck('ti_n2')"><div class="toggle-label"><strong>Protezione antincendio</strong><span>Norma 1A.03.02.02 – CPI o dichiarazione di esenzione</span></div></label>
-        <label class="toggle-item" id="ti_n3"><input type="checkbox" id="n3" onchange="toggleCheck('ti_n3')"><div class="toggle-label"><strong>Protezione acustica</strong><span>Norma 1A.03.02.03</span></div></label>
-        <label class="toggle-item" id="ti_n4"><input type="checkbox" id="n4" onchange="toggleCheck('ti_n4')"><div class="toggle-label"><strong>Sicurezza elettrica e continuità elettrica</strong><span>Norma 1A.03.02.04 – dichiarazioni di conformità impianto elettrico</span></div></label>
-        <label class="toggle-item" id="ti_n5"><input type="checkbox" id="n5" onchange="toggleCheck('ti_n5')"><div class="toggle-label"><strong>Sicurezza antinfortunistica</strong><span>Norma 1A.03.02.05</span></div></label>
-        <label class="toggle-item" id="ti_n6"><input type="checkbox" id="n6" onchange="toggleCheck('ti_n6')"><div class="toggle-label"><strong>Protezione da radiazioni ionizzanti</strong><span>Norma 1A.03.02.06 – RX: nulla osta ARPAS, sorveglianza fisica</span></div></label>
-        <label class="toggle-item" id="ti_n7"><input type="checkbox" id="n7" onchange="toggleCheck('ti_n7')"><div class="toggle-label"><strong>Eliminazione barriere architettoniche</strong><span>Norma 1A.03.02.07 – bagno accessibile, rampe ove necessarie</span></div></label>
-        <label class="toggle-item" id="ti_n8"><input type="checkbox" id="n8" onchange="toggleCheck('ti_n8')"><div class="toggle-label"><strong>Smaltimento rifiuti sanitari</strong><span>Norma 1A.03.02.08 – registro carico/scarico, contratto smaltitore</span></div></label>
-        <label class="toggle-item" id="ti_n9"><input type="checkbox" id="n9" onchange="toggleCheck('ti_n9')"><div class="toggle-label"><strong>Condizioni microclimatiche</strong><span>Norma 1A.03.02.09 – climatizzazione/ventilazione</span></div></label>
-        <label class="toggle-item" id="ti_n10"><input type="checkbox" id="n10" onchange="toggleCheck('ti_n10')"><div class="toggle-label"><strong>Impianti distribuzione gas medicali</strong><span>Norma 1A.03.02.10 – se presente impianto protossido o ossigeno</span></div></label>
-        <label class="toggle-item" id="ti_n11"><input type="checkbox" id="n11" onchange="toggleCheck('ti_n11')"><div class="toggle-label"><strong>Protezione antisismica</strong><span>Norma 1A.03.02.12</span></div></label>
-      </div>
-    </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">✅</span> Conformità Normativa Strutturale</div>
+  <div class="info-box">Seleziona le conformità documentate. Per ognuna deve essere disponibile la documentazione normativa (titoli edilizi, collaudi, certificazioni).</div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_n1"><input type="checkbox" id="n1" onchange="toggleCheck('ti_n1')"><div class="toggle-label"><strong>Caratteristiche ambientali e accessibilità</strong><span>Norma 1A.03.02.01 – documentazione disponibile</span></div></label>
+    <label class="toggle-item" id="ti_n2"><input type="checkbox" id="n2" onchange="toggleCheck('ti_n2')"><div class="toggle-label"><strong>Protezione antincendio</strong><span>Norma 1A.03.02.02 – CPI o dichiarazione di esenzione</span></div></label>
+    <label class="toggle-item" id="ti_n3"><input type="checkbox" id="n3" onchange="toggleCheck('ti_n3')"><div class="toggle-label"><strong>Protezione acustica</strong><span>Norma 1A.03.02.03</span></div></label>
+    <label class="toggle-item" id="ti_n4"><input type="checkbox" id="n4" onchange="toggleCheck('ti_n4')"><div class="toggle-label"><strong>Sicurezza elettrica e continuità elettrica</strong><span>Norma 1A.03.02.04 – dichiarazioni di conformità impianto elettrico</span></div></label>
+    <label class="toggle-item" id="ti_n5"><input type="checkbox" id="n5" onchange="toggleCheck('ti_n5')"><div class="toggle-label"><strong>Sicurezza antinfortunistica</strong><span>Norma 1A.03.02.05</span></div></label>
+    <label class="toggle-item" id="ti_n6"><input type="checkbox" id="n6" onchange="toggleCheck('ti_n6')"><div class="toggle-label"><strong>Protezione da radiazioni ionizzanti</strong><span>Norma 1A.03.02.06 – RX: nulla osta ARPAS, sorveglianza fisica</span></div></label>
+    <label class="toggle-item" id="ti_n7"><input type="checkbox" id="n7" onchange="toggleCheck('ti_n7')"><div class="toggle-label"><strong>Eliminazione barriere architettoniche</strong><span>Norma 1A.03.02.07 – bagno accessibile, rampe ove necessarie</span></div></label>
+    <label class="toggle-item" id="ti_n8"><input type="checkbox" id="n8" onchange="toggleCheck('ti_n8')"><div class="toggle-label"><strong>Smaltimento rifiuti sanitari</strong><span>Norma 1A.03.02.08 – registro carico/scarico, contratto smaltitore</span></div></label>
+    <label class="toggle-item" id="ti_n9"><input type="checkbox" id="n9" onchange="toggleCheck('ti_n9')"><div class="toggle-label"><strong>Condizioni microclimatiche</strong><span>Norma 1A.03.02.09 – climatizzazione/ventilazione</span></div></label>
+    <label class="toggle-item" id="ti_n10"><input type="checkbox" id="n10" onchange="toggleCheck('ti_n10')"><div class="toggle-label"><strong>Impianti distribuzione gas medicali</strong><span>Norma 1A.03.02.10 – se presente impianto protossido o ossigeno</span></div></label>
+    <label class="toggle-item" id="ti_n11"><input type="checkbox" id="n11" onchange="toggleCheck('ti_n11')"><div class="toggle-label"><strong>Protezione antisismica</strong><span>Norma 1A.03.02.12</span></div></label>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">🔧</span> Gestione e Manutenzione Attrezzature (1A.03.01)</div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_inventario"><input type="checkbox" id="inventario" onchange="toggleCheck('ti_inventario')"><div class="toggle-label"><strong>Inventario attrezzature aggiornato annualmente</strong><span>Con procedura per identificazione attrezzature e collaudo tecnico ad ogni nuova acquisizione</span></div></label>
-        <label class="toggle-item" id="ti_piano_man"><input type="checkbox" id="piano_man" onchange="toggleCheck('ti_piano_man')"><div class="toggle-label"><strong>Piano di manutenzione ordinaria e straordinaria adottato</strong><span>Per strutture, impianti, attrezzature e apparecchiature biomediche</span></div></label>
-        <label class="toggle-item" id="ti_resp_man"><input type="checkbox" id="resp_man" onchange="toggleCheck('ti_resp_man')"><div class="toggle-label"><strong>Responsabile della Manutenzione formalmente designato</strong><span>Con documentazione degli interventi disponibile</span></div></label>
-        <label class="toggle-item" id="ti_doc_tec"><input type="checkbox" id="doc_tec" onchange="toggleCheck('ti_doc_tec')"><div class="toggle-label"><strong>Documentazione tecnica attrezzature disponibile</strong><span>A corredo delle stesse e presso la funzione preposta alla manutenzione</span></div></label>
-      </div>
-      <div class="field-row full" style="margin-top:16px">
-        <div class="field">
-          <label>Principali attrezzature biomediche in dotazione</label>
-          <textarea id="attrezzature" placeholder="es. N.2 riuniti odontoiatrici marca/modello, N.1 OPT, N.1 RVG per radiologia endorale, N.1 autoclave classe B, N.1 scanner intraorale, N.1 micromotore, kit chirurgia estrattiva..."></textarea>
-        </div>
-      </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">🔧</span> Gestione e Manutenzione Attrezzature (1A.03.01)</div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_inventario"><input type="checkbox" id="inventario" onchange="toggleCheck('ti_inventario')"><div class="toggle-label"><strong>Inventario attrezzature aggiornato annualmente</strong><span>Con procedura per identificazione attrezzature e collaudo tecnico ad ogni nuova acquisizione</span></div></label>
+    <label class="toggle-item" id="ti_piano_man"><input type="checkbox" id="piano_man" onchange="toggleCheck('ti_piano_man')"><div class="toggle-label"><strong>Piano di manutenzione ordinaria e straordinaria adottato</strong><span>Per strutture, impianti, attrezzature e apparecchiature biomediche</span></div></label>
+    <label class="toggle-item" id="ti_resp_man"><input type="checkbox" id="resp_man" onchange="toggleCheck('ti_resp_man')"><div class="toggle-label"><strong>Responsabile della Manutenzione formalmente designato</strong><span>Con documentazione degli interventi disponibile</span></div></label>
+    <label class="toggle-item" id="ti_doc_tec"><input type="checkbox" id="doc_tec" onchange="toggleCheck('ti_doc_tec')"><div class="toggle-label"><strong>Documentazione tecnica attrezzature disponibile</strong><span>A corredo delle stesse e presso la funzione preposta alla manutenzione</span></div></label>
+  </div>
+  <div class="field-row full" style="margin-top:16px">
+    <div class="field">
+      <label>Principali attrezzature biomediche in dotazione</label>
+      <textarea id="attrezzature" placeholder="es. N.2 riuniti odontoiatrici marca/modello, N.1 OPT, N.1 RVG per radiologia endorale, N.1 autoclave classe B, N.1 scanner intraorale, N.1 micromotore, kit chirurgia estrattiva..."></textarea>
     </div>
+  </div>
+</div>
+```
+
   </div>
 
   <!-- ══ STEP 5: PERSONALE E COMUNICAZIONE ══ -->
+
   <div class="section" id="s5">
     <div class="section-header">
       <div class="section-tag">Step 5 di 6</div>
@@ -740,47 +770,51 @@
       <div class="section-desc">Criteri 1A.04 (Competenze del personale) e 1A.05 (Comunicazione).</div>
     </div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">👥</span> Personale (1A.04)</div>
-      <div class="field-row">
-        <div class="field">
-          <label>N° odontoiatri/medici operanti nella struttura</label>
-          <input type="number" id="nMedici" placeholder="es. 1" min="1" />
-        </div>
-        <div class="field">
-          <label>N° igienisti dentali / ASO</label>
-          <input type="number" id="nAso" placeholder="es. 2" min="0" />
-        </div>
-      </div>
-      <div class="field-row full">
-        <div class="field">
-          <label>Personale amministrativo / di segreteria</label>
-          <input type="text" id="personaleAmm" placeholder="es. 1 segretaria a tempo pieno" />
-        </div>
-      </div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_fascicoli"><input type="checkbox" id="fascicoli" onchange="toggleCheck('ti_fascicoli')"><div class="toggle-label"><strong>Fascicoli personali per ogni collaboratore aggiornati</strong><span>Con titoli di studio, qualifiche, incarichi, formazione, eventuali incompatibilità</span></div></label>
-        <label class="toggle-item" id="ti_assicurativi"><input type="checkbox" id="assicurativi" onchange="toggleCheck('ti_assicurativi')"><div class="toggle-label"><strong>Obblighi assicurativi e previdenziali assolti (1A.04.04.01)</strong><span>INAIL, INPS, RC professionale (L. 24/2017 artt. 10-11)</span></div></label>
-        <label class="toggle-item" id="ti_formazione"><input type="checkbox" id="formazione" onchange="toggleCheck('ti_formazione')"><div class="toggle-label"><strong>Programma formativo/aggiornamento professionale documentato</strong><span>ECM e formazione specifica per il personale</span></div></label>
-      </div>
+```
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">👥</span> Personale (1A.04)</div>
+  <div class="field-row">
+    <div class="field">
+      <label>N° odontoiatri/medici operanti nella struttura</label>
+      <input type="number" id="nMedici" placeholder="es. 1" min="1" />
     </div>
+    <div class="field">
+      <label>N° igienisti dentali / ASO</label>
+      <input type="number" id="nAso" placeholder="es. 2" min="0" />
+    </div>
+  </div>
+  <div class="field-row full">
+    <div class="field">
+      <label>Personale amministrativo / di segreteria</label>
+      <input type="text" id="personaleAmm" placeholder="es. 1 segretaria a tempo pieno" />
+    </div>
+  </div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_fascicoli"><input type="checkbox" id="fascicoli" onchange="toggleCheck('ti_fascicoli')"><div class="toggle-label"><strong>Fascicoli personali per ogni collaboratore aggiornati</strong><span>Con titoli di studio, qualifiche, incarichi, formazione, eventuali incompatibilità</span></div></label>
+    <label class="toggle-item" id="ti_assicurativi"><input type="checkbox" id="assicurativi" onchange="toggleCheck('ti_assicurativi')"><div class="toggle-label"><strong>Obblighi assicurativi e previdenziali assolti (1A.04.04.01)</strong><span>INAIL, INPS, RC professionale (L. 24/2017 artt. 10-11)</span></div></label>
+    <label class="toggle-item" id="ti_formazione"><input type="checkbox" id="formazione" onchange="toggleCheck('ti_formazione')"><div class="toggle-label"><strong>Programma formativo/aggiornamento professionale documentato</strong><span>ECM e formazione specifica per il personale</span></div></label>
+  </div>
+</div>
 
-    <div class="card">
-      <div class="card-title"><span class="card-title-icon">📢</span> Comunicazione e Customer Satisfaction (1A.05)</div>
-      <div class="toggle-group">
-        <label class="toggle-item" id="ti_sito"><input type="checkbox" id="sito" onchange="toggleCheck('ti_sito')"><div class="toggle-label"><strong>Sito web aggiornato con info struttura, servizi, contatti, mappa</strong><span>Con form di contatto, accessibile da PC/tablet/smartphone</span></div></label>
-        <label class="toggle-item" id="ti_customer"><input type="checkbox" id="customer" onchange="toggleCheck('ti_customer')"><div class="toggle-label"><strong>Politiche e procedure per valutazione esperienza utente</strong><span>Questionari soddisfazione, analisi reclami, programmi di miglioramento</span></div></label>
-      </div>
-      <div class="field-row full" style="margin-top:16px">
-        <div class="field">
-          <label>Sito web (URL)</label>
-          <input type="url" id="sitoUrl" placeholder="https://www.studiodentistico.it" />
-        </div>
-      </div>
+<div class="card">
+  <div class="card-title"><span class="card-title-icon">📢</span> Comunicazione e Customer Satisfaction (1A.05)</div>
+  <div class="toggle-group">
+    <label class="toggle-item" id="ti_sito"><input type="checkbox" id="sito" onchange="toggleCheck('ti_sito')"><div class="toggle-label"><strong>Sito web aggiornato con info struttura, servizi, contatti, mappa</strong><span>Con form di contatto, accessibile da PC/tablet/smartphone</span></div></label>
+    <label class="toggle-item" id="ti_customer"><input type="checkbox" id="customer" onchange="toggleCheck('ti_customer')"><div class="toggle-label"><strong>Politiche e procedure per valutazione esperienza utente</strong><span>Questionari soddisfazione, analisi reclami, programmi di miglioramento</span></div></label>
+  </div>
+  <div class="field-row full" style="margin-top:16px">
+    <div class="field">
+      <label>Sito web (URL)</label>
+      <input type="url" id="sitoUrl" placeholder="https://www.studiodentistico.it" />
     </div>
+  </div>
+</div>
+```
+
   </div>
 
   <!-- ══ STEP 6: RIEPILOGO E OUTPUT ══ -->
+
   <div class="section" id="s6">
     <div class="section-header">
       <div class="section-tag">Step 6 di 6</div>
@@ -788,39 +822,43 @@
       <div class="section-desc">Verifica i dati inseriti. Il documento generato può essere copiato e incollato nel template ufficiale dell'Allegato A1.</div>
     </div>
 
-    <div id="outputArea"></div>
+```
+<div id="outputArea"></div>
 
-    <div class="action-btns">
-      <button class="pdf-btn" id="btnPdf" onclick="exportPDF()">
-        📄 Scarica PDF
-      </button>
-      <button class="copy-btn" onclick="copyOutput()">
-        📋 Copia testo
-      </button>
-    </div>
+<div class="action-btns">
+  <button class="pdf-btn" id="btnPdf" >
+    📄 Scarica PDF
+  </button>
+  <button class="copy-btn" >
+    📋 Copia testo
+  </button>
+</div>
 
-    <div class="card" style="margin-top:20px">
-      <div class="card-title"><span class="card-title-icon">⚠️</span> Note per il Professionista</div>
-      <ul style="font-size:13px; color:var(--muted); line-height:2; padding-left:20px;">
-        <li>Questo documento è un <strong>supporto alla compilazione</strong>, non sostituisce la verifica legale.</li>
-        <li>Ogni evidenza "✅ Presente" deve essere realmente supportata da documentazione fisica.</li>
-        <li>L'autorizzazione è rilasciata dal <strong>Comune</strong> per strutture non residenziali semplici monopresidio.</li>
-        <li>I requisiti specifici di settore odontoiatrico (D.A. 890/2002) si aggiungono a quelli generali qui descritti.</li>
-        <li>Il MAMB 3.0 (giugno 2025) è il documento di riferimento per le verifiche OTA Regione Siciliana.</li>
-      </ul>
-    </div>
+<div class="card" style="margin-top:20px">
+  <div class="card-title"><span class="card-title-icon">⚠️</span> Note per il Professionista</div>
+  <ul style="font-size:13px; color:var(--muted); line-height:2; padding-left:20px;">
+    <li>Questo documento è un <strong>supporto alla compilazione</strong>, non sostituisce la verifica legale.</li>
+    <li>Ogni evidenza "✅ Presente" deve essere realmente supportata da documentazione fisica.</li>
+    <li>L'autorizzazione è rilasciata dal <strong>Comune</strong> per strutture non residenziali semplici monopresidio.</li>
+    <li>I requisiti specifici di settore odontoiatrico (D.A. 890/2002) si aggiungono a quelli generali qui descritti.</li>
+    <li>Il MAMB 3.0 (giugno 2025) è il documento di riferimento per le verifiche OTA Regione Siciliana.</li>
+  </ul>
+</div>
+```
+
   </div>
 
 </div>
 
 <!-- ── NAV BAR ── -->
+
 <div class="nav-bar">
   <div class="nav-left">
-    <button class="btn btn-secondary" id="btnBack" onclick="navigate(-1)">← Indietro</button>
+    <button class="btn btn-secondary" id="btnBack" >← Indietro</button>
     <span class="nav-progress-text" id="navText">Sezione 1 di 6</span>
   </div>
   <div>
-    <button class="btn btn-gold" id="btnNext" onclick="navigate(1)">Avanti →</button>
+    <button class="btn btn-gold" id="btnNext" >Avanti →</button>
   </div>
 </div>
 
@@ -842,7 +880,7 @@ STEPS.forEach(s => {
   const el = document.createElement('div');
   el.className = 'step-item' + (s.num === 1 ? ' active' : '');
   el.id = `step_${s.num}`;
-  el.onclick = () => goTo(s.num);
+  el.addEventListener('click', function(){ goTo(s.num); });
   el.innerHTML = `<div class="step-num">${s.num}</div><div class="step-label">${s.label}</div>`;
   stepsRow.appendChild(el);
 });
@@ -1092,18 +1130,44 @@ function exportPDF() {
   setTimeout(() => {
     try {
       const pdf = buildPDF();
-      const blob = new Blob([pdf], { type: 'application/pdf' });
-      const url  = URL.createObjectURL(blob);
-      const a    = document.createElement('a');
       const studio = (val('denominazione') || 'studio').replace(/[^a-zA-Z0-9]/g,'_').toLowerCase().slice(0,30);
-      const data   = new Date().toISOString().slice(0,10).replace(/-/g,'');
-      a.href     = url;
-      a.download = `AllegatoA1_${studio}_${data}.pdf`;
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(url), 5000);
-      btn.disabled = false;
-      btn.textContent = '✅ PDF scaricato!';
-      setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
+      const dataStr = new Date().toISOString().slice(0,10).replace(/-/g,'');
+      const fileName = `AllegatoA1_${studio}_${dataStr}.pdf`;
+
+      // Converti stringa PDF in array di byte
+      const bytes = new Uint8Array(pdf.length);
+      for (let i = 0; i < pdf.length; i++) {
+        bytes[i] = pdf.charCodeAt(i) & 0xff;
+      }
+
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+      if (isIOS) {
+        // Safari iOS: converti in base64 e apri nel viewer nativo
+        let binary = '';
+        bytes.forEach(b => binary += String.fromCharCode(b));
+        const b64 = btoa(binary);
+        const dataUrl = 'data:application/pdf;base64,' + b64;
+        // Apri in nuova tab – Safari mostra anteprima con opzione "Salva in File"
+        window.open(dataUrl, '_blank');
+        btn.disabled = false;
+        btn.textContent = '✅ Aperto! Usa "Condividi → Salva in File"';
+        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 5000);
+      } else {
+        // Desktop / Android: download diretto
+        const blob = new Blob([bytes], { type: 'application/pdf' });
+        const url  = URL.createObjectURL(blob);
+        const a    = document.createElement('a');
+        a.href     = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+        btn.disabled = false;
+        btn.textContent = '✅ PDF scaricato!';
+        setTimeout(() => { btn.textContent = '📄 Scarica PDF'; }, 3000);
+      }
     } catch(e) {
       console.error(e);
       btn.disabled = false;
@@ -1114,39 +1178,149 @@ function exportPDF() {
 }
 
 function buildPDF() {
-  // ── Costanti pagina A4 ──
-  const PW   = 595.28;   // larghezza pt
-  const PH   = 841.89;   // altezza pt
-  const ML   = 50;       // margine sx
-  const MR   = 50;       // margine dx
-  const CW   = PW - ML - MR; // larghezza contenuto
-  const MT   = 50;       // margine top prima pagina
-  const MB   = 50;       // margine bottom
-  const LS   = 14;       // interlinea normale
-  const LH_S = 12;       // interlinea stretta
+  // ── Costanti pagina A4 in punti ──
+  const PW = 595.28, PH = 841.89;
+  const ML = 45, MR = 45, MT = 50, MB = 45;
+  const CW = PW - ML - MR;
 
-  // ── Encoder testo ISO-8859-1 (PDF base-14 fonts) ──
-  function enc(str) {
-    // Sostituisce caratteri non supportati dai font base PDF
-    return String(str||'')
-      .replace(/[àáâã]/g,'a').replace(/[èéêë]/g,'e')
-      .replace(/[ìíîï]/g,'i').replace(/[òóôõö]/g,'o')
-      .replace(/[ùúûü]/g,'u').replace(/[ÀÁ]/g,'A')
-      .replace(/[ÈÉ]/g,'E').replace(/[ÌÍ]/g,'I')
-      .replace(/[ÒÓ]/g,'O').replace(/[ÙÚ]/g,'U')
-      .replace(/[ñ]/g,'n').replace(/[ç]/g,'c')
-      .replace(/[°]/g,' gradi').replace(/[€]/g,'EUR')
-      .replace(/[–—]/g,'-').replace(/[""'']/g,'"')
-      .replace(/[…]/g,'...').replace(/[✓✔]/g,'+')
-      .replace(/[✗✘×]/g,'x').replace(/[•·]/g,'-')
-      .replace(/[⚕️🏥💻📋🚨🛡️🏗️✅🔧👥📢⚠️⚙️]/g,'')
-      .replace(/[^\x20-\x7E\xA0-\xFF]/g,'?');
+  // ── 32 documenti ufficiali ALL. A1 ──
+  const DOCS = [
+    ["Documento che definisce ed esplicita l'organizzazione e le politiche di gestione delle risorse (analisi dei principali processi per l'individuazione delle fasi nelle quali e possibile che si verifichino disservizi)", "1A.01.03.01"],
+    ["Documentazione inerente il sistema informativo", "1A.01.04.01"],
+    ["Documento/programma che descrive le modalita per la valutazione e il miglioramento della qualita delle prestazioni e dei servizi erogati", "1A.01.05.01"],
+    ["Procedura per la presentazione e gestione di reclami, osservazioni e suggerimenti.", "1A.01.06.01"],
+    ["Documento/procedura che descrive le modalita di erogazione dell'assistenza", "1A.02.02.01"],
+    ["Piano per la gestione delle emergenze", "1A.02.02.02"],
+    ["Protocollo per l'isolamento di pazienti con patologie contagiose o potenzialmente tali", "1A.02.02.03"],
+    ["Procedura che definisce i requisiti per la redazione, l'aggiornamento, la conservazione e la verifica della documentazione sanitaria nonche le modalita di controllo.", "1A.02.05.01"],
+    ["Documento formale di incarico del responsabile della Manutenzione", "1A.03.01.01"],
+    ["Inventario delle attrezzature aggiornato e verificato annualmente e procedura per l'identificazione delle attrezzature", "1A.03.02.01"],
+    ["Piano per la gestione e la manutenzione (ordinaria e straordinaria) delle strutture, impianti, attrezzature e apparecchiature biomediche.", "1A.03.02.02"],
+    ["Documentazione tecnica relativa alle singole attrezzature e apparecchiature immediatamente disponibile agli operatori interessati e alla funzione preposta alla manutenzione", "1A.03.02.03"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di caratteristiche ambientali e di accessibilita", "1A.03.05.01"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antincendio", "1A.03.05.02"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione acustica", "1A.03.05.03"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza elettrica e continuita elettrica", "1A.03.05.04"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di sicurezza anti-infortunistica", "1A.03.05.05"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione dai rischi di radiazioni ionizzanti", "1A.03.05.06"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di eliminazione della barriere architettoniche", "1A.03.05.07"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di smaltimento dei rifiuti", "1A.03.05.08"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di condizioni microclimatiche", "1A.03.05.09"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di impianti di distribuzione dei gas", "1A.03.05.10"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di materiali esplodenti", "1A.03.05.11"],
+    ["Documentazione tecnica, in relazione alla tipologia delle attivita svolte, attestante il possesso dei requisiti previsti dalle vigenti leggi in materia di protezione antisismica", "1A.03.05.12"],
+    ["Obblighi assicurativi definiti dalla normativa applicabile", "1A.04.12.04"],
+    ["Carta dei servizi", "1A.05.03.01"],
+    ["Modalita identificazione di tirocinanti, specializzandi e altri soggetti che intervengono nel percorso assistenziale.", "1A.05.03.03"],
+    ["Report criticita riscontrate dall'analisi dei reclami e dei risultati delle indagini di customer satisfaction e relativi Piani di intervento", "1A.05.03.05"],
+    ["Piano aziendale per la gestione del rischio", "1A.06.02.01"],
+    ["Procedura per la pulizia e sanificazione degli ambienti", "1A.06.02.02"],
+    ["Procedura per la protezione dagli incidenti per esposizione a materiale biologico o altre sostanze pericolose", "1A.06.02.03"],
+    ["Sistema (Piani di intervento/report) per l'identificazione e la segnalazione di near miss, eventi avversi ed eventi sentinella", "1A.06.02.04"],
+  ];
+
+  // Mapping wizard → indici DOCS (0-based)
+  const WIZARD_MAP = {
+    // Anagrafica → nessuna riga, solo intestazione
+    // Gestione
+    gdpr:           1,  // sistema informativo
+    reclami:        3,  // reclami
+    qualita:        2,  // qualità prestazioni
+    // Continuità
+    proc_ero:       4,  // erogazione assistenza
+    piano_emerg:    5,  // emergenze
+    isolamento:     6,  // isolamento pazienti
+    doc_san:        7,  // documentazione sanitaria
+    // Manutenzione
+    resp_man:       8,  // incarico responsabile manutenzione
+    inventario:     9,  // inventario attrezzature
+    piano_man:      10, // piano manutenzione
+    doc_tec:        11, // documentazione tecnica attrezzature
+    // Strutturali
+    n1:             12, // caratteristiche ambientali
+    n2:             13, // antincendio
+    n3:             14, // acustica
+    n4:             15, // elettrica
+    n5:             16, // antinfortunistica
+    n6:             17, // radiazioni
+    n7:             18, // barriere architettoniche
+    n8:             19, // rifiuti
+    n9:             20, // microclimatica
+    n10:            21, // gas
+    n11:            23, // antisismica
+    // Personale
+    assicurativi:   24, // obblighi assicurativi
+    // Comunicazione
+    carta:          25, // carta servizi
+    customer:       27, // report reclami/CS
+    // Rischio
+    dvr:            28, // piano gestione rischio
+    proc_bio:       30, // protezione biologico
+    proc_bio2:      29, // sanificazione
+    rischio_clinico:31, // near miss
+  };
+
+  // Stato spunta per ogni riga (true=presente, false=assente, null=n/a)
+  const rowState = new Array(32).fill(null);
+
+  function setRow(idx, val) {
+    if (idx >= 0 && idx < 32) rowState[idx] = val;
   }
 
-  // ── PDF object builder ──
+  // Popola stato dalle checkbox wizard
+  const C = {
+    gdpr: checked('gdpr'), backup: checked('backup'), tracciamento: checked('tracciamento'),
+    reclami: checked('reclami'), piani_miglio: checked('piani_miglio'), carta: checked('carta'),
+    proc_ero: checked('proc_ero'), urgenze_proc: checked('urgenze_proc'), continuita: checked('continuita'),
+    piano_emerg: checked('piano_emerg'), isolamento: checked('isolamento'), doc_san: checked('doc_san'),
+    dvr: checked('dvr'), proc_bio: checked('proc_bio'), rischio_clinico: checked('rischio_clinico'),
+    n1: checked('n1'), n2: checked('n2'), n3: checked('n3'), n4: checked('n4'), n5: checked('n5'),
+    n6: checked('n6'), n7: checked('n7'), n8: checked('n8'), n9: checked('n9'),
+    n10: checked('n10'), n11: checked('n11'),
+    inventario: checked('inventario'), piano_man: checked('piano_man'),
+    resp_man: checked('resp_man'), doc_tec: checked('doc_tec'),
+    fascicoli: checked('fascicoli'), assicurativi: checked('assicurativi'),
+    formazione: checked('formazione'), sito: checked('sito'), customer: checked('customer'),
+  };
+
+  // Doc 0: gestione risorse → presente se gdpr o qualita compilata
+  setRow(0, C.gdpr || val('qualita').length > 0);
+  setRow(1, C.gdpr);           // sistema informativo
+  setRow(2, C.gdpr || val('qualita').length > 0); // qualità
+  setRow(3, C.reclami);
+  setRow(4, C.proc_ero);
+  setRow(5, C.piano_emerg);
+  setRow(6, C.isolamento);
+  setRow(7, C.doc_san);
+  setRow(8, C.resp_man);
+  setRow(9, C.inventario);
+  setRow(10, C.piano_man);
+  setRow(11, C.doc_tec);
+  setRow(12, C.n1);
+  setRow(13, C.n2);
+  setRow(14, C.n3);
+  setRow(15, C.n4);
+  setRow(16, C.n5);
+  setRow(17, C.n6);
+  setRow(18, C.n7);
+  setRow(19, C.n8);
+  setRow(20, C.n9);
+  setRow(21, C.n10);
+  setRow(22, false); // materiali esplodenti – N/A per studio odontoiatrico
+  setRow(23, C.n11);
+  setRow(24, C.assicurativi);
+  setRow(25, C.carta);
+  setRow(26, false); // tirocinanti – non mappato
+  setRow(27, C.customer);
+  setRow(28, C.dvr);
+  setRow(29, C.proc_bio);
+  setRow(30, C.proc_bio);
+  setRow(31, C.rischio_clinico);
+
+  // ── PDF raw writer ──
   const objs = [];
   let objIdx = 0;
-  const pages = [];
+  const pageStreams = [];
 
   function addObj(content) {
     objIdx++;
@@ -1154,492 +1328,308 @@ function buildPDF() {
     return objIdx;
   }
 
-  // ── Costruttore stream pagina ──
+  function esc(s) {
+    return String(s||'')
+      .replace(/à/g,'a').replace(/á/g,'a').replace(/â/g,'a')
+      .replace(/è/g,'e').replace(/é/g,'e').replace(/ê/g,'e')
+      .replace(/ì/g,'i').replace(/í/g,'i').replace(/î/g,'i')
+      .replace(/ò/g,'o').replace(/ó/g,'o').replace(/ô/g,'o')
+      .replace(/ù/g,'u').replace(/ú/g,'u').replace(/û/g,'u')
+      .replace(/À/g,'A').replace(/È/g,'E').replace(/É/g,'E')
+      .replace(/Ì/g,'I').replace(/Ò/g,'O').replace(/Ù/g,'U')
+      .replace(/ç/g,'c').replace(/ñ/g,'n')
+      .replace(/°/g,' ').replace(/€/g,'EUR')
+      .replace(/[–—]/g,'-').replace(/[""]/g,'"').replace(/['']/g,"'")
+      .replace(/…/g,'...')
+      .replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)')
+      .replace(/[^\x20-\x7E]/g,'?');
+  }
+
+  // Wrappa testo in linee da maxW caratteri
+  function wrapText(text, maxChars) {
+    const words = text.split(' ');
+    const lines = [];
+    let cur = '';
+    words.forEach(w => {
+      if ((cur ? cur + ' ' + w : w).length <= maxChars) {
+        cur = cur ? cur + ' ' + w : w;
+      } else {
+        if (cur) lines.push(cur);
+        cur = w;
+      }
+    });
+    if (cur) lines.push(cur);
+    return lines;
+  }
+
+  // ── Page builder ──
   function makePage() {
+    const cmds = [];
     return {
-      cmds: [],
-      y: PH - MT,  // y in coordinate PDF (origine in basso)
-
-      // helpers
-      setFont(f, sz) { this.cmds.push(`/${f} ${sz} Tf`); },
-      setColor(r,g,b) { this.cmds.push(`${r} ${g} ${b} rg`); },
-      setStroke(r,g,b) { this.cmds.push(`${r} ${g} ${b} RG`); },
-      setLineW(w) { this.cmds.push(`${w} w`); },
-
-      rect(x,y,w,h,fill) {
-        if(fill) {
-          this.cmds.push(`${x} ${y} ${w} ${h} re f`);
-        } else {
-          this.cmds.push(`${x} ${y} ${w} ${h} re S`);
-        }
+      out(s) { cmds.push(s); },
+      // Rettangolo filled
+      fillRect(x,y,w,h, r,g,b) {
+        this.out(`${r} ${g} ${b} rg`);
+        this.out(`${x} ${y} ${w} ${h} re f`);
       },
-      rectBoth(x,y,w,h) { this.cmds.push(`${x} ${y} ${w} ${h} re B`); },
-
-      text(txt, x, y, opts={}) {
-        const s = enc(txt);
-        const escaped = s.replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
-        let cmd = 'BT\n';
-        if (opts.align === 'right') {
-          cmd += `  /F1 ${opts.size||10} Tf\n`;
-          // Approssimazione larghezza: 0.6 * size per carattere
-          const approxW = escaped.length * (opts.size||10) * 0.5;
-          cmd += `  ${x - approxW} ${y} Td\n`;
-        } else {
-          cmd += `  ${x} ${y} Td\n`;
-        }
-        cmd += `  (${escaped}) Tj\nET`;
-        this.cmds.push(cmd);
+      // Rettangolo stroke
+      strokeRect(x,y,w,h, lw, r,g,b) {
+        this.out(`${r} ${g} ${b} RG`);
+        this.out(`${lw} w`);
+        this.out(`${x} ${y} ${w} ${h} re S`);
       },
-
-      // Testo multiriga con wrap automatico
-      multiText(txt, x, startY, maxW, fontSize, bold) {
-        const font = bold ? 'F2' : 'F1';
-        const words = enc(txt).split(' ');
-        const charW = fontSize * 0.5;
-        const maxChars = Math.floor(maxW / charW);
-        const lines = [];
-        let cur = '';
-        words.forEach(w => {
-          if ((cur + ' ' + w).trim().length <= maxChars) {
-            cur = (cur + ' ' + w).trim();
-          } else {
-            if(cur) lines.push(cur);
-            cur = w;
-          }
+      // Linea
+      line(x1,y1,x2,y2, lw, r,g,b) {
+        this.out(`${r} ${g} ${b} RG`);
+        this.out(`${lw} w`);
+        this.out(`${x1} ${y1} m ${x2} ${y2} l S`);
+      },
+      // Testo semplice
+      text(s, x, y, font, size, r,g,b) {
+        this.out(`BT /${font} ${size} Tf ${r} ${g} ${b} rg ${x} ${y} Td (${esc(s)}) Tj ET`);
+      },
+      // Testo con wrap
+      textWrap(s, x, y, maxChars, font, size, r,g,b, lineH) {
+        const lines = wrapText(esc(s), maxChars);
+        let cy = y;
+        lines.forEach(l => {
+          this.out(`BT /${font} ${size} Tf ${r} ${g} ${b} rg ${x} ${cy} Td (${l}) Tj ET`);
+          cy -= lineH;
         });
-        if(cur) lines.push(cur);
-        let y = startY;
-        lines.forEach(line => {
-          const escaped = line.replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
-          this.cmds.push(`BT\n  /${font} ${fontSize} Tf\n  ${x} ${y} Td\n  (${escaped}) Tj\nET`);
-          y -= (fontSize + 3);
-        });
-        return { lines: lines.length, endY: y };
+        return { lineCount: lines.length, endY: cy };
       },
-
-      // Linea orizzontale
-      line(x1,y1,x2,y2) {
-        this.cmds.push(`${x1} ${y1} m ${x2} ${y2} l S`);
-      },
-
-      stream() { return this.cmds.join('\n'); }
+      stream() { return cmds.join('\n'); }
     };
   }
 
-  // ── Utility: tronca testo ──
-  function trunc(s, max=80) { s = enc(s||''); return s.length > max ? s.slice(0,max-3)+'...' : s; }
-
-  // ── Raccolta dati dal wizard ──
-  const D = {
-    denominazione: val('denominazione'),
-    titolare:      val('titolare'),
-    piva:          val('piva'),
-    indirizzo:     `${val('indirizzo')}, ${val('comune')} (${val('provincia')}) ${val('cap')}`,
-    asp:           val('asp'),
-    telefono:      val('telefono'),
-    email:         val('email'),
-    direttore:     val('direttore'),
-    albo:          val('albo'),
-    ordine:        val('ordine'),
-    software:      val('software'),
-    qualita:       val('qualita'),
-    rischio:       val('rischio'),
-    nLocali:       val('nLocali'),
-    nRiuniti:      val('nRiuniti'),
-    locali:        val('locali'),
-    attrezzature:  val('attrezzature'),
-    nMedici:       val('nMedici'),
-    nAso:          val('nAso'),
-    personaleAmm:  val('personaleAmm'),
-    sitoUrl:       val('sitoUrl'),
-  };
-
-  const CHECKS = {
-    gdpr: checked('gdpr'), backup: checked('backup'), tracciamento: checked('tracciamento'),
-    reclami: checked('reclami'), piani_miglio: checked('piani_miglio'), carta: checked('carta'),
-    proc_ero: checked('proc_ero'), urgenze_proc: checked('urgenze_proc'), continuita: checked('continuita'),
-    piano_emerg: checked('piano_emerg'), isolamento: checked('isolamento'), doc_san: checked('doc_san'),
-    dvr: checked('dvr'), proc_bio: checked('proc_bio'), rischio_clinico: checked('rischio_clinico'),
-    n1: checked('n1'), n2: checked('n2'), n3: checked('n3'), n4: checked('n4'), n5: checked('n5'),
-    n6: checked('n6'), n7: checked('n7'), n8: checked('n8'), n9: checked('n9'), n10: checked('n10'), n11: checked('n11'),
-    inventario: checked('inventario'), piano_man: checked('piano_man'), resp_man: checked('resp_man'), doc_tec: checked('doc_tec'),
-    fascicoli: checked('fascicoli'), assicurativi: checked('assicurativi'), formazione: checked('formazione'),
-    sito: checked('sito'), customer: checked('customer'),
-  };
-
-  const allKeys = Object.keys(CHECKS);
-  const nOk  = allKeys.filter(k => CHECKS[k]).length;
-  const nTot = allKeys.length;
-  const pct  = Math.round(nOk/nTot*100);
-
-  // ── Costruzione pagine PDF ──
-  // Usiamo coordinate PDF (0,0 = bottom-left)
-  const pageStreams = [];
+  // ── Costruzione documento ──
   let pg = makePage();
-  let curY = PH - 20; // partiamo dall'alto
+  let curY = PH - MT;
 
-  function ensureSpace(needed) {
-    if (curY - needed < MB + 30) {
-      pageStreams.push(pg.stream());
-      pg = makePage();
-      curY = PH - 20;
-      drawPageFooter();
+  function newPage() {
+    // footer pagina corrente
+    const pageNum = pageStreams.length + 1;
+    pg.line(ML, MB + 15, PW - MR, MB + 15, 0.3, 0,0,0);
+    pg.text(`${pageNum}`, PW - MR, MB + 5, 'F1', 9, 0,0,0);
+    pg.text('ALL. A1 - Autorizzazione Sanitaria - Strutture Non Residenziali Semplici Monopresidio', ML, MB + 5, 'F1', 7, 0.4,0.4,0.4);
+    pageStreams.push(pg.stream());
+    pg = makePage();
+    curY = PH - MT + 10;
+  }
+
+  function ensureY(needed) {
+    if (curY - needed < MB + 25) newPage();
+  }
+
+  // ══ PAGINA 1: intestazione ufficiale ══
+
+  // Box "ALL. A1" in alto a sinistra
+  pg.strokeRect(ML, PH - MT - 2, 48, 20, 1, 0,0,0);
+  pg.text('ALL. A1', ML + 4, PH - MT + 8, 'F2', 11, 0,0,0);
+
+  // Titolo centrato sottolineato
+  const titolo1 = 'Per struttura non residenziale semplici monopresidio';
+  pg.text(titolo1, ML + 50, PH - MT + 10, 'F2', 10, 0,0,0);
+  // sottolineatura manuale
+  pg.line(ML + 50, PH - MT + 8, PW - MR, PH - MT + 8, 0.5, 0,0,0);
+
+  const titolo2 = '(vedi definizioni art. 2 e classificazione art. 3 del D.A. 9 gennaio 2024 n. 20).';
+  pg.text(titolo2, ML + 50, PH - MT - 3, 'F1', 8.5, 0,0,0);
+
+  curY = PH - MT - 22;
+
+  // Istruzione in grassetto
+  const istr = "Per una puntuale applicazione di ciascun requisito fare riferimento ai subcodici riportati nell'allegato A1 del D.A. 9 gennaio 2024 n. 20.";
+  const istrLines = wrapText(istr, 95);
+  istrLines.forEach(l => {
+    pg.text(l, ML, curY, 'F2', 9, 0,0,0);
+    curY -= 12;
+  });
+  curY -= 6;
+
+  // Box istruzione visita GdV
+  const boxText = "Il Responsabile della struttura mettera a disposizione del GdV prima della visita i seguenti documenti previsti dai requisiti generali per l'autorizzazione di cui all'allegato A1 al decreto assessoriale 09 gennaio 2024 n. 20 (G.U.R.S. 26 gennaio 2024, n. 5, S.O. n. 4)";
+  const boxLines = wrapText(boxText, 90);
+  const boxH = boxLines.length * 11 + 14;
+  pg.strokeRect(ML, curY - boxH, CW, boxH, 0.8, 0,0,0);
+  let by = curY - 9;
+  boxLines.forEach(l => {
+    pg.text(l, ML + 5, by, 'F2', 9, 0,0,0);
+    by -= 11;
+  });
+  curY -= boxH + 8;
+
+  // ── Intestazione tabella ──
+  const COL_DOC  = ML;
+  const COL_COD  = PW - MR - 85;
+  const COL_PRES = PW - MR - 20;
+  const W_DOC    = COL_COD - COL_DOC - 4;
+  const W_COD    = 75;
+
+  // Header tabella
+  pg.fillRect(COL_DOC, curY - 16, CW, 16, 0,0,0);
+  pg.text('DOCUMENTO', COL_DOC + CW/2 - 35, curY - 11, 'F2', 9.5, 1,1,1);
+  pg.text('Cod. Requisito', COL_COD + 2, curY - 11, 'F2', 9.5, 1,1,1);
+  curY -= 16;
+
+  // ── Righe documenti ──
+  const CHARS_DOC = 72;
+  const LINE_H    = 10.5;
+
+  DOCS.forEach((doc, i) => {
+    const num    = i + 1;
+    const testo  = doc[0];
+    const codice = doc[1];
+    const stato  = rowState[i]; // true, false, null
+
+    const lines  = wrapText(testo, CHARS_DOC);
+    const rowH   = Math.max(14, lines.length * LINE_H + 5);
+
+    ensureY(rowH);
+
+    // Sfondo alternato
+    if (i % 2 === 0) {
+      pg.fillRect(COL_DOC, curY - rowH, CW, rowH, 0.96, 0.96, 0.96);
     }
-  }
 
-  function drawPageFooter() {
-    // Footer linea
-    pg.setColor(0.4,0.4,0.4);
-    pg.setLineW(0.5);
-    pg.line(ML, MB-5, PW-MR, MB-5);
-    pg.setFont('F1', 7);
-    pg.text('Allegato A1 - Autorizzazione Sanitaria | Regione Siciliana | MAMB 3.0 (giugno 2025)', ML, MB-14);
-    pg.text(`Pag. ${pageStreams.length + 1}`, PW-MR, MB-14, {align:'right', size:7});
-  }
+    // Bordo riga
+    pg.strokeRect(COL_DOC, curY - rowH, CW, rowH, 0.3, 0.7,0.7,0.7);
+    // Separatore colonna codice
+    pg.line(COL_COD, curY, COL_COD, curY - rowH, 0.3, 0.6,0.6,0.6);
 
-  // ── HEADER PRIMA PAGINA ──
-  // Sfondo navy header
-  pg.setColor(0.051, 0.122, 0.176);
-  pg.rect(0, PH-80, PW, 80, true);
-
-  // Badge gold
-  pg.setColor(0.784, 0.588, 0.243);
-  pg.rect(ML, PH-26, 88, 13, true);
-  pg.setColor(0.051, 0.122, 0.176);
-  pg.setFont('F2', 7);
-  pg.text('REGIONE SICILIANA - ASS. SALUTE', ML+4, PH-20);
-
-  // Titolo
-  pg.setColor(1,1,1);
-  pg.setFont('F2', 16);
-  pg.text('ALLEGATO A1 - AUTORIZZAZIONE SANITARIA', ML, PH-46);
-
-  pg.setColor(0.75, 0.82, 0.87);
-  pg.setFont('F1', 8.5);
-  pg.text('Strutture Non Residenziali Semplici Monopresidio | D.A. n. 20 del 9 gennaio 2024 | MAMB 3.0', ML, PH-60);
-
-  const oggi = new Date().toLocaleDateString('it-IT',{day:'2-digit',month:'long',year:'numeric'});
-  pg.setColor(0.784, 0.588, 0.243);
-  pg.setFont('F1', 7.5);
-  pg.text(`Generato il ${oggi}`, ML, PH-72);
-
-  curY = PH - 92;
-  drawPageFooter();
-
-  // ── FUNZIONI LAYOUT ──
-  function sectionBar(title) {
-    ensureSpace(20);
-    pg.setColor(0.051, 0.122, 0.176);
-    pg.rect(ML, curY-16, CW, 16, true);
-    pg.setColor(1,1,1);
-    pg.setFont('F2', 8.5);
-    pg.text(title, ML+5, curY-11);
-    curY -= 20;
-  }
-
-  function dataRow(label, value, shade) {
-    const ROW_H = 14;
-    ensureSpace(ROW_H);
-    if(shade) {
-      pg.setColor(0.961, 0.941, 0.910);
-      pg.rect(ML, curY-ROW_H, CW, ROW_H, true);
-    }
-    pg.setColor(0.84, 0.82, 0.78);
-    pg.setLineW(0.3);
-    pg.rect(ML, curY-ROW_H, CW, ROW_H, false);
-
-    pg.setColor(0.051, 0.122, 0.176);
-    pg.setFont('F2', 7.5);
-    pg.text(enc(label), ML+3, curY-10);
-
-    pg.setColor(0.1,0.1,0.2);
-    pg.setFont('F1', 7.5);
-    const maxVal = 75;
-    const vStr = enc(String(value||'—')).slice(0,maxVal);
-    pg.text(vStr, ML+105, curY-10);
-
-    curY -= ROW_H;
-  }
-
-  function noteBox(label, text) {
-    if(!text) return;
-    const lines = [];
-    const words = enc(text).split(' ');
-    const maxC = 95;
-    let cur = '';
-    words.forEach(w => {
-      if((cur+' '+w).trim().length <= maxC) cur=(cur+' '+w).trim();
-      else { if(cur) lines.push(cur); cur=w; }
+    // Numero + testo documento
+    const textY = curY - LINE_H + 1;
+    pg.text(`${num}.`, COL_DOC + 2, textY, 'F1', 8.5, 0,0,0);
+    let ty = textY;
+    lines.forEach(l => {
+      pg.text(l, COL_DOC + 14, ty, 'F1', 8.5, 0,0,0);
+      ty -= LINE_H;
     });
-    if(cur) lines.push(cur);
-    const BOX_H = lines.length * 11 + 16;
-    ensureSpace(BOX_H + 4);
-    pg.setColor(0.937, 0.957, 0.984);
-    pg.rect(ML, curY-BOX_H, CW, BOX_H, true);
-    pg.setColor(0.231, 0.51, 0.965);
-    pg.rect(ML, curY-BOX_H, 3, BOX_H, true);
-    pg.setColor(0.118, 0.251, 0.686);
-    pg.setFont('F2', 7.5);
-    pg.text(enc(label)+': ', ML+6, curY-10);
-    pg.setFont('F1', 7.5);
-    lines.forEach((line, i) => {
-      pg.text(line, ML+6, curY-10-(i+1)*11);
-    });
-    curY -= (BOX_H + 5);
-  }
 
-  function checkRow(ok, text, shade) {
-    const words = enc(text).split(' ');
-    const maxC = 88;
-    const lines = [];
-    let cur = '';
-    words.forEach(w => {
-      if((cur+' '+w).trim().length <= maxC) cur=(cur+' '+w).trim();
-      else { if(cur) lines.push(cur); cur=w; }
-    });
-    if(cur) lines.push(cur);
-    const ROW_H = Math.max(13, lines.length * 10 + 5);
-    ensureSpace(ROW_H);
+    // Codice requisito in corsivo (simulato con F1, testo corsivo non disponibile in base-14)
+    // Centrato verticalmente nella riga
+    const codY = curY - rowH/2 - 3;
+    pg.text(codice, COL_COD + 4, codY, 'F1', 8.5, 0,0,0);
 
-    if(shade) {
-      pg.setColor(0.980, 0.976, 0.969);
-      pg.rect(ML, curY-ROW_H, CW, ROW_H, true);
-    }
-    pg.setColor(0.84,0.82,0.78);
-    pg.setLineW(0.3);
-    pg.rect(ML, curY-ROW_H, CW, ROW_H, false);
-
-    // Cerchio indicatore
-    const cy = curY - ROW_H/2;
-    const cx = ML + 9;
-    if(ok) {
-      pg.setColor(0.102, 0.478, 0.290);
-      pg.rect(cx-5, cy-5, 10, 10, true);
-      pg.setColor(1,1,1);
-      pg.setFont('F2', 8);
-      pg.text('+', cx-2.5, cy-3);
+    // Indicatore PRESENTE / ASSENTE
+    if (stato === true) {
+      pg.fillRect(COL_PRES - 12, curY - rowH/2 - 5, 14, 10, 0.2, 0.6, 0.2);
+      pg.text('SI', COL_PRES - 10, curY - rowH/2 - 1, 'F2', 6.5, 1,1,1);
+    } else if (stato === false) {
+      pg.fillRect(COL_PRES - 12, curY - rowH/2 - 5, 14, 10, 0.8, 0.2, 0.2);
+      pg.text('NO', COL_PRES - 10, curY - rowH/2 - 1, 'F2', 6.5, 1,1,1);
     } else {
-      pg.setColor(0.753, 0.224, 0.169);
-      pg.rect(cx-5, cy-5, 10, 10, true);
-      pg.setColor(1,1,1);
-      pg.setFont('F2', 8);
-      pg.text('x', cx-2.5, cy-3);
+      pg.text('N/A', COL_PRES - 12, curY - rowH/2 - 1, 'F1', 7, 0.5,0.5,0.5);
     }
 
-    // Testo
-    if(ok) pg.setColor(0.05,0.2,0.05);
-    else pg.setColor(0.5,0.1,0.1);
-    pg.setFont('F1', 7.5);
-    lines.forEach((line, i) => {
-      pg.text(line, ML+20, curY-9-(i*10));
-    });
-
-    curY -= ROW_H;
-  }
-
-  function spacer(h=6) { curY -= h; }
-
-  // ── SEZIONE 1: ANAGRAFICA ──
-  sectionBar('1. DATI IDENTIFICATIVI DELLA STRUTTURA');
-  dataRow('Denominazione', D.denominazione, false);
-  dataRow('Titolare / Legale Rapp.', D.titolare, true);
-  dataRow('Codice Fiscale / P.IVA', D.piva, false);
-  dataRow('Indirizzo', D.indirizzo, true);
-  dataRow('ASP di riferimento', D.asp, false);
-  dataRow('Telefono', D.telefono, true);
-  dataRow('PEC / E-mail', D.email, false);
-  spacer(4);
-  dataRow('Direttore Tecnico', D.direttore, false);
-  dataRow('N. Iscrizione Albo', D.albo, true);
-  dataRow('Ordine Provinciale', D.ordine, false);
-  spacer(8);
-
-  // ── SEZIONE 2: GESTIONE ──
-  sectionBar('2. SISTEMA INFORMATIVO E GESTIONE QUALITA (Criterio 1A.01)');
-  dataRow('Software gestionale', D.software, false);
-  spacer(3);
-  noteBox('Qualita servizi', D.qualita);
-  const ev2 = [
-    [CHECKS.gdpr, 'Procedure GDPR e sicurezza dati adottate (D.lgs 196/2003 / GDPR 679/2016)'],
-    [CHECKS.backup, 'Sistema di backup dati attivo con modalita definite'],
-    [CHECKS.tracciamento, 'Procedure raccolta, conservazione e tracciamento dati sanitari'],
-    [CHECKS.reclami, 'Procedura reclami/suggerimenti adottata - referente designato (1A.01.06.02)'],
-    [CHECKS.piani_miglio, 'Piani di miglioramento documentati con indicatori di monitoraggio'],
-    [CHECKS.carta, 'Carta dei Servizi adottata, accessibile e periodicamente rivalutata'],
-  ];
-  ev2.forEach((r,i) => checkRow(r[0],r[1],i%2===0));
-  spacer(8);
-
-  // ── SEZIONE 3: SICUREZZA ──
-  sectionBar('3. PRESTAZIONI, CONTINUITA E SICUREZZA CLINICA (Criteri 1A.02 / 1A.06)');
-  noteBox('Gestione rischio', D.rischio);
-  const ev3 = [
-    [CHECKS.proc_ero, 'Procedura erogazione assistenza (prenotazione, accesso, urgenze, continuita)'],
-    [CHECKS.urgenze_proc, 'Procedura gestione urgenze cliniche e tecnico-organizzative'],
-    [CHECKS.continuita, 'Protocolli/linee guida percorso assistenziale paziente'],
-    [CHECKS.piano_emerg, 'Piano per la gestione delle emergenze - noto al personale'],
-    [CHECKS.isolamento, 'Protocollo isolamento pazienti con patologie contagiose'],
-    [CHECKS.doc_san, 'Procedura gestione documentazione sanitaria (GDPR, accesso, referti)'],
-    [CHECKS.dvr, 'DVR (D.lgs 81/2008) adottato e aggiornato'],
-    [CHECKS.proc_bio, 'Procedure protezione da materiale biologico e sanificazione ambienti'],
-    [CHECKS.rischio_clinico, 'Sistema gestione rischio clinico con LG, checklist, raccolta eventi avversi'],
-  ];
-  ev3.forEach((r,i) => checkRow(r[0],r[1],i%2===0));
-  spacer(8);
-
-  // ── SEZIONE 4: STRUTTURA ──
-  sectionBar('4. ASPETTI STRUTTURALI E TECNOLOGICI (Criterio 1A.03)');
-  dataRow('N. locali / N. riuniti', `${D.nLocali||'-'} locali | ${D.nRiuniti||'-'} riuniti`, false);
-  spacer(3);
-  noteBox('Descrizione locali', D.locali);
-  noteBox('Attrezzature in dotazione', D.attrezzature);
-  const ev4 = [
-    [CHECKS.n1, 'Caratteristiche ambientali e accessibilita (1A.03.02.01)'],
-    [CHECKS.n2, 'Protezione antincendio - CPI o dichiarazione esenzione (1A.03.02.02)'],
-    [CHECKS.n3, 'Protezione acustica (1A.03.02.03)'],
-    [CHECKS.n4, 'Sicurezza elettrica e continuita - dichiarazione conformita (1A.03.02.04)'],
-    [CHECKS.n5, 'Sicurezza antinfortunistica (1A.03.02.05)'],
-    [CHECKS.n6, 'Protezione da radiazioni ionizzanti - nulla osta ARPAS (1A.03.02.06)'],
-    [CHECKS.n7, 'Eliminazione barriere architettoniche (1A.03.02.07)'],
-    [CHECKS.n8, 'Smaltimento rifiuti sanitari - registro carico/scarico (1A.03.02.08)'],
-    [CHECKS.n9, 'Condizioni microclimatiche (1A.03.02.09)'],
-    [CHECKS.n10, 'Impianti distribuzione gas medicali (1A.03.02.10)'],
-    [CHECKS.n11, 'Protezione antisismica (1A.03.02.12)'],
-    [CHECKS.inventario, 'Inventario attrezzature aggiornato annualmente (con collaudo nuove acquisizioni)'],
-    [CHECKS.piano_man, 'Piano di manutenzione ordinaria e straordinaria adottato'],
-    [CHECKS.resp_man, 'Responsabile Manutenzione formalmente designato'],
-    [CHECKS.doc_tec, 'Documentazione tecnica attrezzature disponibile'],
-  ];
-  ev4.forEach((r,i) => checkRow(r[0],r[1],i%2===0));
-  spacer(8);
-
-  // ── SEZIONE 5: PERSONALE ──
-  sectionBar('5. PERSONALE E COMUNICAZIONE (Criteri 1A.04 / 1A.05)');
-  dataRow('Odontoiatri operanti', D.nMedici||'—', false);
-  dataRow('Igienisti / ASO', D.nAso||'—', true);
-  dataRow('Personale amministrativo', D.personaleAmm||'—', false);
-  dataRow('Sito web', D.sitoUrl||'—', true);
-  spacer(3);
-  const ev5 = [
-    [CHECKS.fascicoli, 'Fascicoli personali per ogni collaboratore aggiornati'],
-    [CHECKS.assicurativi, 'Obblighi assicurativi/previdenziali assolti - INAIL, INPS, RC L.24/2017'],
-    [CHECKS.formazione, 'Programma formativo / ECM documentato'],
-    [CHECKS.sito, 'Sito web aggiornato con info struttura, servizi, mappa, form contatto'],
-    [CHECKS.customer, 'Procedure per valutazione esperienza utente / customer satisfaction'],
-  ];
-  ev5.forEach((r,i) => checkRow(r[0],r[1],i%2===0));
-  spacer(10);
-
-  // ── SCORE COMPLESSIVO ──
-  ensureSpace(46);
-  pg.setColor(0.051, 0.122, 0.176);
-  pg.rect(ML, curY-42, CW, 42, true);
-
-  const scoreColor = pct >= 80 ? [0.102,0.627,0.290] : pct >= 50 ? [0.706,0.510,0.078] : [0.753,0.224,0.169];
-  pg.setColor(0.706,0.745,0.784);
-  pg.setFont('F1', 8);
-  pg.text('INDICE DI COMPLETEZZA DOCUMENTALE', ML + CW/2 - 75, curY-12);
-  pg.setColor(...scoreColor);
-  pg.setFont('F2', 28);
-  pg.text(`${pct}%`, ML + CW/2 - 18, curY-34);
-  pg.setColor(0.627,0.667,0.706);
-  pg.setFont('F1', 8);
-  pg.text(`${nOk} evidenze presenti su ${nTot} totali`, ML+5, curY-34);
-  curY -= 46;
-  spacer(8);
-
-  // ── AVVERTENZE ──
-  ensureSpace(52);
-  pg.setColor(0.996, 0.976, 0.929);
-  pg.rect(ML, curY-50, CW, 50, true);
-  pg.setColor(0.784, 0.588, 0.243);
-  pg.rect(ML, curY-50, 3, 50, true);
-  pg.setColor(0.573, 0.251, 0.055);
-  pg.setFont('F2', 8);
-  pg.text('AVVERTENZE PER IL PROFESSIONISTA', ML+7, curY-10);
-  pg.setFont('F1', 7.5);
-  pg.setColor(0.4,0.2,0.05);
-  const avv = [
-    'Questo documento e un supporto alla compilazione, non sostituisce la verifica legale.',
-    'Ogni evidenza "Presente" deve essere supportata da documentazione fisica disponibile.',
-    "L'autorizzazione e rilasciata dal Comune per strutture non residenziali semplici monopresidio.",
-    'I requisiti specifici odontoiatrici (D.A. 890/2002) si aggiungono a quelli generali qui descritti.',
-    'Riferimento: MAMB 3.0 (giugno 2025) - OTA Regione Siciliana.',
-  ];
-  avv.forEach((a,i) => pg.text('- '+a, ML+7, curY-22-i*7));
-  curY -= 54;
-
-  // Salva ultima pagina
-  pageStreams.push(pg.stream());
-
-  // ══════════════════════════════════════
-  // ASSEMBLAGGIO PDF BINARIO
-  // ══════════════════════════════════════
-
-  // Font objects
-  const fontCatalogId = addObj(`<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>`);
-  const fontBoldId    = addObj(`<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>`);
-
-  // Crea oggetti pagina e stream
-  const pageObjIds = [];
-  const streamObjIds = [];
-
-  pageStreams.forEach(streamContent => {
-    const streamBytes = encode(streamContent);
-    const streamId = addObj(null); // placeholder
-    const pageId   = addObj(null);
-
-    // Aggiorna con contenuto reale
-    objs[streamId-1].content = `<< /Length ${streamBytes.length} >>\nstream\n${streamContent}\nendstream`;
-    objs[pageId-1].content   = `<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${streamId} 0 R /Resources << /Font << /F1 ${fontCatalogId} 0 R /F2 ${fontBoldId} 0 R >> >> >>`;
-
-    pageObjIds.push(pageId);
-    streamObjIds.push(streamId);
+    curY -= rowH;
   });
 
-  // Pages dict
-  const pagesId = objIdx + 1;
-  const kidsStr = pageObjIds.map(id => `${id} 0 R`).join(' ');
-  addObj(`<< /Type /Pages /Kids [${kidsStr}] /Count ${pageObjIds.length} >>`);
+  curY -= 10;
 
-  // Aggiorna Parent in ogni pagina
-  pageObjIds.forEach(id => {
+  // ── PAGINA 2: Dati studio + firma ──
+  ensureY(200);
+
+  // Intestazione studio
+  const studio = val('denominazione') || 'Studio Odontoiatrico';
+  const titolare = val('titolare') || '';
+  const indirizzo = val('indirizzo') || '';
+  const comune = val('comune') || '';
+  const prov = val('provincia') || '';
+
+  pg.strokeRect(ML, curY - 80, CW, 80, 0.8, 0,0,0);
+  pg.text('DATI DELLA STRUTTURA', ML + 5, curY - 11, 'F2', 10, 0,0,0);
+  pg.line(ML, curY - 14, ML + CW, curY - 14, 0.4, 0,0,0);
+
+  const campi = [
+    ['Denominazione:', studio],
+    ['Titolare / Direttore Tecnico:', titolare],
+    ['Indirizzo:', indirizzo + (comune ? ', ' + comune : '') + (prov ? ' (' + prov + ')' : '')],
+    ['ASP:', val('asp') || ''],
+    ['Albo Odontoiatri n.:', val('albo') || ''],
+  ];
+  let fy = curY - 26;
+  campi.forEach(([label, valore]) => {
+    pg.text(label, ML + 5, fy, 'F2', 8.5, 0,0,0);
+    pg.text(esc(valore), ML + 120, fy, 'F1', 8.5, 0,0,0);
+    fy -= 11;
+  });
+  curY -= 90;
+
+  // Data e firma
+  const oggi = new Date().toLocaleDateString('it-IT', {day:'2-digit', month:'2-digit', year:'numeric'});
+  pg.text(`Data: ${oggi}`, ML, curY - 10, 'F1', 9, 0,0,0);
+  pg.line(PW - MR - 120, curY - 30, PW - MR, curY - 30, 0.5, 0,0,0);
+  pg.text('Il Responsabile della struttura', PW - MR - 120, curY - 38, 'F1', 8.5, 0,0,0);
+  pg.text(esc(titolare), PW - MR - 120, curY - 50, 'F2', 8.5, 0,0,0);
+  curY -= 60;
+
+  // Chiudi ultima pagina
+  const lastPageNum = pageStreams.length + 1;
+  pg.line(ML, MB + 15, PW - MR, MB + 15, 0.3, 0,0,0);
+  pg.text(`${lastPageNum}`, PW - MR, MB + 5, 'F1', 9, 0,0,0);
+  pg.text('ALL. A1 - Autorizzazione Sanitaria - Strutture Non Residenziali Semplici Monopresidio', ML, MB + 5, 'F1', 7, 0.4,0.4,0.4);
+  pageStreams.push(pg.stream());
+
+  // ── Assemblaggio oggetti PDF ──
+  const fontNorm = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>');
+  const fontBold = addObj('<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>');
+
+  const pageIds = [];
+  pageStreams.forEach(stream => {
+    const sId = addObj(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`);
+    const pId = addObj(`<< /Type /Page /Parent 999 0 R /MediaBox [0 0 ${PW} ${PH}] /Contents ${sId} 0 R /Resources << /Font << /F1 ${fontNorm} 0 R /F2 ${fontBold} 0 R >> >> >>`);
+    pageIds.push(pId);
+  });
+
+  const pagesId = objIdx + 1;
+  addObj(`<< /Type /Pages /Kids [${pageIds.map(id => id + ' 0 R').join(' ')}] /Count ${pageIds.length} >>`);
+  pageIds.forEach(id => {
     objs[id-1].content = objs[id-1].content.replace('999 0 R', `${pagesId} 0 R`);
   });
 
-  // Catalog
   const catalogId = addObj(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
+  const infoId    = addObj(`<< /Title (Allegato A1 - ${esc(studio)}) /Producer (Wizard ALL.A1 - Dr.ssa Barbara Sabiu) >>`);
 
-  // Info
-  const studio = enc(val('denominazione') || 'Studio Odontoiatrico');
-  const infoId = addObj(`<< /Title (Allegato A1 - ${studio}) /Producer (Wizard A1 - Studio Sabiu) /CreationDate (D:${new Date().toISOString().replace(/[-:T]/g,'').slice(0,14)}) >>`);
-
-  // ── Scrivi file PDF ──
-  let pdf = '%PDF-1.4\n%\xE2\xE3\xCF\xD3\n';
+  // ── Scrivi PDF ──
+  let pdf = '%PDF-1.4\n';
   const offsets = [];
-
   objs.forEach(obj => {
     offsets.push(pdf.length);
     pdf += `${obj.id} 0 obj\n${obj.content}\nendobj\n`;
   });
-
-  // xref
   const xrefPos = pdf.length;
   pdf += `xref\n0 ${objs.length+1}\n0000000000 65535 f \n`;
   offsets.forEach(off => {
     pdf += `${String(off).padStart(10,'0')} 00000 n \n`;
   });
-
   pdf += `trailer\n<< /Size ${objs.length+1} /Root ${catalogId} 0 R /Info ${infoId} 0 R >>\nstartxref\n${xrefPos}\n%%EOF`;
-
   return pdf;
 }
 
 function encode(s) { return s; } // placeholder per compatibilità
 
 
-// Init
+// ── INIT ──
 document.getElementById('btnBack').style.visibility = 'hidden';
+
+// Fix Safari iOS: touch-action manipulation elimina il delay 300ms
+// Usiamo 'click' standard che su iOS con touch-action:manipulation
+// viene sparato senza ritardo
+function bindBtn(id, fn) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  el.addEventListener('click', fn);
+}
+
+bindBtn('btnBack', function(){ navigate(-1); });
+bindBtn('btnNext', function(){ navigate(1); });
+bindBtn('btnPdf',  function(){ exportPDF(); });
+
+document.querySelectorAll('.copy-btn').forEach(function(b){
+  b.addEventListener('click', copyOutput);
+});
 </script>
+
 </body>
 </html>
